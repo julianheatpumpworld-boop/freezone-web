@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 你的GitHub用户名/你的仓库名
+  repo: julianheatpumpworld-boop/freezone-web
   branch: main
 
 media_folder: "assets/img" # Images will be saved here

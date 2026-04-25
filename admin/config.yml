@@ -1,25 +1,63 @@
 backend:
   name: git-gateway
-  branch: main # 确保与你的 GitHub 默认分支一致
+  branch: main
 
-media_folder: "assets/img" # Images will be saved here
+media_folder: "assets/img"
 public_folder: "/assets/img"
 
 collections:
-  - name: "products"
-    label: "Products"
+  - name: "settings"
+    label: "Global Settings"
+    delete: false
+    editor:
+      preview: false
     files:
-      - file: "products.json"
-        label: "Product List"
-        name: "product_list"
+      - name: "general"
+        label: "Site Header & Footer"
+        file: "content/settings/general.json"
         fields:
-          - label: "Products"
+          - {label: "Site Name", name: "site_name", widget: "string"}
+          - {label: "Logo Text", name: "logo_text", widget: "string"}
+          - {label: "Contact Email", name: "email", widget: "string"}
+          - {label: "Contact Phone", name: "phone", widget: "string"}
+          - {label: "Address", name: "address", widget: "text"}
+
+  - name: "pages"
+    label: "Page Content"
+    files:
+      - name: "home"
+        label: "Home Page Editor"
+        file: "content/pages/home.json"
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+              - {label: "Background Image", name: "image", widget: "image"}
+          - label: "Ethical Commitment Section"
+            name: "ethical"
+            widget: "object"
+            fields:
+              - {label: "Main Title", name: "title", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+
+  - name: "products"
+    label: "Product Catalog"
+    delete: false
+    files:
+      - name: "list"
+        label: "Product List"
+        file: "products.json"
+        fields:
+          - label: "All Products"
             name: "products"
             widget: "list"
             fields:
-              - {label: "ID", name: "id", widget: "string"}
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Price", name: "price", widget: "number", value_type: "float"}
+              - {label: "Category", name: "category", widget: "select", options: ["Tech & Gadgets", "Sustainable Apparel", "Drinkware", "Office Essentials"]}
               - {label: "Description", name: "description", widget: "text"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Product Image", name: "image", widget: "image"}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false}

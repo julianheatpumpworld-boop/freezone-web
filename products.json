@@ -1,26 +1,20 @@
-[
-    {
-        "id": "item-1",
-        "name": "Smart Tech Set",
-        "price": 89.00,
-        "description": "Premium powerbank & Case",
-        "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600",
-        "category": "Tech & Gadgets"
-    },
-    {
-        "id": "item-2",
-        "name": "Recycled Hoodie",
-        "price": 45.00,
-        "description": "100% GRS Certified",
-        "image": "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&q=80&w=600",
-        "category": "Sustainable Apparel"
-    },
-    {
-        "id": "item-3",
-        "name": "Insulated Tumbler",
-        "price": 32.00,
-        "description": "24h Cold / 12h Hot",
-        "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600",
-        "category": "Drinkware"
-    }
-]
+{
+    "products": [
+        {
+            "name": "Smart Tech Set",
+            "price": 89.0,
+            "category": "Tech & Gadgets",
+            "description": "Premium powerbank & Case",
+            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600",
+            "featured": true
+        },
+        {
+            "name": "Recycled Hoodie",
+            "price": 45.0,
+            "category": "Sustainable Apparel",
+            "description": "100% GRS Certified",
+            "image": "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&q=80&w=600",
+            "featured": false
+        }
+    ]
+}

@@ -1,19 +1,51 @@
 {
     "products": [
         {
-            "name": "Smart Tech Set",
-            "price": 89.0,
-            "category": "Tech & Gadgets",
-            "description": "Premium powerbank & Case",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600",
+            "name": "LED Light up Party Foam Glow Sticks/Batons",
+            "price": 3.25,
+            "category": "LED PRODUCTS",
+            "description": "Our foam glow baton is a fun and safe alternative to traditional glow sticks. It's bright, lightweight, and easy to use - just push the button to activate the multi-color LED lights. And for those looking for a more classic look, our glow stick is a tried-and-true option that always gets the party started. This bendable foam glow is easy to handle and perfect for dancing the night away. Over 5000 pcs is by SEA",
+            "image": "https://media.asicdn.com/images/orig/326070000/326078200.jpg",
             "featured": true
         },
         {
-            "name": "Recycled Hoodie",
-            "price": 45.0,
-            "category": "Sustainable Apparel",
-            "description": "100% GRS Certified",
-            "image": "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&q=80&w=600",
+            "name": "20 oz Stainles Steel Tumbler w/Metal Handle",
+            "price": 13.36,
+            "category": "Mugs & Steins-Insulated",
+            "description": "This tumbler is with kitchen grade 18/8 stainless steel, dual wall vacuum seal eliminates condensation. Handle makes it easy to grip and carrye. Keeps drinks cold for 12 hours and hot for 8 hours, spill-resistant, thumb slide lid with rubber gasket. BPA Free. Not dishwasher safe, hand wash only.",
+            "image": "https://media.asicdn.com/images/orig/325890000/325895771.jpg",
+            "featured": true
+        },
+        {
+            "name": "Adult Seafood Bib",
+            "price": 0.602,
+            "category": "Aprons-Bib Style",
+            "description": "Made of PE. Easy clean and waterproof. Ideal item for crab feasts, seafood restaurants, and special events. 15.7\" x 23.6\"",
+            "image": "https://media.asicdn.com/images/orig/322270000/322271433.jpg",
+            "featured": true
+        },
+        {
+            "name": "Mop Head Screen Cleaner Stylus Pens",
+            "price": 2.055,
+            "category": "PEN & PENCIL ACCESSORIES",
+            "description": "The Mop Head Pen is made from high-quality ABS material, it writes smoothly without skipping or blotching. The comfortable grip and precision tip are perfect for writing and touchscreen use. Plus, the fuzzy head easily removes dust and fingerprints from screens. Ideal for school, office, or gift giving, the Pop Pen is a practical and stylish addition to any writing arsenal. Grab yours today and make a statement with every stroke! 10000pcs shipping by sea.",
+            "image": "https://media.asicdn.com/images/orig/321070000/321078031.jpg",
+            "featured": false
+        },
+        {
+            "name": "Soft Microfiber Car Cleaning Towel",
+            "price": 3.677,
+            "category": "AUTO ACCESSORIES",
+            "description": "This Car Cleaning Towel is non-abrasive microfiber cloths, Scratch-free, lint-free and swirl-free. Prevent scratching surfaces, paints, coats or other surface, especially for sensitive paintwork and automotive surfaces. Used for a variety of cleaning jobs: cleaning cars, trucks, boats, RV's , TV's, counter tops, and more. Other size are available.",
+            "image": "https://media.asicdn.com/images/orig/319250000/319254788.jpg",
+            "featured": false
+        },
+        {
+            "name": "Adhesive Carrying Handles",
+            "price": 0.172,
+            "category": "TAPE",
+            "description": "The adhesive carry handles are widely used on packs in the beverage industry such as carry the mineral water packs, soft drinks, milk or toilet tissue pack. Made of BOPP material. Price includes a one color imprint and air shipping cost to one location in lower 48 states.",
+            "image": "https://media.asicdn.com/images/orig/319360000/319360027.jpg",
             "featured": false
         }
     ]

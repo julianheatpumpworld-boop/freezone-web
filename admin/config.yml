@@ -18,6 +18,7 @@ collections:
         fields:
           - {label: "Site Name", name: "site_name", widget: "string"}
           - {label: "Logo Text", name: "logo_text", widget: "string"}
+          - {label: "ASI Number", name: "asi_number", widget: "string"}
           - {label: "Contact Email", name: "email", widget: "string"}
           - {label: "Contact Phone", name: "phone", widget: "string"}
           - {label: "Address", name: "address", widget: "text"}

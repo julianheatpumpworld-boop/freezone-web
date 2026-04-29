@@ -3,264 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Premium Gifts Global | Ethical Promotional Product Solutions</title>
+    <title id="page-title">Loading... | ASI Supplier</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        primary: '#0F172A',
-                        secondary: '#334155',
-                        accent: '#10B981',
-                        gold: '#D97706',
+                        asi_blue: '#005596',
+                        asi_light: '#f4f7f9',
+                        asi_border: '#d1d9e0',
+                        accent: '#e67e22'
                     },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    }
+                    fontFamily: { sans: ['Roboto', 'sans-serif'] }
                 }
             }
         }
     </script>
-
     <style>
         .scroll-smooth { scroll-behavior: smooth; }
-        .hero-pattern {
-            background-color: #0F172A;
-            background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.05) 1px, transparent 0);
-            background-size: 40px 40px;
-        }
-        .cart-drawer { transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
-        .cart-drawer.open { transform: translateX(0); }
         .goog-te-banner-frame.skiptranslate { display: none !important; }
-        body { top: 0px !important; }
+        body { top: 0px !important; font-family: 'Roboto', sans-serif; }
         .goog-te-gadget-icon { display: none !important; }
-        .goog-te-gadget-simple { background-color: transparent !important; border: none !important; font-size: 14px !important; font-family: 'Inter', sans-serif !important; }
+        .goog-te-gadget-simple { background-color: white !important; border: 1px solid #d1d9e0 !important; border-radius: 4px; padding: 4px 8px !important; }
+        .product-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .sticky-header { position: sticky; top: 0; z-index: 100; }
+        .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .modal-open { overflow: hidden; }
     </style>
 </head>
-<body class="bg-white text-slate-900 scroll-smooth">
+<body class="bg-asi_light text-slate-800">
 
     <div id="google_translate_element" style="position: absolute; top: -100px;"></div>
 
-    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-slate-100">
-        <div class="bg-primary text-white text-[10px] py-1.5 px-6 flex justify-between items-center uppercase tracking-widest">
-            <span>Proud ASI Supplier Member</span>
-            <span class="font-bold">ASI #YOUR_ASI_NUMBER</span>
+    <!-- Top Utility Bar -->
+    <div class="bg-asi_blue text-white text-[11px] py-1 px-6 flex justify-between items-center">
+        <div class="flex items-center gap-4">
+            <span>Official ASI Supplier</span>
+            <span class="font-bold border-l border-white/20 pl-4 uppercase">ASI #<span id="top-asi-num">YOUR_ASI_NUMBER</span></span>
         </div>
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-primary flex items-center justify-center rounded-lg">
-                    <i class="fa-solid fa-gift text-white"></i>
-                </div>
-                <div class="flex flex-col">
-                    <span class="text-xl font-bold text-primary tracking-tight leading-none uppercase" id="site-logo-text">PREMIUM GIFTS</span>
-                    <span class="text-[10px] text-accent font-bold tracking-[0.2em] mt-1 uppercase">Ethical Solutions</span>
-                </div>
-            </div>
-            
-            <div class="hidden lg:flex items-center gap-8 font-medium text-slate-500 text-sm">
-                <a href="#home" class="hover:text-accent transition-colors">Home</a>
-                <a href="#products" class="hover:text-accent transition-colors">Curated Collections</a>
-                <a href="#ethical" class="hover:text-accent transition-colors">Ethical Commitment</a>
-                
-                <div class="flex items-center gap-2 border-l pl-8 border-slate-200">
-                    <i class="fa-solid fa-language text-slate-400"></i>
-                    <div id="google_translate_simple"></div>
+        <div class="flex items-center gap-4">
+            <a href="#contact" class="hover:underline">Contact Us</a>
+            <div id="google_translate_simple"></div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="bg-white border-b border-asi_border sticky-header">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-wrap items-center gap-6">
+                <!-- Logo -->
+                <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="window.location.reload()">
+                    <div class="w-10 h-10 bg-asi_blue flex items-center justify-center rounded">
+                        <i class="fa-solid fa-gift text-white text-xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-xl font-bold text-asi_blue tracking-tight leading-none uppercase" id="site-logo-text">SUPPLIER LOGO</span>
+                        <span class="text-[9px] font-bold text-slate-400 mt-1">PROMOTIONAL PRODUCTS</span>
+                    </div>
                 </div>
 
-                <button onclick="toggleCart()" class="relative p-2 text-primary hover:text-accent transition-all">
-                    <i class="fa-solid fa-shopping-bag text-xl"></i>
-                    <span id="cart-count" class="absolute -top-1 -right-1 bg-accent text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold">0</span>
-                </button>
+                <!-- Search Bar -->
+                <div class="flex-1 min-w-[300px] relative">
+                    <div class="flex">
+                        <input type="text" id="search-input" placeholder="Search by Product Name or Item #" class="w-full border border-asi_border border-r-0 rounded-l px-4 py-2 focus:outline-none focus:ring-1 focus:ring-asi_blue">
+                        <button onclick="handleSearch()" class="bg-asi_blue text-white px-6 py-2 rounded-r hover:bg-blue-800 transition-colors">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Action Icons -->
+                <div class="flex items-center gap-6 shrink-0">
+                    <button onclick="toggleCart()" class="relative text-slate-600 hover:text-asi_blue">
+                        <i class="fa-solid fa-shopping-cart text-xl"></i>
+                        <span id="cart-count" class="absolute -top-2 -right-2 bg-accent text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Category Nav -->
+        <nav class="bg-slate-50 border-t border-asi_border overflow-x-auto">
+            <div class="container mx-auto px-4 flex gap-8 py-2 text-sm font-medium text-slate-600 whitespace-nowrap" id="category-nav">
+                <!-- Dynamically populated -->
             </div>
         </nav>
     </header>
 
-    <section id="home" class="relative min-h-[95vh] flex items-center pt-24 hero-pattern text-white overflow-hidden">
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="flex flex-wrap items-center">
-                <div class="w-full lg:w-1/2 mb-16 lg:mb-0">
-                    <h1 class="text-6xl md:text-8xl font-bold leading-[1] mb-8" id="hero-title">
-                        Gifts that <br><span class="text-accent underline decoration-white/10 underline-offset-8">Mean More.</span>
-                    </h1>
-                    <p class="text-xl text-slate-400 mb-12 leading-relaxed max-w-lg font-light" id="hero-subtitle">
-                        We curate professional, ethical, and high-impact promotional gifts for global brands. Sustainable procurement starts here.
-                    </p>
-                    <div class="flex flex-wrap gap-5">
-                        <a href="#products" class="px-10 py-5 bg-accent text-primary rounded-xl font-bold hover:shadow-2xl transition-all">Shop Collections</a>
-                        <a href="#contact" class="px-10 py-5 bg-white/5 border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-all">Talk to an Expert</a>
-                    </div>
-                </div>
-                <div class="w-full lg:w-1/2 lg:pl-12">
-                    <div class="relative rounded-[3rem] overflow-hidden border border-white/10 aspect-[4/5] bg-slate-800">
-                        <img id="hero-image" src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80&w=1000" class="w-full h-full object-cover opacity-80" alt="Showcase">
-                    </div>
-                </div>
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 py-8 flex gap-8">
+        <!-- Sidebar Filters (Optional but nice for ASI look) -->
+        <aside class="hidden lg:block w-64 shrink-0">
+            <div class="bg-white border border-asi_border rounded p-4 mb-6">
+                <h4 class="font-bold border-b pb-2 mb-4">Categories</h4>
+                <ul class="space-y-2 text-sm" id="sidebar-categories">
+                    <!-- Dynamically populated -->
+                </ul>
             </div>
-        </div>
-    </section>
+            <div class="bg-white border border-asi_border rounded p-4">
+                <h4 class="font-bold border-b pb-2 mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-asi_blue">
+                    <li><a href="#" class="hover:underline">Download Catalog</a></li>
+                    <li><a href="#" class="hover:underline">Sample Policy</a></li>
+                    <li><a href="#" class="hover:underline">Safety Compliance</a></li>
+                </ul>
+            </div>
+        </aside>
 
-    <!-- Trust Symbols / Compliance Bar -->
-    <section class="py-12 bg-white border-b border-slate-100">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-wrap justify-center items-center gap-16">
-                <div class="flex flex-col items-center text-center">
-                    <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Compliance & Safety</span>
-                    <div class="flex gap-4 grayscale opacity-60">
-                        <span class="font-bold border-2 border-slate-400 px-2 py-0.5 rounded text-slate-400 text-[10px]">PROP 65</span>
-                        <span class="font-bold border-2 border-slate-400 px-2 py-0.5 rounded text-slate-400 text-[10px]">CPSIA</span>
-                        <span class="font-bold border-2 border-slate-400 px-2 py-0.5 rounded text-slate-400 text-[10px]">FDA</span>
-                        <span class="font-bold border-2 border-slate-400 px-2 py-0.5 rounded text-slate-400 text-[10px]">REACH</span>
-                    </div>
-                </div>
-                <div class="h-10 w-px bg-slate-200 hidden md:block"></div>
-                <div class="flex flex-col items-center">
-                    <span class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Industry Membership</span>
-                    <span class="font-black italic text-primary text-xl tracking-tighter uppercase">ASI <span class="text-accent">Member</span></span>
+        <!-- Product List -->
+        <section class="flex-1">
+            <div class="flex justify-between items-center mb-6 border-b border-asi_border pb-4">
+                <h2 class="text-xl font-bold" id="results-count">All Products</h2>
+                <div class="flex items-center gap-2 text-sm">
+                    <span class="text-slate-400">Sort by:</span>
+                    <select class="border-none bg-transparent font-bold focus:ring-0">
+                        <option>Recommended</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                    </select>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="products" class="py-32">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-wrap justify-between items-end mb-20 gap-8">
-                <div class="max-w-xl">
-                    <h2 class="text-5xl font-bold text-primary mb-6">Curated Collections</h2>
-                    <p class="text-slate-500 text-lg">Select high-quality products that align with your brand values. Add to your inquiry cart to get started.</p>
-                </div>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="product-list">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6" id="product-list">
+                <!-- Loading State -->
                 <div class="col-span-full text-center py-20">
-                    <i class="fa-solid fa-circle-notch animate-spin text-4xl text-accent"></i>
-                    <p class="mt-4 text-slate-400">Loading our latest collections...</p>
+                    <i class="fa-solid fa-circle-notch animate-spin text-3xl text-asi_blue"></i>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section id="ethical" class="py-32 bg-primary text-white overflow-hidden relative">
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="max-w-3xl">
-                <h2 class="text-5xl md:text-7xl font-bold mb-12" id="ethical-title">Supply Chain <br><span class="text-accent italic">Reimagined.</span></h2>
-                <p class="text-slate-400 text-lg mb-12" id="ethical-desc">We vet every supplier for fair labor practices and environmental compliance. No exceptions.</p>
-                <div class="space-y-12">
-                    <div class="flex gap-8">
-                        <div class="text-4xl font-bold text-accent">01</div>
-                        <div>
-                            <h4 class="text-2xl font-bold mb-4">Certified Partners</h4>
-                            <p class="text-slate-400 text-lg">Rigorous auditing for every factory.</p>
+    <!-- Footer -->
+    <footer class="bg-white border-t border-asi_border mt-20 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1">
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-8 h-8 bg-asi_blue flex items-center justify-center rounded">
+                            <i class="fa-solid fa-gift text-white"></i>
                         </div>
+                        <span class="text-lg font-bold text-asi_blue uppercase tracking-tight" id="footer-logo-text">SUPPLIER LOGO</span>
                     </div>
-                    <div class="flex gap-8">
-                        <div class="text-4xl font-bold text-accent">02</div>
-                        <div>
-                            <h4 class="text-2xl font-bold mb-4">Transparent Origins</h4>
-                            <p class="text-slate-400 text-lg">Full traceability for every item.</p>
-                        </div>
+                    <p class="text-sm text-slate-500 mb-6 leading-relaxed">Official ASI supplier offering ethical and high-quality promotional solutions for global brands.</p>
+                    <div class="flex gap-4 grayscale opacity-60">
+                        <span class="border border-slate-300 px-2 py-0.5 rounded text-[10px] font-bold">PROP 65</span>
+                        <span class="border border-slate-300 px-2 py-0.5 rounded text-[10px] font-bold">CPSIA</span>
+                        <span class="border border-slate-300 px-2 py-0.5 rounded text-[10px] font-bold">FDA</span>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact" class="bg-slate-900 text-white pt-32 pb-12">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-20 mb-32">
-                <div class="col-span-2">
-                    <h3 class="text-3xl font-bold mb-10 leading-tight" id="footer-site-name">PREMIUM GIFTS GLOBAL</h3>
-                    <p class="text-slate-400 mb-8" id="footer-address">Shanghai, China</p>
                 </div>
                 <div>
-                    <h4 class="font-bold text-accent mb-8 uppercase tracking-[0.2em] text-[10px]">Contact</h4>
-                    <p class="text-slate-400 leading-loose">
-                        <span id="footer-email">export@premiumgifts.com</span><br>
-                        <span id="footer-phone">+86 (21) 5555 6666</span>
+                    <h5 class="font-bold mb-6 text-sm uppercase tracking-widest">Resources</h5>
+                    <ul class="space-y-3 text-sm text-slate-500">
+                        <li><a href="#" class="hover:text-asi_blue">About Us</a></li>
+                        <li><a href="#" class="hover:text-asi_blue">Policies & Forms</a></li>
+                        <li><a href="#" class="hover:text-asi_blue">Art Guidelines</a></li>
+                        <li><a href="#" class="hover:text-asi_blue">Compliance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6 text-sm uppercase tracking-widest">Support</h5>
+                    <ul class="space-y-3 text-sm text-slate-500">
+                        <li><a href="#" class="hover:text-asi_blue">Order Status</a></li>
+                        <li><a href="#" class="hover:text-asi_blue">Sample Request</a></li>
+                        <li><a href="#" class="hover:text-asi_blue">Track Shipment</a></li>
+                        <li><a href="#" class="hover:text-asi_blue">Contact Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-6 text-sm uppercase tracking-widest">Contact Info</h5>
+                    <p class="text-sm text-slate-500 leading-loose mb-6">
+                        <span id="footer-address">Address Loading...</span><br>
+                        Email: <span id="footer-email" class="text-asi_blue">...</span><br>
+                        Phone: <span id="footer-phone">...</span>
                     </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-slate-400 hover:text-asi_blue"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="text-slate-400 hover:text-asi_blue"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="pt-12 border-t border-white/5 text-slate-500 text-xs text-center">
-                <p>© 2026 <span id="copyright-name">PREMIUM GIFTS</span>. ALL RIGHTS RESERVED.</p>
+            <div class="pt-8 border-t border-asi_border text-center text-[11px] text-slate-400 uppercase tracking-widest">
+                © 2026 <span id="copyright-name">ASI SUPPLIER</span>. ALL RIGHTS RESERVED. | ASI #<span id="bot-asi-num">...</span>
             </div>
         </div>
     </footer>
 
-    <div id="cart-drawer" class="fixed inset-0 z-[100] invisible">
-        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity" onclick="toggleCart()"></div>
-        <div class="cart-drawer absolute top-0 right-0 w-full max-w-md h-full bg-white shadow-2xl flex flex-col">
-            <div class="p-8 flex justify-between items-center border-b">
-                <h2 class="text-2xl font-bold text-primary">Inquiry Cart</h2>
-                <button onclick="toggleCart()" class="text-slate-400 hover:text-primary"><i class="fa-solid fa-xmark text-2xl"></i></button>
+    <!-- Product Detail Modal (ASI Style) -->
+    <div id="product-modal" class="fixed inset-0 z-[110] invisible flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="closeProductModal()"></div>
+        <div class="relative w-full max-w-6xl max-h-[95vh] bg-white rounded shadow-2xl overflow-hidden flex flex-col">
+            <!-- Modal Header -->
+            <div class="flex justify-between items-center px-6 py-4 border-b bg-slate-50">
+                <div class="text-sm font-bold text-asi_blue uppercase tracking-widest">Product Details</div>
+                <button onclick="closeProductModal()" class="text-slate-400 hover:text-red-500 transition-colors">
+                    <i class="fa-solid fa-xmark text-2xl"></i>
+                </button>
             </div>
-            <div class="flex-1 overflow-y-auto p-8" id="cart-items"></div>
-            <div class="p-8 border-t bg-slate-50">
-                <div class="flex justify-between items-center mb-6">
-                    <span class="text-slate-500 font-bold uppercase tracking-widest text-xs">Total Estimated</span>
-                    <span class="text-2xl font-bold text-primary" id="cart-total">$0.00</span>
+
+            <!-- Modal Content -->
+            <div class="flex-1 overflow-y-auto">
+                <div class="flex flex-col md:flex-row">
+                    <!-- Left: Gallery -->
+                    <div class="w-full md:w-2/5 p-8 border-r border-asi_border bg-white flex flex-col items-center">
+                        <div class="w-full aspect-square border rounded p-4 mb-4 flex items-center justify-center bg-white shadow-inner">
+                            <img id="modal-image" src="" class="max-w-full max-h-full object-contain">
+                        </div>
+                        <div class="flex gap-2 opacity-50 text-xs italic">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i> Click image to enlarge
+                        </div>
+                    </div>
+
+                    <!-- Right: Info -->
+                    <div class="w-full md:w-3/5 p-10">
+                        <div class="mb-6">
+                            <h2 id="modal-name" class="text-3xl font-bold text-slate-800 mb-2"></h2>
+                            <div class="flex gap-6 text-sm">
+                                <span class="text-slate-500">Item #: <span id="modal-number" class="font-bold text-slate-800"></span></span>
+                                <span class="text-slate-500">Category: <span id="modal-category" class="font-bold text-asi_blue"></span></span>
+                            </div>
+                        </div>
+
+                        <!-- Pricing Section -->
+                        <div class="bg-asi_light border border-asi_border rounded p-6 mb-8">
+                            <div class="flex justify-between items-end mb-4">
+                                <h4 class="font-bold text-sm uppercase text-slate-500 tracking-widest">Quantity & Pricing</h4>
+                                <span class="text-xs text-slate-400">All prices include 1-color/1-position imprint</span>
+                            </div>
+                            <div class="overflow-x-auto bg-white border border-asi_border rounded">
+                                <table class="w-full text-center text-sm">
+                                    <thead class="bg-slate-50 border-b">
+                                        <tr id="modal-price-header"></tr>
+                                    </thead>
+                                    <tbody id="modal-price-rows">
+                                        <!-- Price and Code rows -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Quick Specs -->
+                        <div class="grid grid-cols-2 gap-y-6 gap-x-12 mb-8 text-sm border-b pb-8">
+                            <div>
+                                <span class="text-slate-400 block mb-1 uppercase text-[10px] font-bold">Available Colors</span>
+                                <span id="modal-colors" class="text-slate-700 font-medium"></span>
+                            </div>
+                            <div>
+                                <span class="text-slate-400 block mb-1 uppercase text-[10px] font-bold">Materials</span>
+                                <span id="modal-materials" class="text-slate-700 font-medium"></span>
+                            </div>
+                            <div>
+                                <span class="text-slate-400 block mb-1 uppercase text-[10px] font-bold">Size</span>
+                                <span id="modal-size" class="text-slate-700 font-medium"></span>
+                            </div>
+                            <div>
+                                <span class="text-slate-400 block mb-1 uppercase text-[10px] font-bold">Production Time</span>
+                                <span id="modal-time" class="text-slate-700 font-medium"></span>
+                            </div>
+                        </div>
+
+                        <!-- Tabs for more detail -->
+                        <div class="mb-10">
+                            <div class="flex border-b border-asi_border gap-8 mb-6 text-sm font-bold uppercase tracking-widest">
+                                <button class="border-b-2 border-asi_blue pb-3 text-asi_blue">Product Description</button>
+                                <button class="pb-3 text-slate-400 hover:text-asi_blue transition-colors">Imprint Info</button>
+                                <button class="pb-3 text-slate-400 hover:text-asi_blue transition-colors">Shipping</button>
+                            </div>
+                            <div class="text-sm text-slate-600 leading-relaxed" id="modal-desc"></div>
+                        </div>
+
+                        <!-- Action Bar -->
+                        <div class="flex gap-4 sticky bottom-0 bg-white pt-4">
+                            <div class="flex border rounded overflow-hidden">
+                                <button onclick="updateModalQty(-1)" class="px-4 py-2 bg-slate-50 hover:bg-slate-100">-</button>
+                                <input type="number" id="modal-qty" value="100" class="w-20 text-center border-none focus:ring-0 font-bold">
+                                <button onclick="updateModalQty(1)" class="px-4 py-2 bg-slate-50 hover:bg-slate-100">+</button>
+                            </div>
+                            <button id="modal-add-btn" class="flex-1 bg-asi_blue text-white py-4 rounded font-bold hover:bg-blue-800 shadow-lg shadow-asi_blue/20 transition-all flex items-center justify-center gap-3">
+                                <i class="fa-solid fa-cart-plus"></i> Add to Inquiry
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <button onclick="checkout()" class="w-full py-5 bg-primary text-white rounded-xl font-bold">Submit for Quote</button>
             </div>
         </div>
     </div>
 
-    <!-- Product Detail Modal -->
-    <div id="product-modal" class="fixed inset-0 z-[110] invisible">
-        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity" onclick="closeProductModal()"></div>
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl max-h-[90vh] bg-white rounded-[2rem] shadow-2xl overflow-hidden flex flex-col md:flex-row">
-            <button onclick="closeProductModal()" class="absolute top-6 right-6 z-10 text-slate-400 hover:text-primary"><i class="fa-solid fa-xmark text-2xl"></i></button>
-            
-            <div class="w-full md:w-1/2 bg-slate-50 flex items-center justify-center p-8">
-                <img id="modal-image" src="" class="max-w-full max-h-full object-contain mix-blend-multiply">
+    <!-- Cart Drawer -->
+    <div id="cart-drawer" class="fixed inset-0 z-[120] invisible">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="toggleCart()"></div>
+        <div class="cart-drawer absolute top-0 right-0 w-full max-w-md h-full bg-white shadow-2xl flex flex-col">
+            <div class="p-6 bg-asi_blue text-white flex justify-between items-center">
+                <h2 class="text-xl font-bold flex items-center gap-3"><i class="fa-solid fa-shopping-bag"></i> Inquiry Cart</h2>
+                <button onclick="toggleCart()" class="text-white/70 hover:text-white"><i class="fa-solid fa-xmark text-2xl"></i></button>
             </div>
-            
-            <div class="w-full md:w-1/2 p-10 overflow-y-auto">
-                <span id="modal-category" class="text-xs font-bold text-accent uppercase tracking-widest mb-2 block"></span>
-                <h2 id="modal-name" class="text-3xl font-bold text-primary mb-2"></h2>
-                <p id="modal-number" class="text-slate-400 font-bold mb-6"></p>
-                
-                <div class="mb-8">
-                    <h4 class="font-bold text-sm uppercase tracking-widest mb-4">Pricing Grid</h4>
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left text-sm">
-                            <thead class="bg-slate-100">
-                                <tr id="modal-price-header"></tr>
-                            </thead>
-                            <tbody>
-                                <tr id="modal-price-row"></tr>
-                            </tbody>
-                        </table>
-                    </div>
+            <div class="flex-1 overflow-y-auto p-6" id="cart-items"></div>
+            <div class="p-6 border-t bg-slate-50">
+                <div class="flex justify-between items-center mb-6">
+                    <span class="text-slate-500 font-bold uppercase text-xs">Subtotal (Estimated)</span>
+                    <span class="text-2xl font-bold text-asi_blue" id="cart-total">$0.00</span>
                 </div>
-
-                <div class="grid grid-cols-2 gap-y-6 gap-x-8 mb-8 text-sm">
-                    <div>
-                        <span class="text-slate-400 block mb-1">Colors</span>
-                        <span id="modal-colors" class="font-semibold"></span>
-                    </div>
-                    <div>
-                        <span class="text-slate-400 block mb-1">Materials</span>
-                        <span id="modal-materials" class="font-semibold"></span>
-                    </div>
-                    <div>
-                        <span class="text-slate-400 block mb-1">Size</span>
-                        <span id="modal-size" class="font-semibold"></span>
-                    </div>
-                    <div>
-                        <span class="text-slate-400 block mb-1">Production Time</span>
-                        <span id="modal-time" class="font-semibold"></span>
-                    </div>
-                </div>
-
-                <div class="mb-8">
-                    <h4 class="font-bold text-sm uppercase tracking-widest mb-2">Description</h4>
-                    <p id="modal-desc" class="text-slate-500 leading-relaxed"></p>
-                </div>
-
-                <button id="modal-add-btn" class="w-full py-4 bg-primary text-white rounded-xl font-bold hover:bg-slate-800 transition-all">Add to Inquiry</button>
+                <button onclick="checkout()" class="w-full py-4 bg-asi_blue text-white rounded font-bold hover:bg-blue-800">
+                    Request Pricing & Info
+                </button>
+                <p class="text-[10px] text-center text-slate-400 mt-4 uppercase">Prices subject to change without notice.</p>
             </div>
         </div>
     </div>
@@ -278,26 +327,45 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <script>
-        let cart = JSON.parse(localStorage.getItem('giftCart')) || [];
+        let cart = JSON.parse(localStorage.getItem('asiCart')) || [];
         let allProducts = [];
+        let filteredProducts = [];
+        let activeCategory = 'All';
 
-        function saveCart() { localStorage.setItem('giftCart', JSON.stringify(cart)); }
+        function saveCart() { localStorage.setItem('asiCart', JSON.stringify(cart)); }
         function updateCartCount() { document.getElementById('cart-count').innerText = cart.reduce((acc, item) => acc + item.qty, 0); }
         function toggleCart() { document.getElementById('cart-drawer').classList.toggle('invisible'); document.querySelector('.cart-drawer').classList.toggle('open'); renderCart(); }
         
-        function addToCart(name, price, img) {
+        function addToCart(name, price, img, qty = 100) {
             const existing = cart.find(item => item.name === name);
-            if (existing) existing.qty += 1; else cart.push({ name, price, img, qty: 1 });
+            if (existing) existing.qty += qty; else cart.push({ name, price, img, qty });
             updateCartCount(); saveCart();
         }
 
+        function removeFromCart(index) { cart.splice(index, 1); saveCart(); renderCart(); updateCartCount(); }
+
+        function renderCart() {
+            const container = document.getElementById('cart-items');
+            const totalEl = document.getElementById('cart-total');
+            if (cart.length === 0) { container.innerHTML = '<div class="text-center py-20"><i class="fa-solid fa-cart-shopping text-4xl text-slate-100 mb-4"></i><p class="text-slate-400">Your cart is empty.</p></div>'; totalEl.innerText = '$0.00'; return; }
+            let html = ''; let total = 0;
+            cart.forEach((item, index) => {
+                total += item.price * item.qty;
+                html += `<div class="flex items-center gap-4 mb-6 pb-6 border-b border-slate-100 last:border-0"><img src="${item.img}" class="w-16 h-16 rounded object-contain bg-slate-50 border p-1"><div class="flex-1"><h5 class="font-bold text-sm text-slate-800 line-clamp-1">${item.name}</h5><p class="text-xs text-slate-400">Qty: ${item.qty} × $${item.price.toFixed(2)}</p></div><button onclick="removeFromCart(${index})" class="text-slate-300 hover:text-red-500 transition-colors"><i class="fa-solid fa-trash-can"></i></button></div>`;
+            });
+            container.innerHTML = html; totalEl.innerText = `$${total.toLocaleString(undefined, {minimumFractionDigits: 2})}`;
+        }
+
+        function checkout() { alert('Thank you! Your quote request has been sent to our sales team.'); cart = []; saveCart(); updateCartCount(); toggleCart(); }
+
         function openProductModal(index) {
             const p = allProducts[index];
+            document.body.classList.add('modal-open');
             document.getElementById('modal-image').src = p.image;
             document.getElementById('modal-category').innerText = p.category;
             document.getElementById('modal-name').innerText = p.name;
-            document.getElementById('modal-number').innerText = p.product_number ? `Product #: ${p.product_number}` : '';
-            document.getElementById('modal-desc').innerText = p.description;
+            document.getElementById('modal-number').innerText = p.product_number || 'N/A';
+            document.getElementById('modal-desc').innerHTML = p.description.replace(/\n/g, '<br>');
             document.getElementById('modal-colors').innerText = p.details.colors || 'N/A';
             document.getElementById('modal-materials').innerText = p.details.materials || 'N/A';
             document.getElementById('modal-size').innerText = p.details.size || 'N/A';
@@ -305,12 +373,21 @@
 
             // Pricing Grid
             const header = document.getElementById('modal-price-header');
-            const row = document.getElementById('modal-price-row');
-            header.innerHTML = '<th class="px-4 py-2 border-r">Quantity</th>' + p.pricing_grid.map(pg => `<th class="px-4 py-2 text-center">${pg.qty}</th>`).join('');
-            row.innerHTML = '<td class="px-4 py-2 border-r font-bold">Price</td>' + p.pricing_grid.map(pg => `<td class="px-4 py-2 text-center">$${pg.price.toFixed(2)} (${pg.code})</td>`).join('');
+            const rows = document.getElementById('modal-price-rows');
+            
+            header.innerHTML = '<th class="px-4 py-3 border-r">Quantity</th>' + p.pricing_grid.map(pg => `<th class="px-4 py-3">${pg.qty}</th>`).join('');
+            
+            let priceRow = '<tr class="border-b"><td class="px-4 py-3 border-r font-bold bg-slate-50">Price</td>' + p.pricing_grid.map(pg => `<td class="px-4 py-3">$${pg.price.toFixed(2)}</td>`).join('') + '</tr>';
+            let codeRow = '<tr><td class="px-4 py-3 border-r font-bold bg-slate-50">Code</td>' + p.pricing_grid.map(pg => `<td class="px-4 py-3 text-slate-400">${pg.code}</td>`).join('') + '</tr>';
+            
+            rows.innerHTML = priceRow + codeRow;
+
+            // Set default qty based on first price break
+            document.getElementById('modal-qty').value = p.pricing_grid[0].qty;
 
             document.getElementById('modal-add-btn').onclick = () => {
-                addToCart(p.name, p.price, p.image);
+                const q = parseInt(document.getElementById('modal-qty').value);
+                addToCart(p.name, p.price, p.image, q);
                 closeProductModal();
                 toggleCart();
             };
@@ -319,67 +396,115 @@
         }
 
         function closeProductModal() {
+            document.body.classList.remove('modal-open');
             document.getElementById('product-modal').classList.add('invisible');
         }
 
-        function removeFromCart(index) { cart.splice(index, 1); saveCart(); renderCart(); updateCartCount(); }
-        
-        function renderCart() {
-            const container = document.getElementById('cart-items');
-            const totalEl = document.getElementById('cart-total');
-            if (cart.length === 0) { container.innerHTML = '<p class="text-slate-400 text-center py-20">Your inquiry cart is empty.</p>'; totalEl.innerText = '$0.00'; return; }
-            let html = ''; let total = 0;
-            cart.forEach((item, index) => {
-                total += item.price * item.qty;
-                html += `<div class="flex items-center gap-4 mb-6"><img src="${item.img}" class="w-16 h-16 rounded-xl object-cover"><div class="flex-1 font-bold">${item.name} ($${item.price} x ${item.qty})</div><button onclick="removeFromCart(${index})" class="text-slate-300 hover:text-red-500"><i class="fa-solid fa-trash-can"></i></button></div>`;
-            });
-            container.innerHTML = html; totalEl.innerText = `$${total.toFixed(2)}`;
+        function updateModalQty(change) {
+            const input = document.getElementById('modal-qty');
+            let val = parseInt(input.value) + (change * 50); // Increment by 50 for ASI feel
+            if (val < 1) val = 1;
+            input.value = val;
         }
-        function checkout() { alert('Quote request sent!'); cart = []; saveCart(); updateCartCount(); toggleCart(); }
+
+        function handleSearch() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            if (!query) {
+                filteredProducts = allProducts;
+            } else {
+                filteredProducts = allProducts.filter(p => 
+                    p.name.toLowerCase().includes(query) || 
+                    (p.product_number && p.product_number.toLowerCase().includes(query))
+                );
+            }
+            activeCategory = 'All';
+            renderProducts();
+        }
+
+        function filterByCategory(cat) {
+            activeCategory = cat;
+            if (cat === 'All') {
+                filteredProducts = allProducts;
+            } else {
+                filteredProducts = allProducts.filter(p => p.category === cat);
+            }
+            renderProducts();
+        }
+
+        function renderProducts() {
+            const list = document.getElementById('product-list');
+            const count = document.getElementById('results-count');
+            
+            count.innerText = `${activeCategory} Products (${filteredProducts.length})`;
+            
+            if (filteredProducts.length === 0) {
+                list.innerHTML = '<div class="col-span-full text-center py-20 text-slate-400">No products found matching your criteria.</div>';
+                return;
+            }
+
+            let html = '';
+            filteredProducts.forEach((p, idx) => {
+                // Find global index
+                const globalIdx = allProducts.findIndex(ap => ap.name === p.name);
+                html += `
+                    <div class="product-card bg-white border border-asi_border rounded overflow-hidden flex flex-col transition-all cursor-pointer group" onclick="openProductModal(${globalIdx})">
+                        <div class="aspect-square bg-white flex items-center justify-center p-6 border-b border-asi_border">
+                            <img src="${p.image}" class="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-500">
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <span class="text-[10px] font-bold text-asi_blue uppercase tracking-widest mb-1">${p.category}</span>
+                            <h4 class="font-bold text-slate-800 line-clamp-2 mb-2 group-hover:text-asi_blue transition-colors h-10">${p.name}</h4>
+                            <div class="text-xs text-slate-400 mb-4">Item #: ${p.product_number || 'N/A'}</div>
+                            <div class="mt-auto flex justify-between items-end border-t pt-4">
+                                <div>
+                                    <div class="text-[10px] text-slate-400 uppercase font-bold">As low as</div>
+                                    <div class="text-xl font-bold text-asi_blue">$${p.price.toFixed(2)}</div>
+                                </div>
+                                <div class="text-asi_blue group-hover:translate-x-1 transition-transform"><i class="fa-solid fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            list.innerHTML = html;
+        }
 
         async function init() {
             updateCartCount();
             try {
                 // Load Settings
                 const settings = await (await fetch('content/settings/general.json')).json();
-                document.getElementById('page-title').innerText = settings.site_name;
+                document.title = settings.site_name;
                 document.getElementById('site-logo-text').innerText = settings.logo_text;
-                document.getElementById('footer-site-name').innerText = settings.site_name;
+                document.getElementById('footer-logo-text').innerText = settings.logo_text;
                 document.getElementById('footer-email').innerText = settings.email;
                 document.getElementById('footer-phone').innerText = settings.phone;
                 document.getElementById('footer-address').innerText = settings.address;
                 document.getElementById('copyright-name').innerText = settings.site_name;
-
-                // Load Home Page
-                const home = await (await fetch('content/pages/home.json')).json();
-                document.getElementById('hero-title').innerText = home.hero.title;
-                document.getElementById('hero-subtitle').innerText = home.hero.subtitle;
-                document.getElementById('hero-image').src = home.hero.image;
-                document.getElementById('ethical-title').innerText = home.ethical.title;
-                document.getElementById('ethical-desc').innerText = home.ethical.desc;
+                document.getElementById('top-asi-num').innerText = settings.asi_number || 'YOUR_ASI_NUMBER';
+                document.getElementById('bot-asi-num').innerText = settings.asi_number || '...';
 
                 // Load Products
                 const productData = await (await fetch('products.json')).json();
                 allProducts = productData.products;
-                const productList = document.getElementById('product-list');
-                let html = '';
-                allProducts.forEach((p, i) => {
-                    html += `<div class="group cursor-pointer" onclick="openProductModal(${i})">
-                        <div class="aspect-square bg-slate-100 rounded-[2rem] overflow-hidden mb-6 relative">
-                            <img src="${p.image}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-                            <div class="absolute bottom-6 right-6 bg-white w-12 h-12 rounded-full shadow-xl flex items-center justify-center text-primary hover:bg-accent hover:text-white transition-all"><i class="fa-solid fa-magnifying-glass"></i></div>
-                        </div>
-                        <div class="flex justify-between items-start">
-                            <div><h4 class="text-xl font-bold text-primary group-hover:text-accent transition-colors">${p.name}</h4><p class="text-slate-400 mt-1">As low as $${p.price.toFixed(2)}</p></div>
-                        </div>
-                    </div>`;
-                });
-                productList.innerHTML = html;
-            } catch (e) { console.error('Error loading content:', e); }
+                filteredProducts = allProducts;
+
+                // Populate categories
+                const categories = ['All', ...new Set(allProducts.map(p => p.category))];
+                document.getElementById('category-nav').innerHTML = categories.map(cat => `<button onclick="filterByCategory('${cat}')" class="hover:text-asi_blue transition-colors uppercase tracking-widest text-[11px]">${cat}</button>`).join('');
+                document.getElementById('sidebar-categories').innerHTML = categories.map(cat => `<li><button onclick="filterByCategory('${cat}')" class="hover:text-asi_blue transition-colors flex justify-between w-full"><span>${cat}</span> <span class="text-slate-300 font-normal">(${cat === 'All' ? allProducts.length : allProducts.filter(p => p.category === cat).length})</span></button></li>`).join('');
+
+                renderProducts();
+            } catch (e) { 
+                console.error('Error loading content:', e); 
+                document.getElementById('product-list').innerHTML = '<div class="col-span-full text-center py-20 text-red-500">Error loading products. Please ensure products.json exists and is valid.</div>';
+            }
         }
+
         init();
     </script>
 
+    <!-- Tawk.to Script -->
     <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
         (function(){

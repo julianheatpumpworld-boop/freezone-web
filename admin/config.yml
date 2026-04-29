@@ -56,8 +56,28 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "name", widget: "string"}
+              - {label: "Product #", name: "product_number", widget: "string"}
               - {label: "Price", name: "price", widget: "number", value_type: "float"}
               - {label: "Category", name: "category", widget: "select", options: ["LED PRODUCTS", "Mugs & Steins-Insulated", "Aprons-Bib Style", "PEN & PENCIL ACCESSORIES", "AUTO ACCESSORIES", "TAPE", "Tech & Gadgets", "Sustainable Apparel", "Drinkware", "Office Essentials"]}
               - {label: "Description", name: "description", widget: "text"}
+              - {label: "Summary", name: "summary", widget: "text"}
               - {label: "Product Image", name: "image", widget: "image"}
               - {label: "Featured", name: "featured", widget: "boolean", default: false}
+              - label: "Product Details"
+                name: "details"
+                widget: "object"
+                fields:
+                  - {label: "Colors", name: "colors", widget: "string"}
+                  - {label: "Materials", name: "materials", widget: "string"}
+                  - {label: "Size", name: "size", widget: "string"}
+                  - {label: "Imprint Method", name: "imprint_method", widget: "string"}
+                  - {label: "Imprint Color", name: "imprint_color", widget: "string"}
+                  - {label: "Production Time", name: "production_time", widget: "string"}
+                  - {label: "Price Includes", name: "price_includes", widget: "string"}
+              - label: "Pricing Grid"
+                name: "pricing_grid"
+                widget: "list"
+                fields:
+                  - {label: "Qty", name: "qty", widget: "number"}
+                  - {label: "Price", name: "price", widget: "number", value_type: "float"}
+                  - {label: "Code", name: "code", widget: "string"}

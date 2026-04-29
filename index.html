@@ -207,6 +207,64 @@
         </div>
     </div>
 
+    <!-- Product Detail Modal -->
+    <div id="product-modal" class="fixed inset-0 z-[110] invisible">
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity" onclick="closeProductModal()"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl max-h-[90vh] bg-white rounded-[2rem] shadow-2xl overflow-hidden flex flex-col md:flex-row">
+            <button onclick="closeProductModal()" class="absolute top-6 right-6 z-10 text-slate-400 hover:text-primary"><i class="fa-solid fa-xmark text-2xl"></i></button>
+            
+            <div class="w-full md:w-1/2 bg-slate-50 flex items-center justify-center p-8">
+                <img id="modal-image" src="" class="max-w-full max-h-full object-contain mix-blend-multiply">
+            </div>
+            
+            <div class="w-full md:w-1/2 p-10 overflow-y-auto">
+                <span id="modal-category" class="text-xs font-bold text-accent uppercase tracking-widest mb-2 block"></span>
+                <h2 id="modal-name" class="text-3xl font-bold text-primary mb-2"></h2>
+                <p id="modal-number" class="text-slate-400 font-bold mb-6"></p>
+                
+                <div class="mb-8">
+                    <h4 class="font-bold text-sm uppercase tracking-widest mb-4">Pricing Grid</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-sm">
+                            <thead class="bg-slate-100">
+                                <tr id="modal-price-header"></tr>
+                            </thead>
+                            <tbody>
+                                <tr id="modal-price-row"></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-y-6 gap-x-8 mb-8 text-sm">
+                    <div>
+                        <span class="text-slate-400 block mb-1">Colors</span>
+                        <span id="modal-colors" class="font-semibold"></span>
+                    </div>
+                    <div>
+                        <span class="text-slate-400 block mb-1">Materials</span>
+                        <span id="modal-materials" class="font-semibold"></span>
+                    </div>
+                    <div>
+                        <span class="text-slate-400 block mb-1">Size</span>
+                        <span id="modal-size" class="font-semibold"></span>
+                    </div>
+                    <div>
+                        <span class="text-slate-400 block mb-1">Production Time</span>
+                        <span id="modal-time" class="font-semibold"></span>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h4 class="font-bold text-sm uppercase tracking-widest mb-2">Description</h4>
+                    <p id="modal-desc" class="text-slate-500 leading-relaxed"></p>
+                </div>
+
+                <button id="modal-add-btn" class="w-full py-4 bg-primary text-white rounded-xl font-bold hover:bg-slate-800 transition-all">Add to Inquiry</button>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
@@ -221,15 +279,51 @@
 
     <script>
         let cart = JSON.parse(localStorage.getItem('giftCart')) || [];
+        let allProducts = [];
+
         function saveCart() { localStorage.setItem('giftCart', JSON.stringify(cart)); }
         function updateCartCount() { document.getElementById('cart-count').innerText = cart.reduce((acc, item) => acc + item.qty, 0); }
         function toggleCart() { document.getElementById('cart-drawer').classList.toggle('invisible'); document.querySelector('.cart-drawer').classList.toggle('open'); renderCart(); }
+        
         function addToCart(name, price, img) {
             const existing = cart.find(item => item.name === name);
             if (existing) existing.qty += 1; else cart.push({ name, price, img, qty: 1 });
             updateCartCount(); saveCart();
         }
+
+        function openProductModal(index) {
+            const p = allProducts[index];
+            document.getElementById('modal-image').src = p.image;
+            document.getElementById('modal-category').innerText = p.category;
+            document.getElementById('modal-name').innerText = p.name;
+            document.getElementById('modal-number').innerText = p.product_number ? `Product #: ${p.product_number}` : '';
+            document.getElementById('modal-desc').innerText = p.description;
+            document.getElementById('modal-colors').innerText = p.details.colors || 'N/A';
+            document.getElementById('modal-materials').innerText = p.details.materials || 'N/A';
+            document.getElementById('modal-size').innerText = p.details.size || 'N/A';
+            document.getElementById('modal-time').innerText = p.details.production_time || 'N/A';
+
+            // Pricing Grid
+            const header = document.getElementById('modal-price-header');
+            const row = document.getElementById('modal-price-row');
+            header.innerHTML = '<th class="px-4 py-2 border-r">Quantity</th>' + p.pricing_grid.map(pg => `<th class="px-4 py-2 text-center">${pg.qty}</th>`).join('');
+            row.innerHTML = '<td class="px-4 py-2 border-r font-bold">Price</td>' + p.pricing_grid.map(pg => `<td class="px-4 py-2 text-center">$${pg.price.toFixed(2)} (${pg.code})</td>`).join('');
+
+            document.getElementById('modal-add-btn').onclick = () => {
+                addToCart(p.name, p.price, p.image);
+                closeProductModal();
+                toggleCart();
+            };
+
+            document.getElementById('product-modal').classList.remove('invisible');
+        }
+
+        function closeProductModal() {
+            document.getElementById('product-modal').classList.add('invisible');
+        }
+
         function removeFromCart(index) { cart.splice(index, 1); saveCart(); renderCart(); updateCartCount(); }
+        
         function renderCart() {
             const container = document.getElementById('cart-items');
             const totalEl = document.getElementById('cart-total');
@@ -266,17 +360,17 @@
 
                 // Load Products
                 const productData = await (await fetch('products.json')).json();
+                allProducts = productData.products;
                 const productList = document.getElementById('product-list');
                 let html = '';
-                productData.products.forEach(p => {
-                    html += `<div class="group">
+                allProducts.forEach((p, i) => {
+                    html += `<div class="group cursor-pointer" onclick="openProductModal(${i})">
                         <div class="aspect-square bg-slate-100 rounded-[2rem] overflow-hidden mb-6 relative">
                             <img src="${p.image}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-                            <button onclick="addToCart('${p.name}', ${p.price}, '${p.image}')" class="absolute bottom-6 right-6 bg-white w-12 h-12 rounded-full shadow-xl flex items-center justify-center text-primary hover:bg-accent hover:text-white transition-all"><i class="fa-solid fa-plus"></i></button>
+                            <div class="absolute bottom-6 right-6 bg-white w-12 h-12 rounded-full shadow-xl flex items-center justify-center text-primary hover:bg-accent hover:text-white transition-all"><i class="fa-solid fa-magnifying-glass"></i></div>
                         </div>
                         <div class="flex justify-between items-start">
-                            <div><h4 class="text-xl font-bold text-primary">${p.name}</h4><p class="text-slate-400 mt-1">${p.description}</p></div>
-                            <span class="text-xl font-bold text-accent">$${p.price.toFixed(2)}</span>
+                            <div><h4 class="text-xl font-bold text-primary group-hover:text-accent transition-colors">${p.name}</h4><p class="text-slate-400 mt-1">As low as $${p.price.toFixed(2)}</p></div>
                         </div>
                     </div>`;
                 });

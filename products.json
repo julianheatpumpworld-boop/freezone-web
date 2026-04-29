@@ -183,7 +183,7 @@
         "colors": "Medium Black=Black,Medium Red=Red,Medium White=White,Medium Yellow=Yellow,Medium Blue=Blue,Medium Pink=Pink,Medium Orange=Orange,Medium Green=Green,Medium Purple=Purple",
         "materials": "Plastic=Plastic",
         "size": "Length:6.6:in;Width:0.43:in",
-        "imprint_method": "Imprint Information Imprint ColorCustom Colors, PMS Colors, Standard Colors Imprint Size1\" x 1.5\" Imprint MethodSilkscreen Full Color ProcessNo PersonalizationYes Sold UnimprintedNo Imprint Method Silkscreen Imprint Color Custom Colors, PMS Colors, Standard Colors Imprint Size 1\" x 1.5\" Artwork & Proofs Virtual Proof (free), Paper Proof (free) Imprint Location Surface",
+        "imprint_method": "Imprint Information",
         "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
         "production_time": "7",
         "price_includes": "1 color 1 location imprint and shipping cost"

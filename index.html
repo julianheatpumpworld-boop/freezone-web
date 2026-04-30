@@ -197,6 +197,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8" id="product-list">
                 <div class="col-span-full text-center py-20"><i class="fa-solid fa-circle-notch animate-spin text-3xl text-asi_blue"></i></div>
             </div>
+            <!-- Pagination -->
+            <div id="pagination-controls" class="mt-16 flex flex-col items-center gap-6"></div>
         </section>
     </main>
 
@@ -377,6 +379,8 @@
         let filteredProducts = [];
         let activeCategory = 'All';
         let sidebarExpanded = false;
+        let currentPage = 1;
+        const pageSize = 20;
 
         const CATEGORY_MAP = {
             'Apparel': ['Clothing-General', 'Baseball Caps-Six Panel', 'Caps & Hats-General', 'Outerwear-RAINWEAR', 'SOCKS', 'BANDANNAS', 'Apparel', 'Shirts', 'Headwear', 'Outerwear', 'Caps', 'Sweatshirts'],
@@ -471,12 +475,14 @@
             const list = CATEGORY_MAP[key];
             filteredProducts = allProducts.filter(p => list.includes(p.category));
             activeCategory = key;
+            currentPage = 1;
             renderProducts();
         }
 
         function filterByCategory(cat) {
             activeCategory = cat;
             filteredProducts = cat === 'All' ? allProducts : allProducts.filter(p => p.category === cat);
+            currentPage = 1;
             renderProducts();
         }
 
@@ -486,20 +492,68 @@
             else if (val === 'price-desc') filteredProducts.sort((a,b) => b.price - a.price);
             else if (val === 'name') filteredProducts.sort((a,b) => a.name.localeCompare(b.name));
             else filteredProducts.sort((a,b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+            currentPage = 1;
             renderProducts();
         }
 
         function renderProducts() {
             const list = document.getElementById('product-list');
+            const pagination = document.getElementById('pagination-controls');
             document.getElementById('results-count').innerText = `${activeCategory} (${filteredProducts.length})`;
-            if (!filteredProducts.length) { list.innerHTML = '<div class="col-span-full py-20 text-center text-slate-400">No products match your search.</div>'; return; }
-            list.innerHTML = filteredProducts.map(p => {
+            
+            if (!filteredProducts.length) { 
+                list.innerHTML = '<div class="col-span-full py-20 text-center text-slate-400">No products match your search.</div>'; 
+                pagination.innerHTML = '';
+                return; 
+            }
+
+            const totalPages = Math.ceil(filteredProducts.length / pageSize);
+            const start = (currentPage - 1) * pageSize;
+            const end = start + pageSize;
+            const pageItems = filteredProducts.slice(start, end);
+
+            list.innerHTML = pageItems.map(p => {
                 const globalIdx = allProducts.findIndex(ap => ap.name === p.name);
                 return `<div class="product-card bg-white border border-asi_border rounded-xl overflow-hidden flex flex-col cursor-pointer group" onclick="openProductModal(${globalIdx})">
                     <div class="aspect-square p-6 flex items-center justify-center border-b border-asi_border/30 bg-white"><img src="${p.image}" class="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-700"></div>
                     <div class="p-6 flex-1 flex flex-col"><span class="text-[9px] font-bold text-asi_blue uppercase tracking-widest mb-1">${p.category}</span><h4 class="font-bold text-slate-800 line-clamp-2 mb-2 group-hover:text-asi_blue transition-colors h-10 leading-tight">${p.name}</h4><div class="mt-auto pt-4 flex justify-between items-end"><div><p class="text-[9px] text-slate-400 uppercase font-bold mb-1">As low as</p><p class="text-lg font-black text-asi_blue leading-none">$${p.price.toFixed(3)}</p></div><div class="w-8 h-8 rounded-full border border-slate-100 flex items-center justify-center text-slate-300 group-hover:bg-asi_blue group-hover:text-white group-hover:border-asi_blue transition-all"><i class="fa-solid fa-arrow-right text-[10px]"></i></div></div></div>
                 </div>`;
             }).join('');
+
+            // Pagination Controls
+            let pagHTML = `<div class="flex items-center gap-2">`;
+            pagHTML += `<button onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} class="w-10 h-10 rounded-lg border flex items-center justify-center hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></button>`;
+            
+            const startPage = Math.max(1, currentPage - 2);
+            const endPage = Math.min(totalPages, startPage + 4);
+            const displayStart = Math.max(1, endPage - 4);
+            
+            for (let i = displayStart; i <= endPage; i++) {
+                pagHTML += `<button onclick="changePage(${i})" class="w-10 h-10 rounded-lg border flex items-center justify-center ${i === currentPage ? 'bg-asi_blue text-white border-asi_blue' : 'hover:bg-white'} font-bold text-xs">${i}</button>`;
+            }
+
+            pagHTML += `<button onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''} class="w-10 h-10 rounded-lg border flex items-center justify-center hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></button>`;
+            pagHTML += `</div><p class="text-xs text-slate-400 font-medium">Page ${currentPage} of ${totalPages}</p>`;
+            pagination.innerHTML = pagHTML;
+        }
+
+        function changePage(p) {
+            currentPage = p;
+            window.scrollTo({ top: document.getElementById('product-list').offsetTop - 100, behavior: 'smooth' });
+            renderProducts();
+        }
+
+        function renderSidebar(full) {
+            const sidebar = document.getElementById('sidebar-categories');
+            const container = document.getElementById('see-more-container');
+            const cats = [...new Set(allProducts.map(p => p.category))].sort();
+            
+            const list = full ? cats : cats.slice(0, 10);
+            sidebar.innerHTML = list.map(c => `<li><button onclick="filterByCategory('${c}')" class="hover:text-asi_blue w-full flex justify-between text-left"><span>${c}</span> <span class="text-slate-300 font-normal">(${allProducts.filter(p=>p.category===c).length})</span></button></li>`).join('');
+            
+            if (cats.length > 10) {
+                container.innerHTML = `<button onclick="sidebarExpanded=!sidebarExpanded;renderSidebar(sidebarExpanded)" class="text-xs font-bold text-asi_blue py-2 flex items-center gap-2">${sidebarExpanded ? '<i class="fa-solid fa-minus"></i> See Less' : '<i class="fa-solid fa-plus"></i> See More'}</button>`;
+            }
         }
 
         function scrollCarousel(dir) { document.getElementById('latest-carousel').scrollLeft += dir * 400; }
@@ -542,13 +596,8 @@
                     </div>`).join('');
 
                 // Sidebar & Footer Categories
-                const cats = [...new Set(allProducts.map(p => p.category))].sort();
-                const renderSidebar = (full) => {
-                    const list = full ? cats : cats.slice(0, 10);
-                    document.getElementById('sidebar-categories').innerHTML = list.map(c => `<li><button onclick="filterByCategory('${c}')" class="hover:text-asi_blue w-full flex justify-between"><span>${c}</span> <span class="text-slate-300 font-normal">(${allProducts.filter(p=>p.category===c).length})</span></button></li>`).join('');
-                    document.getElementById('see-more-container').innerHTML = cats.length > 10 ? `<button onclick="sidebarExpanded=!sidebarExpanded;renderSidebar(sidebarExpanded)" class="text-xs font-bold text-asi_blue">${sidebarExpanded ? '- See Less' : '+ See More'}</button>` : '';
-                };
                 renderSidebar(false);
+                const cats = [...new Set(allProducts.map(p => p.category))].sort();
                 document.getElementById('footer-categories').innerHTML = cats.slice(0, 6).map(c => `<li><a href="javascript:void(0)" onclick="filterByCategory('${c}')" class="hover:text-asi_blue">${c}</a></li>`).join('');
                 document.getElementById('top-categories-list').innerHTML = cats.slice(0, 5).map(c => `<button onclick="filterByCategory('${c}')" class="block text-slate-500 hover:text-asi_blue text-xs">${c}</button>`).join('');
 
@@ -556,7 +605,17 @@
             } catch (e) { console.error(e); }
         }
         init();
+
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,fr,zh-CN,es,de,nl,it,pt,ru,ar',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_simple');
+        }
     </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
         (function(){

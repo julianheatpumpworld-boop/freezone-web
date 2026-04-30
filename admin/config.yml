@@ -72,11 +72,14 @@ collections:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Product #", name: "product_number", widget: "string"}
               - {label: "Price", name: "price", widget: "number", value_type: "float"}
-              - {label: "Category", name: "category", widget: "select", options: ["LED PRODUCTS", "Mugs & Steins-Insulated", "Aprons-Bib Style", "PEN & PENCIL ACCESSORIES", "AUTO ACCESSORIES", "TAPE", "Tech & Gadgets", "Sustainable Apparel", "Drinkware", "Office Essentials"]}
+              - {label: "Category", name: "category", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
               - {label: "Summary", name: "summary", widget: "text"}
               - {label: "Product Image", name: "image", widget: "image"}
-              - {label: "Additional Images", name: "images", widget: "list", field: {label: "Image URL", widget: "image"}}
+              - label: "Additional Images"
+                name: "images"
+                widget: "list"
+                field: {label: "Image URL", name: "url", widget: "image"}
               - {label: "Featured", name: "featured", widget: "boolean", default: false}
               - label: "Product Details"
                 name: "details"

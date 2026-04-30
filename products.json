@@ -1,355 +1,394 @@
 {
-  "products": [
-    {
-      "details": {
-        "colors": "Medium Blue=Blue,Medium Green=Green,Multi Color=Multi Color,Medium Brown=Brown,Medium White=White,Medium Yellow=Yellow,Medium Purple=Purple,Medium Pink=Pink,Medium Orange=Orange",
-        "materials": "Foam=Foam",
-        "size": "Length:16:in;Width:1.57:in",
-        "imprint_method": "Silkscreen=Silkscreen",
-        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,1 or 2 color",
-        "production_time": "3-5",
-        "price_includes": "one color one location imprint and shipping cost"
-      },
-      "summary": "This LED light up foam glow baton is the ultimate spectacle of vibrant colors and dazzling lights to elevate any event.",
-      "price": 3.25,
-      "name": "LED Light up Party Foam Glow Sticks/Batons",
-      "featured": true,
-      "product_number": "FCSBH5",
-      "image": "https://media.asicdn.com/images/orig/326070000/326078200.jpg",
-      "description": "Our foam glow baton is a fun and safe alternative to traditional glow sticks. It's bright, lightweight, and easy to use - just push the button to activate the multi-color LED lights. And for those looking for a more classic look, our glow stick is a tried-and-true option that always gets the party started. This bendable foam glow is easy to handle and perfect for dancing the night away. Over 5000 pcs is by SEA",
-      "category": "LED PRODUCTS",
-      "pricing_grid": [
+    "products": [
         {
-          "qty": 100,
-          "price": 3.25,
-          "code": "R\t"
+            "name": "LED Light up Party Foam Glow Sticks/Batons",
+            "product_number": "FCSBH5",
+            "price": 3.25,
+            "category": "LED PRODUCTS",
+            "description": "Our foam glow baton is a fun and safe alternative to traditional glow sticks. It's bright, lightweight, and easy to use - just push the button to activate the multi-color LED lights. And for those looking for a more classic look, our glow stick is a tried-and-true option that always gets the party started. This bendable foam glow is easy to handle and perfect for dancing the night away. Over 5000 pcs is by SEA",
+            "summary": "This LED light up foam glow baton is the ultimate spectacle of vibrant colors and dazzling lights to elevate any event.",
+            "image": "https://media.asicdn.com/images/orig/326070000/326078200.jpg",
+            "images": [
+                "https://media.asicdn.com/images/orig/326070000/326078200.jpg",
+                "https://media.asicdn.com/images/orig/326070000/326078201.jpg",
+                "https://media.asicdn.com/images/orig/326070000/326078202.jpg",
+                "https://media.asicdn.com/images/orig/326070000/326078203.jpg",
+                "https://media.asicdn.com/images/orig/326070000/326078204.jpg"
+            ],
+            "featured": true,
+            "details": {
+                "colors": "Medium Blue=Blue,Medium Green=Green,Multi Color=Multi Color,Medium Brown=Brown,Medium White=White,Medium Yellow=Yellow,Medium Purple=Purple,Medium Pink=Pink,Medium Orange=Orange",
+                "materials": "Foam=Foam",
+                "size": "Length:16:in;Width:1.57:in",
+                "imprint_method": "Silkscreen=Silkscreen",
+                "imprint_color": "Custom Colors,PMS Colors,Standard Colors,1 or 2 color",
+                "production_time": "3-5",
+                "price_includes": "one color one location imprint and shipping cost"
+            },
+            "pricing_grid": [
+                {
+                    "qty": 100,
+                    "price": 3.25,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 200,
+                    "price": 3.13,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 300,
+                    "price": 2.75,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 500,
+                    "price": 2.53,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 1000,
+                    "price": 2.32,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 5000,
+                    "price": 0.762,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 20000,
+                    "price": 0.722,
+                    "code": "R\t"
+                }
+            ]
         },
         {
-          "qty": 200,
-          "price": 3.13,
-          "code": "R\t"
+            "name": "20 oz Stainles Steel Tumbler w/Metal Handle",
+            "product_number": "FCSBH4",
+            "price": 13.36,
+            "category": "Mugs & Steins-Insulated",
+            "description": "This tumbler is with kitchen grade 18/8 stainless steel, dual wall vacuum seal eliminates condensation. Handle makes it easy to grip and carrye. Keeps drinks cold for 12 hours and hot for 8 hours, spill-resistant, thumb slide lid with rubber gasket. BPA Free. Not dishwasher safe, hand wash only.",
+            "summary": "Enjoy a beverage on the go with our 20-ounce reusable travel coffee mug.",
+            "image": "https://media.asicdn.com/images/orig/325890000/325895771.jpg",
+            "images": [
+                "https://media.asicdn.com/images/orig/325890000/325895771.jpg",
+                "https://media.asicdn.com/images/orig/325890000/325895772.jpg",
+                "https://media.asicdn.com/images/orig/325890000/325895773.jpg",
+                "https://media.asicdn.com/images/orig/325890000/325895774.jpg",
+                "https://media.asicdn.com/images/orig/325890000/325895775.jpg"
+            ],
+            "featured": true,
+            "details": {
+                "colors": "Medium Black=Black,Medium White=White,Medium Orange=Orange,Medium Red=Red,Medium Blue=Blue,Medium Purple=Purple,Medium Pink=Pink,Medium Gray=Gray,Medium Gray=Silver,Medium Brown=Brown",
+                "materials": "Stainless Steel=Stainless Steel",
+                "size": "20:oz",
+                "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+                "imprint_color": "Standard Colors,Custom Colors,PMS Colors",
+                "production_time": "5",
+                "price_includes": "nan"
+            },
+            "pricing_grid": [
+                {
+                    "qty": 50,
+                    "price": 13.36,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 100,
+                    "price": 13.18,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 200,
+                    "price": 12.98,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 300,
+                    "price": 12.85,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 500,
+                    "price": 12.55,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 1000,
+                    "price": 8.78,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 2000,
+                    "price": 8.65,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 5000,
+                    "price": 8.38,
+                    "code": "R\t"
+                }
+            ]
         },
         {
-          "qty": 300,
-          "price": 2.75,
-          "code": "R\t"
+            "name": "Adult Seafood Bib",
+            "product_number": "FCS0096",
+            "price": 0.602,
+            "category": "Aprons-Bib Style",
+            "description": "Made of PE. Easy clean and waterproof. Ideal item for crab feasts, seafood restaurants, and special events. 15.7\" x 23.6\"",
+            "summary": "Aprons-Bib Style",
+            "image": "https://media.asicdn.com/images/orig/322270000/322271433.jpg",
+            "images": [
+                "https://media.asicdn.com/images/orig/322270000/322271433.jpg",
+                "https://media.asicdn.com/images/orig/322270000/322271428.jpg",
+                "https://media.asicdn.com/images/orig/322270000/322271430.jpg",
+                "https://media.asicdn.com/images/orig/322270000/322271432.jpg"
+            ],
+            "featured": true,
+            "details": {
+                "colors": "Medium White=White",
+                "materials": "Plastic=Plastic",
+                "size": "Length:14.17:in;Width:23.62:in",
+                "imprint_method": "Silkscreen=Silkscreen",
+                "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+                "production_time": "7",
+                "price_includes": "nan"
+            },
+            "pricing_grid": [
+                {
+                    "qty": 100,
+                    "price": 0.602,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 200,
+                    "price": 0.545,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 500,
+                    "price": 0.427,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 1000,
+                    "price": 0.368,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 2000,
+                    "price": 0.336,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 5000,
+                    "price": 0.256,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 10000,
+                    "price": 0.227,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 20000,
+                    "price": 0.201,
+                    "code": "R\t"
+                }
+            ]
         },
         {
-          "qty": 500,
-          "price": 2.53,
-          "code": "R\t"
+            "name": "Mop Head Screen Cleaner Stylus Pens",
+            "product_number": "FCS0104",
+            "price": 2.055,
+            "category": "PEN & PENCIL ACCESSORIES",
+            "description": "The Mop Head Pen is made from high-quality ABS material, it writes smoothly without skipping or blotching. The comfortable grip and precision tip are perfect for writing and touchscreen use. Plus, the fuzzy head easily removes dust and fingerprints from screens. Ideal for school, office, or gift giving, the Pop Pen is a practical and stylish addition to any writing arsenal. Grab yours today and make a statement with every stroke! 10000pcs shipping by sea.",
+            "summary": "The Mop Head Pen is a sleek and functional writing tool that doubles as a screen cleaner and stylus.",
+            "image": "https://media.asicdn.com/images/orig/321070000/321078031.jpg",
+            "images": [
+                "https://media.asicdn.com/images/orig/321070000/321078031.jpg",
+                "https://media.asicdn.com/images/orig/321070000/321078033.jpg",
+                "https://media.asicdn.com/images/orig/321070000/321078036.jpg"
+            ],
+            "featured": true,
+            "details": {
+                "colors": "Medium Black=Black,Medium Red=Red,Medium White=White,Medium Yellow=Yellow,Medium Blue=Blue,Medium Pink=Pink,Medium Orange=Orange,Medium Green=Green,Medium Purple=Purple",
+                "materials": "Plastic=Plastic",
+                "size": "Length:6.6:in;Width:0.43:in",
+                "imprint_method": "Silkscreen=Silkscreen",
+                "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+                "production_time": "7",
+                "price_includes": "1 color 1 location imprint and shipping cost"
+            },
+            "pricing_grid": [
+                {
+                    "qty": 100,
+                    "price": 2.055,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 200,
+                    "price": 1.509,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 300,
+                    "price": 1.235,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 500,
+                    "price": 1.147,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 1000,
+                    "price": 1.065,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 3000,
+                    "price": 0.937,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 5000,
+                    "price": 0.829,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 10000,
+                    "price": 0.619,
+                    "code": "R\t"
+                }
+            ]
         },
         {
-          "qty": 1000,
-          "price": 2.32,
-          "code": "R\t"
+            "name": "Soft Microfiber Car Cleaning Towel",
+            "product_number": "FCS0012",
+            "price": 3.677,
+            "category": "AUTO ACCESSORIES",
+            "description": "This Car Cleaning Towel is non-abrasive microfiber cloths, Scratch-free, lint-free and swirl-free. Prevent scratching surfaces, paints, coats or other surface, especially for sensitive paintwork and automotive surfaces. Used for a variety of cleaning jobs: cleaning cars, trucks, boats, RV's , TV's, counter tops, and more. Other size are available.",
+            "summary": "This Car Cleaning Towel is non-abrasive microfiber cloths, Scratch-free, lint-free and swirl-free.",
+            "image": "https://media.asicdn.com/images/orig/319250000/319254788.jpg",
+            "images": [
+                "https://media.asicdn.com/images/orig/319250000/319254788.jpg",
+                "https://media.asicdn.com/images/orig/319250000/319254786.jpg",
+                "https://media.asicdn.com/images/orig/319250000/319254790.jpg",
+                "https://media.asicdn.com/images/orig/319250000/319254787.jpg",
+                "https://media.asicdn.com/images/orig/319250000/319254789.jpg"
+            ],
+            "featured": true,
+            "details": {
+                "colors": "Medium Yellow=Yellow,Medium Blue=Blue",
+                "materials": "Polyester=Polyester",
+                "size": "Length:11.81:in;Width:11.81:in",
+                "imprint_method": "Silkscreen=Silkscreen,Sublimation=Sublimation",
+                "imprint_color": "Up to full color",
+                "production_time": "7-9",
+                "price_includes": "1 color 1 location imprint and shipping cost"
+            },
+            "pricing_grid": [
+                {
+                    "qty": 100,
+                    "price": 3.677,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 200,
+                    "price": 3.432,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 300,
+                    "price": 3.356,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 500,
+                    "price": 3.125,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 800,
+                    "price": 2.978,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 1000,
+                    "price": 2.866,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 3000,
+                    "price": 2.592,
+                    "code": "R\t"
+                }
+            ]
         },
         {
-          "qty": 5000,
-          "price": 0.762,
-          "code": "R\t"
-        },
-        {
-          "qty": 20000,
-          "price": 0.722,
-          "code": "R\t"
+            "name": "Adhesive Carrying Handles",
+            "product_number": "FCS0072",
+            "price": 0.172,
+            "category": "TAPE",
+            "description": "The adhesive carry handles are widely used on packs in the beverage industry such as carry the mineral water packs, soft drinks, milk or toilet tissue pack. Made of BOPP material. Price includes a one color imprint and air shipping cost to one location in lower 48 states.",
+            "summary": "SEALS; TAPE",
+            "image": "https://media.asicdn.com/images/orig/319360000/319360027.jpg",
+            "images": [
+                "https://media.asicdn.com/images/orig/319360000/319360027.jpg",
+                "https://media.asicdn.com/images/orig/319360000/319360029.jpg",
+                "https://media.asicdn.com/images/orig/319360000/319360035.jpg",
+                "https://media.asicdn.com/images/orig/319360000/319360037.jpg",
+                "https://media.asicdn.com/images/orig/319360000/319360039.jpg"
+            ],
+            "featured": true,
+            "details": {
+                "colors": "Medium White=White",
+                "materials": "Polypropylene=Polypropylene",
+                "size": "Length:17 3/4:in;Width:1:in",
+                "imprint_method": "Silkscreen=Silkscreen",
+                "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+                "production_time": "9-11",
+                "price_includes": "one color one location imprint and shipping cost"
+            },
+            "pricing_grid": [
+                {
+                    "qty": 10000,
+                    "price": 0.172,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 20000,
+                    "price": 0.153,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 30000,
+                    "price": 0.141,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 50000,
+                    "price": 0.132,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 100000,
+                    "price": 0.127,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 150000,
+                    "price": 0.121,
+                    "code": "R\t"
+                },
+                {
+                    "qty": 200000,
+                    "price": 0.112,
+                    "code": "R\t"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "details": {
-        "colors": "Medium Black=Black,Medium White=White,Medium Orange=Orange,Medium Red=Red,Medium Blue=Blue,Medium Purple=Purple,Medium Pink=Pink,Medium Gray=Gray,Medium Gray=Silver,Medium Brown=Brown",
-        "materials": "Stainless Steel=Stainless Steel",
-        "size": "20:oz",
-        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
-        "imprint_color": "Standard Colors,Custom Colors,PMS Colors",
-        "production_time": "5",
-        "price_includes": "nan"
-      },
-      "summary": "Enjoy a beverage on the go with our 20-ounce reusable travel coffee mug.",
-      "price": 13.36,
-      "name": "20 oz Stainles Steel Tumbler w/Metal Handle",
-      "featured": true,
-      "product_number": "FCSBH4",
-      "image": "https://media.asicdn.com/images/orig/325890000/325895771.jpg",
-      "description": "This tumbler is with kitchen grade 18/8 stainless steel, dual wall vacuum seal eliminates condensation. Handle makes it easy to grip and carrye. Keeps drinks cold for 12 hours and hot for 8 hours, spill-resistant, thumb slide lid with rubber gasket. BPA Free. Not dishwasher safe, hand wash only.",
-      "category": "Mugs & Steins-Insulated",
-      "pricing_grid": [
-        {
-          "qty": 50,
-          "price": 13.36,
-          "code": "R\t"
-        },
-        {
-          "qty": 100,
-          "price": 13.18,
-          "code": "R\t"
-        },
-        {
-          "qty": 200,
-          "price": 12.98,
-          "code": "R\t"
-        },
-        {
-          "qty": 300,
-          "price": 12.85,
-          "code": "R\t"
-        },
-        {
-          "qty": 500,
-          "price": 12.55,
-          "code": "R\t"
-        },
-        {
-          "qty": 1000,
-          "price": 8.78,
-          "code": "R\t"
-        },
-        {
-          "qty": 2000,
-          "price": 8.65,
-          "code": "R\t"
-        },
-        {
-          "qty": 5000,
-          "price": 8.38,
-          "code": "R\t"
-        }
-      ]
-    },
-    {
-      "details": {
-        "colors": "Medium White=White",
-        "materials": "Plastic=Plastic",
-        "size": "Length:14.17:in;Width:23.62:in",
-        "imprint_method": "Silkscreen=Silkscreen",
-        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
-        "production_time": "7",
-        "price_includes": "nan"
-      },
-      "summary": "Aprons-Bib Style",
-      "price": 0.602,
-      "name": "Adult Seafood Bib",
-      "featured": true,
-      "product_number": "FCS0096",
-      "image": "https://media.asicdn.com/images/orig/322270000/322271433.jpg",
-      "description": "Made of PE. Easy clean and waterproof. Ideal item for crab feasts, seafood restaurants, and special events. 15.7\" x 23.6\"",
-      "category": "Aprons-Bib Style",
-      "pricing_grid": [
-        {
-          "qty": 100,
-          "price": 0.602,
-          "code": "R\t"
-        },
-        {
-          "qty": 200,
-          "price": 0.545,
-          "code": "R\t"
-        },
-        {
-          "qty": 500,
-          "price": 0.427,
-          "code": "R\t"
-        },
-        {
-          "qty": 1000,
-          "price": 0.368,
-          "code": "R\t"
-        },
-        {
-          "qty": 2000,
-          "price": 0.336,
-          "code": "R\t"
-        },
-        {
-          "qty": 5000,
-          "price": 0.256,
-          "code": "R\t"
-        },
-        {
-          "qty": 10000,
-          "price": 0.227,
-          "code": "R\t"
-        },
-        {
-          "qty": 20000,
-          "price": 0.201,
-          "code": "R\t"
-        }
-      ]
-    },
-    {
-      "details": {
-        "colors": "Medium Black=Black,Medium Red=Red,Medium White=White,Medium Yellow=Yellow,Medium Blue=Blue,Medium Pink=Pink,Medium Orange=Orange,Medium Green=Green,Medium Purple=Purple",
-        "materials": "Plastic=Plastic",
-        "size": "Length:6.6:in;Width:0.43:in",
-        "imprint_method": "Imprint Information",
-        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
-        "production_time": "7",
-        "price_includes": "1 color 1 location imprint and shipping cost"
-      },
-      "summary": "The Mop Head Pen is a sleek and functional writing tool that doubles as a screen cleaner and stylus.",
-      "price": 2.055,
-      "name": "Mop Head Screen Cleaner Stylus Pens",
-      "featured": true,
-      "product_number": "FCS0104",
-      "image": "https://media.asicdn.com/images/orig/321070000/321078031.jpg",
-      "description": "The Mop Head Pen is made from high-quality ABS material, it writes smoothly without skipping or blotching. The comfortable grip and precision tip are perfect for writing and touchscreen use. Plus, the fuzzy head easily removes dust and fingerprints from screens. Ideal for school, office, or gift giving, the Pop Pen is a practical and stylish addition to any writing arsenal. Grab yours today and make a statement with every stroke! 10000pcs shipping by sea.",
-      "category": "PEN & PENCIL ACCESSORIES",
-      "pricing_grid": [
-        {
-          "qty": 100,
-          "price": 2.055,
-          "code": "R\t"
-        },
-        {
-          "qty": 200,
-          "price": 1.509,
-          "code": "R\t"
-        },
-        {
-          "qty": 300,
-          "price": 1.235,
-          "code": "R\t"
-        },
-        {
-          "qty": 500,
-          "price": 1.147,
-          "code": "R\t"
-        },
-        {
-          "qty": 1000,
-          "price": 1.065,
-          "code": "R\t"
-        },
-        {
-          "qty": 3000,
-          "price": 0.937,
-          "code": "R\t"
-        },
-        {
-          "qty": 5000,
-          "price": 0.829,
-          "code": "R\t"
-        },
-        {
-          "qty": 10000,
-          "price": 0.619,
-          "code": "R\t"
-        }
-      ]
-    },
-    {
-      "details": {
-        "colors": "Medium Yellow=Yellow,Medium Blue=Blue",
-        "materials": "Polyester=Polyester",
-        "size": "Length:11.81:in;Width:11.81:in",
-        "imprint_method": "Silkscreen=Silkscreen,Sublimation=Sublimation",
-        "imprint_color": "Up to full color",
-        "production_time": "7-9",
-        "price_includes": "1 color 1 location imprint and shipping cost"
-      },
-      "summary": "This Car Cleaning Towel is non-abrasive microfiber cloths, Scratch-free, lint-free and swirl-free.",
-      "price": 3.677,
-      "name": "Soft Microfiber Car Cleaning Towel",
-      "featured": false,
-      "product_number": "FCS0012",
-      "image": "https://media.asicdn.com/images/orig/319250000/319254788.jpg",
-      "description": "This Car Cleaning Towel is non-abrasive microfiber cloths, Scratch-free, lint-free and swirl-free. Prevent scratching surfaces, paints, coats or other surface, especially for sensitive paintwork and automotive surfaces. Used for a variety of cleaning jobs: cleaning cars, trucks, boats, RV's , TV's, counter tops, and more. Other size are available.",
-      "category": "AUTO ACCESSORIES",
-      "pricing_grid": [
-        {
-          "qty": 100,
-          "price": 3.677,
-          "code": "R\t"
-        },
-        {
-          "qty": 200,
-          "price": 3.432,
-          "code": "R\t"
-        },
-        {
-          "qty": 300,
-          "price": 3.356,
-          "code": "R\t"
-        },
-        {
-          "qty": 500,
-          "price": 3.125,
-          "code": "R\t"
-        },
-        {
-          "qty": 800,
-          "price": 2.978,
-          "code": "R\t"
-        },
-        {
-          "qty": 1000,
-          "price": 2.866,
-          "code": "R\t"
-        },
-        {
-          "qty": 3000,
-          "price": 2.592,
-          "code": "R\t"
-        }
-      ]
-    },
-    {
-      "details": {
-        "colors": "Medium White=White",
-        "materials": "Polypropylene=Polypropylene",
-        "size": "Length:17 3/4:in;Width:1:in",
-        "imprint_method": "Silkscreen=Silkscreen",
-        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
-        "production_time": "9-11",
-        "price_includes": "one color one location imprint and shipping cost"
-      },
-      "summary": "SEALS; TAPE",
-      "price": 0.172,
-      "name": "Adhesive Carrying Handles",
-      "featured": false,
-      "product_number": "FCS0072",
-      "image": "https://media.asicdn.com/images/orig/319360000/319360027.jpg",
-      "description": "The adhesive carry handles are widely used on packs in the beverage industry such as carry the mineral water packs, soft drinks, milk or toilet tissue pack. Made of BOPP material. Price includes a one color imprint and air shipping cost to one location in lower 48 states.",
-      "category": "TAPE",
-      "pricing_grid": [
-        {
-          "qty": 10000,
-          "price": 0.172,
-          "code": "R\t"
-        },
-        {
-          "qty": 20000,
-          "price": 0.153,
-          "code": "R\t"
-        },
-        {
-          "qty": 30000,
-          "price": 0.141,
-          "code": "R\t"
-        },
-        {
-          "qty": 50000,
-          "price": 0.132,
-          "code": "R\t"
-        },
-        {
-          "qty": 100000,
-          "price": 0.127,
-          "code": "R\t"
-        },
-        {
-          "qty": 150000,
-          "price": 0.121,
-          "code": "R\t"
-        },
-        {
-          "qty": 200000,
-          "price": 0.112,
-          "code": "R\t"
-        }
-      ]
-    }
-  ]
+    ]
 }

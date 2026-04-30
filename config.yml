@@ -1,0 +1,98 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: 'Upload “{{path}}”'
+    moveMedia: 'Move “{{path}}”'
+    deleteMedia: 'Delete “{{path}}”'
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "settings"
+    label: "Global Settings"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "general"
+        label: "Site Header & Footer"
+        file: "content/settings/general.json"
+        fields:
+          - {label: "Site Name", name: "site_name", widget: "string"}
+          - {label: "Site Logo Image", name: "logo_image", widget: "image"}
+          - {label: "ASI Number", name: "asi_number", widget: "string"}
+          - {label: "Contact Email", name: "email", widget: "string"}
+          - {label: "Contact Phone", name: "phone", widget: "string"}
+          - {label: "Address", name: "address", widget: "text"}
+      - name: "about"
+        label: "About Us"
+        file: "content/pages/about.json"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+
+  - name: "pages"
+    label: "Page Content"
+    files:
+      - name: "home"
+        label: "Home Page Editor"
+        file: "content/pages/home.json"
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+              - {label: "Background Image", name: "image", widget: "image"}
+          - label: "Ethical Commitment Section"
+            name: "ethical"
+            widget: "object"
+            fields:
+              - {label: "Main Title", name: "title", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+
+  - name: "products"
+    label: "Product Catalog"
+    delete: false
+    files:
+      - name: "list"
+        label: "Product List"
+        file: "products.json"
+        fields:
+          - label: "All Products"
+            name: "products"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Product #", name: "product_number", widget: "string"}
+              - {label: "Price", name: "price", widget: "number", value_type: "float"}
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Summary", name: "summary", widget: "text"}
+              - {label: "Product Image", name: "image", widget: "image"}
+              - {label: "Additional Images", name: "images", widget: "list", field: {label: "Image URL", name: "url", widget: "image"}}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false}
+              - label: "Product Details"
+                name: "details"
+                widget: "object"
+                fields:
+                  - {label: "Colors", name: "colors", widget: "string"}
+                  - {label: "Materials", name: "materials", widget: "string"}
+                  - {label: "Size", name: "size", widget: "string"}
+                  - {label: "Imprint Method", name: "imprint_method", widget: "string"}
+                  - {label: "Imprint Color", name: "imprint_color", widget: "string"}
+                  - {label: "Production Time", name: "production_time", widget: "string"}
+                  - {label: "Price Includes", name: "price_includes", widget: "string"}
+              - label: "Pricing Grid"
+                name: "pricing_grid"
+                widget: "list"
+                fields:
+                  - {label: "Qty", name: "qty", widget: "number"}
+                  - {label: "Price", name: "price", widget: "number", value_type: "float"}
+                  - {label: "Code", name: "code", widget: "string"}

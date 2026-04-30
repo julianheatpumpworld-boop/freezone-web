@@ -379,11 +379,11 @@
         let sidebarExpanded = false;
 
         const CATEGORY_MAP = {
-            'Apparel': ['Apparel', 'Shirts', 'Headwear', 'Outerwear', 'Caps', 'Sweatshirts'],
-            'Bags': ['Bags', 'Tote Bags', 'Backpacks', 'Duffel Bags'],
-            'Writing': ['Writing Instruments', 'Pens', 'Pencils', 'Markers', 'PEN & PENCIL ACCESSORIES'],
-            'Tech': ['Tech Items', 'USB Drives', 'Power Banks', 'Electronic Accessories', 'LED PRODUCTS'],
-            'Drinkware': ['Drinkware', 'Mugs', 'Tumblers', 'Bottles', 'Mugs & Steins-Insulated']
+            'Apparel': ['Clothing-General', 'Baseball Caps-Six Panel', 'Caps & Hats-General', 'Outerwear-RAINWEAR', 'SOCKS', 'BANDANNAS', 'Apparel', 'Shirts', 'Headwear', 'Outerwear', 'Caps', 'Sweatshirts'],
+            'Bags': ['Bags-General', 'Bags-Shopping', 'Bags-Drawstring', 'Bags-Lunch', 'Tote Bags-Grocery', 'Tote Bags-Canvas', 'Backpacks-Drawstring', 'Bags', 'Tote Bags', 'Backpacks', 'Duffel Bags'],
+            'Writing': ['Pens-General', 'Pens-Ballpoint-General', 'Pencils-General', 'PEN & PENCIL ACCESSORIES', 'ERASERS', 'JOURNALS & DIARIES', 'Writing Instruments', 'Pens', 'Pencils', 'Markers'],
+            'Tech': ['Electronic Devices-General', 'Speakers-Wireless', 'Battery Rechargers & Adaptors-Power Banks', 'Battery Rechargers & Adaptors-Wireless QI Charger', 'Mobile Accessories-Stands & Holders', 'LED PRODUCTS', 'COMPUTER ACCESSORIES', 'Tech Items', 'USB Drives', 'Electronic Accessories'],
+            'Drinkware': ['Drinkware', 'Bottles-General', 'Bottles-Insulated', 'Bottles-Sport Type', 'Glasses-Drinking-Insulated', 'Glasses-Drinking-Tumbler', 'Mugs & Steins-Insulated', 'Mugs & Steins-Ceramic', 'Drinkware', 'Mugs', 'Tumblers', 'Bottles']
         };
 
         function saveCart() { localStorage.setItem('asiCart', JSON.stringify(cart)); }

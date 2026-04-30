@@ -48,6 +48,7 @@
         .cart-drawer { position: fixed; top: 0; right: -400px; width: 400px; height: 100vh; background: white; z-index: 200; transition: right 0.3s ease-in-out; box-shadow: -10px 0 30px rgba(0,0,0,0.1); }
         .cart-drawer.open { right: 0; }
         .cart-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 190; }
+        .asi-badge { background: linear-gradient(135deg, #ff9d00, #ff5e00); color: white; padding: 2px 10px; border-radius: 20px; font-weight: 800; box-shadow: 0 2px 5px rgba(255, 94, 0, 0.3); }
     </style>
 </head>
 <body class="bg-asi_light text-slate-800">
@@ -55,13 +56,13 @@
     <div id="google_translate_element" style="position: absolute; top: -100px;"></div>
 
     <!-- Top Utility Bar -->
-    <div class="bg-asi_blue text-white text-[11px] py-1.5 px-6 flex justify-between items-center">
+    <div class="bg-slate-900 text-white text-[11px] py-2 px-6 flex justify-between items-center border-b border-white/5">
         <div class="flex items-center gap-4">
-            <span>Official ASI Supplier</span>
-            <span class="font-bold border-l border-white/20 pl-4 uppercase">ASI #<span id="top-asi-num">55452</span></span>
+            <span class="opacity-70 font-medium tracking-wide">OFFICIAL MEMBERSHIP</span>
+            <span class="asi-badge uppercase tracking-tighter">ASI #<span id="top-asi-num">55452</span></span>
         </div>
-        <div class="flex items-center gap-4">
-            <a href="#contact" class="hover:underline">Contact Us</a>
+        <div class="flex items-center gap-6">
+            <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-accent transition-colors font-medium">Contact Us</a>
             <div id="google_translate_simple"></div>
         </div>
     </div>
@@ -83,10 +84,11 @@
 
                 <!-- Main Nav Dropdowns -->
                 <div class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-600">
-                    <a href="#home" class="hover:text-asi_blue">Home</a>
-                    <a href="#about" class="hover:text-asi_blue">About Us</a>
+                    <a href="javascript:window.scrollTo({top:0,behavior:'smooth'})" class="hover:text-asi_blue">Home</a>
+                    <a href="javascript:void(0)" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">About Us</a>
+                    <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">Contact Us</a>
                     <div class="relative nav-dropdown py-4">
-                        <button class="flex items-center gap-1 hover:text-asi_blue">Product Search <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
+                        <button class="flex items-center gap-1 hover:text-asi_blue uppercase tracking-widest text-[11px] font-bold">Product Search <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
                         <div class="absolute top-full left-0 w-64 bg-white border border-asi_border rounded shadow-xl nav-dropdown-content p-4 z-50">
                             <h5 class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">Top Searches</h5>
                             <div id="top-searches" class="space-y-2 mb-4"></div>
@@ -95,10 +97,10 @@
                         </div>
                     </div>
                     <div class="relative nav-dropdown py-4">
-                        <button class="flex items-center gap-1 hover:text-asi_blue">More <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
+                        <button class="flex items-center gap-1 hover:text-asi_blue uppercase tracking-widest text-[11px] font-bold">More <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
                         <div class="absolute top-full left-0 w-48 bg-white border border-asi_border rounded shadow-xl nav-dropdown-content py-2 z-50">
                             <a href="#ethical" class="block px-4 py-2 hover:bg-slate-50 hover:text-asi_blue">Ethical Commitment</a>
-                            <a href="#contact" class="block px-4 py-2 hover:bg-slate-50 hover:text-asi_blue">Global Support</a>
+                            <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="block px-4 py-2 hover:bg-slate-50 hover:text-asi_blue">Global Support</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +108,7 @@
                 <!-- Search Bar -->
                 <div class="flex-1 min-w-[250px] relative ml-auto">
                     <div class="flex">
-                        <input type="text" id="search-input" placeholder="Search products or item #..." class="w-full border border-asi_border border-r-0 rounded-l px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-asi_blue">
+                        <input type="text" id="search-input" onkeydown="if(event.key==='Enter')handleSearch()" placeholder="Search products or item #..." class="w-full border border-asi_border border-r-0 rounded-l px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-asi_blue">
                         <button onclick="handleSearch()" class="bg-asi_blue text-white px-5 py-2 rounded-r hover:bg-blue-800">
                             <i class="fa-solid fa-magnifying-glass text-sm"></i>
                         </button>
@@ -202,6 +204,16 @@
         </section>
     </main>
 
+    <!-- About Section -->
+    <section id="about-section" class="bg-white py-24 border-t border-asi_border">
+        <div class="container mx-auto px-4 max-w-4xl text-center">
+            <h2 class="text-3xl font-black text-asi_blue mb-8 uppercase tracking-widest" id="about-title">About FreeZone Concept</h2>
+            <div class="prose prose-slate mx-auto text-slate-600 leading-loose" id="about-content">
+                <p>Welcome to FreeZone Concept, your premier ASI supplier dedicated to delivering high-quality promotional products across North America. With a focus on sustainable procurement and ethical manufacturing, we provide branding solutions that help businesses grow while respecting global standards.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="bg-white border-t border-asi_border mt-20 pt-20 pb-10">
         <div class="container mx-auto px-4">
@@ -211,7 +223,7 @@
                         <img id="footer-logo-img" src="" class="h-8 w-auto object-contain hidden">
                         <span class="text-2xl font-bold text-asi_blue uppercase tracking-tight" id="footer-logo-text">FreeZone</span>
                     </div>
-                    <p class="text-sm text-slate-500 mb-8 leading-relaxed">Dedicated to sustainable procurement and professional branding solutions in North America.</p>
+                    <p class="text-sm text-slate-500 mb-8 leading-relaxed" id="footer-about-text">Dedicated to sustainable procurement and professional branding solutions in North America.</p>
                     <div class="flex gap-4 opacity-50">
                         <img src="https://img.icons8.com/color/48/visa.png" class="h-6">
                         <img src="https://img.icons8.com/color/48/mastercard.png" class="h-6">
@@ -356,23 +368,6 @@
     </div>
 
     <!-- Scripts -->
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                includedLanguages: 'en,fr,zh-CN,es,de,nl,it,pt,ru,ar',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                autoDisplay: false
-            }, 'google_translate_element');
-            setTimeout(() => {
-                const el = document.getElementById('google_translate_simple');
-                const gEl = document.getElementById('google_translate_element');
-                if (gEl && el) el.appendChild(gEl.children[0]);
-            }, 1000);
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
     <script>
         let cart = JSON.parse(localStorage.getItem('asiCart')) || [];
         let allProducts = [];
@@ -380,7 +375,7 @@
         let activeCategory = 'All';
         let sidebarExpanded = false;
         let currentPage = 1;
-        const pageSize = 20;
+        const pageSize = 21;
 
         const CATEGORY_MAP = {
             'Apparel': ['Clothing-General', 'Baseball Caps-Six Panel', 'Caps & Hats-General', 'Outerwear-RAINWEAR', 'SOCKS', 'BANDANNAS', 'Apparel', 'Shirts', 'Headwear', 'Outerwear', 'Caps', 'Sweatshirts'],
@@ -563,6 +558,8 @@
             renderTopSearches();
             try {
                 const settings = await (await fetch('content/settings/general.json')).json();
+                const aboutData = await (await fetch('content/pages/about.json')).json();
+                
                 document.title = settings.site_name;
                 document.getElementById('copyright-name').innerText = settings.site_name;
                 document.getElementById('top-asi-num').innerText = settings.asi_number;
@@ -570,6 +567,11 @@
                 document.getElementById('footer-email').innerText = settings.email;
                 document.getElementById('footer-phone').innerText = settings.phone;
                 document.getElementById('footer-address').innerText = settings.address;
+
+                if (aboutData) {
+                    document.getElementById('about-title').innerText = aboutData.title || `About ${settings.site_name}`;
+                    document.getElementById('about-content').innerHTML = aboutData.content || '';
+                }
                 
                 if (settings.logo_image) {
                     const logos = [document.getElementById('site-logo-img'), document.getElementById('footer-logo-img')];

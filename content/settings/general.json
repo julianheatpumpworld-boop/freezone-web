@@ -4,5 +4,9 @@
     "asi_number": "55452",
     "email": "info@freezoneconcept.com",
     "phone": "(209) 204-0569",
-    "address": "222 Cochrane Plz #2001 Morgan Hill, CA 95037"
+    "address": "222 Cochrane Plz #2001 Morgan Hill, CA 95037",
+    "footer": {
+        "copyright": "FreeZone",
+        "about_text": "Dedicated to sustainable procurement and professional branding solutions in North America."
+    }
 }

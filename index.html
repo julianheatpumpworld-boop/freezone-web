@@ -56,33 +56,57 @@
     <div id="google_translate_element" style="position: absolute; top: -100px;"></div>
 
     <!-- Top Utility Bar -->
-    <div class="bg-slate-900 text-white text-[11px] py-2 px-6 flex justify-between items-center border-b border-white/5">
-        <div class="flex items-center gap-4">
-            <span class="opacity-70 font-medium tracking-wide">OFFICIAL MEMBERSHIP</span>
-            <span class="asi-badge uppercase tracking-tighter">ASI #<span id="top-asi-num">55452</span></span>
+    <div class="bg-slate-900 text-white text-[11px] py-2 px-4 lg:px-6 flex justify-between items-center border-b border-white/5">
+        <div class="flex items-center gap-2 lg:gap-4">
+            <span class="opacity-70 font-medium tracking-wide hidden sm:inline">OFFICIAL MEMBERSHIP</span>
+            <span class="asi-badge uppercase tracking-tighter text-[9px] lg:text-[11px]">ASI #<span id="top-asi-num">55452</span></span>
         </div>
-        <div class="flex items-center gap-6">
-            <div id="google_translate_simple"></div>
+        <div class="flex items-center gap-2 lg:gap-6">
+            <!-- Custom Language Dropdown -->
+            <select id="custom_lang_select" onchange="doCustomTranslate(this.value)" class="bg-transparent border border-white/20 rounded px-2 py-1 text-[10px] text-white focus:outline-none focus:ring-1 focus:ring-white/50 cursor-pointer">
+                <option value="" class="text-slate-800">🌐 Language</option>
+                <option value="en" class="text-slate-800">English</option>
+                <option value="fr" class="text-slate-800">Français</option>
+                <option value="zh-CN" class="text-slate-800">中文 (简体)</option>
+                <option value="es" class="text-slate-800">Español</option>
+                <option value="de" class="text-slate-800">Deutsch</option>
+                <option value="nl" class="text-slate-800">Nederlands</option>
+                <option value="it" class="text-slate-800">Italiano</option>
+                <option value="pt" class="text-slate-800">Português</option>
+                <option value="ru" class="text-slate-800">Русский</option>
+                <option value="ar" class="text-slate-800">العربية</option>
+            </select>
+            <div id="google_translate_hidden" class="hidden"></div>
         </div>
     </div>
 
     <!-- Main Header -->
     <header class="bg-white border-b border-asi_border sticky-header shadow-sm">
         <div class="container mx-auto px-4 py-4">
-            <div class="flex flex-wrap items-center gap-6">
+            <div class="flex flex-wrap items-center justify-between gap-y-4 gap-x-2 lg:gap-6">
                 <!-- Logo Image -->
-                    <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="window.scrollTo({top:0,behavior:'smooth'})">
-                        <img id="site-logo-img" src="" class="h-24 w-auto object-contain hidden">
-                        <div id="site-logo-fallback" class="flex items-center gap-2">
-                            <div class="w-14 h-14 bg-asi_blue flex items-center justify-center rounded-2xl shadow-xl shadow-asi_blue/20">
-                                <i class="fa-solid fa-gift text-white text-3xl"></i>
-                            </div>
-                            <span class="text-3xl font-bold text-asi_blue tracking-tight leading-none uppercase" id="site-logo-text">FreeZone</span>
+                <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+                    <img id="site-logo-img" src="" class="h-16 lg:h-24 w-auto object-contain hidden">
+                    <div id="site-logo-fallback" class="flex items-center gap-2">
+                        <div class="w-10 h-10 lg:w-14 lg:h-14 bg-asi_blue flex items-center justify-center rounded-xl lg:rounded-2xl shadow-xl shadow-asi_blue/20">
+                            <i class="fa-solid fa-gift text-white text-xl lg:text-3xl"></i>
                         </div>
+                        <span class="text-xl lg:text-3xl font-bold text-asi_blue tracking-tight leading-none uppercase" id="site-logo-text">FreeZone</span>
                     </div>
+                </div>
 
-                <!-- Main Nav Dropdowns -->
-                <div class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-600">
+                <!-- Search Bar (Mobile Order 3, Desktop Order 2) -->
+                <div class="w-full lg:flex-1 lg:w-auto order-3 lg:order-2 relative lg:ml-auto">
+                    <div class="flex">
+                        <input type="text" id="search-input" onkeydown="if(event.key==='Enter')handleSearch()" placeholder="Search products or item #..." class="w-full border border-asi_border border-r-0 rounded-l px-4 py-2 lg:py-3 text-sm focus:outline-none focus:ring-1 focus:ring-asi_blue">
+                        <button onclick="handleSearch()" class="bg-asi_blue text-white px-5 lg:px-6 py-2 lg:py-3 rounded-r hover:bg-blue-800 transition-colors">
+                            <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Main Nav Dropdowns (Desktop Only) -->
+                <div class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-600 order-3">
                     <a href="javascript:window.scrollTo({top:0,behavior:'smooth'})" class="hover:text-asi_blue">Home</a>
                     <a href="javascript:void(0)" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">About Us</a>
                     <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">Contact Us</a>
@@ -104,20 +128,10 @@
                     </div>
                 </div>
 
-                <!-- Search Bar -->
-                <div class="flex-1 min-w-[250px] relative ml-auto">
-                    <div class="flex">
-                        <input type="text" id="search-input" onkeydown="if(event.key==='Enter')handleSearch()" placeholder="Search products or item #..." class="w-full border border-asi_border border-r-0 rounded-l px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-asi_blue">
-                        <button onclick="handleSearch()" class="bg-asi_blue text-white px-5 py-2 rounded-r hover:bg-blue-800">
-                            <i class="fa-solid fa-magnifying-glass text-sm"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Cart Icons -->
-                <div class="flex items-center gap-6 shrink-0">
+                <!-- Cart Icons (Mobile Order 2, Desktop Order 4) -->
+                <div class="flex items-center gap-6 shrink-0 order-2 lg:order-4">
                     <button onclick="toggleCart()" class="relative text-slate-600 hover:text-asi_blue">
-                        <i class="fa-solid fa-shopping-cart text-xl"></i>
+                        <i class="fa-solid fa-shopping-cart text-xl lg:text-2xl"></i>
                         <span id="cart-count" class="absolute -top-2 -right-2 bg-accent text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold shadow">0</span>
                     </button>
                 </div>
@@ -126,13 +140,13 @@
         
         <!-- Key Category Nav -->
         <nav class="bg-slate-50 border-t border-asi_border">
-            <div class="container mx-auto px-4 flex gap-10 py-3 text-[11px] font-bold text-slate-600 uppercase tracking-[0.15em]" id="fixed-nav">
-                <button onclick="filterByTopCategory('Apparel')" class="hover:text-asi_blue transition-colors">Apparel</button>
-                <button onclick="filterByTopCategory('Bags')" class="hover:text-asi_blue transition-colors">Bags</button>
-                <button onclick="filterByTopCategory('Writing')" class="hover:text-asi_blue transition-colors">Writing Instruments</button>
-                <button onclick="filterByTopCategory('Tech')" class="hover:text-asi_blue transition-colors">Tech Items</button>
-                <button onclick="filterByTopCategory('Drinkware')" class="hover:text-asi_blue transition-colors">Drinkware</button>
-                <button onclick="filterByCategory('All')" class="ml-auto text-asi_blue">All Products</button>
+            <div class="container mx-auto px-4 flex gap-6 lg:gap-10 py-3 text-[10px] lg:text-[11px] font-bold text-slate-600 uppercase tracking-[0.15em] overflow-x-auto hide-scrollbar whitespace-nowrap" id="fixed-nav">
+                <button onclick="filterByTopCategory('Apparel')" class="hover:text-asi_blue transition-colors shrink-0">Apparel</button>
+                <button onclick="filterByTopCategory('Bags')" class="hover:text-asi_blue transition-colors shrink-0">Bags</button>
+                <button onclick="filterByTopCategory('Writing')" class="hover:text-asi_blue transition-colors shrink-0">Writing Instruments</button>
+                <button onclick="filterByTopCategory('Tech')" class="hover:text-asi_blue transition-colors shrink-0">Tech Items</button>
+                <button onclick="filterByTopCategory('Drinkware')" class="hover:text-asi_blue transition-colors shrink-0">Drinkware</button>
+                <button onclick="filterByCategory('All')" class="ml-auto text-asi_blue shrink-0">All Products</button>
             </div>
         </nav>
     </header>
@@ -154,7 +168,14 @@
     </section>
 
     <!-- Main Content Area -->
-    <main class="container mx-auto px-4 py-12 flex gap-10">
+    <main class="container mx-auto px-4 py-6 lg:py-12 flex flex-col lg:flex-row gap-6 lg:gap-10">
+        <!-- Mobile Category Filter -->
+        <div class="block lg:hidden mb-2">
+            <select onchange="filterByCategory(this.value)" class="w-full bg-white border border-asi_border rounded-lg px-4 py-3 text-sm font-bold text-slate-700 focus:outline-none focus:ring-1 focus:ring-asi_blue" id="mobile-category-select">
+                <option value="All">All Categories</option>
+            </select>
+        </div>
+
         <!-- Sidebar Filters -->
         <aside class="hidden lg:block w-72 shrink-0">
             <div class="bg-white border border-asi_border rounded p-6 shadow-sm">
@@ -182,9 +203,9 @@
         <section class="flex-1">
             <div id="pagination-controls-top" class="mb-8 flex flex-col items-center gap-6"></div>
             
-            <div class="flex justify-between items-center mb-8 bg-white border border-asi_border rounded-lg px-6 py-4 shadow-sm">
-                <h2 class="text-lg font-bold" id="results-count">Search Results</h2>
-                <div class="flex items-center gap-4 text-sm">
+            <div class="flex flex-col sm:flex-row justify-between items-center mb-6 lg:mb-8 bg-white border border-asi_border rounded-lg px-4 lg:px-6 py-4 shadow-sm gap-4">
+                <h2 class="text-base lg:text-lg font-bold w-full sm:w-auto text-center sm:text-left" id="results-count">Search Results</h2>
+                <div class="flex items-center gap-2 lg:gap-4 text-xs lg:text-sm w-full sm:w-auto justify-center">
                     <div class="flex items-center gap-2">
                         <span class="text-slate-400">Sort:</span>
                         <select id="sort-select" onchange="handleSort()" class="border-none bg-transparent font-bold focus:ring-0 cursor-pointer text-asi_blue">
@@ -197,7 +218,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8" id="product-list">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-6" id="product-list">
                 <div class="col-span-full text-center py-20"><i class="fa-solid fa-circle-notch animate-spin text-3xl text-asi_blue"></i></div>
             </div>
             <!-- Pagination -->
@@ -542,8 +563,8 @@
                 const globalIdx = allProducts.findIndex(ap => ap.name === p.name);
                 const minPrice = getMinPrice(p);
                 return `<div class="product-card bg-white border border-asi_border rounded-xl overflow-hidden flex flex-col cursor-pointer group" onclick="openProductModal(${globalIdx})">
-                    <div class="aspect-square p-6 flex items-center justify-center border-b border-asi_border/30 bg-white"><img src="${p.image}" class="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-700"></div>
-                    <div class="p-6 flex-1 flex flex-col"><span class="text-[9px] font-bold text-asi_blue uppercase tracking-widest mb-1">${p.category}</span><h4 class="font-bold text-slate-800 line-clamp-2 mb-2 group-hover:text-asi_blue transition-colors h-10 leading-tight">${p.name}</h4><div class="mt-auto pt-4 flex justify-between items-end"><div><p class="text-[9px] text-slate-400 uppercase font-bold mb-1">As low as</p><p class="text-lg font-black text-asi_blue leading-none">$${minPrice.toFixed(3)}</p></div><div class="w-8 h-8 rounded-full border border-slate-100 flex items-center justify-center text-slate-300 group-hover:bg-asi_blue group-hover:text-white group-hover:border-asi_blue transition-all"><i class="fa-solid fa-arrow-right text-[10px]"></i></div></div></div>
+                    <div class="aspect-square p-3 sm:p-5 flex items-center justify-center border-b border-asi_border/30 bg-white"><img src="${p.image}" class="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-700"></div>
+                    <div class="p-3 sm:p-5 flex-1 flex flex-col"><span class="text-[8px] sm:text-[9px] font-bold text-asi_blue uppercase tracking-widest mb-1 truncate">${p.category}</span><h4 class="font-bold text-slate-800 line-clamp-2 mb-2 group-hover:text-asi_blue transition-colors text-xs sm:text-sm h-8 sm:h-10 leading-snug">${p.name}</h4><div class="mt-auto pt-2 sm:pt-4 flex justify-between items-end"><div><p class="text-[8px] sm:text-[9px] text-slate-400 uppercase font-bold mb-0.5">As low as</p><p class="text-sm sm:text-base font-black text-asi_blue leading-none">$${minPrice.toFixed(3)}</p></div><div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border border-slate-100 flex items-center justify-center text-slate-300 group-hover:bg-asi_blue group-hover:text-white group-hover:border-asi_blue transition-all"><i class="fa-solid fa-arrow-right text-[8px] sm:text-[10px]"></i></div></div></div>
                 </div>`;
             }).join('');
 
@@ -573,6 +594,7 @@
         function renderSidebar(full) {
             const sidebar = document.getElementById('sidebar-categories');
             const container = document.getElementById('see-more-container');
+            const mobileSelect = document.getElementById('mobile-category-select');
             const cats = [...new Set(allProducts.map(p => p.category))].sort();
             
             const list = full ? cats : cats.slice(0, 10);
@@ -581,6 +603,11 @@
             if (cats.length > 10) {
                 container.innerHTML = `<button onclick="sidebarExpanded=!sidebarExpanded;renderSidebar(sidebarExpanded)" class="text-xs font-bold text-asi_blue py-2 flex items-center gap-2">${sidebarExpanded ? '<i class="fa-solid fa-minus"></i> See Less' : '<i class="fa-solid fa-plus"></i> See More'}</button>`;
             }
+
+            // Populate mobile select
+            mobileSelect.innerHTML = `<option value="All">All Categories (${allProducts.length})</option>` + 
+                cats.map(c => `<option value="${c}">${c} (${allProducts.filter(p=>p.category===c).length})</option>`).join('');
+            mobileSelect.value = activeCategory;
         }
 
         function scrollCarousel(dir) { document.getElementById('latest-carousel').scrollLeft += dir * 400; }
@@ -667,9 +694,17 @@
             new google.translate.TranslateElement({
                 pageLanguage: 'en',
                 includedLanguages: 'en,fr,zh-CN,es,de,nl,it,pt,ru,ar',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
                 autoDisplay: false
-            }, 'google_translate_simple');
+            }, 'google_translate_hidden');
+        }
+
+        function doCustomTranslate(langCode) {
+            if(!langCode) return;
+            const select = document.querySelector('.goog-te-combo');
+            if (select) {
+                select.value = langCode;
+                select.dispatchEvent(new Event('change'));
+            }
         }
     </script>
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

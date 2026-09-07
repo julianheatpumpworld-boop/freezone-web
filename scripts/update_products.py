@@ -1,59 +1,100 @@
 import pandas as pd
 import json
 import os
+import re
 
-def convert_excel_to_json(excel_path, json_path):
-    df = pd.read_excel(excel_path)
+def slugify(text):
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    return text.strip('-')
+
+def build_bundled_json():
+    input_dir = 'F:/Accio Work/content/products'
+    output_path = 'F:/Accio Work/products.json'
     
     products = []
+    if not os.path.exists(input_dir):
+        return
+
+    files = [f for f in os.listdir(input_dir) if f.endswith('.json')]
+    for filename in files:
+        file_path = os.path.join(input_dir, filename)
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                product_data = json.load(f)
+                products.append(product_data)
+        except:
+            continue
+            
+    products.sort(key=lambda x: x.get('name', '').lower())
+    output = {"products": products}
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(output, f, indent=4, ensure_ascii=False)
+    print(f"Successfully bundled {len(products)} products into products.json")
+
+def convert_csv_to_json(csv_path):
+    output_dir = 'F:/Accio Work/content/products'
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    df = pd.read_csv(csv_path, encoding='utf-8')
+    df.columns = [c.strip() for c in df.columns]
+    
+    count = 0
     for i, row in df.iterrows():
-        # Multi-image support
-        img_raw = str(row.get('Prod_Image', ''))
+        def clean(val):
+            if pd.isna(val): return ""
+            return str(val).strip().replace('\t', '')
+
+        img_raw = clean(row.get('Prod_Image', ''))
         images = [url.strip() for url in img_raw.split(',') if url.strip()]
         primary_image = images[0] if images else ""
         
-        # Pricing Grid
         pricing = []
         for j in range(1, 11):
             q_val = row.get(f'Q{j}')
             p_val = row.get(f'P{j}')
             d_val = row.get(f'D{j}')
             if pd.notna(q_val) and pd.notna(p_val):
-                pricing.append({
-                    "qty": int(q_val),
-                    "price": float(p_val),
-                    "code": str(d_val) if pd.notna(d_val) else ""
-                })
+                try:
+                    qty = int(float(str(q_val).replace('\t', '').strip()))
+                    price = float(str(p_val).replace('\t', '').strip())
+                    pricing.append({"qty": qty, "price": price, "code": clean(d_val)})
+                except: continue
 
         product = {
-            "name": str(row.get('Product_Name', "N/A")).strip(),
-            "product_number": str(row.get('Product_Number', "")).strip(),
-            "price": float(row.get('P1', 0)) if pd.notna(row.get('P1')) else 0.0,
-            "category": str(row.get('Category', "Uncategorized")).split(',')[0].strip(),
-            "description": str(row.get('Description', "")).strip(),
-            "summary": str(row.get('Summary', "")).strip(),
+            "name": clean(row.get('Product_Name', "N/A")),
+            "product_number": clean(row.get('Product_Number', "")),
+            "price": float(pricing[0]['price']) if pricing else 0.0,
+            "category": clean(row.get('Category', "Uncategorized")).split(',')[0].strip(),
+            "description": clean(row.get('Description', "")),
+            "summary": clean(row.get('Summary', "")),
             "image": primary_image,
-            "images": images, # Array of all images
-            "featured": i < 8,
+            "images": images,
+            "featured": i < 12,
             "details": {
-                "colors": str(row.get('Product_Color', "")).strip(),
-                "materials": str(row.get('Material', "")).strip(),
-                "size": str(row.get('Size_Values', "")).strip(),
-                "imprint_method": str(row.get('Imprint_Method', "")).strip(),
-                "imprint_color": str(row.get('Imprint_Color', "")).strip(),
-                "production_time": str(row.get('Production_Time', "")).strip(),
-                "price_includes": str(row.get('Price_Includes', "")).strip()
+                "colors": clean(row.get('Product_Color', "")),
+                "materials": clean(row.get('Material', "")),
+                "size": clean(row.get('Size_Values', "")),
+                "imprint_method": clean(row.get('Imprint_Method', "")),
+                "imprint_color": clean(row.get('Imprint_Color', "")),
+                "production_time": clean(row.get('Production_Time', "")),
+                "price_includes": clean(row.get('Price_Includes', ""))
             },
             "pricing_grid": pricing
         }
-        products.append(product)
+        
+        # Save individual file
+        item_num = product['product_number']
+        filename = slugify(item_num) if item_num else slugify(product['name'])[:50]
+        file_path = os.path.join(output_dir, f"{filename}.json")
+        
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(product, f, indent=4, ensure_ascii=False)
+        count += 1
     
-    output = {"products": products}
-    
-    with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(output, f, indent=4, ensure_ascii=False)
-    
-    print(f"Successfully converted {len(products)} products with full ASI details.")
+    print(f"Successfully converted {count} products to individual files.")
+    build_bundled_json()
 
 if __name__ == "__main__":
-    convert_excel_to_json('F:/Accio Work/5855589_USD.xlsx', 'F:/Accio Work/products.json')
+    convert_csv_to_json('F:/Accio Work/5855589_USD.csv')

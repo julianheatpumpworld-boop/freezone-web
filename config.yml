@@ -63,51 +63,48 @@ collections:
 
   - name: "catalog"
     label: "3. Product Catalog"
-    files:
-      - name: "products"
-        label: "Products Management"
-        file: "products.json"
+    folder: "content/products"
+    create: true
+    slug: "{{product_number}}"
+    extension: "json"
+    format: "json"
+    summary: '{{name}} ({{product_number}}) - ${{price}}'
+    sortable_fields: ['name', 'price', 'product_number']
+    fields:
+      - {label: "Product Name", name: "name", widget: "string", hint: "Full name of the product"}
+      - {label: "Item # (ASI Number)", name: "product_number", widget: "string", hint: "Unique identifier or SKU"}
+      - {label: "Base Price (As low as)", name: "price", widget: "number", value_type: "float", hint: "The lowest price to display on the main grid"}
+      - {label: "Category", name: "category", widget: "string", hint: "Which category this belongs to (e.g., Apparel, Bags)"}
+      - {label: "Full Description", name: "description", widget: "markdown"}
+      - {label: "Short Summary", name: "summary", widget: "text", required: false}
+      - {label: "Main Image", name: "image", widget: "image"}
+      - label: "Gallery Images"
+        name: "images"
+        widget: "list"
+        required: false
+        collapsed: true
+        summary: 'Additional Image'
+        field: {label: "Image URL", name: "url", widget: "image"}
+      - {label: "Featured (Show on Home)", name: "featured", widget: "boolean", default: false, hint: "Turn this on to display this product in the Latest Collections carousel on the homepage"}
+      - label: "Product Specifications"
+        name: "details"
+        widget: "object"
+        collapsed: true
         fields:
-          - label: "All Products"
-            name: "products"
-            widget: "list"
-            summary: '{{fields.name}} ({{fields.product_number}}) - ${{fields.price}}'
-            hint: "Add, remove, or edit your products here. Click a product to expand its details."
-            fields:
-              - {label: "Product Name", name: "name", widget: "string", hint: "Full name of the product"}
-              - {label: "Item # (ASI Number)", name: "product_number", widget: "string", hint: "Unique identifier or SKU"}
-              - {label: "Base Price (As low as)", name: "price", widget: "number", value_type: "float", hint: "The lowest price to display on the main grid"}
-              - {label: "Category", name: "category", widget: "string", hint: "Which category this belongs to (e.g., Apparel, Bags)"}
-              - {label: "Full Description", name: "description", widget: "markdown"}
-              - {label: "Short Summary", name: "summary", widget: "text", required: false}
-              - {label: "Main Image", name: "image", widget: "image"}
-              - label: "Gallery Images"
-                name: "images"
-                widget: "list"
-                required: false
-                collapsed: true
-                summary: 'Additional Image'
-                field: {label: "Image URL", name: "url", widget: "image"}
-              - {label: "Featured (Show on Home)", name: "featured", widget: "boolean", default: false, hint: "Turn this on to display this product in the Latest Collections carousel on the homepage"}
-              - label: "Product Specifications"
-                name: "details"
-                widget: "object"
-                collapsed: true
-                fields:
-                  - {label: "Colors", name: "colors", widget: "string", required: false}
-                  - {label: "Materials", name: "materials", widget: "string", required: false}
-                  - {label: "Size", name: "size", widget: "string", required: false}
-                  - {label: "Imprint Method", name: "imprint_method", widget: "string", required: false}
-                  - {label: "Imprint Color", name: "imprint_color", widget: "string", required: false}
-                  - {label: "Production Time", name: "production_time", widget: "string", required: false}
-                  - {label: "Price Includes", name: "price_includes", widget: "string", required: false}
-              - label: "Tiered Pricing Grid"
-                name: "pricing_grid"
-                widget: "list"
-                collapsed: true
-                summary: 'Qty: {{fields.qty}} - ${{fields.price}}'
-                hint: "Add price breaks based on quantity"
-                fields:
-                  - {label: "Quantity", name: "qty", widget: "number"}
-                  - {label: "Price ($)", name: "price", widget: "number", value_type: "float"}
-                  - {label: "Code", name: "code", widget: "string"}
+          - {label: "Colors", name: "colors", widget: "string", required: false}
+          - {label: "Materials", name: "materials", widget: "string", required: false}
+          - {label: "Size", name: "size", widget: "string", required: false}
+          - {label: "Imprint Method", name: "imprint_method", widget: "string", required: false}
+          - {label: "Imprint Color", name: "imprint_color", widget: "string", required: false}
+          - {label: "Production Time", name: "production_time", widget: "string", required: false}
+          - {label: "Price Includes", name: "price_includes", widget: "string", required: false}
+      - label: "Tiered Pricing Grid"
+        name: "pricing_grid"
+        widget: "list"
+        collapsed: true
+        summary: 'Qty: {{fields.qty}} - ${{fields.price}}'
+        hint: "Add price breaks based on quantity"
+        fields:
+          - {label: "Quantity", name: "qty", widget: "number"}
+          - {label: "Price ($)", name: "price", widget: "number", value_type: "float"}
+          - {label: "Code", name: "code", widget: "string"}

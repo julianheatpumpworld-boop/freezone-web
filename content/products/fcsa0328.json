@@ -1,0 +1,51 @@
+{
+    "name": "Cheering Foam Finger",
+    "product_number": "FCSA0328",
+    "price": 3.9,
+    "category": "Cheering Accessories-Cheering Mitts",
+    "description": "The  Cheering EVA Foam Finger is a fun and handy accessory. Made from EVA material, it measures 46X23x0.4cm. Lightweight and easy to hold, it's perfect for cheering at parties, sports events, and more. Its compact size makes it convenient to carry around. Add a touch of excitement to any occasion with this cute foam finger!",
+    "summary": "It's a great ideal for  soccer matches, football games, tailgates, sports parties,A must-have souvenir for Team USA fans and sport",
+    "image": "https://media.asicdn.com/images/orig/361190000/361194946.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/361190000/361194946.png",
+        "https://media.asicdn.com/images/orig/361190000/361194947.png",
+        "https://media.asicdn.com/images/orig/361190000/361194948.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Blue=Blue,Medium Orange=Orange,Medium White=White,Medium Black=Black,Medium Yellow=Yellow,Medium Purple=Purple",
+        "materials": "Foam=Eva Foam",
+        "size": "Length:18.1:in;Width:9.05:in;Height:0.16:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.9,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.78,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.65,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.49,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.99,
+            "code": "R"
+        }
+    ]
+}

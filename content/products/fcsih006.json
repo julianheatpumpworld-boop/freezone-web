@@ -1,0 +1,63 @@
+{
+    "name": "2 Bottles Felt Wine Bag",
+    "product_number": "FCSIH006",
+    "price": 4.48,
+    "category": "Bags-Bottle",
+    "description": "The 2 bottles wine bag is made of high-quality felt, equipped with PU handle, exquisite craftsmanship, tight stitching, not easy to break or deform, can bring good protection to your wine bottles, and can be used for a long time. Felt wine bags protect your wine bottles from external impacts and are perfect for taking to the beach, park, parties, picnics, weddings, concerts and sporting events, these wine tote bags are the ideal way to transport and chill your wine.profound impact on everyone.",
+    "summary": "Our 2-bottle wine bags are crafted from high-quality, thick felt, ensuring durability and protection for your wine bottles.",
+    "image": "https://media.asicdn.com/images/orig/330670000/330672542.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/330670000/330672542.png",
+        "https://media.asicdn.com/images/orig/330670000/330672543.jpg",
+        "https://media.asicdn.com/images/orig/330670000/330672544.jpg",
+        "https://media.asicdn.com/images/orig/330670000/330672546.jpg",
+        "https://media.asicdn.com/images/orig/330670000/330672548.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Gray=Gray,Other=Custom",
+        "materials": "Felt=Felt",
+        "size": "Length:11.22:in;Width:5.61:in;Height:9.84:in",
+        "imprint_method": "Heat Transfer=Heat Transfer,Embossed=Embossed,Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color,Standard Colors,Custom Colors,PMS Colors",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 4.48,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 4.32,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 4.18,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 3.92,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 3.78,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 2.58,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 2.35,
+            "code": "R"
+        }
+    ]
+}

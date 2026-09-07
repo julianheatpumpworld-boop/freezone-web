@@ -1,0 +1,51 @@
+{
+    "name": "Rainbow National Flag Color Face Paint",
+    "product_number": "FCSA 0317",
+    "price": 0.78,
+    "category": "PAINT",
+    "description": "This portable 6-color rainbow face paint stick is designed for quick, mess-free creative expression. It features vibrant rainbow hues (red, orange, yellow, green, blue, black) that glide smoothly onto skin, making it perfect for sports events, pride parades, festivals, and kids' parties.",
+    "summary": "Whether cheering for your team, celebrating pride, or creating playful looks, this rainbow face paint stick adds colorful joy to a",
+    "image": "https://media.asicdn.com/images/orig/360230000/360239659.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360230000/360239659.png",
+        "https://media.asicdn.com/images/orig/360230000/360239660.png",
+        "https://media.asicdn.com/images/orig/360230000/360239664.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White",
+        "materials": "Plastic=Plastic",
+        "size": "Length:2.4:in;Width:1.4:in",
+        "imprint_method": "Pad Print=Pad Print",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 0.78,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.66,
+            "code": "R"
+        },
+        {
+            "qty": 1500,
+            "price": 0.59,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.49,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.45,
+            "code": "R"
+        }
+    ]
+}

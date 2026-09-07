@@ -1,0 +1,62 @@
+{
+    "name": "Bamboo Phone Holder",
+    "product_number": "FCSIH014",
+    "price": 2.15,
+    "category": "Mobile Accessories-Stands & Holders",
+    "description": "This phone stand is made from lightweight and portable bamboo, this two-piece stand easily assembles for hands-free use of your phone. A cutout allows you to charge your phone while it sits in the holder.Two size options, the big size can be for Pad stand. The pricing is for small size.",
+    "summary": "These stylish mugs offer a sustainable way to enjoy your favourite beverages, be it coffee, tea, or other drinks.",
+    "image": "https://media.asicdn.com/images/orig/331950000/331956386.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/331950000/331956386.png",
+        "https://media.asicdn.com/images/orig/331950000/331956387.png",
+        "https://media.asicdn.com/images/orig/331950000/331956390.jpg",
+        "https://media.asicdn.com/images/orig/331950000/331956391.jpg"
+    ],
+    "featured": true,
+    "details": {
+        "colors": "Other=Wood",
+        "materials": "Bamboo Wood=Bamboo",
+        "size": "Length:3.07:in;Width:2.87:in;Height:5.51:in,Length:4.72:in;Width:3.54:in;Height:7.09:in",
+        "imprint_method": "Silkscreen=Silkscreen,Engraved=Engraved",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "5",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.15,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.98,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.83,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.65,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.42,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.98,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.88,
+            "code": "R"
+        }
+    ]
+}

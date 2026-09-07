@@ -1,0 +1,61 @@
+{
+    "name": "Velvet Drawstring Gift Bags",
+    "product_number": "FCSM64",
+    "price": 1.775,
+    "category": "Bags-Drawstring",
+    "description": "These velvet gift bags are made of high quality flannelette,exquisite workmanship,beautiful and practical,classic color,simple fashion,support you to use many times. They are easy to use and are designed to open and close easily, Ideal for storing Christmas tree ornaments, guardian angel coin, Advent Calendar treasures, game pieces, marbles, money, change, coin tokens, figures, mini bottles, business cards, make watch cushions and more.protecting your items and avoiding loss of your items.These drawstring gift bags are widely used,such as daily use,birthday parties,Christmas,weddings,formal dinners,Valentine's Day,etc;Other regular sizes are available like 2\" x 2.7\", 2.7\" x 3.5\", 3.9\" x 4.7\", 3.9\" x 5.9\", 4.7\" x 5.9\",5\" x 7\",5.9\" x 7.9\",6.7\" x 9\",7.9\" x 9\",11.8\" x 15.7\" and we can also cus",
+    "summary": "The jewelry pouch has a drawstring, which can greatly protect the contents in it and avoid the items leaking out and getting lost",
+    "image": "https://media.asicdn.com/images/orig/328410000/328410442.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/328410000/328410442.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410443.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410444.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Gray=Gray,Bright Blue=Royal Blue,Medium White=White,Medium Green=Green,Medium Pink=Pink,Medium Purple=Purple,Medium Brown=Brown,Medium Blue=Blue,Light Blue=Light Blue,Medium Orange=Orange,Dark Yellow=Gold,Other=Beige",
+        "materials": "Other Fabric=Flannel",
+        "size": "Length:3.1:in;Width:3.9:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.775,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.038,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.534,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.452,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.368,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.307,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.254,
+            "code": "R"
+        }
+    ]
+}

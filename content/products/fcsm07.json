@@ -1,0 +1,65 @@
+{
+    "name": "Foldable Reusable Grocery Shopping Tote Bag",
+    "product_number": "FCSM07",
+    "price": 2.652,
+    "category": "Bags-Shopping",
+    "description": "Foldable Reusable Shopping Bag/ Grocery Bags are made from polyester. Reusable, washable & water resistant. So light and small you can keep it in your handbag. Use these eco-friendly bags whenever you go shopping instead of the plastic bags provided at stores. Eco friendly, highly portable, and very practical for daily use. Its made an idea gift for friends and relatives.Qty for 5000 and over by sea.",
+    "summary": "Eco friendly, easy, and very practical for daily use, e.g. grocery shopping, outdoor activities or as a gift bag",
+    "image": "https://media.asicdn.com/images/orig/326300000/326302702.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326300000/326302702.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302701.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302703.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302704.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302706.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302699.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302700.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Green=Green,Medium Orange=Orange,Medium Yellow=Yellow,Medium Black=Black,Medium White=White",
+        "materials": "Polyester=Polyester",
+        "size": "Length:21.6:in;Width:13.7:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "10",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.652,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.652,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.338,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.229,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.205,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.914,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.894,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "100% Cotton Turkish Beach Towel",
+    "product_number": "FCSIH001",
+    "price": 9.72,
+    "category": "Towels-Bath",
+    "description": "This Turkish Beach Towel is made of 100% cotton and are lightweight, quick drying, and space-efficient.Towel rolls up neatly to pack & go. Perfect for beach, pool, spa, sauna, gym, yoga, travel, camping and picnics. Towel takes about a quarter of the space of a traditional plush towel. Easily stack on small bathroom display shelves or hang on wall-hooks. Completely logo and color customizable. Embroider or heat transfer either side of the towel and pick a custom Pantone color for the stripes from 200+ units. Over 1000 pcs is by SEA.",
+    "summary": "100% Cotton Turkish Towels are lightweight, quick drying, and space-efficient.",
+    "image": "https://media.asicdn.com/images/orig/330290000/330294213.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/330290000/330294213.png",
+        "https://media.asicdn.com/images/orig/330290000/330294215.png",
+        "https://media.asicdn.com/images/orig/330290000/330294217.png",
+        "https://media.asicdn.com/images/orig/330290000/330294218.png",
+        "https://media.asicdn.com/images/orig/330290000/330294219.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Pink=Pink,Medium Purple=Purple,Medium Blue=Blue,Medium Gray=Other,Medium Brown=Brown,Medium Orange=Orange,Other=Custom",
+        "materials": "Cotton=100% 200Gsm Cotton",
+        "size": "Length:72:in;Width:40:in",
+        "imprint_method": "Embroidered=Embroidered,Heat Transfer=Heat Transfer",
+        "imprint_color": "Up to full color,Custom Colors",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 9.72,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 9.35,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 9.02,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.75,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.85,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 5.62,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 4.88,
+            "code": "R"
+        }
+    ]
+}

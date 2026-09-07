@@ -1,0 +1,62 @@
+{
+    "name": "Non-Woven Insulated Cooler Bag",
+    "product_number": "FCSM09",
+    "price": 4.862,
+    "category": "Bags-Lunch",
+    "description": "The insulated  bag is built with insulated material; And the lunch bag interior is padded with thick insulation to keep food stay cold, warm and fresh for hours,This Insulated Cooler Bag item will keep you worry free in maintaining the temperature of food you wish to bring anywhere you go.the insulated lunch bags are foldable, so they can be collapsed into a flat shape when not in use, which are lightweight and portable, easy to store in your kitchen, trunk or under the car seat, and the reinforced handles can withstand heavy weight of stuff On your next company event, print your brand here and make this insulated cooler bag your party favors.Qty for 2000 and over shipping by sea.",
+    "summary": "Suitable for Storing Ice Cubes and Frozen Products, with Good Preservation and Insulation Effects",
+    "image": "https://media.asicdn.com/images/orig/326430000/326437252.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326430000/326437252.jpg",
+        "https://media.asicdn.com/images/orig/326430000/326437253.jpg",
+        "https://media.asicdn.com/images/orig/326430000/326437254.jpg",
+        "https://media.asicdn.com/images/orig/326430000/326437255.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Brown=Brown,Medium Gray=Gray,Medium Green=Green,Medium Orange=Orange,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium Yellow=Yellow,Dark Red=Burgundy,Bright Blue=Royal Blue,Dark Blue=Navy Blue,Light Blue=Light Blue,Dark Red=Maroon",
+        "materials": "Non-Woven Fabric=Non-Woven Fabric",
+        "size": "Length:8.27:in;Width:5.51:in;Height:6.69:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "15-18",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 4.862,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 4.775,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 4.221,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 2.806,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 2.726,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 2.647,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 2.489,
+            "code": "R"
+        }
+    ]
+}

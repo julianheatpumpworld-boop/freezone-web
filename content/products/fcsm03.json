@@ -1,0 +1,61 @@
+{
+    "name": "Sports Cooling Towel",
+    "product_number": "FCSM03",
+    "price": 2.483,
+    "category": "COOLING TOWELS & SCARVES",
+    "description": "The cooling towels is made of polyester hyper-evaporate breathable mesh material. The unique cooling system uses moisture from the towel to draw the sweat away from your skin to keep you cool.It's a magic towel chills instantly. Cool down quickly by simply soaking it, wringing out the water and shaking it.Just a few seconds the chill towel will keep cooling for several hours and reactivate the chilling by repeating the steps. Size 11.8 \" x 31.5 \",It's amazingly easy to pack away and take with you anywhere such as hanging in a bag, Qty for 5000 and over by sea.",
+    "summary": "Cooling towel is perfect for exercise enthusiasts who love sports, swimming, exercise, gym, golf, camping and fitness;",
+    "image": "https://media.asicdn.com/images/orig/326290000/326296097.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326290000/326296097.jpg",
+        "https://media.asicdn.com/images/orig/326290000/326296096.jpg",
+        "https://media.asicdn.com/images/orig/326290000/326296095.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Pink=Pink,Medium Gray=Gray,Medium Black=Black,Medium Purple=Purple,Medium Orange=Orange,Medium Red=Red",
+        "materials": "Polyester=Polyester",
+        "size": "Length:11.8:in;Width:31.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "10",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.483,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.675,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.547,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.123,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.085,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.734,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.646,
+            "code": "R"
+        }
+    ]
+}

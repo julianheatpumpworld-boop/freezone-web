@@ -1,0 +1,51 @@
+{
+    "name": "Chemical Fiber Fluffy Curly Wig",
+    "product_number": "FCSA 0320",
+    "price": 10.99,
+    "category": "Beauty Aids-Hair",
+    "description": "Our long curly wig made of high-quality heat-resistant synthetic hair, this wig looks and feels like real human hair, with a soft, smooth texture that won't tangle easily. The adjustable cap fits most head sizes comfortably, ensuring a secure and breathable wear for all-day events",
+    "summary": "Each wig comes with a wig cap for easy wearing. It's an amazing gift for friends, family, or anyone who loves cosplay and fashion.",
+    "image": "https://media.asicdn.com/images/orig/360240000/360242380.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360240000/360242380.png",
+        "https://media.asicdn.com/images/orig/360240000/360242382.png",
+        "https://media.asicdn.com/images/orig/360240000/360242385.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Purple=Purple,Light Blue=Light Blue,Medium Pink=Pink,Medium Yellow=Yellow,Medium Green=Green,Medium Red=Red,Medium Blue=Dark Blue,Other=Lavender",
+        "materials": "PET/PETE=Pet",
+        "size": "Length:19:in",
+        "imprint_method": "Pad Print=Pad Print",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 10.99,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 9.9,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.79,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 7.59,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 6.49,
+            "code": "R"
+        }
+    ]
+}

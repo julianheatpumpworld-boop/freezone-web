@@ -1,0 +1,63 @@
+{
+    "name": "Custom Flip flops",
+    "product_number": "FCSM34",
+    "price": 11.52,
+    "category": "FLIP FLOPS",
+    "description": "Classic flip-flop,  Easy to slip on and off, and they dry quickly when they get wet. Use for combing the beach, hitting in the locker room, or hanging out at home. hese shower flip flops are the best leisure sandals for any casual occasion no matter indoor or outdoor,especially for sunny days in the sand or on the pool deck which make fantastic summer giveawaysSuitable for men and women.Associate your BRAND with comfort and great style when you make these beach flip flops your next promotion! 1000pairs and over shipping by sea.",
+    "summary": "They can be a great promotional product for beach visitors or travelers.",
+    "image": "https://media.asicdn.com/images/orig/327630000/327636056.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/327630000/327636056.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327636057.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327636058.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327636059.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327636060.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White",
+        "materials": "PVC=Pvc",
+        "size": "S,M,L,XL,2XL",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "5-7",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 11.52,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 9.05,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 8.58,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.03,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.26,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 5.05,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 4.75,
+            "code": "R"
+        }
+    ]
+}

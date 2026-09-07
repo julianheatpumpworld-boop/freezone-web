@@ -1,0 +1,63 @@
+{
+    "name": "Reusable Travel Wheat Utensil Set",
+    "product_number": "FCSIH012",
+    "price": 2.45,
+    "category": "Tools-Kitchen-Sets",
+    "description": "This eco-friendly utensil set is made from wheat straw polypropylene. This lightweight set includes a fork, spoon, and knife. It's perfect for bringing to the office, school, or on any adventure, making mealtime easy wherever you go.Lightweight and dishwasher-safe, it combines convenience with sustainability.Over 5000 pcs is shipping by OCEAN.",
+    "summary": "This eco-friendly utensil set is built for portability and convenience!",
+    "image": "https://media.asicdn.com/images/orig/331860000/331861953.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/331860000/331861953.png",
+        "https://media.asicdn.com/images/orig/331860000/331861954.png",
+        "https://media.asicdn.com/images/orig/331860000/331861955.png",
+        "https://media.asicdn.com/images/orig/331860000/331861956.jpg",
+        "https://media.asicdn.com/images/orig/331860000/331861957.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Pink=Pink,Other=Beige",
+        "materials": "Other=Wheat Straw",
+        "size": "Length:8.3:in;Width:2.17:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.45,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.28,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.06,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.76,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.52,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.05,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.89,
+            "code": "R"
+        }
+    ]
+}

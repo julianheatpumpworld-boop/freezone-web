@@ -1,0 +1,62 @@
+{
+    "name": "Fried hair boxing pen",
+    "product_number": "FCSM36",
+    "price": 3.215,
+    "category": "Pens-Ballpoint-General",
+    "description": "Use this interactive pen to alleviate stress and tension as you fidget with the robot's arms during long workdays.For primary school students, it not only meets the needs of writing but also brings some additional entertainment and interactive elements.Explosive boxing pens are available in: black/blue/green, three bright colors to choose from, a cool boxing gift for any holiday.Give your guests an unforgettable memento with this interactive pen that is sure to leave a lasting impression.5000pcs and above shipping by sea.",
+    "summary": "The ballpoint pen, a fun and creative stationery supply that will bring a to your face every time you use it.",
+    "image": "https://media.asicdn.com/images/orig/327630000/327636434.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/327630000/327636434.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327636435.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327636436.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327636437.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Black=Black",
+        "materials": "Plastic=Plastic",
+        "size": "Length:7.1:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.215,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.404,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.981,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.861,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.776,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.29,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 1.165,
+            "code": "R"
+        }
+    ]
+}

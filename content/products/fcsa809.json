@@ -1,0 +1,51 @@
+{
+    "name": "Desk Stand Ballpoint Pen with Suction Base",
+    "product_number": "FCSA809",
+    "price": 2.39,
+    "category": "DESK PEN STANDS",
+    "description": "The pen stand is equipped with a heavy-duty, long-lasting suction cup that firmly adheres to any smooth, flat surface (glass, desks, counters, etc.). It keeps the pen securely anchored at all times, eliminating the hassle of lost or stolen pens in busy public areas,Fitted with a premium 0.5mm fine ballpoint tip, this pen delivers consistent, skip-free ink flow for crisp, clear writing. The ergonomic, non-slip grip ensures comfortable use during long hours of form-filling, customer sign-offs, and daily office tasks",
+    "summary": "This suction cup desk pen is a practical, anti-lost stationery solution designed for high-traffic commercial and office spaces.",
+    "image": "https://media.asicdn.com/images/orig/360900000/360901617.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360900000/360901617.png",
+        "https://media.asicdn.com/images/orig/360900000/360901564.png",
+        "https://media.asicdn.com/images/orig/360900000/360901565.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Pink=Pink,Medium Yellow=Yellow,Medium Orange=Orange",
+        "materials": "ABS=Abs",
+        "size": "Length:6.5:in;Width:2:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.39,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.49,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.29,
+            "code": "R"
+        },
+        {
+            "qty": 1500,
+            "price": 1.09,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.98,
+            "code": "R"
+        }
+    ]
+}

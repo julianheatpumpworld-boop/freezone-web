@@ -1,0 +1,51 @@
+{
+    "name": "Soccer Ball Shaped Mug",
+    "product_number": "FCSA0321",
+    "price": 26.39,
+    "category": "FOOTBALLS",
+    "description": "This tumbler features a vivid 3D soccer ball shape with classic black-and-white panels, perfectly capturing the spirit of football. A must-have for soccer lovers, it stands out as a unique, eye-catching drinkware for game days, bars, and daily use.The smooth surface supports custom logo printing, laser engraving, and personalized designs. It is a perfect promotional gift for sports events, corporate giveaways, and birthday gifts for men, soccer coaches, and fans.Large orders We arrange sea shipment",
+    "summary": "Leak Proof Reusable Cup for Beer, Coffee, Sports Fan Gift for Men, Bar, Home, Office,It's perfect gift for football fans",
+    "image": "https://media.asicdn.com/images/orig/360900000/360903074.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360900000/360903074.png",
+        "https://media.asicdn.com/images/orig/360900000/360903078.png",
+        "https://media.asicdn.com/images/orig/360900000/360903090.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black",
+        "materials": "Steel=Steel",
+        "size": "10:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 27,
+            "price": 26.39,
+            "code": "R"
+        },
+        {
+            "qty": 54,
+            "price": 25.19,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 24.78,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 24.09,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 23.19,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "60W Fast Charging Adapter Kit data cable",
+    "product_number": "FCSIH005",
+    "price": 2.58,
+    "category": "Battery Rechargers & Adaptors-Wireless QI Charger",
+    "description": "60W USB C Adapter, Micro USB Charging Cable with USB C Lighting Cable Adapter, Lighting to USB C Adapter, Car Charger Cord for iPhone, Google Pixel, Samsung Galaxy.It is not just a USB Adapter converter, you can also use it to charge your phone, transfer data(480Mbps), store your SIM card, and remove your phone SIM card. And, it is a phone holder. At the same time, it is convenient to carry.",
+    "summary": "This multi charging cable works with most common flash drives and has a cable storage box that protects the cable ends",
+    "image": "https://media.asicdn.com/images/orig/330590000/330592564.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/330590000/330592564.png",
+        "https://media.asicdn.com/images/orig/330590000/330592588.png",
+        "https://media.asicdn.com/images/orig/330590000/330592589.png",
+        "https://media.asicdn.com/images/orig/330590000/330592590.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White",
+        "materials": "Plastic=Plastic",
+        "size": "Length:5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "3-5",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.58,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.22,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.99,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.87,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.38,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.12,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 1.03,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Small Wireless Portable Bluetooth Speaker",
+    "product_number": "FCSM66",
+    "price": 12.236,
+    "category": "Electronic Devices-General",
+    "description": "Our mini speaker boasts a sleek and compact design, bluetooth5.0 transmission technology, high-speed and stable wireless data transmission, strong anti-interference, can be easily used indoors or outdoors.making it a portable companion for your adventures. Slip it into your backpack or pocket and enjoy your favorite tunes on the go.Experience crystal-clear audio with our advanced speaker system, equipped with powerful drivers and a passive bass radiator, this speaker delivers rich, well-balanced sound, enhancing your music, podcasts, and audiobooks.Stay connected with the latest Bluetooth 5.0 technology, ensuring a stable and seamless wireless connection to your smartphones, tablets, or other Bluetooth-enabled devices. Enjoy uninterrupted music streaming and hands-free calling.",
+    "summary": "In addition to Bluetooth connectivity, our speaker offers multiple playback options.",
+    "image": "https://media.asicdn.com/images/orig/328410000/328410939.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/328410000/328410939.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410940.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410941.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410942.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410943.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410944.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410945.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410946.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Gray=Gray,Medium Blue=Blue,Medium Red=Red,Medium Pink=Pink,Dark Blue=Navy Blue",
+        "materials": "ABS=Abs",
+        "size": "Length:3.4:in;Width:3.4:in;Height:3.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "8-10",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 12.236,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 11.652,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 10.382,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 9.675,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 9.041,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 8.725,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 8.216,
+            "code": "R"
+        }
+    ]
+}

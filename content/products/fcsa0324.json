@@ -1,0 +1,51 @@
+{
+    "name": "Folding Led Light Up Hand Fan",
+    "product_number": "FCSA0324",
+    "price": 18.8,
+    "category": "Fans-General",
+    "description": "This Folded hand fan rafted with a lightweight, foldable structure, this LED fan is easy to carry in your bag, backpack, or purse. Available in multiple bright colors (blue, green, red, purple, orange), it's a versatile accessory for all your night out adventures.Ideal for raves, EDM festivals, night clubs, bars, Halloween parties, cosplay, dance performances, and music concerts. This glowing fan is the ultimate accessory to keep you cool while lighting up the crowd.",
+    "summary": "This folding hand fan features vibrant, eye-catching LED lights that glow brightly in the dark. Perfect for raves and festivals.",
+    "image": "https://media.asicdn.com/images/orig/360900000/360904201.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360900000/360904201.png",
+        "https://media.asicdn.com/images/orig/360900000/360904207.png",
+        "https://media.asicdn.com/images/orig/360900000/360904209.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Pink=Pink,Medium White=White,Medium Blue=Blue,Medium Green=Green,Medium Yellow=Yellow",
+        "materials": "Plastic=Plastic",
+        "size": "Length:23.62:in;Width:12.99:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 18.8,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 11.9,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.99,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 8.19,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 7.89,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Mini Umbrella with Case",
+    "product_number": "FCSM05",
+    "price": 10.145,
+    "category": "Umbrellas-Folding",
+    "description": "The portable totes umbrellas come with a stylish case that can be carried easily. Folding umbrellas can fit itself everywhere, very lightweight and handy, and take up little space. Easy for storage and convenient to carry while you are on the go. The tiny pocket umbrella is small enough for outdoor, yet provides sufficient protection of sunlight and rain. There are various bright colors for you, making the travel size umbrella an excellent present for your family, friends and colleagues etc,Qty for 1000 and over by sea.",
+    "summary": "The inside layer of mini umbrella is made of sun protection coating to absorb 99 % UVA and UVB rays, providing UPF 50 protection.",
+    "image": "https://media.asicdn.com/images/orig/326300000/326302248.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326300000/326302248.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302249.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302250.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Black=Black,Medium Pink=Pink,Medium Red=Red,Medium Purple=Purple,Medium Blue=Blue,Dark Blue=Navy Blue,Medium Yellow=Yellow,Medium Orange=Orange,Medium Green=Light Green,Other=Wine",
+        "materials": "Alloy=Alloy,Other Fabric=Fabric",
+        "size": "Length:7.48:in;Width:2.36:in;Height:2.36:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "10",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 10.145,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 9.905,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 9.665,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 6.544,
+            "code": "R"
+        },
+        {
+            "qty": 1500,
+            "price": 6.253,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 6.184,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 6.064,
+            "code": "R"
+        }
+    ]
+}

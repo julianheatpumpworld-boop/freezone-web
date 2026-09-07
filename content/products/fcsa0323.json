@@ -1,0 +1,52 @@
+{
+    "name": "World Cup Key Chain",
+    "product_number": "FCSA0323",
+    "price": 2.89,
+    "category": "Key Chains-Flexible Loop",
+    "description": "Celebrate the spirit of the World Cup Football season with this exclusive commemorative keychain, blending timeless significance with everyday practicality. Crafted from 100% premium zinc alloy, this durable accessory is wear-resistant, rust-proof, and eco-friendly,It isn't just a keychain-it's a portable bottle opener. Perfect for football fans who want quick access to a beer opener anytime, anywhere. Whether at a bar, backyard BBQ, or watching the 2026 World Cup game, this keychain has you covered.",
+    "summary": "This Keychain with Compact size fits easily on keys, backpacks, or purses without adding extra bulk.",
+    "image": "https://media.asicdn.com/images/orig/360900000/360903702.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360900000/360903702.png",
+        "https://media.asicdn.com/images/orig/360900000/360903703.png",
+        "https://media.asicdn.com/images/orig/360900000/360903704.png",
+        "https://media.asicdn.com/images/orig/360900000/360903705.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Red=Red,Medium Blue=Blue,Medium Green=Green",
+        "materials": "Other Metal=Zinc Alloy",
+        "size": "Length:4.5:in;Width:1.25:in",
+        "imprint_method": "Laser Engraved=Laser Engraved",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.89,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.29,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.89,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.8,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.19,
+            "code": "R"
+        }
+    ]
+}

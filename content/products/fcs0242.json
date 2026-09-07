@@ -1,0 +1,46 @@
+{
+    "name": "25 oz. Aluminum Alpine Bottle",
+    "product_number": "FCS0242",
+    "price": 8.882,
+    "category": "Bottles-Sport Type",
+    "description": "Stylish, sporty and safe, this 25 oz. aluminum water bottle is a great way to promote proper hydration.! This must-have piece of drinkware is available in several colors and features a black leak-proof, screw-down lid with a mini metal carabiner attached for easy transport. Great for promotional purposes, you can customize each one with an imprint of your brand logo to maximize corporate visibility on a great giveaway! This item is not microwave or dishwasher safe - hand wash only.",
+    "summary": "Bottles-General, 25 oz. Aluminum Alpine Bottle",
+    "image": "https://media.asicdn.com/images/orig/323810000/323817899.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323810000/323817899.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323817900.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323817901.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Red=Red,Medium Gray=Silver",
+        "materials": "Aluminum=Aluminum",
+        "size": "Length:9.76:in;Width:2.87:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 8.882,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 8.726,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 8.635,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.507,
+            "code": "R"
+        }
+    ]
+}

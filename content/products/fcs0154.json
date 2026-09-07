@@ -1,0 +1,48 @@
+{
+    "name": "Anti rat pioneer toys",
+    "product_number": "FCS0154",
+    "price": 4.578,
+    "category": "Toys-General",
+    "description": "A rodent pioneer toy, the rules of the game is to force the opponent to press the last mouse player as the winner. Soft silicone material, adults can not break. It can also be used as a coaster. Boiled and disinfected, children can play safely. Various styles and colors.",
+    "summary": "Toys-General,Anti rat pioneer toys,Silicone Toys",
+    "image": "https://media.asicdn.com/images/orig/323390000/323390035.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323390000/323390035.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323390031.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323390025.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323390026.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323390027.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Other=Multi Color,Medium Green=Green,Medium Orange=Orange,Medium Blue=Blue,Medium Purple=Purple,Medium Yellow=Yellow,Light Blue=Light Blue,Other=Fuschia",
+        "materials": "Silicone=Silicone",
+        "size": "Length:4.72:in;Width:4.72:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 300,
+            "price": 4.578,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.722,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 2.434,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 2.104,
+            "code": "R"
+        }
+    ]
+}

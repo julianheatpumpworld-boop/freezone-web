@@ -1,0 +1,47 @@
+{
+    "name": "Measuring Tape with a Clip on the Back",
+    "product_number": "FCS0236",
+    "price": 2.858,
+    "category": "TAPE MEASURES",
+    "description": "This retractable measuring tape with a clip on the back is made of plastic. It is 16 feet long, soft, and flexible vinyl-coated fiberglass tape. other size are available",
+    "summary": "TAPE MEASURES",
+    "image": "https://media.asicdn.com/images/orig/323810000/323812654.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323810000/323812654.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812655.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812656.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812657.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Orange=Orange",
+        "materials": "Plastic=Plastic",
+        "size": "16 ft",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 2.858,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.786,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 2.685,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 2.562,
+            "code": "R"
+        }
+    ]
+}

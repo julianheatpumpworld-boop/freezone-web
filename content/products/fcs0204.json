@@ -1,0 +1,66 @@
+{
+    "name": "22\" Dye-Sublimated Bandana",
+    "product_number": "FCS0204",
+    "price": 2.165,
+    "category": "BANDANNAS",
+    "description": "Your fans will love this versatile and trendy accessory. Wear our full color dye-sub bandana around the neck, head or wrist, or use it as a pocket square. The polyester fabric also makes these masks super easy to wash. But don't worry. Your full dye-sublimated color will stay crisp and clear no matter how many times it takes a tumble in the washing machine. That's right, your brand won't fade anywhere.",
+    "summary": "BANDANNAS; Masks-Neck Gaiters",
+    "image": "https://media.asicdn.com/images/orig/323900000/323900773.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323900000/323900773.jpg",
+        "https://media.asicdn.com/images/orig/323900000/323900774.jpg",
+        "https://media.asicdn.com/images/orig/323900000/323900880.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Multi Color=Multi Color,Medium Black=Black,Medium Red=Red,Dark Blue=Navy Blue,Medium White=White,Medium Yellow=Yellow,Light Blue=Light Blue,Medium Green=Teal,Dark Red=Maroon,Other=Custom",
+        "materials": "Polyester=Polyester",
+        "size": "Length:22:in;Width:22:in",
+        "imprint_method": "Sublimation=Sublimation",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Full color",
+        "production_time": "7",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.165,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.056,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.856,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.723,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.612,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.502,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.387,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 1.226,
+            "code": "R"
+        }
+    ]
+}

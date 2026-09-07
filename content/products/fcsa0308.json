@@ -1,0 +1,51 @@
+{
+    "name": "Cartoon Bobblehead  Pen",
+    "product_number": "FCSA0308",
+    "price": 1.28,
+    "category": "Pens-General",
+    "description": "These bobblehead pens are all kinds of animal design, like Panda ,monkeys, loved by most people. Rubber grip is soft, ensure that each gel pen is convenient and comfortable to hold. Due to its soft cushioning effect, this helps to extend writing time by reducing finger fatigue and discomfort. Each  pen has a shake head doll, long and thin pen body, and the doll on the pen will swing, lively, lovely, can bring emotional relief in learning or work. Its lovely design makes people feel happy and Stress Relief",
+    "summary": "This bobblehead pens are all kinds of animails ,it's very cute and lovely",
+    "image": "https://media.asicdn.com/images/orig/360050000/360053946.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/360050000/360053946.jpg",
+        "https://media.asicdn.com/images/orig/360050000/360053947.jpg",
+        "https://media.asicdn.com/images/orig/360050000/360053948.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Pink=Pink,Medium Green=Green,Medium Blue=Blue,Medium Yellow=Yellow,Medium Red=Red",
+        "materials": "Plastic=Plastic",
+        "size": "Length:8.8:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 300,
+            "price": 1.28,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.99,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.68,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.58,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.39,
+            "code": "R"
+        }
+    ]
+}

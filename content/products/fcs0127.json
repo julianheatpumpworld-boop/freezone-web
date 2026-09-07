@@ -1,0 +1,49 @@
+{
+    "name": "Perfect Temp 30 oz. Stainless Steel Vacuum Tumbler",
+    "product_number": "FCS0127",
+    "price": 13.531,
+    "category": "Cups-General",
+    "description": "30 ounce tumbler keeps your cold drinks cool and your hot drinks warm through a sturdy construction of double wall, vacuum insulated stainless steel. Laser imprinted logos and messages will stand out beautifully on this item that is generously sized to keep you hydrated while still fitting in most standard cupholders. The lid includes a slide function to allow easy access to your drink.",
+    "summary": "Glasses-Drinking-Insulated; Glasses-Drinking-Tumbler; TRAVEL MUGS/CUPS",
+    "image": "https://media.asicdn.com/images/orig/323250000/323258509.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323250000/323258509.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323258510.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323258511.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323258515.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323258520.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323258521.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Red=Red,Medium Purple=Purple,Medium Pink=Pink,Medium Black=Black",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "30:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Up to full color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 48,
+            "price": 13.531,
+            "code": "R"
+        },
+        {
+            "qty": 96,
+            "price": 13.167,
+            "code": "R"
+        },
+        {
+            "qty": 144,
+            "price": 12.665,
+            "code": "R"
+        },
+        {
+            "qty": 288,
+            "price": 12.133,
+            "code": "R"
+        }
+    ]
+}

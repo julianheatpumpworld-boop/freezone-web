@@ -1,0 +1,65 @@
+{
+    "name": "1 inch Wide Polyester Lanyard",
+    "product_number": "FCS0119",
+    "price": 1.094,
+    "category": "LANYARDS",
+    "description": "This Lanyard is made of polyester. The width is 1 inch, your company logo can be customized. It features a lobster clasp to hang your badge and employment pass. It is a great giveaway for employees, students and volunteers.",
+    "summary": "Polyester LANYARDS",
+    "image": "https://media.asicdn.com/images/orig/324130000/324131646.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324130000/324131646.jpg",
+        "https://media.asicdn.com/images/orig/324130000/324131653.jpg",
+        "https://media.asicdn.com/images/orig/324130000/324131654.png",
+        "https://media.asicdn.com/images/orig/324130000/324131648.jpg",
+        "https://media.asicdn.com/images/orig/322550000/322559961.jpg",
+        "https://media.asicdn.com/images/orig/322550000/322559962.jpg",
+        "https://media.asicdn.com/images/orig/322550000/322559963.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Black=Black,Medium Gray=Gray,Medium Brown=Brown,Medium Purple=Purple,Medium Red=Red,Medium Blue=Blue,Medium Green=Green,Medium Yellow=Yellow,Light Blue=Light Blue,Bright Blue=Royal Blue,Medium Green=Teal,Dark Blue=Navy Blue,Dark Red=Burgundy,Dark Red=Maroon",
+        "materials": "Polyester=Polyester",
+        "size": "Length:35.5:in;Width:1:in",
+        "imprint_method": "Laser Engraved=Digital",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "5",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.094,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 0.995,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.885,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.805,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.789,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.75,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.733,
+            "code": "R"
+        }
+    ]
+}

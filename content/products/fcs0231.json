@@ -1,0 +1,46 @@
+{
+    "name": "Felt Key Strap",
+    "product_number": "FCS0231",
+    "price": 0.812,
+    "category": "Key Chains-With Carabiner",
+    "description": "This Felt Key Strap is made from soft, flexible felt which won't weigh down your pocket. The felt loop could easily be worn around the wrist. Makes an easy promotion for rental car agencies, gyms, valet services, car dealerships, repair shops, real estate agencies and other businesses. Nice display spot for your custom logo",
+    "summary": "Key Chains-Wristband",
+    "image": "https://media.asicdn.com/images/orig/323790000/323797148.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323790000/323797148.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323797149.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323797150.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Green=Green,Medium White=White,Medium Blue=Blue,Medium Red=Red,Medium Purple=Purple,Medium Yellow=Yellow,Medium Black=Black",
+        "materials": "Felt=Felt",
+        "size": "Length:3.93:in;Width:0.8:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 1000,
+            "price": 0.812,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.715,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.657,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.522,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Solar Charge Power Bank- 4000mAh with 2 USB Ports",
+    "product_number": "FCS0238",
+    "price": 11.768,
+    "category": "Battery Rechargers & Adaptors-Power Banks",
+    "description": "This solar charge power bank comes with dual USB that allows you to charge 2 USB devices at a time. Its external battery is solar powered to allow the user to charge phones and gadgets wherever and whenever there is sun light. This power bank has a capacity of 6000mAh, with both a 5V/1A and a 5V/2.1A output. It is made of durable aluminum material and includes a standard charging cord. This solar power bank provides high-wattage solar power when it is charged up to 3W. 6.2\" L x 3\" W x 0.7\" H",
+    "summary": "Battery Rechargers & Adaptors-Power Banks",
+    "image": "https://media.asicdn.com/images/orig/323810000/323812934.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323810000/323812934.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812935.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812936.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812937.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812938.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Dark Yellow=Gold,Medium Gray=Silver,Medium Blue=Blue,Medium Pink=Pink,Medium Black=Black,Medium Red=Red,Other=Rose Gold",
+        "materials": "Metal=Metal",
+        "size": "Length:6.2:in;Width:3:in;Height:0.7:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 11.768,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 11.458,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 10.965,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 10.459,
+            "code": "R"
+        }
+    ]
+}

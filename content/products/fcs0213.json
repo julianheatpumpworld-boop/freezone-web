@@ -1,0 +1,47 @@
+{
+    "name": "Alta Carabiner Keyring",
+    "product_number": "FCS0213",
+    "price": 1.356,
+    "category": "Key Chains-Flexible Loop",
+    "description": "Hook up your customers and supporters to this cool and colorful branded promotional giveaway. This 0.38\" x 1.25\" x 5\" keyring features a strong aluminum carabiner clip with a durable web strap and metal split ring. It can attach in seconds to your belt loop, purse, backpack or keyring. Choose from four bright colors and add your school, sports team, organizational or company logo, emblem or message for a fun and functional keychain that makes a dynamic gift or giveaway for business and social occasions and activities.",
+    "summary": "Key Chains-Flexible Loop",
+    "image": "https://media.asicdn.com/images/orig/323680000/323680545.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323680000/323680545.jpg",
+        "https://media.asicdn.com/images/orig/323680000/323680542.jpg",
+        "https://media.asicdn.com/images/orig/323680000/323680543.jpg",
+        "https://media.asicdn.com/images/orig/323680000/323680548.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Gray=Silver,Medium Red=Red,Medium Blue=Blue",
+        "materials": "Aluminum=Aluminum",
+        "size": "Length:0.38:in;Width:1.25:in;Height:5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.356,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.245,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.123,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.956,
+            "code": "R"
+        }
+    ]
+}

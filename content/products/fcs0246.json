@@ -1,0 +1,56 @@
+{
+    "name": "Fireworks Glasses",
+    "product_number": "FCS0246",
+    "price": 3.25,
+    "category": "3D & VIRTUAL REALITY VIEWERS",
+    "description": "Almost any design you can think of can be printed over the entire face of our 3D Fireworks Glasses. Go as mild or wild as your budget allows. Fireworks Glasses are the perfect promotional item for the 4th of July. Holographic diffraction grating lenses break light into rainbow starbursts. For viewing Fireworks Displays, Laser Light Shows, Holiday Lights Celebrations and for the study of light and color.",
+    "summary": "Preprinted assorted neon 3-D fireworks eyeglasses ideal for Music Festivals, 4th of July Fireworks Shows, Holiday Celebrations.",
+    "image": "https://media.asicdn.com/images/orig/323890000/323890777.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323890000/323890777.jpg",
+        "https://media.asicdn.com/images/orig/323890000/323890774.jpg",
+        "https://media.asicdn.com/images/orig/323890000/323890770.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Multi Color=Multi Color",
+        "materials": "Paper=Paperboard",
+        "size": "Length:15.95:in;Width:1.46:in",
+        "imprint_method": "Printed=Digital Printed",
+        "imprint_color": "Full color",
+        "production_time": "10",
+        "price_includes": "Full color"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.25,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.982,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.653,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.582,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.496,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.465,
+            "code": "R"
+        }
+    ]
+}

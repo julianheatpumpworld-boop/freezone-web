@@ -1,0 +1,48 @@
+{
+    "name": "Sport Fruit Infuser Water  Transparent Bottle Cup",
+    "product_number": "FCS0152",
+    "price": 7.245,
+    "category": "Bottles-Sport Type",
+    "description": "This fruit bottle as a promotional gift at your next corporate event! This great juicer bottle features a compartment at the bottom of the bottle for you to put a piece of fruit, connecting to the top of the bottle, which features a juicing gadget designed to squeeze the fruit or vegetable in the bottom compartment. This makes for the perfect gift for the jogger or health enthusiast in your business circle. Add your company Purpose: business anniversary promotions, holiday gifts, souvenirs activities, meetings, and other real estate opening, according to the requirements of size, color and LOGO as a business or promotional gifts.",
+    "summary": "Bottles-Sport Type; Tools-Kitchen-Juice Squeezers",
+    "image": "https://media.asicdn.com/images/orig/323380000/323389072.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323380000/323389072.jpg",
+        "https://media.asicdn.com/images/orig/323380000/323389073.jpg",
+        "https://media.asicdn.com/images/orig/323380000/323389074.jpg",
+        "https://media.asicdn.com/images/orig/323380000/323389075.jpg",
+        "https://media.asicdn.com/images/orig/323380000/323389076.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Yellow=Yellow,Medium Purple=Purple,Medium Green=Green,Medium Blue=Blue,Medium Black=Black,Medium Orange=Orange,Medium Red=Red,Other=Fuschia",
+        "materials": "Other=Tritan+Ps",
+        "size": "23:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 7.245,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 7.075,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 6.899,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 6.616,
+            "code": "R"
+        }
+    ]
+}

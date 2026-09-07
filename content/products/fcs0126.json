@@ -1,0 +1,51 @@
+{
+    "name": "Stainless Steel Wine Tumbler - 12 oz.",
+    "product_number": "FCS0126",
+    "price": 9.314,
+    "category": "Cups-General",
+    "description": "Encourage your new and potential clients to relax with your brand by promoting it on this 12 oz. stainless steel wine tumbler! Measuring 5\" H x 3 1/4\" diameter, it's offered in multiple colors and features stainless steel construction with a polypropylene liner that holds up to 12 ounces. Add your name, logo and marketing message before handing it out to your target audience for maximum brand exposure. Recipients can keep their favorite wine in this glass while also keeping a grip on your brand! Packaging available in red, blue, and green.",
+    "summary": "Glasses-Drinking-Tumbler; TRAVEL MUGS/CUPS; WINE GLASSES",
+    "image": "https://media.asicdn.com/images/orig/323250000/323257837.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323250000/323257837.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257838.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257842.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257845.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257846.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257847.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257848.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257849.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Blue=Blue,Medium Purple=Purple,Medium Green=Green,Medium Gray=Gray",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "12:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Up to full color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 9.314,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 8.985,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 8.422,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.061,
+            "code": "R"
+        }
+    ]
+}

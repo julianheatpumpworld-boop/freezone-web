@@ -1,0 +1,48 @@
+{
+    "name": "13.5 oz  mugs Mighty grip",
+    "product_number": "FCS0142",
+    "price": 17.125,
+    "category": "SUCTION CUPS",
+    "description": "Capacity 13.5 oz. Have you ever encountered a cup on the table and accidentally touched it and sprinkled it on the table? This is a magical creative cup that won't fall down. Innovative magic sucker, farewell to accidental sprinkling. Due to its unique suction cup design, no matter how it is pushed, it will not fall. Stylish and creative style, convenient for tea and water. Carrying strap is convenient for outdoor activities. Suitable for offices and homes. Specifications: Material:ABS exterior and stainless steel interior",
+    "summary": "SUCTION CUPS; TRAVEL MUGS/CUPS",
+    "image": "https://media.asicdn.com/images/orig/323350000/323356988.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323350000/323356988.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323356997.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323356998.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323357001.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323357003.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium White=White,Other=Fuschia,Medium Green=Green",
+        "materials": "ABS:Combo:Stainless Steel=Abs+Stainless Steel",
+        "size": "13.5:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 17.125,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 16.832,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 16.566,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 15.987,
+            "code": "R"
+        }
+    ]
+}

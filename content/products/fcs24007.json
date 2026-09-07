@@ -1,0 +1,62 @@
+{
+    "name": "Round Stress Reliever Ball",
+    "product_number": "FCS24007",
+    "price": 2.187,
+    "category": "Stress Relievers-Balls",
+    "description": "This 2.5\" ball is made of soft and supple polyurethane foam that snaps back as many times as you can. Great for health, stress or relaxation-themed events and activities. Choose from six cool colors and add your school, sports team, organizational or company logo, emblem or message to create a fun and functional branded promotional gift or giveaway. Other sizes like 2\",2.75\",3.5\" size are available.",
+    "summary": "The 2.5\" round stress ball is the original and most popular stress reliever. Fitting perfectly in the palm of your hand it is sure",
+    "image": "https://media.asicdn.com/images/orig/324180000/324183538.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324180000/324183538.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324183539.png",
+        "https://media.asicdn.com/images/orig/324180000/324183540.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324183542.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Red=Red,Medium Green=Green,Medium Blue=Blue,Medium Purple=Purple,Medium Pink=Pink,Medium Orange=Orange,Medium Yellow=Yellow,Other=Custom",
+        "materials": "Polyurethane (PUR or PU)=Pu",
+        "size": "Length:2.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "up to full color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.187,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.035,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.806,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.652,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.482,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.276,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 1.055,
+            "code": "R"
+        }
+    ]
+}

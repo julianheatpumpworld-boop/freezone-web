@@ -1,0 +1,49 @@
+{
+    "name": "20 oz. Vacuum Bottle with Bamboo Lid",
+    "product_number": "FCS0128",
+    "price": 11.656,
+    "category": "Bottles-Sport Type",
+    "description": "20 oz (600 mL) double-wall vacuum insulated bottle with Bamboo lid. Features 304 Stainless Steel exterior and 304 Stainless Steel lining. Screw on/off bamboo lid. Hand-wash only. Do not microwave. Do not place in freezer. Vacuum insulation helps keep your beverages hot or cold longer than traditional insulation. Designed for use with both hot and cold beverages. Caution: Item may leak if tipped or held upside-down.",
+    "summary": "Bottles-Insulated; FLASKS",
+    "image": "https://media.asicdn.com/images/orig/323260000/323265271.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323260000/323265271.jpg",
+        "https://media.asicdn.com/images/orig/323260000/323265272.jpg",
+        "https://media.asicdn.com/images/orig/323260000/323265273.jpg",
+        "https://media.asicdn.com/images/orig/323260000/323265274.jpg",
+        "https://media.asicdn.com/images/orig/323260000/323265275.jpg",
+        "https://media.asicdn.com/images/orig/323260000/323265276.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Pink=Pink,Medium Green=Green,Medium Blue=Blue,Medium Blue=Lt Blue,Dark Blue=Navy,Medium Purple=Purple",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "20:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 30,
+            "price": 11.656,
+            "code": "R"
+        },
+        {
+            "qty": 50,
+            "price": 11.324,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 10.989,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 10.421,
+            "code": "R"
+        }
+    ]
+}

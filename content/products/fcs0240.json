@@ -1,0 +1,49 @@
+{
+    "name": "Bamboo Laptop Stand",
+    "product_number": "FCS0240",
+    "price": 19.892,
+    "category": "COMPUTER ACCESSORIES",
+    "description": "It stand fit most laptops. Decent slope and ergonomic designed height shape your body and spread yourself in healthy and comfy posture. Our laptop holder is compatible with all market mainstream laptops from 14-15.6 inches. Any colors and logos can be customized.",
+    "summary": "COMPUTER ACCESSORIES",
+    "image": "https://media.asicdn.com/images/orig/323810000/323817045.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323810000/323817045.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323817043.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323817046.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323817044.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323817047.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323817048.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Dark Yellow=Gold,Medium Pink=Pink",
+        "materials": "Bamboo=Bamboo",
+        "size": "Length:9.06:in;Width:9.25:in;Height:5.35:in",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 19.892,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 19.088,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 18.467,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 17.504,
+            "code": "R"
+        }
+    ]
+}

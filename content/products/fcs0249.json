@@ -1,0 +1,63 @@
+{
+    "name": "Popular The Milano Stylus Ballpoint Pens in Bright Colors",
+    "product_number": "FCS0249",
+    "price": 0.679,
+    "category": "Pens-Ballpoint-Stylus",
+    "description": "The Milano Stylus Ballpoint Pen. Perfect for the budget minded. Stylish, slim, affordable and elegant, available in a variety of bright attractive fashionable colors as shown. Perfect for office, trade shows, sales visits and other promotional events. Custom Logo Novelty Pen Series. Write in popular black ink.",
+    "summary": "Perfect for the budget-conscious. Stylish, slim, affordable, and elegant. Perfect for offices, trade shows, and other promotional",
+    "image": "https://media.asicdn.com/images/orig/324170000/324174961.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324170000/324174961.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324174964.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324174966.jpg",
+        "https://media.asicdn.com/images/orig/345440000/345445347.png",
+        "https://media.asicdn.com/images/orig/345440000/345445348.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Blue=Blue,Medium Black=Black,Medium Purple=Purple,Medium Blue=Lihgt Blue,Medium Green=Green,Medium Orange=Orange",
+        "materials": "ABS=Abs",
+        "size": "Length:5.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,one color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 0.679,
+            "code": "R"
+        },
+        {
+            "qty": 250,
+            "price": 0.522,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.445,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.403,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.388,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.343,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.316,
+            "code": "R"
+        }
+    ]
+}

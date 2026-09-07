@@ -1,0 +1,64 @@
+{
+    "name": "Unisex Comfortable Bib Apron with 2 Pockets Washable",
+    "product_number": "FCS0252",
+    "price": 3.197,
+    "category": "Aprons-Bib Style",
+    "description": "Aprons are made of polyester and are Long-lasting and machine washable.; They are soft to the touch, comfortable and light to wear, won't give you too much burden when wearing them; Besides, they are easy to clean, save your time.  With adjustable long waist ties, the aprons can be adjusted flexibly for your own use, improves the comfort of wearing. One size suitable for most adults, can provide good coverage and protection for your upper body and thighs while cooking; They are lightweight for comfortable wearing, and can be folded up when not in use, will not take much space.  Aprons with 2 pockets perfect for all sorts of occasions. Can be used to protect clothing while baking, cooking, crafting, gardening, serving BBQ or anything else that might make a mess. Custom Logo is welcome.",
+    "summary": "When you are holding a barbeque party or in kitchen doing all the cooking, be sure to stay protected from water, oil and any splas",
+    "image": "https://media.asicdn.com/images/orig/324170000/324177119.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324170000/324177119.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324177128.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324177131.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324177139.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324177140.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324177144.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Brown=Brown,Medium Green=Green,Dark Red=Maroon,Medium Orange=Orange,Medium Red=Red,Bright Blue=Royal Blue,Medium Yellow=Yellow",
+        "materials": "Polyester=Polyester",
+        "size": "Length:29.5:in;Width:25.6:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,one color",
+        "production_time": "15",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.197,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.97,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.798,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 2.68,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.45,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.37,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.078,
+            "code": "R"
+        }
+    ]
+}

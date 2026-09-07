@@ -1,0 +1,51 @@
+{
+    "name": "Screw Lock D Hung Carabiner Keyring",
+    "product_number": "FCSA0307",
+    "price": 2.09,
+    "category": "Key Chains-General",
+    "description": "This D-shape keyring is Made of high-quality lightweight aluminum alloy, this D-shaped carabiner is sturdy, durable, rust-resistant and not easy to deform, perfect for long-term daily use.\nIdeal for outdoor activities like camping, hiking, traveling, as well as daily use for keys, purses, bags, gadgets and small equipment organization.",
+    "summary": "Compact size and lightweight structure make it easy to carry. You can clip it on your backpack, belt, keychain or water bottle.",
+    "image": "https://media.asicdn.com/images/orig/360050000/360053941.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360050000/360053941.png",
+        "https://media.asicdn.com/images/orig/360050000/360053942.png",
+        "https://media.asicdn.com/images/orig/360050000/360053943.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Purple=Purple,Medium Blue=Blue,Medium Orange=Orange,Dark Yellow=Gold,Medium Gray=Silver,Light Blue=Sky Blue,Dark Blue=Navy Blue",
+        "materials": "Aluminum=Aluminum",
+        "size": "Length:3.2:in;Width:2:in;Height:0.4:in",
+        "imprint_method": "Laser Engraved=Laser Engraved",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 300,
+            "price": 2.09,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.9,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.68,
+            "code": "R"
+        },
+        {
+            "qty": 1500,
+            "price": 1.38,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.28,
+            "code": "R"
+        }
+    ]
+}

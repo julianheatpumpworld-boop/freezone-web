@@ -1,0 +1,47 @@
+{
+    "name": "20 oz. Double Wall Stainless Steel Bottle",
+    "product_number": "FCS0145",
+    "price": 16.558,
+    "category": "Bottles-Insulated",
+    "description": "Don't water down your marketing campaign with traditional giveaways. Give your customers this cool bottle as a thank you for their business. This 20 oz stainless steel bottle is a great way to get your brand out there with its sleek and classic design that will complement your company's design. The 20 oz. bottle is vacuum-sealed and is designed with a copper lining that keeps drinks cold for 24 hours or drinks hot for 12 hours. It has a powder-coated finish complete with a screw-top lid with a form-fitting hinged steel handle for easy holding and transport. Customize this elegant bottle with your company's name, logo, emblem, or monogram. Choose this item as your next giveaway!",
+    "summary": "Bottles-Insulated; Bottles-Sport Type",
+    "image": "https://media.asicdn.com/images/orig/323350000/323359066.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323350000/323359066.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323359067.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323359068.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323359073.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Gray=Silver",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "20:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 16.558,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 16.257,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 15.896,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 15.448,
+            "code": "R"
+        }
+    ]
+}

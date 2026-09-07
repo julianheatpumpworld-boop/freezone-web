@@ -1,0 +1,48 @@
+{
+    "name": "Compass Carabiner",
+    "product_number": "FCS0217",
+    "price": 1.789,
+    "category": "COMPASSES",
+    "description": "Make this compass carabiner a part of your next promotion to draw more people to your place of business! It comes in blues, measures 1 1/4\" W x 2 3/4\" H x 3/8\" D, is made of 8mm metal, and is perfect for hooking onto a belt loop or bag strap so that you can easily check your direction during an excursion. This is not intended for any weight bearing activities like climbing or other sports. This is the perfect gift for employees, students, or customers. Add your company name or logo with one of our imprint methods. Engraving color may vary due to product and underlayment color. Enhance your marketing campaign with this great product!",
+    "summary": "CARABINERS; COMPASSES; Key Chains-With Carabiner; Key Chains-With Compass",
+    "image": "https://media.asicdn.com/images/orig/323750000/323756461.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323750000/323756461.jpg",
+        "https://media.asicdn.com/images/orig/323750000/323756462.jpg",
+        "https://media.asicdn.com/images/orig/323750000/323756463.jpg",
+        "https://media.asicdn.com/images/orig/323750000/323756464.jpg",
+        "https://media.asicdn.com/images/orig/323750000/323756465.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Orange=Orange,Medium Yellow=Yellow,Medium Green=Green,Medium Blue=Blue,Medium Red=Red",
+        "materials": "Aluminum=Aluminum",
+        "size": "Length:1 1/4:in;Width:2 3/4:in;Height:3/8:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.789,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.632,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.486,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.356,
+            "code": "R"
+        }
+    ]
+}

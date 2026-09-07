@@ -1,0 +1,49 @@
+{
+    "name": "17 oz. Stainless Steel Vacuum Adventure Bottle",
+    "product_number": "FCS0147",
+    "price": 12.566,
+    "category": "Bottles-General",
+    "description": "Gear up for your next outdoor adventure with help of this 17 oz. stainless steel bottle! Available in a variety of great colors, this handy piece of drinkware is made from BPA-free material and features a wide-mouth opening, a leak-proof screw-down lid and an attached mini metal carabiner,. Promote proper hydration and your brand by adding an imprinted name or logo using our customization option. This product is not microwave or dishwasher safe - hand wash only.",
+    "summary": "Bottles-General; TRAVEL MUGS/CUPS",
+    "image": "https://media.asicdn.com/images/orig/323360000/323360091.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323360000/323360091.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360094.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360098.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360104.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360107.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360108.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Blue=Blue,Medium Gray=Silver",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "17:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 12.566,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 12.234,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 11.866,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 11.453,
+            "code": "R"
+        }
+    ]
+}

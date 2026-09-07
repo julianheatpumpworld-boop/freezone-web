@@ -1,0 +1,47 @@
+{
+    "name": "CARABINER 3-MODE SAFETY LIGHT",
+    "product_number": "FCS0201",
+    "price": 2.987,
+    "category": "Key Chains-With Flashlight and/or Whistle",
+    "description": "This unique carabiner would make a fantastic promotional item! It's made of anodized aluminum, measures 3\" long, and is a safety light that you can attach to your backpack or belt loop for quick access to hands-free lighting. This includes a power C.O.B. LED light with three light modes: full power, half power, and flashing strobe. This is perfect for stay safe when outside at night. Add your company name or logo and get more people to show interest in what you can do!",
+    "summary": "CARABINERS; Flashlights-General; Key Chains-With Flashlight and/or Whistle; LANTERNS; LED PRODUCTS; Lights-General",
+    "image": "https://media.asicdn.com/images/orig/323540000/323549647.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323540000/323549647.jpg",
+        "https://media.asicdn.com/images/orig/323540000/323549648.jpg",
+        "https://media.asicdn.com/images/orig/323540000/323549649.jpg",
+        "https://media.asicdn.com/images/orig/323540000/323549650.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Blue=Blue,Medium Gray=Gray",
+        "materials": "Metal=Metal",
+        "size": "Length:3.15:in;Width:1.62:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.987,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.876,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.765,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.532,
+            "code": "R"
+        }
+    ]
+}

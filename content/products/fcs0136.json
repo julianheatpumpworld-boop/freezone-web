@@ -1,0 +1,48 @@
+{
+    "name": "20 Oz. Kaden Stainless Steel Tumbler",
+    "product_number": "FCS0136",
+    "price": 16.841,
+    "category": "Glasses-Drinking-Tumbler",
+    "description": "Bring along a cup of your favorite wake up in the cool and colorful Kaden steel mug. This big 20 ounce capacity tumbler is made of vacuum-insulated stainless steel with a BPA free construction that can maintain the temperature of al kinds of hot and cold beverages. The tall design features a thin handle and sip-though lid. Choose from five colors and add your school, sports team, organizational or company logo, emblem or message to customize.",
+    "summary": "Glasses-Drinking-Tumbler; TRAVEL MUGS/CUPS",
+    "image": "https://media.asicdn.com/images/orig/323330000/323335631.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323330000/323335631.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323335632.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323335633.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323335634.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323335635.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Orange=Orange,Medium Red=Red,Medium Blue=Blue,Medium Purple=Purple,Medium Pink=Pink,Medium Gray=Gray,Medium Gray=Silver",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "20:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 16.841,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 16.538,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 16.218,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 15.725,
+            "code": "R"
+        }
+    ]
+}

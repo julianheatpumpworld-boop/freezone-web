@@ -1,0 +1,64 @@
+{
+    "name": "Adhesive Silicone Cell Phone/Credential Wallets",
+    "product_number": "FCS0124",
+    "price": 1.508,
+    "category": "Mobile Accessories-Cell Phone Wallets",
+    "description": "Now available with high-quality silkscreen imprinting, for sharper, brighter custom graphics! Versatile cell phone holder / credential wallet is made from silicone rubber with a 3M adhesive back. Up to three badges or cards sit firmly in the holder and will not fall out no matter how hard you shake it! Fits most flat-backed smart phones. Perfect for everyday use such as holding credit cards, hotel key, Metro card, ID badges or driver's license. Available in 4 stylish colors. Six imprint color options. Insert size: 2.25\" x 3.38\".",
+    "summary": "Badge Holders-General; Mobile Accessories-General; PHONE ACCESSORIES; WALLETS",
+    "image": "https://media.asicdn.com/images/orig/322560000/322564413.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/322560000/322564413.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322564414.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322564415.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322564416.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322564417.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322564418.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Red=Red,Medium Pink=Pink,Medium Gray=Gray,Medium Purple=Purple,Medium White=White,Medium Yellow=Yellow",
+        "materials": "Silicone=Silicone",
+        "size": "Length:2.38:in;Width:3.75:in;Height:0.44:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "5",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.508,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.477,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.385,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.305,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 1.249,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.209,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.173,
+            "code": "R"
+        }
+    ]
+}

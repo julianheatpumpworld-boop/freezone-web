@@ -1,0 +1,64 @@
+{
+    "name": "16 oz. Frosted Plastic Stadium Cups",
+    "product_number": "FCS0255",
+    "price": 1.56,
+    "category": "Cups-Plastic",
+    "description": "Throw back some cold ones at a picnic, tailgate, football game or special event with these frosted stadium cups! Designed with a 16 oz. capacity, each cup is made of durable, eco-friendly and BPA-free polypropylene with the internal recycling rate around 5% typically, never exceeding 10%. Customize yours with a team name, company logo, promotional message and more on one or both sides. These cups offer more than just a refreshing drink; it's a statement piece that adds a touch of cool to any occasion!Upgrade your drinkware at any event with these frosted stadium cups! Designed with a 16 oz. capacity, each cup is made of durable, eco-friendly and BPA-free polypropylene with the internal recycling rate around 5% typically, never exceeding 10%. Customize yours with a team name, company logo,",
+    "summary": "Tailgate like a champion with these plastic stadium cups!",
+    "image": "https://media.asicdn.com/images/orig/324450000/324457322.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324450000/324457322.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324178532.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324178533.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324178534.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324178530.jpg",
+        "https://media.asicdn.com/images/orig/324170000/324178531.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Purple=Purple,Medium Red=Red,Medium White=White,Other=Smoke",
+        "materials": "Plastic=Plastic",
+        "size": "16:oz",
+        "imprint_method": "Printed=Printed",
+        "imprint_color": "1 color",
+        "production_time": "12",
+        "price_includes": "one color one location imprint and shipping cos"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.56,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.5,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.44,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.25,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.18,
+            "code": "R"
+        },
+        {
+            "qty": 2500,
+            "price": 1.12,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.09,
+            "code": "R"
+        }
+    ]
+}

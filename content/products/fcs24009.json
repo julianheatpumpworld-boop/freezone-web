@@ -1,0 +1,69 @@
+{
+    "name": "Classic Metal Bottle Opener Keychain",
+    "product_number": "FCS24009",
+    "price": 0.488,
+    "category": "Key Chains-With Bottle or Can Opener",
+    "description": "This metal bottle opener key chain is a great way to break into your next advertising campaign. It makes an excellent gift or giveaway at trade shows, liquor stores or beverage marketing events. Two in one products go a long way to appeal to people with multiple uses. Customize it with your pad printed business logo and name to point people in the right direction.",
+    "summary": "Pop the top on new potential customers with this Key Chain!",
+    "image": "https://media.asicdn.com/images/orig/330610000/330614136.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/330610000/330614136.png",
+        "https://media.asicdn.com/images/orig/324380000/324387225.jpg",
+        "https://media.asicdn.com/images/orig/324380000/324387226.jpg",
+        "https://media.asicdn.com/images/orig/324380000/324387228.jpg",
+        "https://media.asicdn.com/images/orig/324380000/324387230.jpg",
+        "https://media.asicdn.com/images/orig/324380000/324387232.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Green=Green,Medium Blue=Blue,Medium Orange=Orange,Medium Red=Red,Medium Purple=Purple,Medium Gray=Silver",
+        "materials": "Aluminum=Aluminum",
+        "size": "Length:3.25:in;Width:0.45:in",
+        "imprint_method": "Laser Engraved=Laser Engraved,Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,one color",
+        "production_time": "5",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 0.488,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 0.406,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 0.362,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.307,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.263,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.226,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.202,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.182,
+            "code": "R"
+        }
+    ]
+}

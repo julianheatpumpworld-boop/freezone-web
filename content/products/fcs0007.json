@@ -1,0 +1,62 @@
+{
+    "name": "Laminated Jute Bags w/ Colored Sides and Handles",
+    "product_number": "FCS0007",
+    "price": 6.323,
+    "category": "Tote Bags-Jute",
+    "description": "Advertise your brand with our Two tone Jute Tote Bag in your next trade show. These eco freindly jute tote bag measures 10.24\" x 10.63\" x 3.94\" and is made of 100% Natural Jute Fibre. These trendy Jute bags also feature colored side and handles as well as a hook and loop closure. With a large imprint area of 7.50\"W x 8.00\"H, this bag is perfect for maximum brand exposure. Give these away in your next marketing campaign and advertise your brand like never before!",
+    "summary": "Advertise your brand with our Two tone Jute Tote Bag in your next trade show.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254623.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254623.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254622.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254624.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254625.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Other=Natural,Medium Red=Red,Medium Green=Green,Other=Custom Color",
+        "materials": "Jute/Burlap=Jute",
+        "size": "Length:10.24:in;Width:10.63:in;Height:3.94:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 6.323,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 5.936,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 5.521,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 5.362,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.028,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 4.897,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 4.529,
+            "code": "R"
+        }
+    ]
+}

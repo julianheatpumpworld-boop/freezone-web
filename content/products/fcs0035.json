@@ -1,0 +1,64 @@
+{
+    "name": "22Oz Sports Stainless Steel Bottle",
+    "product_number": "FCS0035",
+    "price": 21.355,
+    "category": "Bottles-Insulated",
+    "description": "Get a hold of more customers when you offer this 22 oz.stainless steel bottle! With this, you can pour in hot coffee or cold water and keep it at a good temperature for a long period of time. Whether you're on the commute to work or working out at the gym, this will keep the delicious sips coming. Add your company name or logo for maximum visibility. Surprise everyone with something new and unique!",
+    "summary": "Get a hold of more customers when you offer this 22 oz.stainless steel bottle!",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255700.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255700.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255698.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255699.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255703.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255705.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255704.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Purple=Purple,Medium Green=Green,Multi Color=Multi Color",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "22:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 21.355,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 20.887,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 19.865,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 18.987,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 16.057,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 11.368,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 10.976,
+            "code": "R"
+        }
+    ]
+}

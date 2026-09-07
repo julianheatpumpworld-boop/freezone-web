@@ -1,0 +1,53 @@
+{
+    "name": "Flower Shape Ballpoint Pen",
+    "product_number": "FCEX007",
+    "price": 0.21,
+    "category": "Pens-General",
+    "description": "The ballpoint pen with flower shape on top, it is made of quality plastic material, light in weight and in fine workmanship. heart shape,star shape and butterfly shape are also available",
+    "summary": "Butterfly Flower Star Love Heart Ballpoint Pen Nice Ballpoint Pen Novelty Pens for Student",
+    "image": "https://media.asicdn.com/images/orig/331880000/331881991.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/331880000/331881991.jpg",
+        "https://media.asicdn.com/images/orig/331880000/331881992.jpg",
+        "https://media.asicdn.com/images/orig/331880000/331881993.jpg",
+        "https://media.asicdn.com/images/orig/331880000/331881995.jpg",
+        "https://media.asicdn.com/images/orig/331880000/331881996.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Gray=Gray,Medium Green=Green,Medium Orange=Orange,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium White=White,Medium Yellow=Yellow,Assorted=Assorted",
+        "materials": "Plastic=Plastic",
+        "size": "Length:5.3:in;Width:0.86:in",
+        "imprint_method": "Laser Engraved=Laser Engraved,Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "7",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 1000,
+            "price": 0.21,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.2,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.19,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.185,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.18,
+            "code": "R"
+        }
+    ]
+}

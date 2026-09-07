@@ -1,0 +1,62 @@
+{
+    "name": "12 oz Paper Coffee Cup with Lid and Sleeve",
+    "product_number": "FCS0026",
+    "price": 0.995,
+    "category": "Cups-Paper",
+    "description": "Pour a generous drink with an extra dollop of logo exposure! This efficient and effective cup features a 12 oz. capacity and is ideal for both hot and cold beverages. Each paper cup has a poly coated interior and is made from renewable resources. It is also included Lid and Sleeves. They can be screen printed using an unlimited number of imprint colors, or purchased blank. Multi-color imprints are available on 1 side only. There is no extra charge for 2 sided or wrap imprint. Also 14 oz, 16 oz available",
+    "summary": "This efficient and effective cup features a 12 oz. capacity and is ideal for both hot and cold beverages.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255195.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255195.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255197.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255194.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255193.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Other=Natural,Other=Custom",
+        "materials": "Paper=Paper",
+        "size": "12:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 5000,
+            "price": 0.995,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.867,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.792,
+            "code": "R"
+        },
+        {
+            "qty": 30000,
+            "price": 0.686,
+            "code": "R"
+        },
+        {
+            "qty": 50000,
+            "price": 0.582,
+            "code": "R"
+        },
+        {
+            "qty": 80000,
+            "price": 0.475,
+            "code": "R"
+        },
+        {
+            "qty": 100000,
+            "price": 0.396,
+            "code": "R"
+        }
+    ]
+}

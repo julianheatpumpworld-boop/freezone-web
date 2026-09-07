@@ -1,0 +1,62 @@
+{
+    "name": "18Oz Space Kettle",
+    "product_number": "FCS0039",
+    "price": 11.865,
+    "category": "Glasses-Drinking-Insulated",
+    "description": "This kettle is made of stainless steel.These bottles are useful all year round, keeping your tea warm in the winter and water cool in the summer.These bottles are fully leak proof so there's no need to worry about just chucking it in your bag with the rest of your things.Typical uses include water,tea,coffee, carbonated drinks, wine and even soup.These bottle are lightweight and prefect for taking to school,university and work.Custom logo is welcome!",
+    "summary": "These bottles are useful all year round, keeping your tea warm in the winter and water cool in the summer.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255885.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255885.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255886.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255884.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255883.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Orange=Orange,Medium Pink=Pink,Medium White=White,Medium Yellow=Yellow,Medium Purple=Purple,Other=Custom",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "18:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 11.865,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 11.356,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 10.985,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 10.587,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 10.126,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 9.876,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 9.237,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "",
+    "product_number": "",
+    "price": 1.975,
+    "category": "",
+    "description": "",
+    "summary": "",
+    "image": "",
+    "images": [],
+    "featured": false,
+    "details": {
+        "colors": "",
+        "materials": "",
+        "size": "",
+        "imprint_method": "",
+        "imprint_color": "",
+        "production_time": "",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.975,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.009,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.809,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.662,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.295,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.267,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.245,
+            "code": "R"
+        }
+    ]
+}

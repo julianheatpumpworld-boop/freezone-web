@@ -1,0 +1,63 @@
+{
+    "name": "PU Leather Luggage Tag",
+    "product_number": "FCS0037",
+    "price": 1.762,
+    "category": "LUGGAGE TAGS",
+    "description": "This is made of PU Leather. The leather strap with silver-tone buckle secures the back panel to conceal your personal information.These tags can be attached to the handle of suitcase/bag for extra security.Small and light weight, easy for carry and use. Sealed and secure pack, durable and long lasting. Avaiable in many colors and custom logo is welcome.",
+    "summary": "The leather strap with silver-tone buckle secures the back panel to conceal your personal information.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255801.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255801.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255802.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255804.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255803.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255805.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Pink=Pink,Medium Orange=Orange,Medium White=White,Medium Yellow=Yellow,Assorted=Assorted",
+        "materials": "Leather=Pu Leather",
+        "size": "Length:4.5:in;Width:2.7:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.762,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.642,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.565,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.563,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.386,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.298,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.186,
+            "code": "R"
+        }
+    ]
+}

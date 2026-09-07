@@ -1,0 +1,63 @@
+{
+    "name": "Custom Printing PVC Playing Cards",
+    "product_number": "FCS0056",
+    "price": 3.358,
+    "category": "Cards-General",
+    "description": "The poker material used is PVC which is the smoothest playing card. Our PVC playing cards can be customized with your any designs. Not only is the back of each card printed with full color design but also the front of each card. Each deck comes in a custom printing box, 54 cards per deck. Appro size:3 1/2\"x2 1/3.",
+    "summary": "Cases-General; PLAYING CARDS",
+    "image": "https://media.asicdn.com/images/orig/319280000/319284357.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319280000/319284357.jpg",
+        "https://media.asicdn.com/images/orig/319280000/319284358.jpg",
+        "https://media.asicdn.com/images/orig/319280000/319284359.jpg",
+        "https://media.asicdn.com/images/orig/319280000/319284360.jpg",
+        "https://media.asicdn.com/images/orig/319280000/319284361.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Black=Black,Medium Yellow=Yellow,Medium Blue=Blue,Medium Green=Green,Medium Red=Red,Medium Purple=Purple,Medium Pink=Pink,Medium Orange=Orange,Multi Color=Multi Color",
+        "materials": "Plastic=Clear Plastic & Metal",
+        "size": "Length:3 1/2:in;Width:2 1/3:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 200,
+            "price": 3.358,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.145,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 1.976,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.798,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.436,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.596,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.508,
+            "code": "R"
+        }
+    ]
+}

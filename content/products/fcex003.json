@@ -1,0 +1,52 @@
+{
+    "name": "Mini USB Fan",
+    "product_number": "FCEX003",
+    "price": 1.42,
+    "category": "Fans-USB",
+    "description": "Stay cool and connected with our USB FAN for iPhone, Micro and Type C supported phones - 3in1! This versatile and portable fan is the perfect way to beat the heat while on-the-go or at your desk. With its triple compatibility and customizable branding options, this fan is a great way to promote your brand and make a lasting impression. Ideal for trade shows, conferences, and other events, this fan is a must-have accessory for staying cool and connected.",
+    "summary": "Mini Cell Phone Fan 3-in-1 Fan Compatible for iPhone, iPad, Android Smartphone,Tablet",
+    "image": "https://media.asicdn.com/images/orig/331720000/331724221.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/331720000/331724221.jpg",
+        "https://media.asicdn.com/images/orig/331720000/331724241.jpg",
+        "https://media.asicdn.com/images/orig/331720000/331724242.jpg",
+        "https://media.asicdn.com/images/orig/331720000/331724243.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Blue=Blue,Medium Orange=Orange,Medium Pink=Pink,Medium Green=Green",
+        "materials": "Plastic=Plastic",
+        "size": "Length:3.5:in;Width:1.1:in;Height:0.75:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 250,
+            "price": 1.42,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.25,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.16,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.11,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.05,
+            "code": "R"
+        }
+    ]
+}

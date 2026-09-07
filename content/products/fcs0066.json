@@ -1,0 +1,66 @@
+{
+    "name": "Polyester Twill Bucket Hat",
+    "product_number": "FCS0066",
+    "price": 4.36,
+    "category": "Caps & Hats-General",
+    "description": "This bucket hat is made of 100% polyester twill, durable and comfy to wear, foldable and packable, lightweight and not easy to deform, reliable material ensures that you can wear them for a long time. It is designed in solid color and with brim design, which can not only provide your head a nice protection, but also add more highlights to your outfit, holding both decorative and practical functions. These bucket hats can be worn for beach, park, pool, outdoor music festivals, traveling, running, boating, camping, hiking, biking, fishing, relaxing, doing yoga, working out or other occasions, which will show your charming fully. Brim/Visor measures approximately 2.3\". Custom logo is available. we have different shipping way, the price is different.",
+    "summary": "Cap, Bucket Hat, Cotton Hat",
+    "image": "https://media.asicdn.com/images/orig/319350000/319353375.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319350000/319353375.jpg",
+        "https://media.asicdn.com/images/orig/319350000/319353376.jpg",
+        "https://media.asicdn.com/images/orig/319350000/319353377.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Red=Red,Medium Blue=Blue,Medium Pink=Pink,Medium Yellow=Yellow,Medium Orange=Orange,Medium Purple=Purple,Medium Blue=Lt. Blue,Other=Custom",
+        "materials": "Polyester=Polyester Twill",
+        "size": "Width:22.8:in",
+        "imprint_method": "Silkscreen=Silkscreen,Embroidered=Embroidered,Heat Transfer=Heat Transfer",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "10-12",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 4.36,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 4.08,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 3.53,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 3.25,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.85,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 2.53,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 2.35,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 2.18,
+            "code": "R"
+        }
+    ]
+}

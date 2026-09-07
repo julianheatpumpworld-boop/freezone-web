@@ -1,0 +1,62 @@
+{
+    "name": "Metal Lemon Squeezer",
+    "product_number": "FCS0046",
+    "price": 6.872,
+    "category": "Tools-Kitchen-Juice Squeezers",
+    "description": "This citrus press is made of quality aluminum,hand sized and portable.Easy to use and is great for people with low hand strength. Feels comfortable and secure when squeezing.Super fast one squeeze operation.Ideal for making cocktails, guacamole, marinades, or even squeezing a lime at the table over freshly grilled meat and veggies.Customized is available.",
+    "summary": "Super fast one squeeze operation",
+    "image": "https://media.asicdn.com/images/orig/319300000/319304820.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319300000/319304820.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319304818.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319304819.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319304821.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Yellow=Yellow,Medium Orange=Orange,Medium Red=Red,Medium Green=Green",
+        "materials": "Metal=Metal",
+        "size": "Length:8.46:in;Width:2.87:in;Height:1.77:in",
+        "imprint_method": "Laser Engraved=Laser Engraved,Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "3-5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 6.872,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 6.628,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 6.489,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 6.215,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.916,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 5.584,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 4.967,
+            "code": "R"
+        }
+    ]
+}

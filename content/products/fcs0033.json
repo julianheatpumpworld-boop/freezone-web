@@ -1,0 +1,68 @@
+{
+    "name": "Drawstring Backpack",
+    "product_number": "FCS0033",
+    "price": 3.22,
+    "category": "Backpacks-Drawstring",
+    "description": "Whether you're outfitting an athletic team with something that's perfect for any away game or you want to offer corporate employees something that's perfect for a trip to the gym and beyond, this Drawstring Backpack is here for you. This 14\" x 18\" pack is made using 210 denier polyester materials and is available in a wide variety of color options to suit your corporate aesthetic, team colors and more. Add an imprint of your team's mascot, corporate logo or other advertising message and get started with your promotional effort today!",
+    "summary": "Polyester drawstring backpack.",
+    "image": "https://media.asicdn.com/images/orig/330140000/330143016.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/330140000/330143016.jpg",
+        "https://media.asicdn.com/images/orig/330140000/330143015.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255600.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255599.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255598.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Dark Red=Burgundy,Other=Camo 1,Other=Camo 2,Medium Green=Forest Green,Medium Green=Kelly Green,Medium Green=Lime Green,Dark Blue=Navy Blue,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium White=White,Medium Yellow=Yellow",
+        "materials": "Polyester=Polyester",
+        "size": "Length:14:in;Width:18:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "5-7",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.22,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 3.08,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.87,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.71,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.25,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 2.03,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.66,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 1.05,
+            "code": "R"
+        }
+    ]
+}

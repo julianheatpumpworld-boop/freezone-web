@@ -1,0 +1,61 @@
+{
+    "name": "Magnet Power Clip",
+    "product_number": "FCS0052",
+    "price": 1.286,
+    "category": "Clips-Utility-Magnetic",
+    "description": "Get a hold of new customers when you make this magnet clip your next giveaway! It keeps your papers, cards, and coupons organized and features a strong magnet for great holding power. Attach it to a refrigerator or a file cabinet to keep your pictures and memos in sight. It has a spring-loaded hinge and its rubber textured handle offers a solid grip. This works great as a snack bag clip as well. Surprise clients with this amazing gift!",
+    "summary": "Magnet power clip.",
+    "image": "https://media.asicdn.com/images/orig/319300000/319305205.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319300000/319305205.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319305206.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319305207.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Red=Red,Medium Green=Green,Other=Custom Color",
+        "materials": "Polypropylene=Polypropylene",
+        "size": "Length:3 1/4:in;Width:1 1/4:in;Height:1 5/8:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 250,
+            "price": 1.286,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.195,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.069,
+            "code": "R"
+        },
+        {
+            "qty": 2500,
+            "price": 0.995,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.912,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 0.856,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.789,
+            "code": "R"
+        }
+    ]
+}

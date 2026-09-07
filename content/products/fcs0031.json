@@ -1,0 +1,67 @@
+{
+    "name": "Microfiber Golf Towel W/Hook",
+    "product_number": "FCS0031",
+    "price": 1.408,
+    "category": "MICROFIBER CLOTHS",
+    "description": "Create a swinging golf-themed gift from a pro shop or corporate event with these golf towels. The 11 13/16* 11 13/16\" golf towel made of soft and supple 300GSM polyester microfiber material. It has an absorbent construction with a metal grommet and clip to easily attach to your golf bag or other playing gear. Quickly clean up your hands, clubs or tees. Choose from several great shades and add your school, sports team, organizational or company logo or message to customize. Over 500 pcs is by OCEAN.",
+    "summary": "This item is 300GSM Microfiber Golf Towel with Metal Grommet and Clip.",
+    "image": "https://media.asicdn.com/images/orig/324520000/324526565.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324520000/324526565.jpg",
+        "https://media.asicdn.com/images/orig/324520000/324526562.jpg",
+        "https://media.asicdn.com/images/orig/324520000/324526564.jpg",
+        "https://media.asicdn.com/images/orig/324520000/324526567.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Black=Black,Dark Blue=Royal Blue,Medium White=White,Medium Green=Lime Green,Dark Blue=Navy Blue,Medium Pink=Pink,Medium Gray=Gray,Medium Purple=Purple,Dark Brown=Dark Brown",
+        "materials": "Other=300Gsm Microfiber",
+        "size": "Length:11 13/16:in;Width:11 13/16:in",
+        "imprint_method": "Silkscreen=Silkscreen,Silkscreen=Heat Transfer,Silkscreen=Embroidered",
+        "imprint_color": "Custom Colors",
+        "production_time": "7-9",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.408,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.256,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.098,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.887,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.792,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.668,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.605,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.587,
+            "code": "R"
+        }
+    ]
+}

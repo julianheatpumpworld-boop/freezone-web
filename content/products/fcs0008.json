@@ -1,0 +1,62 @@
+{
+    "name": "20 oz Stainless Steel Vacuum Water Bottle",
+    "product_number": "FCS0008",
+    "price": 9.252,
+    "category": "Bottles-Insulated",
+    "description": "20 oz (600 mL) double-wall vacuum insulated bottle with kinds of lids option. Features 304 Stainless Steel exterior and 304 Stainless Steel lining. Screw on/off bamboo lid. Hand-wash only. Do not microwave. Do not place in freezer. Vacuum insulation helps keep your beverages hot or cold longer than traditional insulation. Designed for use with both hot and cold beverages. Caution: Item may leak if tipped or held upside-down. hipping by SEA.",
+    "summary": "Stainless steel 20 oz. vacuum water bottle.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254633.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254633.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254638.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254634.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254635.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium White=White,Medium Red=Red,Medium Purple=Purple,Medium Green=Green,Medium Yellow=Yellow,Medium Orange=Orange,Medium Pink=Pink,Other=Fuschia,Other=Custom",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "20:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 9.252,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 8.979,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 8.687,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 8.368,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.073,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 7.823,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 7.686,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Beverage Napkins",
+    "product_number": "FCS0027",
+    "price": 0.118,
+    "category": "Napkins-Beverage",
+    "description": "Place your logo on these customizable napkins to gain some attention at banquets, ceremonies, parties and more. These 2-ply white luncheon napkins are environmentally friendly, biodegradable, and made from renewable resources and 20% recycled fibers. Add a brand name, logo or message using several imprint colors available!",
+    "summary": "Place your logo on these customizable napkins to gain some attention at banquets, ceremonies, parties and more.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255210.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255210.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255214.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255212.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255211.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Other=Natural",
+        "materials": "Paper=Paper",
+        "size": "Length:9.06:in;Width:9.06:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to 2 colors",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 5000,
+            "price": 0.118,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.112,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.109,
+            "code": "R"
+        },
+        {
+            "qty": 30000,
+            "price": 0.105,
+            "code": "R"
+        },
+        {
+            "qty": 50000,
+            "price": 0.098,
+            "code": "R"
+        },
+        {
+            "qty": 80000,
+            "price": 0.093,
+            "code": "R"
+        },
+        {
+            "qty": 100000,
+            "price": 0.085,
+            "code": "R"
+        }
+    ]
+}

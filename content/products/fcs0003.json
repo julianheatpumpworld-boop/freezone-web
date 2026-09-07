@@ -1,0 +1,62 @@
+{
+    "name": "25 Oz. Aluminum Water Bottle w/ Carabiner & Twist Cap",
+    "product_number": "FCS0003",
+    "price": 8.002,
+    "category": "Bottles-Sport Type",
+    "description": "This 25 oz. Sports water bottle is made of colorful glossy aluminum and features twist cap with carabiner useful for outdoor and hiking activities. This sports bottle measures 2.87\" W x 10\" H and With a large imprint area of 2.56\"W x 4.00\"H, this is perfect for advertising your logo. Include these trendy water bottles in your next trade show and promote your brand like never before! Also other size available",
+    "summary": "Excite your customers with our 25 Oz. Aluminum Water Bottle w/ Carabiner & Twist Cap!",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254368.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254368.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254369.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254372.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254370.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Blue=Blue,Silver Metal=Silver,Medium Green=Green,Medium White=White",
+        "materials": "Aluminum=Aluminum",
+        "size": "25:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 60,
+            "price": 8.002,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 7.556,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 7.287,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 6.965,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 6.778,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 6.598,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 6.363,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "40 Oz Tumbler With Handle Stainless Steel Cups",
+    "product_number": "FCS5",
+    "price": 16.62,
+    "category": "Glasses-Drinking-Tumbler",
+    "description": "This 40 oz tumbler features a double layer insulation design that keep your favorite drinks hot for 12 hours and cold drinks cold for 24 hour, suitable for use in the car as a car mug, as a water storage mug for the kids at school.BPA free. Hand washing is recommended.The pricing is by AIR",
+    "summary": "The Mug with Straw is a popular dupe for retail. Made of stainless steel with a matte finish that is vacuum-insulated and double-w",
+    "image": "https://media.asicdn.com/images/orig/323190000/323196665.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323190000/323196665.jpg",
+        "https://media.asicdn.com/images/orig/323190000/323196666.jpg",
+        "https://media.asicdn.com/images/orig/323190000/323196667.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Yellow=Yellow,Medium Green=Green,Medium Pink=Pink,Medium Blue=Blue,Medium Gray=Gray,Medium Red=Red,Medium Purple=Purple,Medium Brown=Brown",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "40:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Up to full color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 16.62,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 15.92,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 15.03,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 14.68,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 14.26,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 13.85,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 13.47,
+            "code": "R"
+        }
+    ]
+}

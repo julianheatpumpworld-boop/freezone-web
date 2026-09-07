@@ -1,0 +1,64 @@
+{
+    "name": "Outdoor Aluminium Alloy Portable Folding Chair",
+    "product_number": "FCS0013",
+    "price": 12.488,
+    "category": "FOLDING SEATS",
+    "description": "This Portable Folding Chair is made of Aluminum Alloy and Oxford cloth, which is thick and comfortable, wear resistant and tear resistant, strong bearing capacity, not easy to damage. It's light weight and mini size, only one phone size after folding for your convenient carrying and using. Free storage bag, easy to carry. The folding chairs outdoor for Backpackers, Tailgaters, Hikers, Concertgoers, Campers, Adventurers, and anyone looking for comfort without the bulk. Welcome to customize LOGO!",
+    "summary": "It's light weight and mini size, only one phone size after folding for your convenient carrying and using.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254797.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254797.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254800.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254799.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254798.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254795.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254796.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Gold Metal=Gold,Medium Gray=Gray,Medium Red=Red",
+        "materials": "Oxford=Aluminum-Oxford",
+        "size": "Length:10:in;Width:8.66:in;Height:10.62:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 12.488,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 11.887,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 11.765,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 11.653,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 11.569,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 11.432,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 11.279,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Five-point Star Shaped PU Foam Stress Relievers",
+    "product_number": "FCS0028",
+    "price": 1.625,
+    "category": "Stress Relievers-General",
+    "description": "Five-point Star Shaped Polyurethane Stress Relievers, are ideal for community theatres, educational institutions, charity fundraisers and banks. It is available in different eye-catching colors too so Five-point Star Shaped Polyurethane Stress Relievers is sure to enhance your brand's visibility.",
+    "summary": "Five-point Star Shaped Polyurethane Stress Relievers",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255279.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255279.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255278.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255282.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255280.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Blue=Blue,Medium Purple=Purple,Silver Metal=Silver,Gold Metal=Gold,Medium Green=Green. Custom",
+        "materials": "Foam=Foam",
+        "size": "Length:2.76:in;Width:2.76:in;Height:1.18:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 1.625,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.987,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.921,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.802,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.758,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 0.718,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.675,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Economical Polyester Drawstring Backpack",
+    "product_number": "FCS0004",
+    "price": 1.345,
+    "category": "Backpacks-Drawstring",
+    "description": "Create a promotional backpack that's perfect for corporate gifts, university wear, team uniforms and so much more. This 210D polyester drawstring backpack measures 13 3/8\" x 16 9/10\" and can be customized with a silkscreen imprint of your corporate logo, university seal, team mascot, and more on a generously sized 7\" x 8\" imprint area. No matter what kind of event or occasion you're preparing for, this backpack is sure to please.",
+    "summary": "Polyester economical sports backpack.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254437.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254437.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254439.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254438.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254443.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254442.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium White=White,Medium Red=Red,Medium Purple=Purple,Medium Green=Green,Medium Yellow=Yellow,Medium Orange=Orange,Medium Pink=Pink,Other=Custom",
+        "materials": "Polyester=210D Polyester",
+        "size": "Length:13 3/8:in;Width:16 9/10:in",
+        "imprint_method": "Silkscreen=Silkscreen,Sublimation=Sublimation",
+        "imprint_color": "Up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.345,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.266,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.187,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.091,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.981,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.942,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.897,
+            "code": "R"
+        }
+    ]
+}

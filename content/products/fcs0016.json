@@ -1,0 +1,62 @@
+{
+    "name": "Non-Woven Grocery Tote Bag",
+    "product_number": "FCS0016",
+    "price": 2.058,
+    "category": "Bags-Shopping",
+    "description": "Entice more people to learn about your business today when you offer this non-woven shopper tote bag! This is the perfect item to hand out to customers at grocery stores so they can be conscious of their impact on the environment while shopping for food. It's just what many would need to take their essentials from place to place. Add your company name or logo for maximum visibility. Get a hold of new customers when you make this your next giveaway! Over 5000 pcs is by OCEAN.",
+    "summary": "This big tote bag is convenience when you go shopping to grocery, supermarket or shopping mall",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254838.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254838.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254839.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254837.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254836.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Green=Green,Medium Orange=Orange,Medium Purple=Purple,Medium Red=Red,Medium White=White,Medium Blue=Blue,Medium Yellow=Yellow,Medium Pink=Pink",
+        "materials": "Polypropylene=80 Gsm Non-Woven Polypropylene",
+        "size": "Width:12.6:in;Height:15:in;Depth:9.84:in",
+        "imprint_method": "Silkscreen=Silkscreen,Heat Transfer=Heat Transfer",
+        "imprint_color": "Up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.058,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.823,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.525,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.256,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.028,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.752,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 0.723,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Flashing Fan With LED Message",
+    "product_number": "FCS0103",
+    "price": 3.976,
+    "category": "Fans-USB",
+    "description": "These LED fans are great for keeping your customers cool at any hot event and can also be used at indoor events once the lights are dimmed. The soft blade has five micro super-bright LEDs that create constantly changing, dazzling patterns when in motion. A break-away lanyard for the wrist and three AAA batteries are included. Your clients will be mesmerized with this amazing customized marketing tool! Blank or imprinted.",
+    "summary": "Put a different spin on your promotional package with the light-up promotional mini fans with handles!",
+    "image": "https://media.asicdn.com/images/orig/321020000/321029241.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/321020000/321029241.jpg",
+        "https://media.asicdn.com/images/orig/321020000/321029243.jpg",
+        "https://media.asicdn.com/images/orig/321020000/321029244.jpg",
+        "https://media.asicdn.com/images/orig/321020000/321029245.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Red=Red,Medium Yellow=Yellow,Medium Blue=Blue,Medium Orange=Orange,Medium Pink=Pink",
+        "materials": "Plastic=Plastic",
+        "size": "Length:1.4:in;Width:2.2:in;Height:4.3:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.976,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 3.886,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 3.776,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 3.178,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 3.065,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 2.958,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 2.865,
+            "code": "R"
+        }
+    ]
+}

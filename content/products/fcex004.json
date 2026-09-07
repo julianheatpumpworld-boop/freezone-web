@@ -1,0 +1,57 @@
+{
+    "name": "Folding Paper hand Fan",
+    "product_number": "FCEX004",
+    "price": 2.35,
+    "category": "Fans-General",
+    "description": "Folding fans made of bamboo, very light weight, these fans suit for kids diy painting, artist drawing projects suit for decorating wedding, house, office, stages, best choice for party and various festivals.",
+    "summary": "Multicolor Folding Paper Bamboo Hand Fan for Wedding, Party, Trade show and Event",
+    "image": "https://media.asicdn.com/images/orig/331720000/331724453.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/331720000/331724453.jpg",
+        "https://media.asicdn.com/images/orig/331720000/331724454.jpg",
+        "https://media.asicdn.com/images/orig/331720000/331724455.jpg",
+        "https://media.asicdn.com/images/orig/331720000/331724456.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Orange=Orange,Medium Yellow=Yellow,Medium Pink=Pink,Medium Purple=Purple,Medium White=White,Medium Red=Red,Assorted=Assorted",
+        "materials": "Paper=Paper,Bamboo=Bamboo",
+        "size": "Length:9:in;Width:3.8:in;Height:17:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.35,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.08,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.58,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.07,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.05,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.97,
+            "code": "R"
+        }
+    ]
+}

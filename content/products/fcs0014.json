@@ -1,0 +1,63 @@
+{
+    "name": "Double Wall Acrylic Tumbler With Lid And Straw",
+    "product_number": "FCS0014",
+    "price": 6.859,
+    "category": "Glasses-Drinking-Tumbler",
+    "description": "This is 16 oz double wall tumbler that made of high-grade 100% acrylic plastic construction with matching colored straw and lid. Keep water, lemonade and juice frosty-cold, while hot drinks like coffee, tea and hot cocoa will stay warm and toasty. Our handy travel cup set is the most fun way to stay hydrated during hardcore gym sessions, make long days at the office a tad more bearable, or cool down at the beach with a refreshing smoothie or iced drink. These lightweight tumblers are breeze to quickly hand wash.The pricing is by SEA.",
+    "summary": "This is 16 oz double wall tumbler that made of high-grade 100% acrylic plastic construction with matching colored straw and lid.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254807.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254807.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254808.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254805.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254806.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254809.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Clear=Clear,Medium Green=Green,Medium Orange=Orange,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium Yellow=Yellow",
+        "materials": "Acrylic Plastic=Acrylic Plastic",
+        "size": "16:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 48,
+            "price": 6.859,
+            "code": "R"
+        },
+        {
+            "qty": 96,
+            "price": 6.352,
+            "code": "R"
+        },
+        {
+            "qty": 144,
+            "price": 5.783,
+            "code": "R"
+        },
+        {
+            "qty": 288,
+            "price": 5.546,
+            "code": "R"
+        },
+        {
+            "qty": 504,
+            "price": 5.372,
+            "code": "R"
+        },
+        {
+            "qty": 1008,
+            "price": 4.822,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 4.568,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Portable Golf Ball Cleaner Pouch",
+    "product_number": "FCS0011",
+    "price": 2.389,
+    "category": "Golf Accessories-Ball Cleaners",
+    "description": "The golf ball cleaner pouch is equipped with a plastic clip, which is easy for you to carry. You can clasp the clip to your golf bag or other places, suitable for you to carry outside. The golf ball washer bag combines with different outer and liner material, the liner material can keep inside wet for cleaning the golf ball, and the outer material keeps dry for convenient carrying. The price includes the shipping cost to ca. It is convenient to use in daily golf competitions and games; You can share it with your families and friends who loving golfing.",
+    "summary": "The golf ball cleaner pouch is equipped with a plastic clip, which is easy for you to carry.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254764.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254764.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254766.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254763.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254768.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254762.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Pink=Pink,Medium Red=Red,Medium White=White,Medium Yellow=Yellow,Other=Grey,Medium Brown=Brown,Medium Purple=Purple",
+        "materials": "Neoprene=Neoprene",
+        "size": "Length:3.93:in;Width:3.93:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.389,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.089,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.927,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.636,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.479,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.358,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.262,
+            "code": "R"
+        }
+    ]
+}

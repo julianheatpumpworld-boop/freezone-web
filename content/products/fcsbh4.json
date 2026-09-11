@@ -1,0 +1,68 @@
+{
+    "name": "20 oz Stainles Steel Tumbler w/Metal Handle",
+    "product_number": "FCSBH4",
+    "price": 13.36,
+    "category": "Mugs & Steins-Insulated",
+    "description": "This tumbler is with kitchen grade 18/8 stainless steel, dual wall vacuum seal eliminates condensation. Handle makes it easy to grip and carrye. Keeps drinks cold for 12 hours and hot for 8 hours, spill-resistant, thumb slide lid with rubber gasket. BPA Free. Not dishwasher safe, hand wash only.",
+    "summary": "Enjoy a beverage on the go with our 20-ounce reusable travel coffee mug.",
+    "image": "https://media.asicdn.com/images/orig/325890000/325895771.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/325890000/325895771.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325895772.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325895773.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325895774.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325895775.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Orange=Orange,Medium Red=Red,Medium Blue=Blue,Medium Purple=Purple,Medium Pink=Pink,Medium Gray=Gray,Medium Gray=Silver,Medium Brown=Brown",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "20:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Standard Colors,Custom Colors,PMS Colors",
+        "production_time": "5",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 13.36,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 13.18,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 12.98,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 12.85,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 12.55,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 8.78,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 8.65,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 8.38,
+            "code": "R"
+        }
+    ]
+}

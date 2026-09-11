@@ -1,0 +1,51 @@
+{
+    "name": "Tote Bags-Canvas",
+    "product_number": "FCSA0330",
+    "price": 4.98,
+    "category": "Bags-General",
+    "description": "Whether you're a small business owner creating custom promotional merchandise, a crafter making personalized gifts, or a retailer offering custom tote bags, our blank canvas totes are the perfect choice. They're versatile enough for any use: shopping, school, work, beach trips, and more. With a generous capacity and a timeless design, these tote bags are a must-have for anyone looking to add a personal touch to their everyday carry.",
+    "summary": "These 100% natural cotton tote bags are the ultimate blank canvas for creating personalized, branded, and one-of-a-kind accessorie",
+    "image": "https://media.asicdn.com/images/orig/361190000/361196451.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/361190000/361196451.png",
+        "https://media.asicdn.com/images/orig/361190000/361196453.png",
+        "https://media.asicdn.com/images/orig/361190000/361196455.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White",
+        "materials": "Cotton=Cotton",
+        "size": "Length:13.8:in;Width:15.7:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 4.98,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 3.75,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 3.68,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 3.29,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 2.99,
+            "code": "R"
+        }
+    ]
+}

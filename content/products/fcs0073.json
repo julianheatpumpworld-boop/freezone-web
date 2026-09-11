@@ -1,0 +1,63 @@
+{
+    "name": "Rectangle Fabric Mouse Pad",
+    "product_number": "FCS0073",
+    "price": 2.558,
+    "category": "COMPUTER ACCESSORIES",
+    "description": "Make a space for your brand on desktops far and wide with a low tech computer accessory that you can count on for effective advertising. This fabric mouse pad measures 9 3/8\"W x 8\"H and features a 1/8\" thick rubber bottom. It's available in your choice of vibrant and exciting color options to match your advertising aesthetic, recipients' preferences and more. Add a silkscreen imprint of your organization's name, logo and advertising message to complete the promotional look.",
+    "summary": "COMPUTER ACCESSORIES",
+    "image": "https://media.asicdn.com/images/orig/319360000/319360383.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319360000/319360383.jpg",
+        "https://media.asicdn.com/images/orig/319360000/319360384.jpg",
+        "https://media.asicdn.com/images/orig/319360000/319360385.jpg",
+        "https://media.asicdn.com/images/orig/319360000/319360388.jpg",
+        "https://media.asicdn.com/images/orig/319360000/319360389.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Gray=Gray,Medium Blue=Blue,Medium White=White",
+        "materials": "Rubber=Rubber",
+        "size": "Length:9 3/8:in;Height:8:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "3-5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.558,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.356,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.134,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.892,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.556,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.345,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.201,
+            "code": "R"
+        }
+    ]
+}

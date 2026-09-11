@@ -1,0 +1,64 @@
+{
+    "name": "Non-Woven Reusable Insulated Lunch Bag With Handle",
+    "product_number": "FCSM59",
+    "price": 3.43,
+    "category": "Bags-Lunch",
+    "description": "The high-quality aluminum film used in the inside of the meal bag has a good heat insulation effect and does not account for oil pollution. The surface is in nonwoven fabric, ensuring their durability and longevity, safe and odorless, insulated and foldable, fade and wear resistant; The quality fabric gives these bags a robustness that makes them ideal for repeated use, offering confident, sturdy support for your items, ideal for dinner at work, a picnic, a BBQ outside, managing your diet, traveling, or going shopping.",
+    "summary": "The tote bag hold lunch boxes, fruits, drinks, snacks, ideal for use at work, outdoors and travel.",
+    "image": "https://media.asicdn.com/images/orig/328410000/328410022.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/328410000/328410022.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410023.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410024.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410025.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410027.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410028.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Orange=Orange,Medium Pink=Pink,Medium Red=Red,Other=Beige",
+        "materials": "Aluminum=Aluminum Film,Non-Woven Fabric=Non Woven",
+        "size": "Length:8.27:in;Width:8.27:in;Height:11:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.43,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.58,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.05,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.45,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.28,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.22,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 1.06,
+            "code": "R"
+        }
+    ]
+}

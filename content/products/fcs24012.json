@@ -1,0 +1,61 @@
+{
+    "name": "Non Woven Grocery Tote Bag",
+    "product_number": "FCS24012",
+    "price": 1.148,
+    "category": "Tote Bags-Grocery",
+    "description": "Durable and tear resistant non-woven fabric with a roomy interior and carrying handles. Put the ho ho ho into your next holiday activity or event with these themed tote bags. A great way to hand out year end gifts, product samples and information, candies and snacks and more. Available in assorted colors. Add your company logo or message to customize. Orders of 5000 pieces or greater are eligible for sea shipping",
+    "summary": "Carry the message for your business or brand in these eco-friendly tote bags.",
+    "image": "https://media.asicdn.com/images/orig/325390000/325397093.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/325390000/325397093.jpg",
+        "https://media.asicdn.com/images/orig/325390000/325396807.jpg",
+        "https://media.asicdn.com/images/orig/325390000/325396661.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Pink=Pink,Medium Yellow=Yellow,Medium Orange=Orange",
+        "materials": "Non-Woven Fabric=Non-Woven Fabric",
+        "size": "Length:9.84:in;Width:13.78:in;Height:3.94:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 200,
+            "price": 1.148,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.824,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.711,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.694,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.332,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.289,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.265,
+            "code": "R"
+        }
+    ]
+}

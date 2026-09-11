@@ -1,0 +1,61 @@
+{
+    "name": "Kraft Paper Brown Handle Bag",
+    "product_number": "FCSM01",
+    "price": 1.64,
+    "category": "Bags-Shopping",
+    "description": "Bags available in a variety of sizes,5.9\"x3.2\"x8.3\", 8.3\"x4.3\"x10.6\",8.3\"x5.5\"x10.6\", 10.2\"x4.7\"x12.2,12.6\"x4.3\"x10.6\",11\"x5.9\"x11\", and custom .Portable gift bag is made of environmental kraft paper.  Can be used for the company publicity, shopping bag, gift packing and so on. customizable bags to make your company's logo stand out.These kraft bags give customers, clients or guests an end-to-end experience . Add branding to any sale,trade show or event, It's a good chance to leave a lasting impression with a consistent, eye-catching look. welcome your logo.Crafted from durable natural kraft paper, this spacious tote is ideal for carrying groceries, bulk items, and more. The reinforced handles ensure comfortable carrying, making it suitable for daily use or special occasions.Can be used fo",
+    "summary": "These useful party favor bags are in proper size and can be easily folded as you like, convenient to use and carry.",
+    "image": "https://media.asicdn.com/images/orig/326290000/326294998.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326290000/326294998.jpg",
+        "https://media.asicdn.com/images/orig/326290000/326294997.jpg",
+        "https://media.asicdn.com/images/orig/326290000/326294996.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Other=Natural",
+        "materials": "Paper=Paper",
+        "size": "Length:5.9:in;Width:3.2:in;Height:8.3:in,Length:8.3:in;Width:4.3:in;Height:10.6:in,Length:8.3:in;Width:5.5:in;Height:10.6:in,Length:10.2:in;Width:4.7:in;Height:12.2:in,Length:12.6:in;Width:4.3:in;Height:10.6:in,Length:11:in;Width:5.9:in;Height:11:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "12",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.64,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 0.802,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.649,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.482,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.215,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.194,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.176,
+            "code": "R"
+        }
+    ]
+}

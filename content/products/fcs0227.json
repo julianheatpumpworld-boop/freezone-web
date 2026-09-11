@@ -1,0 +1,48 @@
+{
+    "name": "Round Tape Measure",
+    "product_number": "FCS0227",
+    "price": 0.652,
+    "category": "RULERS",
+    "description": "Roll out your new marketing campaign using this round tape measure! This awesome, retractable tape measure extends to 60\"L with the push of a button, in a vinyl cloth measuring inch and metric scales. This promotional tape measure auto locks when pulled out and comes in a 2\"D round plastic case small enough to carry around in bags, sewing kits, or tool belts. Customize and add an imprint of your company name or logo on the tape measure before your next promotional event for great business exposure.",
+    "summary": "Rulers-Folding Type; TAPE MEASURES",
+    "image": "https://media.asicdn.com/images/orig/323790000/323796771.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323790000/323796771.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796779.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796780.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796781.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796782.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Yellow=Yellow,Medium Blue=Blue",
+        "materials": "ABS=Abs",
+        "size": "Length:2:in;Width:1/2:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 0.652,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.612,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.598,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.585,
+            "code": "R"
+        }
+    ]
+}

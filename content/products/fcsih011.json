@@ -1,0 +1,63 @@
+{
+    "name": "Eco Friendly Spiral Notebook with pen",
+    "product_number": "FCSIH011",
+    "price": 3.95,
+    "category": "JOURNALS & DIARIES",
+    "description": "Designed with a hardcover, this spiral notebook includes 70 lined pages, elastic band closure and a matching pen with a paper barrel. Your price includes a one color, one location imprint. Add a brand name, logo or message to create a wonderful promotional gift or giveaway! Over 5000 pcs is by OCEAN.",
+    "summary": "Keep your best ideas inside this eco-inspired notebook!",
+    "image": "https://media.asicdn.com/images/orig/331860000/331861599.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/331860000/331861599.png",
+        "https://media.asicdn.com/images/orig/331860000/331861623.png",
+        "https://media.asicdn.com/images/orig/331860000/331861624.png",
+        "https://media.asicdn.com/images/orig/331860000/331861625.jpg",
+        "https://media.asicdn.com/images/orig/331860000/331861626.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Orange=Orange,Medium Red=Red",
+        "materials": "Paper=Paper",
+        "size": "Length:7:in;Width:5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "9",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.95,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 3.72,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 3.38,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.92,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.02,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.83,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 1.35,
+            "code": "R"
+        }
+    ]
+}

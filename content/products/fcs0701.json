@@ -1,0 +1,66 @@
+{
+    "name": "100% Cotton Golf Towel W/Hook",
+    "product_number": "FCS0701",
+    "price": 3.32,
+    "category": "MICROFIBER CLOTHS",
+    "description": "The 15 3/4* 11 13/16\" golf towel made of soft and supple 400GSM 100% cottonmaterial. Each one also features a metal grommet for attaching to golf bag to make for easy transportation. Add your company name and logo to help promote your business and services.",
+    "summary": "Make your business stand out from the crowd with this promotional golf towel!",
+    "image": "https://media.asicdn.com/images/orig/324520000/324529015.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324520000/324529015.jpg",
+        "https://media.asicdn.com/images/orig/324520000/324529017.jpg",
+        "https://media.asicdn.com/images/orig/324520000/324529020.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Black=Black,Medium White=White,Dark Blue=Navy Blue,Medium Gray=Gray",
+        "materials": "Cotton=400Gsm Cotton",
+        "size": "Length:15 3/4:in;Width:11 13/16:in",
+        "imprint_method": "Silkscreen=Silkscreen,Silkscreen=Heat Transfer,Silkscreen=Embroidered",
+        "imprint_color": "Custom Colors",
+        "production_time": "7-9",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.32,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 3.05,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.38,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.85,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.43,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.18,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.93,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.75,
+            "code": "R"
+        }
+    ]
+}

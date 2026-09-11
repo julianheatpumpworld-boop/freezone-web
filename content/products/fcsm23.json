@@ -1,0 +1,62 @@
+{
+    "name": "Aluminium Alloy Bottle Opener Keyring",
+    "product_number": "FCSM23",
+    "price": 0.799,
+    "category": "Key Chains-With Bottle or Can Opener",
+    "description": "Our aluminum beer corkscrew is made of aluminum alloy, each silver keychain beer corkscrew is durable and sturdy, reliable to use, not easy to rust or corrode, serve you for a long time, give you good use experience. This mini beer opener keychain uses the lever principle, just need a little pressure, you can easily remove the cap from the bottle. Works with most beers, soft drinks, sodas.This bottle opener is all equipped with a key ring, which is easy to carry and suitable for various occasions, such as anniversaries, family gatherings, kitchens, bars, wedding parties, travel, birthday parties, corporate celebrations, etc. Bring you a lot of convenience.",
+    "summary": "Small and lightweight, it fits in your hand, pocket, car or even a kitchen drawer.",
+    "image": "https://media.asicdn.com/images/orig/327000000/327004546.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/327000000/327004546.jpg",
+        "https://media.asicdn.com/images/orig/327000000/327004547.jpg",
+        "https://media.asicdn.com/images/orig/327000000/327004548.jpg",
+        "https://media.asicdn.com/images/orig/327000000/327004549.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Green=Green,Medium Blue=Blue,Medium Gray=Silver,Medium Red=Red,Medium Purple=Purple,Dark Yellow=Gold,Medium Pink=Pink",
+        "materials": "Aluminum=Aluminum",
+        "size": "Length:2.45:in;Width:0.47:in",
+        "imprint_method": "Laser Engraved=Laser Engraved,Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,one color",
+        "production_time": "3-5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 0.799,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 0.66,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.535,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.39,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.3,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.271,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.257,
+            "code": "R"
+        }
+    ]
+}

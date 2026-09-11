@@ -1,0 +1,51 @@
+{
+    "name": "World Cup Key Chain",
+    "product_number": "FCSA0326",
+    "price": 2.69,
+    "category": "Key Chains-Flexible Loop",
+    "description": "Made of zinc alloy, this Metal Football Keychain boasts a detailed soccer ball and a sleek football boot charm. It's highly durable for daily use, securely holding keys without any scratches. Being lightweight and portable, it fits effortlessly into pockets or bags. Ideal for soccer fans, it adds a sporty flair to keys, backpacks, or serves as a great gift. The smooth zinc alloy surface ensures a comfortable touch, making it a delightful accessory to show your passion.",
+    "summary": "The detailed, lifelike design ensures it stays looking new for years, making it a durable keepsake.",
+    "image": "https://media.asicdn.com/images/orig/361190000/361193569.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/361190000/361193569.png",
+        "https://media.asicdn.com/images/orig/361190000/361193970.png",
+        "https://media.asicdn.com/images/orig/361190000/361193971.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Gray=Silver",
+        "materials": "Metal=Zinc Alloy",
+        "size": "Length:2.4:in;Width:1.7:in;Height:0.8:in",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.69,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.09,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.69,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.39,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.06,
+            "code": "R"
+        }
+    ]
+}

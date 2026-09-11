@@ -1,0 +1,49 @@
+{
+    "name": "6 Oz. Korabel Stemless Champagne Flute",
+    "product_number": "FCS0139",
+    "price": 9.642,
+    "category": "Glasses-Drinking-Champagne",
+    "description": "Elevate your next promotion with this 6 oz. Korabel stemless champagne flute! When you're ready to celebrate a special occasion, you can break out the champagne and fill this cup up for a bubbly tribute. With a unique build and a lid, this allows you to take your drink along more freely. Clients will love having a quick taste of something spectacular with this great item. Raise a glass to your continued success!",
+    "summary": "Glasses-Drinking-Champagne; TRAVEL MUGS/CUPS",
+    "image": "https://media.asicdn.com/images/orig/323340000/323341396.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323340000/323341396.jpg",
+        "https://media.asicdn.com/images/orig/323340000/323341398.jpg",
+        "https://media.asicdn.com/images/orig/323340000/323341399.jpg",
+        "https://media.asicdn.com/images/orig/323340000/323341394.jpg",
+        "https://media.asicdn.com/images/orig/323340000/323341395.jpg",
+        "https://media.asicdn.com/images/orig/323340000/323341397.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Black=Black,Medium Red=Red,Other=Rose Gold,Other=Matte Rose Gold,Other=Matte Pink,Dark Blue=Navy,Other=Matte Blue,Medium Green=Green,Other=Fuschia,Other=Champagne,Medium Gray=Silver,Light Blue=Light Blue",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "6:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 9.642,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 9.233,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 8.652,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 7.863,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Football Stress Reliever-Rugby Ball",
+    "product_number": "FCSBH7",
+    "price": 2.08,
+    "category": "FOOTBALLS",
+    "description": "Great for stress relief. Stress relief squeeze balls are proven to relieve stress as all of your energy and focus is being redirected and taken out on the stress ball. The perfect tool to help you with muscular relaxation. Stress balls take therapy to a whole new level. Makes a great fun toy, gift, party favor, or stocking stuffer for children.",
+    "summary": "Are you looking for a practical and fun way to relieve your daily stress? The 3.35 Inch Mini Rugby Ball Squeezie Stress Reliever i",
+    "image": "https://media.asicdn.com/images/orig/326450000/326459526.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326450000/326459526.jpg",
+        "https://media.asicdn.com/images/orig/326450000/326459527.jpg",
+        "https://media.asicdn.com/images/orig/326450000/326459528.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Yellow=Yellow,Medium Orange=Orange,Medium Red=Red,Medium Green=Green,Medium Brown=Brown,Medium Blue=Blue,Medium Pink=Pink",
+        "materials": "Polyurethane (PUR or PU)=Pu",
+        "size": "Length:3.35:in;Width:2.36:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "up to full color",
+        "production_time": "3-5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.08,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.82,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.68,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.16,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.98,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.45,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.38,
+            "code": "R"
+        }
+    ]
+}

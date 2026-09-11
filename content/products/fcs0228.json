@@ -1,0 +1,48 @@
+{
+    "name": "Folding Paper Fan",
+    "product_number": "FCS0228",
+    "price": 2.535,
+    "category": "Fans-General",
+    "description": "Our folding hand fan is made up of paper and bamboo ribs. Ideal for holidays and keeping cool in hot weather or as a wedding gift. Blank folding fan for children practice calligraphy painting and other DIY. 1 color or full color could be printed for your brand exposure.",
+    "summary": "Fans-General, Paper Fans",
+    "image": "https://media.asicdn.com/images/orig/323790000/323796931.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323790000/323796931.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796932.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796928.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796929.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323796930.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Multi Color=Multi Color",
+        "materials": "Bamboo=Bamboo",
+        "size": "Length:8 1/4:in;Width:15:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "full color",
+        "production_time": "12",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 2.535,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.512,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 2.498,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 2.422,
+            "code": "R"
+        }
+    ]
+}

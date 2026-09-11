@@ -1,0 +1,61 @@
+{
+    "name": "20oz Stainless Steel Car Thermos Cup",
+    "product_number": "FCSM06",
+    "price": 10.639,
+    "category": "Mugs & Steins-Insulated",
+    "description": "The tumbler pack are made with high grade 304 food grade steel, anti rust and lead free, unbreakable and stands up to heavy use through every season. Clear press on top helps you see what is inside.In addition, 20 oz thermos cup fits most car cup holders and is very comfortable to use. Designed to fit most car cup holders.A great choice for leisure, this 20 oz. coffee tumbler set is designed for everyday use at home, office, outdoor parties and events such as sports, travel, camping and driving. Perfect for office workers, students, party favors and more. So you can choose one for your family and friends as Father's Day gifts, Mother's Day gifts, Christmas gifts or birthday gifts. And the cutomized logo is available, Qty for 1000 and over by sea.",
+    "summary": "The 20oz car cup is both fashionable and functional. It's perfect for use on the go and will make you the envy of all your friends",
+    "image": "https://media.asicdn.com/images/orig/326300000/326302482.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326300000/326302482.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302483.jpg",
+        "https://media.asicdn.com/images/orig/326300000/326302481.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Orange=Orange,Medium Black=Black,Medium Red=Red,Medium Yellow=Yellow,Medium Blue=Blue,Medium Purple=Purple,Medium Gray=Silver,Dark Blue=Navy Blue,Medium Green=Green,Medium Gray=Gray,Medium Pink=Pink",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "20:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "one color",
+        "production_time": "10",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 10.639,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 10.539,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 10.288,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 10.162,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 9.751,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.407,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 5.281,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Salt and Pepper Shaker sets",
+    "product_number": "FCS24005",
+    "price": 5.52,
+    "category": "SALT & PEPPER SHAKERS AND MILLS",
+    "description": "Designed with modern farmhouse and classic aesthetics in mind, these shakers will be the perfect addition to any sophisticated kitchen. This salt and pepper shaker set is made of glass, with a stainless steel cap. Each shaker fittingly colored by their condiment.When it's time for cleaning, simply remove the lids and rinse these shakers thoroughly.",
+    "summary": "These shakers are designed with ease of use in mind. Their stainless steel lids can be easily unscrewed for a quick and mess-free",
+    "image": "https://media.asicdn.com/images/orig/324180000/324182660.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324180000/324182660.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324182661.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324182662.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324182663.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324182664.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium White=White,Medium Pink=Pink,Medium Purple=Purple,Medium Blue=Blue,Medium Red=Red",
+        "materials": "Glass=Glass",
+        "size": "Length:1.57:in;Width:3.54:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "up to full color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 5.52,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 5.35,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 5.02,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 4.85,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 4.63,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 4.52,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 4.25,
+            "code": "R"
+        }
+    ]
+}

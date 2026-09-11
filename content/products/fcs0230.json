@@ -1,0 +1,46 @@
+{
+    "name": "Digital Countdown Timer",
+    "product_number": "FCS0230",
+    "price": 3.565,
+    "category": "TIMERS",
+    "description": "Keep track of the cooking of your next culinary masterpiece, or just clock a round of charades or word game with this handy kitchen timer. This 2.24\" x 2.13\" x 0.63\" plastic timer has three-button operation and an easy-to-read LCD display that keeps track of up to 99 minutes and 59 seconds of time before sounding the alarm. Each includes a battery, and has a fold-out stand and magnet mount. Add your logo to create a gift or giveaway from a kitchen supply store, bakery or restaurant.",
+    "summary": "TIMERS; Tools-Kitchen-Appliances",
+    "image": "https://media.asicdn.com/images/orig/323790000/323797085.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323790000/323797085.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323797086.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323797087.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White",
+        "materials": "Plastic=Plastic",
+        "size": "Length:2.24:in;Width:2.13:in;Height:0.63:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.565,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 3.426,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 3.235,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 3.032,
+            "code": "R"
+        }
+    ]
+}

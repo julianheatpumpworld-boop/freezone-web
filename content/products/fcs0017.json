@@ -1,0 +1,64 @@
+{
+    "name": "6.5 inches Synthetic Leather Football",
+    "product_number": "FCS0017",
+    "price": 9.315,
+    "category": "FOOTBALLS",
+    "description": "The Mini Synthetic Leather Football features white autograph panels for the whole team to take part in! Football features re-inflatable athletic valve. Hand out permanent markers with your logo for clear, long-lasting autographs. Mini footballs are great for camps, coach recognition, book stores and more!",
+    "summary": "The min football can be designed all fully custom, and show you big logo to customer.",
+    "image": "https://media.asicdn.com/images/orig/360820000/360829929.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/360820000/360829929.jpg",
+        "https://media.asicdn.com/images/orig/360820000/360829924.png",
+        "https://media.asicdn.com/images/orig/360820000/360829930.jpg",
+        "https://media.asicdn.com/images/orig/360830000/360830081.png",
+        "https://media.asicdn.com/images/orig/360830000/360830133.jpg",
+        "https://media.asicdn.com/images/orig/360830000/360830209.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Brown=Brown,Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium White=White,Medium Yellow=Yellow,Other=Custom",
+        "materials": "PVC=Pvc",
+        "size": "Length:6.5:in;Width:4:in",
+        "imprint_method": "Silkscreen=Silkscreen,Heat Transfer=Heat Transfer",
+        "imprint_color": "Up to full color",
+        "production_time": "8-10",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 9.315,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 7.941,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 7.198,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 6.922,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 6.712,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 6.438,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 6.387,
+            "code": "R"
+        }
+    ]
+}

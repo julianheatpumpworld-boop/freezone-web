@@ -1,0 +1,48 @@
+{
+    "name": "Economy Grade  Badge Holders with Poylester Lanyard",
+    "product_number": "FCS0211",
+    "price": 1.492,
+    "category": "Badge Holders-Convention Type",
+    "description": "Available Same Day! These event size, clear vinyl badge holders feature one large vertical top-load pocket. Available in four sizes, they're perfect for displaying any oversized ticket or large credential. Economy grade holders are great for short-time use at conferences, conventions, trade shows or other events.Also attachment to lanyard together. Insert sizes:2.13\"*3.35\"(vertical); :3.35\"*2.13\" (horizontal).",
+    "summary": "Badge Holders-Convention Type; Badge Holders-General",
+    "image": "https://media.asicdn.com/images/orig/323670000/323677034.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323670000/323677034.jpg",
+        "https://media.asicdn.com/images/orig/323670000/323677036.jpg",
+        "https://media.asicdn.com/images/orig/323670000/323677037.jpg",
+        "https://media.asicdn.com/images/orig/323670000/323677035.jpg",
+        "https://media.asicdn.com/images/orig/323670000/323677038.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Clear:Combo:Medium Red:secondary=Clear-Red,Medium Blue=Blue,Medium Green=Green,Medium White=White,Medium Orange=Orange,Medium Pink=Pink,Medium Black=Black,Medium Purple=Purple",
+        "materials": "Polyester=Polyester,Vinyl=Vinyl",
+        "size": "Length:2.6:in;Width:4.13:in,Length:3.82:in;Width:2.91:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.492,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.375,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.282,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.165,
+            "code": "R"
+        }
+    ]
+}

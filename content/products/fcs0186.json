@@ -1,0 +1,48 @@
+{
+    "name": "Mini Contact Lens Case",
+    "product_number": "FCS0186",
+    "price": 1.772,
+    "category": "EYEGLASS ACCESSORIES",
+    "description": "Mini Lens Case Kit Mirror Container Holder. Mini outlook, perfectly protect your contact lenses. Keep your contact lenses clean everyday. Made of high quality plastic, durable and portable.Your logo is welcome.Price for over 3000pcs is for sea shipment.",
+    "summary": "EYEGLASS ACCESSORIES; EYEGLASS CASES & HOLDERS",
+    "image": "https://media.asicdn.com/images/orig/323430000/323439105.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323430000/323439105.jpg",
+        "https://media.asicdn.com/images/orig/323430000/323439106.jpg",
+        "https://media.asicdn.com/images/orig/323430000/323439107.jpg",
+        "https://media.asicdn.com/images/orig/323430000/323439108.jpg",
+        "https://media.asicdn.com/images/orig/323430000/323439109.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue",
+        "materials": "Plastic=Plastic",
+        "size": "Length:2.68:in;Width:1.89:in;Height:0.87:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 300,
+            "price": 1.772,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.598,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.468,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.392,
+            "code": "R"
+        }
+    ]
+}

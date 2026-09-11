@@ -1,0 +1,61 @@
+{
+    "name": "Reusable Magnetic Water Balloons Pool Beach Toys",
+    "product_number": "FCS0258",
+    "price": 1.256,
+    "category": "BALLOONS",
+    "description": "Looking for a fun and refreshing way to beat the summer heat? Our reusable water balloons are perfect for kids and adults alike! With endless possibilities for games and activities, like relay races and pool water fights, these outdoor toys are sure to provide hours of entertainment. Plus, they're eco-friendly and can be used up to 1000 times, making them a sustainable choice for summer fun. Click to purchase and make a splash this summer! Our water balloons are the perfect way for the whole family and groups to enjoy some fun under the sun this summer. Suitable for kids, adults, and even pets, they can be used in a variety of water activities in swimming pools, oceans, lakes, and rivers.",
+    "summary": "Our reusable water balloons are perfect for kids and adults alike!Make this summer unforgettable with our reusable water balloon!",
+    "image": "https://media.asicdn.com/images/orig/324290000/324295332.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324290000/324295332.jpg",
+        "https://media.asicdn.com/images/orig/324290000/324295337.jpg",
+        "https://media.asicdn.com/images/orig/324290000/324295338.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Pink=Pink,Medium Green=Green,Medium Orange=Orange,Medium Blue=Blue",
+        "materials": "Silicone=Silicone",
+        "size": "Length:2.16:in;Width:2.16:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "10",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.256,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.066,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.952,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.837,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.819,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.783,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.777,
+            "code": "R"
+        }
+    ]
+}

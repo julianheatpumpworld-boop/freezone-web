@@ -1,0 +1,46 @@
+{
+    "name": "17 oz Suction cupcup",
+    "product_number": "FCS0143",
+    "price": 14.627,
+    "category": "SUCTION CUPS",
+    "description": "17 oz. capacity insulated tumbler with ABS exterior and stainless steel interior. PVC grip and a spill proof thumb slide plastic lid. The most improtant is it could cling to any smooth spot. and as you shake it would not fall.",
+    "summary": "SUCTION CUPS; TRAVEL MUGS/CUPS",
+    "image": "https://media.asicdn.com/images/orig/323350000/323357783.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323350000/323357783.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323357899.jpg",
+        "https://media.asicdn.com/images/orig/323350000/323357900.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Black=Black,Medium Red=Red,Other=Fuschia,Medium Green=Green",
+        "materials": "ABS:Combo:Stainless Steel=Abs+Stainless Steel",
+        "size": "17:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 14.627,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 14.255,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 13.886,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 13.382,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Adjustable PVC Wristbands",
+    "product_number": "FCS0010",
+    "price": 0.658,
+    "category": "Wristbands-General",
+    "description": "These event wristbands are made of quality vinyl PVC material, with many holes, convenient for you to adjust the length, suitable for many people. Various color options. Great for many different events, such as exhibitions, festivals, sporting events, Halloween, carnivals and more. Also tape are removable. Custom your logo on it.",
+    "summary": "PVC adjustable wristbands.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254735.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254735.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254737.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254736.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254738.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Red=Red,Medium Orange=Orange,Medium Yellow=Yellow,Medium Green=Green,Medium Pink=Pink,Bright Blue=Royal Blue,Light Blue=Light Blue,Multi Color=Multi Color",
+        "materials": "PVC=Pvc",
+        "size": "Length:10.04:in;Width:1.65:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 0.658,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 0.459,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 0.412,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.387,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.345,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.292,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.223,
+            "code": "R"
+        }
+    ]
+}

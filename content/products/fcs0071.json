@@ -1,0 +1,68 @@
+{
+    "name": "6 panel structured Baseball Caps w/ Metal Tuck in Buckle",
+    "product_number": "FCS0071",
+    "price": 5.05,
+    "category": "Caps & Hats-Pith Helmet",
+    "description": "100% Cotton/ Polyester 6 panel structured Baseball Caps w/ Metal Tuck in Buckle! This structured 6 panel baseball cap comes in a convenient adult size and features large full color heat transfer imprint area of 4\"W x 2.5\"H, ideal for maximum brand exposure. Made of 100% cotton, these cap has precurved bill. This premium visor also features adjustable double buckle closure. Optional embroidery imprint also available. Ideal for schools, sports, outdoor events, tradeshows, and giveaways. Order these trendy baseball caps now and advertise your brand like never before. Over 1000 pcs by Ocean .",
+    "summary": "Caps & Hats",
+    "image": "https://media.asicdn.com/images/orig/319350000/319358980.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319350000/319358980.jpg",
+        "https://media.asicdn.com/images/orig/319350000/319358982.jpg",
+        "https://media.asicdn.com/images/orig/319350000/319358984.jpg",
+        "https://media.asicdn.com/images/orig/319350000/319358985.jpg",
+        "https://media.asicdn.com/images/orig/319350000/319358988.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Yellow=Yellow,Medium Blue=Blue,Medium Orange=Orange,Medium Red=Red,Medium Black=Black",
+        "materials": "Cotton=Cotton",
+        "size": "Length:22.8:in",
+        "imprint_method": "Silkscreen=Embroidery,Heat Transfer=Heat Transfer",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "10-12",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 5.05,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 4.26,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 4.15,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 4.02,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.89,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 2.72,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 2.56,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 2.45,
+            "code": "R"
+        }
+    ]
+}

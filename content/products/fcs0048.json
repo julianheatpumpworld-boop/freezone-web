@@ -1,0 +1,63 @@
+{
+    "name": "Captain Folding Chair with Carry Bag",
+    "product_number": "FCS0048",
+    "price": 26.389,
+    "category": "Furniture-Chairs-General",
+    "description": "Make your next promotion a winner when you include this folding captain's chair! It's made of a steel frame that holds up to 300 lbs. and includes armrests with 2 mesh cup holders to keep your favorite beverage handy. It's perfect for outdoor events, camping or just lounging in your backyard. This comes with a carry bag that features a shoulder strap for easy transport and storage. Get customers to see the value in your brand!",
+    "summary": "Folding chair with carrying bag.",
+    "image": "https://media.asicdn.com/images/orig/319300000/319304875.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319300000/319304875.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319304878.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319304874.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319304877.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319304876.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Dark Blue=Navy,Medium Green=Green,Medium Red=Red,Medium Blue=Blue",
+        "materials": "Polyester=Polyester-Stainless Steel",
+        "size": "Length:19.7:in;Width:19.7:in;Height:31.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "9-12",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 24,
+            "price": 26.389,
+            "code": "R"
+        },
+        {
+            "qty": 50,
+            "price": 25.789,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 24.678,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 22.543,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 21.679,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 20.768,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 19.586,
+            "code": "R"
+        }
+    ]
+}

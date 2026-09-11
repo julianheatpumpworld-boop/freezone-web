@@ -1,0 +1,47 @@
+{
+    "name": "22 Oz. Tritan Fusion Bottle",
+    "product_number": "FCS0149",
+    "price": 9.126,
+    "category": "Bottles-Sport Type",
+    "description": "Durable Tritan Material. Impact And Shatter Resistant. Self-Attached, Screw On, Spill-Resistant Lid. Measurement Scale In Ounces And Milliliters Makes Tracking Liquid Intake Easy. Non-Skid Rubber Bottom. Wide Mouth Opening. Extra Strong Carrying Strap/Tether. BPA Free. Hand Wash Recommended.",
+    "summary": "Bottles-Sport Type; Bottles-General",
+    "image": "https://media.asicdn.com/images/orig/323360000/323360908.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323360000/323360908.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360907.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360911.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360910.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Gray=Gray,Medium Green=Green,Clear=Clear",
+        "materials": "Plastic=Plastic",
+        "size": "22:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 48,
+            "price": 9.126,
+            "code": "R"
+        },
+        {
+            "qty": 96,
+            "price": 8.445,
+            "code": "R"
+        },
+        {
+            "qty": 144,
+            "price": 7.654,
+            "code": "R"
+        },
+        {
+            "qty": 288,
+            "price": 6.935,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Collapsible Pet Bowl With Carabiner",
+    "product_number": "FCSM32",
+    "price": 3.026,
+    "category": "Pet Items-Bones & Treats",
+    "description": "The collapsible pet bowls are great pet travel bowls, lightweight and easy to carry with climbing buckle. It can attach to belt loop, backpack, leash or other locations.Suitable for outdoor acitivies.They also can be used as indoor dog / cat food bowl.The classic travel collapsible pet bowl makes it easy for your pet to hydrate and feed whilw outdoor. Suitable for hiking, camping, walking, traveling, training. Companies and organizations in the pet industry can customize their names, logos, website addresses, phone numbers, etc. to help get more potential customers. 5.2\"Dx2.2\"H. The link price is based on TPE material, 12oz (350ML). Accept customized capacity 22oz(650ML), 34oz(1000ML), welcome to consult.5000pcs and above shipping by sea.",
+    "summary": "Convenient collapsible design for saving space, simply stretch and fold away,which are good for traveling,hiking,camping.",
+    "image": "https://media.asicdn.com/images/orig/327630000/327635612.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/327630000/327635612.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327635613.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327635614.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Yellow=Yellow,Medium Pink=Pink,Medium Orange=Orange,Medium Black=Black,Medium Red=Red,Medium Purple=Purple,Medium White=White,Other=Custom",
+        "materials": "TPE=Tpe",
+        "size": "Length:5:in;Width:3.5:in;Height:2:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.026,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.333,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.672,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.557,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.472,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.897,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.719,
+            "code": "R"
+        }
+    ]
+}

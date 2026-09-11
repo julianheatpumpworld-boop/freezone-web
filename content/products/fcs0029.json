@@ -1,0 +1,62 @@
+{
+    "name": "3 1/8\" Carabiner Key Chain",
+    "product_number": "FCS0029",
+    "price": 1.426,
+    "category": "CARABINERS",
+    "description": "Get customers to shop with you first for all their needs when you hand out this carabiner key chain! It's made of durable aluminum, measures 3 1/8\" L x 1 1/2\" W x 1/4\" D, and you can choose from a wide range of cool colors. It's wear-resistant, colorfast, environmentally friendly, and easy to carry. It's not to be used for climbing. Add your company name or logo and let clients know they can't go wrong when they choose you!",
+    "summary": "Get customers to shop with you first for all their needs when you hand out this carabiner key chain!",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255343.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255343.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255341.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255342.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255346.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Yellow=Yellow,Medium Black=Black,Medium Purple=Purple,Medium Green=Green,Medium Blue=Blue,Medium White=White,Silver Metal=Silver,Other=Gunmetal",
+        "materials": "Aluminum=Aluminum",
+        "size": "Length:3 1/8:in;Width:1 1/2:in;Height:1/4:in",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.426,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.325,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.922,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.698,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.658,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.412,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 0.356,
+            "code": "R"
+        }
+    ]
+}

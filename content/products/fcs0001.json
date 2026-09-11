@@ -1,0 +1,65 @@
+{
+    "name": "34oz Wide Mouth Water Bottle",
+    "product_number": "FCS0001",
+    "price": 8.716,
+    "category": "Bottles-Sport Type",
+    "description": "Quench your thirst for publicity and promotion with these super-sized, cool and colorful VITA water bottles. This 3.66\" x 8.26\" vessel holds a big 34 ounces and is crafted from tough and durable Tritan plastic material. The design features a wide mouth for adding ice and a screw-on cap with a flip-top drinking lid with loop. Good for awards commemorative, advertising promotions, festivals, business.",
+    "summary": "This bottle is good for camping, hiking, exercise and fitness indoor and outdoor.",
+    "image": "https://media.asicdn.com/images/orig/319130000/319135516.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319130000/319135516.jpg",
+        "https://media.asicdn.com/images/orig/319130000/319135532.jpg",
+        "https://media.asicdn.com/images/orig/319130000/319135533.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254304.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254305.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254302.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254303.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Red=Red,Medium Orange=Orange,Clear=Clear",
+        "materials": "Plastic=Plastic",
+        "size": "34:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 8.716,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 8.528,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 8.287,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 7.998,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 7.823,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 7.635,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 7.482,
+            "code": "R"
+        }
+    ]
+}

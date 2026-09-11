@@ -1,0 +1,46 @@
+{
+    "name": "Wireless Bluetooth Smartphone Foldable Mini Selfie Stick 7.3",
+    "product_number": "FCS0239",
+    "price": 7.219,
+    "category": "Mobile Accessories-Selfie Sticks",
+    "description": "Wireless selfie stick is bluetooth control and can be folded and put into your bag. 5 colors available.7.3\"extended 31.5\".",
+    "summary": "Mobile Accessories-Selfie Sticks",
+    "image": "https://media.asicdn.com/images/orig/323810000/323813014.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323810000/323813014.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323813015.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323813016.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Dark Yellow=Gold,Medium Pink=Pink",
+        "materials": "Plastic=Plastic",
+        "size": "Length:7.3:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 7.219,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 6.822,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 6.598,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 6.123,
+            "code": "R"
+        }
+    ]
+}

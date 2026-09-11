@@ -1,0 +1,62 @@
+{
+    "name": "Enamel Coffee Mug with Stainless-Steel Rim",
+    "product_number": "FCS4",
+    "price": 6.52,
+    "category": "Cups-General",
+    "description": "Our enamel mugs is 8cm diameter(3.15\"), 12 oz, which are made of thicken, high-quality steel with enamel coating, no worries any toxic leeching into your drink, stronger than ceramic and glass. Healthy and durable for your daily use.It's comfortable in use with solid handle and the rimless design drinks smoothly. Glossy surface makes drinks flow easily; no more drink residue getting trapped.We also have other size available. Pricing is by AIR.",
+    "summary": "Our enamel mug is constructed of high quality metal and coated in thick enamel, Lead and Cadmium-free, Nonbreakable and rust resis",
+    "image": "https://media.asicdn.com/images/orig/323190000/323197491.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323190000/323197491.jpg",
+        "https://media.asicdn.com/images/orig/323190000/323197492.jpg",
+        "https://media.asicdn.com/images/orig/323190000/323197494.jpg",
+        "https://media.asicdn.com/images/orig/323190000/323197495.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Green=Green,Medium Blue=Blue,Medium White=White",
+        "materials": "Other=Enamel",
+        "size": "12:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7",
+        "price_includes": "1 color 1 loctation imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 60,
+            "price": 6.52,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 5.92,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 5.67,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 5.45,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.25,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 4.93,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 4.82,
+            "code": "R"
+        }
+    ]
+}

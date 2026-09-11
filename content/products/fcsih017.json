@@ -1,0 +1,63 @@
+{
+    "name": "Classic UV400 Sunglass",
+    "product_number": "FCSIH017",
+    "price": 1.56,
+    "category": "SUNGLASSES",
+    "description": "These sunglasses feature Optical Glasses UV . double-layer lens technology and anti-fog coated inner lens provide you with a fog-free skiing experience. Safe and UV  400 protection.  Effective ventilation reduce fogging, brings fresh air, exhaust hot air & moisture quickly. Better anti-fog performance than others when skiing snowboarding, skating, motorcycling riding and more.",
+    "summary": "These sports cycling sunglasses have a novel design and a sense of sportiness.",
+    "image": "https://media.asicdn.com/images/orig/340820000/340826259.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/340820000/340826259.png",
+        "https://media.asicdn.com/images/orig/340820000/340826265.png",
+        "https://media.asicdn.com/images/orig/340820000/340826274.png",
+        "https://media.asicdn.com/images/orig/340820000/340826275.png",
+        "https://media.asicdn.com/images/orig/340820000/340826276.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Red=Red,Medium Orange=Orange,Medium Green=Green,Medium Black=Black,Medium Yellow=Yellow,Other=Black&Pink,Other=Black&Purple,Medium Black=Black&Teal,Other=Black&White,Other=Custom",
+        "materials": "Plastic=Pp",
+        "size": "Length:5.4:in;Width:5.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "7-9",
+        "price_includes": "1 color 2 location and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.56,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.42,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.31,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.18,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.97,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.85,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.62,
+            "code": "R"
+        }
+    ]
+}

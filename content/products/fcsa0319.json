@@ -1,0 +1,51 @@
+{
+    "name": "Portable stainless steel leak proof insulated water bottle",
+    "product_number": "FCSA0319",
+    "price": 12.79,
+    "category": "Wristbands-General",
+    "description": "This Isulated cup is  food-grade 316 stainless steel inner liner, BPA-free, safe for daily use, and keeps drinks hot/cold for hours.Adorable  cartoon character print, perfect for kids and cartoon lovers, making hydration fun and stylish.Generous 500ml volume meets kids' daily water intake needs, ideal for school, travel, and outdoor activities and sports",
+    "summary": "Thise Cartoon Insulated Water Bottle - 500ml 316 Stainless Steel Kids Thermos Cup with Portable Handle & Straw, Leak-Proof Travel",
+    "image": "https://media.asicdn.com/images/orig/360230000/360239958.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360230000/360239958.png",
+        "https://media.asicdn.com/images/orig/360230000/360239959.png",
+        "https://media.asicdn.com/images/orig/360230000/360239960.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Light Blue=Sky Blue,Medium Purple=Purple,Medium Pink=Pink",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "16:oz",
+        "imprint_method": "Laser Engraved=Laser Engraved",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 12.79,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 12.6,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 12.39,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 12.09,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 9.99,
+            "code": "R"
+        }
+    ]
+}

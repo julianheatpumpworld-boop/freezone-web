@@ -1,0 +1,60 @@
+{
+    "name": "The Ring Cell Phone Holder and Stand",
+    "product_number": "FCS0110",
+    "price": 1.315,
+    "category": "Mobile Accessories-Stands & Holders",
+    "description": "Our newest phone grip and stand is made from durable ABS plastic with a strong metal ring. The ring rotates 360 degrees for the perfect grip and also functions as a phone stand for viewing videos, movies, playing music or reading. Adhesive backing is easily removed leaving minimal residue. Instructions included.",
+    "summary": "Holders-General; PHONE ACCESSORIES; STANDS",
+    "image": "https://media.asicdn.com/images/orig/322480000/322480503.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/322480000/322480503.jpg",
+        "https://media.asicdn.com/images/orig/322480000/322480506.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Gold Metal=Rose Gold,Dark Yellow=Gold,Silver Metal=Silver,Medium Pink=Pink,Medium Gray=Dk Gray",
+        "materials": "ABS=Abs",
+        "size": "Length:1.375:in;Width:1.375:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "5",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.315,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.266,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.156,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.095,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.978,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.958,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.905,
+            "code": "R"
+        }
+    ]
+}

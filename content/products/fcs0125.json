@@ -1,0 +1,51 @@
+{
+    "name": "17 oz LED Temperature Display Vacuum Insulated Water Bottle",
+    "product_number": "FCS0125",
+    "price": 11.126,
+    "category": "Cups-General",
+    "description": "17 oz LED temperature display vacuum insulated water bottle,The cup inner is made of 304 stainless steel, vacuum insulated, and perfect paint process. It feels comfortable and has a round and beautiful appearance. 17oz of suitable capacity, good thermal insulation effect, time flowing, warm as early, is a good helper for sports travel.",
+    "summary": "Bottles-Insulated; FLASKS",
+    "image": "https://media.asicdn.com/images/orig/323250000/323257187.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323250000/323257187.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257188.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257189.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257190.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257191.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257196.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257202.jpg",
+        "https://media.asicdn.com/images/orig/323250000/323257203.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Blue=Blue,Medium Pink=Pink,Medium White=White,Medium Black=Black,Dark Yellow=Gold,Dark Yellow=Rose Gold",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "17:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "Up to full color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 11.126,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 10.778,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 10.369,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 9.739,
+            "code": "R"
+        }
+    ]
+}

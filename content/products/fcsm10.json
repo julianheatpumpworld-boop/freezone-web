@@ -1,0 +1,61 @@
+{
+    "name": "Strawberry Resuable Folding Grocery Tote Bag",
+    "product_number": "FCSM10",
+    "price": 2.861,
+    "category": "Bags-Shopping",
+    "description": "This Shopping Bag Made Of 190D Polyester.reusable grocery bag with handles measures 14.5\" x 23\", They fold up nicely band take up much less room when not shopping. foldable shopping bags are small, lightweight, and strong. Long handles allow for hand holding or carrying on the shoulder for easier carrying,Folds Into Self-Contained Pouch With String Closure For Convenient Storage,reusable shopping bags are machine washable.Qty for 3000 and over shipping by sea.",
+    "summary": "Folded into a strawberry, very cute, and you will love it",
+    "image": "https://media.asicdn.com/images/orig/326450000/326458132.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326450000/326458132.jpg",
+        "https://media.asicdn.com/images/orig/326450000/326458133.png",
+        "https://media.asicdn.com/images/orig/326450000/326458134.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium White=White,Medium Orange=Orange,Medium Gray=Gray,Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Pink=Pink,Medium Yellow=Yellow,Medium Purple=Purple",
+        "materials": "Polyester=Polyester",
+        "size": "Length:16:in;Width:14.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 200,
+            "price": 2.861,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.296,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.043,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.834,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 1.394,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.364,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 1.23,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Stainless Steel Salt and Pepper Set",
+    "product_number": "FCS24006",
+    "price": 12.53,
+    "category": "SALT & PEPPER SHAKERS AND MILLS",
+    "description": "Ideal gadget to make fresh pepper and salt powder spice for enjoying a tasty salad or steak.This salt and pepper grinder set is equipped with a user friendly one touch pump button. Simply press with your thumb to get even powder. Clear acrylic panel helps you see what seasoning is inside and when to refill the mill. It is tough and durable, easy to clean. Over 300 pcs is by Ocean. We also can sell by each one separately.",
+    "summary": "Enhance your customers' culinary experience with this stainless steel salt or pepper grinder.",
+    "image": "https://media.asicdn.com/images/orig/324180000/324183103.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324180000/324183103.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324183105.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324183106.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Gray=Silver",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "Length:6:in;Width:1:in",
+        "imprint_method": "Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 12.53,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 12.32,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 10.05,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 9.96,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 9.68,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 9.52,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 9.25,
+            "code": "R"
+        }
+    ]
+}

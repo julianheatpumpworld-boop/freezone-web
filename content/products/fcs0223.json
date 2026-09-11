@@ -1,0 +1,48 @@
+{
+    "name": "Bottle Opener Keychain with Compass",
+    "product_number": "FCS0223",
+    "price": 1.626,
+    "category": "COMPASSES",
+    "description": "The Compass Bottle Opener Key chain is made of zinc alloy. It combines the fashion idea and founctional design, ready to be shared at your next promotion or company affair. It also can be used as fashion creative gifts for: opening gifts, party gifts, etc. It's lightweight quality, compact, and easy to carry. Add your own logo for next comming up event.",
+    "summary": "COMPASSES; Key Chains-With Compass",
+    "image": "https://media.asicdn.com/images/orig/323790000/323792511.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323790000/323792511.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323792512.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323792513.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323792515.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323792516.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black",
+        "materials": "Metal=Metal",
+        "size": "Length:2 1/4:in;Width:1 1/4:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.626,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.508,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.402,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.286,
+            "code": "R"
+        }
+    ]
+}

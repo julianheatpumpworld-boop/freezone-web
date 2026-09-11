@@ -1,0 +1,47 @@
+{
+    "name": "5 oz. Stainless Steel Flask",
+    "product_number": "FCS0157",
+    "price": 5.986,
+    "category": "FLASKS",
+    "description": "With this flask, your brand could become the talk of the town! It's made of stainless steel, holds up to 5 oz. of your favorite beverage, and measures 3 3/4\" x 4\". This is perfect for enjoying a delicious drink on the go. It's also a great giveaway at any business, project, conference, convention or event. Add your company name or logo with our laser engraving imprint and make this a part of your next promotion. Get customers to shop with you first for all their needs!",
+    "summary": "Stainless Steel Flask,Flask,",
+    "image": "https://media.asicdn.com/images/orig/323390000/323390894.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323390000/323390894.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323390895.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323390896.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323390897.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Gray=Silver",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "5:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 5.986,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 5.688,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 5.322,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 4.898,
+            "code": "R"
+        }
+    ]
+}

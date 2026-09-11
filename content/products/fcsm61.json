@@ -1,0 +1,56 @@
+{
+    "name": "Travel Electronic Organizer Cord Pouch",
+    "product_number": "FCSM61",
+    "price": 6.128,
+    "category": "Organizers-Cord",
+    "description": "17\"X 9\" while open and 4.5\"X 9\" rolled up. The most versatile and lightweight electronics accessories organizer in market. Easily tuck in your purse, backpack, laptop case, briefcase, or suitcase.practical design provides great flexibility for organising your accessories. elastic loops for cables, pens, brushes and tools, etc;mesh pockets for USB, SD card, SIM card or other small items ; open pockets for charger, mouse, power adapter and etc;zipper pocket for external hard drive, power bank, cellphone or other items. small zipper pockets of equal size for secure storing of small items it also can be used as a healthcare kit, a grooming kit or a cosmetics bag.3000pcs and above shipping by sea.",
+    "summary": "Durable and lightweight construction makes it a practical choice for travel or everyday use",
+    "image": "https://media.asicdn.com/images/orig/328410000/328410169.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/328410000/328410169.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410170.jpg",
+        "https://media.asicdn.com/images/orig/328410000/328410171.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black",
+        "materials": "Polyester=Polyester",
+        "size": "Length:17:in;Width:9:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "8-12",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 6.128,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.973,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 5.832,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 4.731,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 4.082,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 3.823,
+            "code": "R"
+        }
+    ]
+}

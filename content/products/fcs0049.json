@@ -1,0 +1,62 @@
+{
+    "name": "Round Scholar Pencil",
+    "product_number": "FCS0049",
+    "price": 0.342,
+    "category": "Pencils-General",
+    "description": "Make an indelible impression on your customers and supporters with our Scholar pencil. This 7.37\" x 0.30\" wooden pencil has a classic rounded design with a No. 2 lead fill, silver colored ferrule and custom color eraser. Head back to school or the office with this indispensable promotional item. Select from a wide range of colors and shades and add your school, sports team, organizational or company logo, emblem or message to create a bold branded gift or giveaway that's kind to your budget and bottom line.hexagonal design also available.",
+    "summary": "Round scholar pencil.",
+    "image": "https://media.asicdn.com/images/orig/319300000/319305127.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319300000/319305127.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319305128.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319305126.jpg",
+        "https://media.asicdn.com/images/orig/319300000/319305129.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Red=Red,Medium Orange=Orange,Medium Green=Green,Medium Yellow=Yellow,Medium Pink=Pink,Other=Custom",
+        "materials": "Wood=Wood",
+        "size": "Length:7.37:in;Width:0.30:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 0.342,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.305,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.289,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.278,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.262,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 0.253,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.225,
+            "code": "R"
+        }
+    ]
+}

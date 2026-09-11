@@ -1,0 +1,110 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: 'Upload “{{path}}”'
+    moveMedia: 'Move “{{path}}”'
+    deleteMedia: 'Delete “{{path}}”'
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "identity"
+    label: "1. Identity & Contact"
+    files:
+      - name: "general"
+        label: "Logo, ASI#, & Contact Info"
+        file: "content/settings/general.json"
+        fields:
+          - {label: "Site Name", name: "site_name", widget: "string"}
+          - {label: "Logo Image", name: "logo_image", widget: "image", required: false}
+          - {label: "Logo Text (Fallback)", name: "logo_text", widget: "string"}
+          - {label: "ASI Number", name: "asi_number", widget: "string"}
+          - {label: "Contact Email", name: "email", widget: "string"}
+          - {label: "Contact Phone", name: "phone", widget: "string"}
+          - {label: "Office Address", name: "address", widget: "text"}
+          - label: "Footer Settings"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Copyright Name", name: "copyright", widget: "string"}
+              - {label: "Footer Description", name: "about_text", widget: "text"}
+
+  - name: "content"
+    label: "2. Page Content"
+    files:
+      - name: "home"
+        label: "Home Page (Hero & Ethical)"
+        file: "content/pages/home.json"
+        fields:
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Main Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+              - {label: "Background Image", name: "image", widget: "image"}
+          - label: "Ethical Commitment Section"
+            name: "ethical"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Detailed Description", name: "desc", widget: "text"}
+      - name: "about"
+        label: "About Us Page"
+        file: "content/pages/about.json"
+        fields:
+          - {label: "Heading", name: "title", widget: "string"}
+          - {label: "Main Content", name: "content", widget: "markdown"}
+
+  - name: "catalog"
+    label: "3. Product Catalog"
+    folder: "content/products"
+    create: true
+    slug: "{{product_number}}"
+    extension: "json"
+    format: "json"
+    summary: '{{name}} ({{product_number}}) - ${{price}}'
+    sortable_fields: ['name', 'price', 'product_number']
+    fields:
+      - {label: "Product Name", name: "name", widget: "string", hint: "Full name of the product"}
+      - {label: "Item # (ASI Number)", name: "product_number", widget: "string", hint: "Unique identifier or SKU"}
+      - {label: "Base Price (As low as)", name: "price", widget: "number", value_type: "float", hint: "The lowest price to display on the main grid"}
+      - {label: "Category", name: "category", widget: "string", hint: "Which category this belongs to (e.g., Apparel, Bags)"}
+      - {label: "Full Description", name: "description", widget: "markdown"}
+      - {label: "Short Summary", name: "summary", widget: "text", required: false}
+      - {label: "Main Image", name: "image", widget: "image"}
+      - label: "Gallery Images"
+        name: "images"
+        widget: "list"
+        required: false
+        collapsed: true
+        summary: 'Additional Image'
+        field: {label: "Image URL", name: "url", widget: "image"}
+      - {label: "Featured (Show on Home)", name: "featured", widget: "boolean", default: false, hint: "Turn this on to display this product in the Latest Collections carousel on the homepage"}
+      - label: "Product Specifications"
+        name: "details"
+        widget: "object"
+        collapsed: true
+        fields:
+          - {label: "Colors", name: "colors", widget: "string", required: false}
+          - {label: "Materials", name: "materials", widget: "string", required: false}
+          - {label: "Size", name: "size", widget: "string", required: false}
+          - {label: "Imprint Method", name: "imprint_method", widget: "string", required: false}
+          - {label: "Imprint Color", name: "imprint_color", widget: "string", required: false}
+          - {label: "Production Time", name: "production_time", widget: "string", required: false}
+          - {label: "Price Includes", name: "price_includes", widget: "string", required: false}
+      - label: "Tiered Pricing Grid"
+        name: "pricing_grid"
+        widget: "list"
+        collapsed: true
+        summary: 'Qty: {{fields.qty}} - ${{fields.price}}'
+        hint: "Add price breaks based on quantity"
+        fields:
+          - {label: "Quantity", name: "qty", widget: "number"}
+          - {label: "Price ($)", name: "price", widget: "number", value_type: "float"}
+          - {label: "Code", name: "code", widget: "string"}

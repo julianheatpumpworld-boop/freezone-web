@@ -1,0 +1,63 @@
+{
+    "name": "Canvas Zipper Pencil Makeup Bag",
+    "product_number": "FCSM31",
+    "price": 1.938,
+    "category": "BOXES & CASES-PEN & PENCIL",
+    "description": "These pouches are made of canvas with a zipper,it is lightweight, soft, and durable. The zippers work smoothly. It can be put into your backpack, handbag, or travel bag when you are on a trip;  Multipurpose pouch are perfect for storing small tools,It can be used as a pencil case, invoice bag, coin purse, business card bag, and ladies cosmetic bag. Various colors are available. Add your school, sports team, organizational, or company logo or message to create a branded giveaway for marketing activities and events.  It is washable and reusable. You can use as a cosmetic bag, a coin purse, a bill bag, a gift bag, a travel organizer, and more. It comes with a large imprint area, you can add your logo on it, offer this pouch to clients to get their attention. 5000pcs and over is shipped by Sea",
+    "summary": "portable and convenient for you to carry and store in your handbag,suitable for cosmetics, such as makeup brush,lipstick and so on",
+    "image": "https://media.asicdn.com/images/orig/327630000/327635469.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/327630000/327635469.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327635470.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327635471.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327635472.jpg",
+        "https://media.asicdn.com/images/orig/327630000/327635473.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Brown=Brown,Dark Red=Burgundy,Medium Green=Green,Light Blue=Light Blue,Dark Blue=Navy Blue,Medium Orange=Orange,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium White=White,Medium Yellow=Yellow,Other=Beige,Other=Dark Blue",
+        "materials": "Canvas=Canvas",
+        "size": "Length:9.8:in;Width:5.1:in;Height:1.8:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.938,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.714,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.418,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.038,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.964,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.796,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.699,
+            "code": "R"
+        }
+    ]
+}

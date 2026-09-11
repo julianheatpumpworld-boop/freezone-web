@@ -1,0 +1,47 @@
+{
+    "name": "Leather Folder Portfolio",
+    "product_number": "FCEX005",
+    "price": 13.83,
+    "category": "Portfolios-General",
+    "description": "Perfect for business travel and executive meetings, it features a versatile design with an 8-bit calculator (12-bit is also available) and an A4 conference folder for seamless preparation. Crafted from durable, waterproof PU leather, it ensures your documents are protected while showcasing your professionalism. With a metal clipboard, central pen holder,",
+    "summary": "Multicolor Folding Paper Bamboo Hand Fan for Wedding, Party, Trade show and Event",
+    "image": "https://media.asicdn.com/images/orig/331730000/331731325.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/331730000/331731325.jpg",
+        "https://media.asicdn.com/images/orig/331730000/331731363.jpg",
+        "https://media.asicdn.com/images/orig/331730000/331731364.jpg",
+        "https://media.asicdn.com/images/orig/331730000/331731366.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Black=Black,Medium Brown=Brown",
+        "materials": "Polyurethane (PUR or PU)=Pu Leather",
+        "size": "Length:13.19:in;Width:9.65:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "7",
+        "price_includes": ""
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 13.83,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 12.68,
+            "code": "R"
+        },
+        {
+            "qty": 400,
+            "price": 12.17,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 10.85,
+            "code": "R"
+        }
+    ]
+}

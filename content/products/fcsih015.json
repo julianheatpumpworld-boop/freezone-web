@@ -1,0 +1,64 @@
+{
+    "name": "Debossed Printed Silicone Wristbands Bracelets",
+    "product_number": "FCSIH015",
+    "price": 1.263,
+    "category": "Wristbands-General",
+    "description": "Go with a classic wearable item that's great for causes, promotional messages and more. These are 100% Latex free with highest quality. In debossed silicon wristband bracelet you can debossed your organization's name and logo to create a popular and cost-efficient advertising solution that you can count on for silicon wristband bracelet. These are engraved with your message to create the perfect gift or giveaway that's both popular and cost-effective.",
+    "summary": "Featuring raised letters on wristbands, they are an extremely popular.",
+    "image": "https://media.asicdn.com/images/orig/332080000/332081613.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/332080000/332081613.jpg",
+        "https://media.asicdn.com/images/orig/332080000/332081614.jpg",
+        "https://media.asicdn.com/images/orig/332080000/332081615.jpg",
+        "https://media.asicdn.com/images/orig/332080000/332081616.jpg",
+        "https://media.asicdn.com/images/orig/332080000/332081617.jpg",
+        "https://media.asicdn.com/images/orig/332080000/332081618.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Orange=Orange,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium White=White,Medium Yellow=Yellow,Other=Custom",
+        "materials": "Silicone=Silicone",
+        "size": "Length:7.95:in;Width:0.47:in;Thickness:0.08:in",
+        "imprint_method": "Debossed=Debossed,Printed=Printed",
+        "imprint_color": "Up to Full colors",
+        "production_time": "3-5",
+        "price_includes": "1 color 1 side imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.263,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 0.755,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 0.536,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.418,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.345,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.216,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.162,
+            "code": "R"
+        }
+    ]
+}

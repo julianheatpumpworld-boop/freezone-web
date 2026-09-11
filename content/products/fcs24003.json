@@ -1,0 +1,62 @@
+{
+    "name": "16 oz Plastic Stadium Cup",
+    "product_number": "FCS24003",
+    "price": 0.835,
+    "category": "Cups-Plastic",
+    "description": "This is the perfect cup to use for parties, sporting events, concerts, festivals, weddings, or to give away as party favors! This USA-made cup is reusable and BPA free, making it a great way to reduce waste on top of being a great way to enjoy your favorite drink. These stadium cups come in a variety of eye-catching colors that will make your brand stand out at any event! 12 oz, 22 oz, 32 oz also available.",
+    "summary": "Stand out from the mess of thin paper and flimsy Styrofoam cups by with this 16 oz. plastic stadium cup!",
+    "image": "https://media.asicdn.com/images/orig/324180000/324181981.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324180000/324181981.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324181982.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324181983.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324181984.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Clear=Frosted  Clear,Medium Red=Frosted  Red,Medium Pink=Frosted  Pink,Medium Black=Frosted  Black,Other=Custom",
+        "materials": "Plastic=Plastic",
+        "size": "16:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "up to full color",
+        "production_time": "12",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 3000,
+            "price": 0.835,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.802,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 0.782,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.765,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.712,
+            "code": "R"
+        },
+        {
+            "qty": 30000,
+            "price": 0.685,
+            "code": "R"
+        },
+        {
+            "qty": 50000,
+            "price": 0.657,
+            "code": "R"
+        }
+    ]
+}

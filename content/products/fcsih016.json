@@ -1,0 +1,62 @@
+{
+    "name": "Custom Full color Laminated  Round Corner Tote Bag",
+    "product_number": "FCSIH016",
+    "price": 2.35,
+    "category": "Bags-Shopping",
+    "description": "Carry the message for your business or brand in these eco-friendly tote bags.  They're a great way to carry promotional information, product samples and more. It's easy to be thinking green! Choose from a wide range of great colors. Add your school, sports team, organizational or company logo or message to customize.Bring it home from the next marketing or social event in these green thinking reusable tote bags. Made of lightweight and eco-friendly 80GSM non-woven polypropylene material created with 10% post-consumer content, these 11.75 \" x 9.25 \" x 4.53 \" totes have a roomy interior and dual carrying handles. Available in assorted colors. Over 5000 pcs is by SEA.",
+    "summary": "Made of  non-woven polypropylene material these totes have a roomy interior an  dual carrying handles.",
+    "image": "https://media.asicdn.com/images/orig/340820000/340820454.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/340820000/340820454.jpg",
+        "https://media.asicdn.com/images/orig/340820000/340820455.png",
+        "https://media.asicdn.com/images/orig/340820000/340820456.jpg",
+        "https://media.asicdn.com/images/orig/340820000/340820457.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Green=Green,Dark Blue=Navy Blue,Medium Orange=Orange,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium Gray=Gray,Medium Yellow=Yellow,Other=Custom",
+        "materials": "Non-Woven Fabric=Laminated Non-Woven Fabric",
+        "size": "Height:11.75:in;Width:9.25:in;Depth:4.53:in",
+        "imprint_method": "Sublimation=Sublimation",
+        "imprint_color": "Full color",
+        "production_time": "6-8",
+        "price_includes": "Full color and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.35,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.98,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.85,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.65,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.39,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.15,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.91,
+            "code": "R"
+        }
+    ]
+}

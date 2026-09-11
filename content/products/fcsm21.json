@@ -1,0 +1,69 @@
+{
+    "name": "Custom Knit Beanie Cap",
+    "product_number": "FCSM21",
+    "price": 4.72,
+    "category": "CAP & HAT ACCESSORIES",
+    "description": "This Beanie is made of Acrylic fabric . This cuffed cap allows you to continue stretching the length of the hat, then gently pull down your hat and cover your ears to keep your ears and head comfortableIt is very elastic and can be stretched several times, stretch ability allows you to let it stay on your head, no matter what the size of form is. Fits most any noggin, for men and women.comfortable and thick knit beanies can help you block the wind and reduce the chance of catching a cold; Knit hats are designed for most winter activities and can be worn during outdoor skiing, like ice skating and other outdoor activities This classic cuff beanie hat is a great everyday essential. Available in multiple colours. Qty for 5000 and over shipping by sea.",
+    "summary": "The hat is flexible and your head doesn't feel squeaky, it's not too tight or too loose, making you comfortable.",
+    "image": "https://media.asicdn.com/images/orig/326800000/326808595.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326800000/326808595.jpg",
+        "https://media.asicdn.com/images/orig/326800000/326808596.jpg",
+        "https://media.asicdn.com/images/orig/326800000/326808598.jpg",
+        "https://media.asicdn.com/images/orig/326800000/326808599.jpg",
+        "https://media.asicdn.com/images/orig/326800000/326808600.jpg",
+        "https://media.asicdn.com/images/orig/326800000/326808602.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Yellow=Yellow,Medium Green=Green,Light Blue=Light Blue,Medium Purple=Purple,Medium Gray=Gray,Medium White=White,Medium Black=Black,Medium Pink=Pink,Medium Orange=Orange,Dark Red=Burgundy,Other=Khaki,Other=Coffee,Medium Gray=Dk Gray,Medium Green=Fluorescent Green,Medium Yellow=Fluorescent Yellow",
+        "materials": "Acrylic=Acrylic",
+        "size": "Length:7.08:in;Width:7.67:in;Height:2.75:in",
+        "imprint_method": "Embroidered=Embroidered",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,one color",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 4.72,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 4.48,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 4.25,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 3.95,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 3.67,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 3.32,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 2.38,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 2.19,
+            "code": "R"
+        }
+    ]
+}

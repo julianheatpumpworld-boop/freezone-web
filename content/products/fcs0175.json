@@ -1,0 +1,48 @@
+{
+    "name": "Portable Sunglasses Box",
+    "product_number": "FCS0175",
+    "price": 2.412,
+    "category": "EYEGLASS ACCESSORIES",
+    "description": "Made from EVA - a synthetic material, this Semi-Hard Case can protect your lenses from scratches and its arms from bending and breaking. The soft lining is also great for protecting your lenses from dirt and residue. A carabiner-style keychain clip conveniently attaches the glasses case to your handbag, backpack or tote bag to carry your reading glasses, goggles or any eyewear. As well as use it as a multipurpose storage tool for small electronics, accessories, or other small items. This product is fit for most standard sized glasses, sunglasses, computer glasses and more, ultra-lightweight that adds minimum bulk and weight while on the go or carrying around.",
+    "summary": "EYEGLASS ACCESSORIES; EYEGLASS CASES & HOLDERS",
+    "image": "https://media.asicdn.com/images/orig/323410000/323418740.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323410000/323418740.jpg",
+        "https://media.asicdn.com/images/orig/323410000/323418742.jpg",
+        "https://media.asicdn.com/images/orig/323410000/323418743.jpg",
+        "https://media.asicdn.com/images/orig/323410000/323418749.jpg",
+        "https://media.asicdn.com/images/orig/323410000/323418754.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Yellow=Yellow,Medium Green=Green,Medium Blue=Blue,Medium Purple=Purple,Medium Black=Black,Other=Fuschia,Other=Dk Navy,Medium Gray=Silver,Medium Gray=Gray,Medium Brown=Brown",
+        "materials": "Other=Eva",
+        "size": "Length:6.57:in;Width:3.03:in;Height:2.52:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 250,
+            "price": 2.412,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.989,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.758,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.688,
+            "code": "R"
+        }
+    ]
+}

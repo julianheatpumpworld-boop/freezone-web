@@ -1,0 +1,47 @@
+{
+    "name": "Signature Square On The Rocks",
+    "product_number": "FCS0173",
+    "price": 6.225,
+    "category": "Glasses-Drinking-On The Rocks",
+    "description": "Want your customers to sip on success? These Signature Square On the Rocks glasses will do the trick! Constructed out of quality machine-made glass with a unique square base and rounded rim, these popular pieces of 5.8 oz. drinkware are essential for any event where alcohol is being served and perfect for keeping stocked in bars and restaurants. Make a lasting impression by adding a customized imprint and a personalized message. Cheers to that!",
+    "summary": "Glasses-Drinking-On The Rocks",
+    "image": "https://media.asicdn.com/images/orig/323410000/323417664.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323410000/323417664.jpg",
+        "https://media.asicdn.com/images/orig/323410000/323417665.jpg",
+        "https://media.asicdn.com/images/orig/323410000/323417667.jpg",
+        "https://media.asicdn.com/images/orig/323410000/323417668.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Clear=Clear",
+        "materials": "Glass=Glass",
+        "size": "5.8:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 72,
+            "price": 6.225,
+            "code": "R"
+        },
+        {
+            "qty": 144,
+            "price": 5.938,
+            "code": "R"
+        },
+        {
+            "qty": 216,
+            "price": 5.567,
+            "code": "R"
+        },
+        {
+            "qty": 288,
+            "price": 5.122,
+            "code": "R"
+        }
+    ]
+}

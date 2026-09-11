@@ -1,0 +1,48 @@
+{
+    "name": "Wide Mouth Sports Bottles -34 oz Water Bottlew/ Custom Logo",
+    "product_number": "FCS0148",
+    "price": 5.322,
+    "category": "Bottles-Sport Type",
+    "description": "Advertise your Brand with our Wide Mouth Sports Bottles -34 oz Water Bottle w/ Custom Logo in your next advertising campaign! Made of high density transparent Tritan Plastic, the flexi-grip easy squeeze-action Water bottles feature a Wide Mouth with Screw on Cap. This sports water bottle measures 3.54\"W x 8.3\"H and features a large imprint area of 3.00\"W x 4.00\"H. They're available in a wide variety of bright and fun colors and can be purchased unimprinted or with a silkscreened imprint of your branding information. These are the perfect way to gain visibility at Trade show, company picnics, marathons, football, baseball, and more!",
+    "summary": "Bottles-Sport Type; Bottles-General",
+    "image": "https://media.asicdn.com/images/orig/323360000/323360519.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323360000/323360519.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360517.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360518.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360520.jpg",
+        "https://media.asicdn.com/images/orig/323360000/323360525.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Gray=Gray,Clear=Clear",
+        "materials": "Plastic=Plastic",
+        "size": "34:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 5.322,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 4.924,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 4.538,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 4.008,
+            "code": "R"
+        }
+    ]
+}

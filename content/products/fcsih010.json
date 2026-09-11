@@ -1,0 +1,68 @@
+{
+    "name": "12 oz. Cotton Canvas Tote Bag",
+    "product_number": "FCSIH010",
+    "price": 4.73,
+    "category": "Tote Bags-Canvas",
+    "description": "Made of 100% cotton material, this bag weighs 12 oz.These sturdy tote bags measures 15\" X 16\" and are offered in many attractive colors.  With a large imprint of 10\" x 10\", this is perfect for maximum brand exposure. Give these away in your next trade show and see what a great difference it makes. Also others sizes are available.",
+    "summary": "Attract customers to you when you include our Heavyweight Cotton Canvas Tote Bag.",
+    "image": "https://media.asicdn.com/images/orig/325890000/325892833.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/325890000/325892833.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325892831.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325892832.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325892834.jpg",
+        "https://media.asicdn.com/images/orig/325890000/325892835.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Green=Green,Medium Pink=Pink,Medium Yellow=Yellow,Medium Orange=Orange,Medium Black=Black,Medium Red=Red,Medium White=White,Other=Natural,Medium Purple=Purple",
+        "materials": "Cotton=Cotton",
+        "size": "Length:15:in;Width:16:in",
+        "imprint_method": "Silkscreen=Silkscreen,Heat Transfer=Heat Transfer,Sublimation=Sublimation",
+        "imprint_color": "Standard Colors,Custom Colors,PMS Colors,Up to full color",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 4.73,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 4.65,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 4.53,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 4.32,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 3.39,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 3.26,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 3.08,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 2.48,
+            "code": "R"
+        }
+    ]
+}

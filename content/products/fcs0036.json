@@ -1,0 +1,64 @@
+{
+    "name": "Leather Pet Collar",
+    "product_number": "FCS0036",
+    "price": 2.868,
+    "category": "Pet Items-Leashes & Collars",
+    "description": "The dog collar is made of stainless steel and leather.From pet supply shops to trainers and outfitters,These leashes are a great way to get your brand noticed while keeping pooches happy and Safe.The neck size is adjustable from 10.6 to 13 inch with buckle,0.6 inch width,suitable for cats and small dogs.Also other sizes are available. Custom logo is welcome.",
+    "summary": "The dog collar is made of stainless steel and leather.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255766.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255766.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255768.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255767.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255772.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255770.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255773.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Brown=Brown,Medium Pink=Pink,Medium Purple=Purple,Medium Red=Red,Medium White=White,Medium Yellow=Yellow",
+        "materials": "Leather=Leather",
+        "size": "Length:10.6:in;Width:0.6:in",
+        "imprint_method": "Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.868,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.687,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.598,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.506,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 2.415,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.329,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 2.265,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Dye Sublimated Microfiber Beach Towels",
+    "product_number": "FCS0251",
+    "price": 8.36,
+    "category": "Towels-Beach",
+    "description": "Boost your brand in the sand! This 30\"x 60\" beach towel is made of 100% microfiber polyester velour fabric. Ulra soft absorbent,Super-Compact and quick drying.Your logo will make a splash with customers as it's printed edge to edge with full color imprint. Ideal for summer events, marathons, beaches, traveling, and tradeshows, these trendy towels, are sure to boost your brand image. Order these popular Towels today and market your brand like never before! Over 1000 pcs is by OCEAN.",
+    "summary": "Our quick-drying beach towel is made from luxurious soft microfiber, which is extremely absorbent and fast drying",
+    "image": "https://media.asicdn.com/images/orig/324080000/324087568.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324080000/324087568.jpg",
+        "https://media.asicdn.com/images/orig/324080000/324087581.jpg",
+        "https://media.asicdn.com/images/orig/324080000/324087580.jpg",
+        "https://media.asicdn.com/images/orig/324080000/324087583.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Multi Color=Multi Color",
+        "materials": "Polyester=Polyester",
+        "size": "Length:60:in;Width:30:in",
+        "imprint_method": "Sublimation=Sublimation",
+        "imprint_color": "full color",
+        "production_time": "7",
+        "price_includes": "Full color 1 side and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 8.36,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 8.05,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 7.68,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 7.42,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.56,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 5.38,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 5.05,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Custom Unisex Polo Shirt",
+    "product_number": "FCSIH003",
+    "price": 7.8,
+    "category": "Clothing-General",
+    "description": "This top is crafted of 60% cotton and 40% polyester.Perfect for employee apparel.  Features include a ribbed collar and cuffs with contrast striped tipping, striped neck tape, branded three button placket, short sleeves with ribbed trim. This exclusive product is sold unimprinted, comes in a assortment of colors and sizes ranging from S-3XL.",
+    "summary": "This men's and ladies' Polo is a top that everyone needs as part of their wardrobe!",
+    "image": "https://media.asicdn.com/images/orig/330310000/330312623.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/330310000/330312623.png",
+        "https://media.asicdn.com/images/orig/330310000/330312626.png",
+        "https://media.asicdn.com/images/orig/330310000/330312627.png",
+        "https://media.asicdn.com/images/orig/330310000/330312628.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Gray=Gray,Medium Yellow=Yellow,Dark Blue=Navy,Medium Green=Olive,Medium Pink=Pink,Medium Orange=Orange,Medium White=White,Other=Custom",
+        "materials": "Cotton=Cotton",
+        "size": "S,M,L,XL,2XL,3XL",
+        "imprint_method": "Silkscreen=Silkscreen,Embroidered=Embroidered,Heat Transfer=Heat Transfer",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "7-9",
+        "price_includes": "1 color l location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 7.8,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 7.63,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 7.48,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 7.02,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 6.02,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 5.53,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 5.06,
+            "code": "R"
+        }
+    ]
+}

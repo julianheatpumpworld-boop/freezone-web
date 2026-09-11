@@ -1,0 +1,62 @@
+{
+    "name": "1\" Safety Breakaway Polyester Lanyards",
+    "product_number": "FCS0006",
+    "price": 1.623,
+    "category": "LANYARDS",
+    "description": "Make sure your logo hangs around for a while with this great lanyard! Made of polyester, each lanyard measures 36\" x 1\" and comes in an assortment of great colors. It features a breakaway safety release and has ample room to add an imprinted brand name, logo or message. This item is appropriate for trade shows, office buildings, hospitals, schools, sports teams and more. People will think of you with every wear!",
+    "summary": "Breakaway lanyards provide an added safety feature, disconnecting under pressure to eliminate choking risks",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254581.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254581.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254580.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254582.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254583.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium White=White,Medium Red=Red,Medium Purple=Purple,Medium Green=Green,Medium Yellow=Yellow,Medium Orange=Orange,Medium Pink=Pink,Other=Fuschia,Other=Custom",
+        "materials": "Polyester=Polyester",
+        "size": "Length:1:in;Width:36:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.623,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 1.482,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.379,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 1.251,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.112,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.892,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.687,
+            "code": "R"
+        }
+    ]
+}

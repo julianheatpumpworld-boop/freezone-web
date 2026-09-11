@@ -1,0 +1,51 @@
+{
+    "name": "LED LuminousGlasses",
+    "product_number": "FCSA0325",
+    "price": 6.69,
+    "category": "LED PRODUCTS",
+    "description": "The glowing glasses are very perfect for parties, bars or concerts. There are soft silicone nose pads and the lenses additional padding on the arms that make wearing the glasses comfortable. The light lenses are made of high-quality acrylic material for scratch resistance and high break resistance. These glasses are completely wireless. Requires only two 3V button batteries to work. It is characterised by the silent LED technology. Two LEDs on each arm. With infrared engraving on the glasses. A good choice for concerts, bars, KTV, dance and other entertainment possibilities.",
+    "summary": "These LED visor glasses come with 12 customizable light modes (steady on, flash, strobe, fade, etc.) to match any vibe.",
+    "image": "https://media.asicdn.com/images/orig/360900000/360905320.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360900000/360905320.png",
+        "https://media.asicdn.com/images/orig/360900000/360905322.png",
+        "https://media.asicdn.com/images/orig/360900000/360905324.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Other=Transparent",
+        "materials": "Plastic=Plastic",
+        "size": "Length:6.7:in;Width:6.3:in;Height:1.8:in",
+        "imprint_method": "Laser Engraved=Laser Engraved,Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 6.69,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 6.19,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 5.59,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 5.28,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 4.79,
+            "code": "R"
+        }
+    ]
+}

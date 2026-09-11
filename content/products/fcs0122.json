@@ -1,0 +1,63 @@
+{
+    "name": "Silicone Phone Holder/Stander With Card Case",
+    "product_number": "FCS0122",
+    "price": 1.997,
+    "category": "Mobile Accessories-Stands & Holders",
+    "description": "Our silicone phone holder/stander made in muti-colors with card cases. We use silkscreen printing technique that makes the imprint part assuring a long lasting appearance, It is pleasant to hold and handle, Press the middle to open with a satisfying  press the ends to close with a click. It really is that simple. The memory metal inside the soft silicone cover will never break and the colourful silicone helps provide extra grip to help prevent accidents caused by dropping your precious phone as well as giving your device the ability to stand up for easy viewing, and it helps prevents the back of the phone being damaged",
+    "summary": "MOBILE SLEEVES/CASES; PHONE ACCESSORIES",
+    "image": "https://media.asicdn.com/images/orig/322560000/322563336.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/322560000/322563336.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322563337.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322563338.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322563340.jpg",
+        "https://media.asicdn.com/images/orig/322560000/322563341.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Green=Green,Medium Blue=Blue,Medium Pink=Pink,Medium White=White",
+        "materials": "Silicone=Silicone",
+        "size": "Length:3.35:in;Width:2.32:in;Height:0.12:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.997,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.466,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.276,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.154,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.078,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.998,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.908,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Sport Digital Display Countdown Timer",
+    "product_number": "FCS0229",
+    "price": 2.969,
+    "category": "STOPWATCHES",
+    "description": "On your marks, get set, PROMOTE! Finish ahead of the competition with these sporting digital stopwatches. These 2.44\"* 2.85\" * 1.04\" timers are crafted from durable ABS plastic and have a corded neck strap. Each timer supports a 12 or 24 hour format, and can calculate down to the millisecond on its easy-to-read LCD display. So it's perfect for everything from quick races to marathons, to rounds of charades or competitive eating. However your company or group likes to compete, this great stopwatch will determine the winner.",
+    "summary": "STOPWATCHES,  TIMERS",
+    "image": "https://media.asicdn.com/images/orig/323790000/323797003.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323790000/323797003.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323797004.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323797005.jpg",
+        "https://media.asicdn.com/images/orig/323790000/323797006.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Dark Blue=Navy",
+        "materials": "Plastic=Plasttic",
+        "size": "Length:2.44:in;Width:2.85:in;Height:1.04:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "one color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.969,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 2.852,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 2.743,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.625,
+            "code": "R"
+        }
+    ]
+}

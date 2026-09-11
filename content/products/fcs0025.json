@@ -1,0 +1,62 @@
+{
+    "name": "6.9\" Flat Round Head Plastic Stirrer",
+    "product_number": "FCS0025",
+    "price": 0.346,
+    "category": "BAR ACCESSORIES",
+    "description": "Mix things up at your next cocktail reception or gala event with these muddlers and stir sticks. These 6.9\" plastic stirrers have a 1\" round head that are perfect for visibility and stirring up ingredients and each has a ball end design. Choose from a wide range of colors, and add your organizational or company logo, emblem or message to create a bold branded item. This popular stir stick is a favorite for advertising your business or event, venues, restaurants, casinos, bars, cafes, coffee shops, banquet halls, and hotels.",
+    "summary": "Mix things up at your next cocktail reception or gala event with these muddlers and stir sticks.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319255115.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319255115.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255114.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255117.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319255116.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Red=Red,Medium Yellow=Yellow,Medium Blue=Blue,Medium Green=Green,Medium White=White,Medium Gray=Gray,Medium Black=Black,Medium Brown=Brown,Medium Pink=Pink,Medium Orange=Orange,Medium Purple=Purple",
+        "materials": "Plastic=Plastic",
+        "size": "Length:6.9:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 5000,
+            "price": 0.346,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.215,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.189,
+            "code": "R"
+        },
+        {
+            "qty": 30000,
+            "price": 0.175,
+            "code": "R"
+        },
+        {
+            "qty": 50000,
+            "price": 0.162,
+            "code": "R"
+        },
+        {
+            "qty": 80000,
+            "price": 0.147,
+            "code": "R"
+        },
+        {
+            "qty": 100000,
+            "price": 0.138,
+            "code": "R"
+        }
+    ]
+}

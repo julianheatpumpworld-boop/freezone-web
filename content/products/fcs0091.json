@@ -1,0 +1,61 @@
+{
+    "name": "25 oz. Aluminum Alpine Bottle",
+    "product_number": "FCS0091",
+    "price": 5.022,
+    "category": "Bottles-Sport Type",
+    "description": "Stylish, sporty and safe, this 25 oz. aluminum water bottle is a great way to promote proper hydration.This must-have piece of drinkware is available in several colors and features a black leak-proof, screw-down lid with a mini metal carabiner attached for easy transport. Great for promotional purposes, you can customize each one with an imprint of your brand logo to maximize corporate visibility on a great giveaway! This item is not microwave or dishwasher safe - hand wash only.",
+    "summary": "Aluminum Bottles,",
+    "image": "https://media.asicdn.com/images/orig/319680000/319682962.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319680000/319682962.jpg",
+        "https://media.asicdn.com/images/orig/319680000/319682965.jpg",
+        "https://media.asicdn.com/images/orig/319680000/319682968.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Silver Metal=Silver,Medium Blue=Blue,Medium Red=Red,Medium Green=Green",
+        "materials": "Aluminum=Aluminum",
+        "size": "25:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "7-9",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 5.022,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 4.892,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 4.778,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 4.642,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 4.521,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 4.385,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 4.012,
+            "code": "R"
+        }
+    ]
+}

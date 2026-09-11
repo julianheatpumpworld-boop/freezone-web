@@ -1,0 +1,50 @@
+{
+    "name": "17oz Jumping Cover Stainless Water Bottle",
+    "product_number": "FCS0131",
+    "price": 11.249,
+    "category": "Bottles-Insulated",
+    "description": "This insulating cup is made of the good grade stainless steel, and 5 colors you coud choose, and welcome to imprint you own logo. It's a good choice if you want order a bunch of gift to your better customer. It has a bottom on the cover, press the bottom, it will be opened immediately. Very easy and convenient method to get drink. Like your convenient service to your customer. Let your customers fall in love with this portable water bottle.",
+    "summary": "Bottles-Sport Type",
+    "image": "https://media.asicdn.com/images/orig/323280000/323285971.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323280000/323285971.jpg",
+        "https://media.asicdn.com/images/orig/323280000/323285972.jpg",
+        "https://media.asicdn.com/images/orig/323280000/323285974.jpg",
+        "https://media.asicdn.com/images/orig/323280000/323285975.jpg",
+        "https://media.asicdn.com/images/orig/323280000/323285978.jpg",
+        "https://media.asicdn.com/images/orig/323280000/323285988.jpg",
+        "https://media.asicdn.com/images/orig/323280000/323285996.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Red=Red,Medium Pink=Pink,Medium Blue=Blue,Dark Yellow=Gold",
+        "materials": "Stainless Steel=304 Stainless Steel",
+        "size": "17:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "5",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 50,
+            "price": 11.249,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 10.775,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 10.276,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 9.564,
+            "code": "R"
+        }
+    ]
+}

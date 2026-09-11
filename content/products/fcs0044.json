@@ -1,0 +1,62 @@
+{
+    "name": "16 Oz Double Wall Disposable Coffeee Cups with Lids",
+    "product_number": "FCS0044",
+    "price": 0.928,
+    "category": "Cups-Paper",
+    "description": "The double wall design offers full coverage insulation, keeping your hands cool and your coffee hot without the need for sleeves. These convenient eco coffee cups are 100% recyclable, saving you time while helping the environment. Suitable for office using,coffee bar, dessert shop etc. We have 3 size. 8oz, 12oz, and 16oz, this price is for 16oz.",
+    "summary": "The double wall design keep your hands cool and your coffee hot without the need for sleeves",
+    "image": "https://media.asicdn.com/images/orig/319250000/319256113.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319256113.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319256115.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319256112.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319256111.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Brown=Brown,Medium White=White,Medium Black=Black,Other=Custom",
+        "materials": "Paper=Paper",
+        "size": "16:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to Full colors",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 3000,
+            "price": 0.928,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.902,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 0.877,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.475,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.459,
+            "code": "R"
+        },
+        {
+            "qty": 30000,
+            "price": 0.428,
+            "code": "R"
+        },
+        {
+            "qty": 40000,
+            "price": 0.385,
+            "code": "R"
+        }
+    ]
+}

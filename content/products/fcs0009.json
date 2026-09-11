@@ -1,0 +1,62 @@
+{
+    "name": "Colorful Burlap Drawstring Pouches",
+    "product_number": "FCS0009",
+    "price": 1.126,
+    "category": "Bags-Drawstring",
+    "description": "Burlap Drawstring Pouches made of high quality material, eco-friendly and durable for long lasting use. It is breathable and has good effect to prevent mold and insects, A convenient storage bag that can be used to store your favorite beads, charms, makeup, gifts, candy, pearls, etc. Can be used as jewelry pouch to store handmade necklaces, bracelets and accessories, Gift packaging for wedding, Christmas, party, birthday, anniversary, valentine, white day, etc.",
+    "summary": "Burlap Drawstring Pouches made of high quality material, eco-friendly and durable for long lasting use.",
+    "image": "https://media.asicdn.com/images/orig/319250000/319254722.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/319250000/319254722.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254725.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254720.jpg",
+        "https://media.asicdn.com/images/orig/319250000/319254721.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Gray=Gray,Medium Black=Black,Dark Red=Burgundy,Medium Orange=Orange,Medium Green=Green,Bright Green=Lime,Light Brown=Khaki,Medium Pink=Pink,Medium Purple=Purple,Medium Blue=Lake Blue,Dark Blue=Navy Blue,Light Blue=Light Blue,Medium Brown=Brown,Medium Red=Rose",
+        "materials": "Jute/Burlap=Burlap",
+        "size": "Length:5.51:in;Width:3.94:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Up to full color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 200,
+            "price": 1.126,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 0.928,
+            "code": "R"
+        },
+        {
+            "qty": 800,
+            "price": 0.655,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.623,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.592,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.579,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.568,
+            "code": "R"
+        }
+    ]
+}

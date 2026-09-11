@@ -1,0 +1,63 @@
+{
+    "name": "Beach Ball Stress Reliever",
+    "product_number": "FCSIH004",
+    "price": 1.852,
+    "category": "Stress Relievers-Balls",
+    "description": "Made of soft and pliable foam, these 2.5\" round balls have fun multi-colored beach ball looks and lines that will have you in a vacation mindset after just a few squeezes. They're great for throwing, tossing and catching. Multicolor design. Add your school, sports team, organizational or company logo or message through our pad print process to customize.",
+    "summary": "Don't suffer from the summer blues, invest in a Beach Ball Stress Reliever!",
+    "image": "https://media.asicdn.com/images/orig/330610000/330614077.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/330610000/330614077.png",
+        "https://media.asicdn.com/images/orig/330610000/330614071.png",
+        "https://media.asicdn.com/images/orig/330310000/330313323.png",
+        "https://media.asicdn.com/images/orig/330310000/330313324.png",
+        "https://media.asicdn.com/images/orig/330310000/330313325.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Multi Color=Multi Color",
+        "materials": "Polyurethane (PUR or PU)=Pu",
+        "size": "Length:2.5:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "up to full color",
+        "production_time": "5-7",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 1.852,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.735,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.506,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.311,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.182,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.905,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.855,
+            "code": "R"
+        }
+    ]
+}

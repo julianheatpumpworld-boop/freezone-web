@@ -1,0 +1,63 @@
+{
+    "name": "Handheld Mini Led Light Up Fan",
+    "product_number": "FCSIH008",
+    "price": 3.48,
+    "category": "Fans-General",
+    "description": "This LED mini fan starts with the press of a button, and the LED lights on the rotating blades will show any words you want. It's small and easy to use in your hand. When you're hot, cool down a little with the Handheld LED Light Up Fan. With the simple press of a switch, the fan blades produce a colorful LED pattern light show that is absolutely amazing. Perfect for concerts, festivals, and beach parties. Our pricing is included batteries.Over 5000 pcs is by SEA.",
+    "summary": "This is an LED luminous hand-held mini fan with flash words.",
+    "image": "https://media.asicdn.com/images/orig/331830000/331831479.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/331830000/331831479.jpg",
+        "https://media.asicdn.com/images/orig/331830000/331831480.jpg",
+        "https://media.asicdn.com/images/orig/331830000/331831481.jpg",
+        "https://media.asicdn.com/images/orig/331830000/331831482.jpg",
+        "https://media.asicdn.com/images/orig/331830000/331831483.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Pink=Pink,Medium White=White,Medium Blue=Blue,Medium Green=Green,Medium Purple=Purple,Medium Yellow=Yellow,Medium Orange=Orange,Medium Red=Red",
+        "materials": "Plastic=Plastic",
+        "size": "Length:4.23:in;Width:1.38:in;Height:1.25:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,Up to full color",
+        "production_time": "5",
+        "price_includes": "1 color 1 location imprint and including shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 3.48,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 3.25,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 3.06,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 2.87,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 2.65,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.82,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 1.53,
+            "code": "R"
+        }
+    ]
+}

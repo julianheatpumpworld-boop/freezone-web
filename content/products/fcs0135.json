@@ -1,0 +1,48 @@
+{
+    "name": "64 oz Stainless Steel Pet Bowl",
+    "product_number": "FCS0135",
+    "price": 26.209,
+    "category": "Pet Items-Bowls & Feeders",
+    "description": "This 64oz pet feeding bowl is made of double wall 304 stainless steel construction, good quality and durable, high temperature resistance, non-slip and fall resistance. The surface is smooth and easy to clean. Support customization. 3.46'' H * 7.87'' W.",
+    "summary": "Pet Items-Bowls & Feeders; Pet Items-General",
+    "image": "https://media.asicdn.com/images/orig/323330000/323334950.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323330000/323334950.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323334951.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323334952.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323334953.jpg",
+        "https://media.asicdn.com/images/orig/323330000/323334954.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium White=White,Medium Orange=Orange,Medium Black=Black,Medium Red=Red,Medium Yellow=Yellow,Dark Yellow=Gold,Medium Blue=Blue,Medium Brown=Brown,Medium Green=Green,Medium Purple=Purple,Medium Gray=Silver",
+        "materials": "Stainless Steel=Stainless Steel",
+        "size": "64:oz",
+        "imprint_method": "Silkscreen=Silkscreen,Laser Engraved=Laser Engraved",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 20,
+            "price": 26.209,
+            "code": "R"
+        },
+        {
+            "qty": 50,
+            "price": 24.874,
+            "code": "R"
+        },
+        {
+            "qty": 100,
+            "price": 15.918,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 15.594,
+            "code": "R"
+        }
+    ]
+}

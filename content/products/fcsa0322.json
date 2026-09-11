@@ -1,0 +1,51 @@
+{
+    "name": "Cartoon Character Click Pen",
+    "product_number": "FCSA0322",
+    "price": 1.39,
+    "category": "Pens-Ballpoint-Plunger Action",
+    "description": "This Pen equipped with 0.5mm fine black gel ink, the retractable click design delivers consistent, skip-free writing, perfect for daily note-taking, homework, office work and journaling;Support free custom design and printing! Personalize the pen with your own text, logo or pattern, ideal for school events, business promotions, birthday gifts and party favors.",
+    "summary": "This cartoon Pen is widely used for School stationery for students,Office supplies for daily work or Custom promotional gifts.",
+    "image": "https://media.asicdn.com/images/orig/360240000/360242593.png",
+    "images": [
+        "https://media.asicdn.com/images/orig/360240000/360242593.png",
+        "https://media.asicdn.com/images/orig/360240000/360242606.png",
+        "https://media.asicdn.com/images/orig/360240000/360242607.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Purple=Purple,Dark Blue=Navy,Medium Gray=Gray,Medium Black=Black,Medium Pink=Pink,Medium Green=Green",
+        "materials": "Plastic=Plastic+ Acrylic",
+        "size": "Length:4.7:in;Width:0.6:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors,up to full color",
+        "production_time": "5-7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 300,
+            "price": 1.39,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.19,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.89,
+            "code": "R"
+        },
+        {
+            "qty": 1500,
+            "price": 0.85,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.69,
+            "code": "R"
+        }
+    ]
+}

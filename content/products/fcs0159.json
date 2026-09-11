@@ -1,0 +1,48 @@
+{
+    "name": "Children's Straw Cup 480ML",
+    "product_number": "FCS0159",
+    "price": 7.118,
+    "category": "Bottles-Insulated",
+    "description": "Material: Plastic.Occasion: Sports.Healthy PC material, rest assured to use.360 degrees leak-proof, drip-proof.Capacity: 480ml.Customized logo available.",
+    "summary": "Children's Bottle, Straw Cap. Water Bottle, Plastic Bottle",
+    "image": "https://media.asicdn.com/images/orig/323390000/323391807.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323390000/323391807.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323391808.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323391809.jpg",
+        "https://media.asicdn.com/images/orig/323390000/323391810.png",
+        "https://media.asicdn.com/images/orig/323390000/323391811.png"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Yellow=Yellow,Medium Red=Red,Medium Purple=Purple,Medium Green=Green,Medium Blue=Blue,Medium Black=Black,Medium Orange=Orange",
+        "materials": "Other=Pp",
+        "size": "Length:2.8:in;Width:2.8:in;Height:6.7:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 7.118,
+            "code": "R"
+        },
+        {
+            "qty": 200,
+            "price": 6.655,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 6.145,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 5.462,
+            "code": "R"
+        }
+    ]
+}

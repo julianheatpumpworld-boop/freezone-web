@@ -1,0 +1,48 @@
+{
+    "name": "Heart-shaped Tape Measure",
+    "product_number": "FCS0234",
+    "price": 0.676,
+    "category": "Key Chains-With Tools",
+    "description": "Free samples are available,The measuring tape is made of non-stretch fiberglass material, which is durable and wear resistant. With a portable handy plastic case outside, the inside flexible vinyl tape measure is 1.5M/60In in length, which totally meet your requirements for measure stuff. you can retract the long ruler with only 1 press on the button of the plastic case. It goes back inside automatically. There is Inch calibration clearly printed on one side, and Centimeter calibration on the other side, both for your convenient. It is widely used in daily life like measuring clothes, your height, check up the waistline when you on a diet, record the head circumference of babies, your body measures etc. If you want your logo, just feel free to contact us. \"",
+    "summary": "Key Chains-With Tape Measure; TAPE MEASURES",
+    "image": "https://media.asicdn.com/images/orig/323810000/323812573.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/323810000/323812573.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812569.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812571.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812570.jpg",
+        "https://media.asicdn.com/images/orig/323810000/323812572.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Red=Red,Medium Yellow=Yellow",
+        "materials": "ABS=Abs Plastic",
+        "size": "2\" diameter",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 500,
+            "price": 0.676,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 0.655,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.623,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.612,
+            "code": "R"
+        }
+    ]
+}

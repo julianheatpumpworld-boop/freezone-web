@@ -1,0 +1,62 @@
+{
+    "name": "Fleece Material Travel Blanket With Strap",
+    "product_number": "FCS0098",
+    "price": 15.128,
+    "category": "BLANKETS",
+    "description": "This is made of fleece material. Carry easily and fold quickly.Bring you very good hand feeling with high quality. Keep you and your families warm.Any color, pattern, size can be customized.Welcome to your odrer.",
+    "summary": "Fleece BLANKETS",
+    "image": "https://media.asicdn.com/images/orig/322470000/322478219.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/322470000/322478219.jpg",
+        "https://media.asicdn.com/images/orig/322470000/322478220.jpg",
+        "https://media.asicdn.com/images/orig/322470000/322478221.jpg",
+        "https://media.asicdn.com/images/orig/322470000/322478222.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Blue=Blue,Medium Yellow=Yellow,Medium Green=Green,Medium Brown=Brown,Medium Purple=Purple,Medium Red=Red",
+        "materials": "Fleece=Fleece",
+        "size": "Length:47:in;Width:59:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "Custom Colors,PMS Colors,Standard Colors",
+        "production_time": "25",
+        "price_includes": "1 color 1 location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 1000,
+            "price": 15.128,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 14.845,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 14.696,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 14.556,
+            "code": "R"
+        },
+        {
+            "qty": 8000,
+            "price": 14.418,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 14.358,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 14.225,
+            "code": "R"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Pet Training Clicker with Wrist Strap",
+    "product_number": "FCSM13",
+    "price": 2.378,
+    "category": "Pet Items-General",
+    "description": "This pet dog clicker is made of ABS material, which is durable and sturdy,not easy to break, resistant to falling, no pungent smell, safe for your pets use,it is a must-have training tool for sound-sensitive pets. our dog training clickers can be applied to train your dog for small movements and correct bad behavior, which is a convenient and safe way for you to use, and can help you build a good relationship with your pet,this dog clicker for training is comfortable for you to wear on the wrist, or you can hang them on the keychain loops and elastic bracelets, which will not fall off easily;And the wrist attachment is more comfortable and easier to hold than a box clicker when petting Custom logo is available,pls call us for more infomation!Qty for 10000pc and over shipping by sea.",
+    "summary": "Can be used to train the dog basic obedience, small trick, and correct the bad behavior;",
+    "image": "https://media.asicdn.com/images/orig/326450000/326458993.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/326450000/326458993.jpg",
+        "https://media.asicdn.com/images/orig/326450000/326458994.jpg",
+        "https://media.asicdn.com/images/orig/326450000/326458995.jpg",
+        "https://media.asicdn.com/images/orig/326450000/326458996.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Medium Black=Black,Medium Blue=Blue,Medium Green=Green,Medium Brown=Brown,Medium Pink=Pink,Medium Orange=Orange,Medium Yellow=Yellow,Medium Red=Red,Medium Purple=Purple,Bright Blue=Royal Blue,Light Blue=Light Blue,Medium White=White,Other=Khaki",
+        "materials": "ABS=Abs",
+        "size": "Length:2.36:in;Width:1.57:in;Height:0.67:in",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "1 color",
+        "production_time": "7-9",
+        "price_includes": "one color one location imprint and shipping cost"
+    },
+    "pricing_grid": [
+        {
+            "qty": 100,
+            "price": 2.378,
+            "code": "R"
+        },
+        {
+            "qty": 300,
+            "price": 1.983,
+            "code": "R"
+        },
+        {
+            "qty": 500,
+            "price": 1.419,
+            "code": "R"
+        },
+        {
+            "qty": 1000,
+            "price": 1.207,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 1.193,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 1.187,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.895,
+            "code": "R"
+        }
+    ]
+}

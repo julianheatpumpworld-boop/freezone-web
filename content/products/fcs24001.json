@@ -1,0 +1,61 @@
+{
+    "name": "12 oz Reusable Frosted Plastic Cups",
+    "product_number": "FCS24001",
+    "price": 0.928,
+    "category": "Cups-Plastic",
+    "description": "Designed with a 12 oz. capacity, This product is made of pp, using grinding technology, reusable plastic materials, reduce waste, it is very suitable for parties, concerts, sports events, festivals and other activities. . Customize yours with a team name, company logo, promotional message and more on one or both sides. These cups offer more than just a refreshing drink; it's a statement piece that adds a touch of cool to any occasion!",
+    "summary": "Throw back some cold ones at a picnic, tailgate, football game or special event with these frosted stadium cups!",
+    "image": "https://media.asicdn.com/images/orig/324180000/324180674.jpg",
+    "images": [
+        "https://media.asicdn.com/images/orig/324180000/324180674.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324180676.jpg",
+        "https://media.asicdn.com/images/orig/324180000/324180678.jpg"
+    ],
+    "featured": false,
+    "details": {
+        "colors": "Clear=Frosted  Clear,Medium Red=Frosted Red,Medium Pink=Frosted Pink,Medium Black=Frosted Black,Other=Custom",
+        "materials": "Plastic=Plastic",
+        "size": "12:oz",
+        "imprint_method": "Silkscreen=Silkscreen",
+        "imprint_color": "up to full color",
+        "production_time": "7",
+        "price_includes": "one color one location imprint and shipping cos"
+    },
+    "pricing_grid": [
+        {
+            "qty": 1000,
+            "price": 0.928,
+            "code": "R"
+        },
+        {
+            "qty": 2000,
+            "price": 0.912,
+            "code": "R"
+        },
+        {
+            "qty": 3000,
+            "price": 0.882,
+            "code": "R"
+        },
+        {
+            "qty": 5000,
+            "price": 0.875,
+            "code": "R"
+        },
+        {
+            "qty": 10000,
+            "price": 0.843,
+            "code": "R"
+        },
+        {
+            "qty": 20000,
+            "price": 0.802,
+            "code": "R"
+        },
+        {
+            "qty": 50000,
+            "price": 0.756,
+            "code": "R"
+        }
+    ]
+}

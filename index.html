@@ -61,8 +61,8 @@
                 <span class="asi-badge uppercase tracking-tighter text-[9px] lg:text-[11px]">ASI #<span id="top-asi-num">55452</span></span>
             </div>
             <div class="flex items-center gap-2 lg:gap-6">
-                <select id="custom_lang_select" onchange="doCustomTranslate(this.value)" class="bg-transparent border border-white/20 rounded px-2 py-1 text-[10px] text-white focus:outline-none focus:ring-1 focus:ring-white/50 cursor-pointer">
-                    <option value="" class="text-slate-800">🌐 Language</option>
+                <select id="custom_lang_select" onchange="doCustomTranslate(this.value)" class="bg-transparent border border-white/20 rounded px-2 py-1 text-[10px] text-white focus:outline-none focus:ring-1 focus:ring-white/50 cursor-pointer uppercase font-bold">
+                    <option value="" class="text-slate-800">🌐 LANGUAGE</option>
                     <option value="en" class="text-slate-800">ENGLISH</option>
                     <option value="fr" class="text-slate-800">FRANÇAIS</option>
                     <option value="zh-CN" class="text-slate-800">中文</option>
@@ -83,7 +83,7 @@
             <div class="container mx-auto px-4 py-3 lg:py-4">
                 <div class="flex items-center justify-between gap-4">
                     <!-- Logo (Preserved) -->
-                    <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="window.location.href='/'">
+                    <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="closeProductModal()">
                         <img id="site-logo-img" src="" class="h-10 lg:h-16 w-auto object-contain hidden">
                         <div id="site-logo-fallback" class="flex items-center gap-2">
                             <div class="w-8 h-8 lg:w-10 lg:h-10 bg-asi_blue flex items-center justify-center rounded-lg shadow-lg shadow-asi_blue/20">
@@ -95,23 +95,16 @@
 
                     <!-- Main Nav Dropdowns (Desktop) - Font Uppercase -->
                     <div class="hidden lg:flex items-center gap-8 text-[11px] font-black text-slate-500 uppercase tracking-widest">
-                        <a href="javascript:void(0)" onclick="window.scrollTo({top:0,behavior:'smooth'})" class="hover:text-asi_blue">HOME</a>
-                        <a href="javascript:void(0)" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">ABOUT US</a>
-                        <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">CONTACT US</a>
+                        <a href="javascript:void(0)" onclick="closeProductModal()" class="hover:text-asi_blue">HOME</a>
+                        <a href="javascript:void(0)" onclick="closeProductModal();document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">ABOUT US</a>
+                        <a href="javascript:void(0)" onclick="closeProductModal();document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">CONTACT US</a>
                         <div class="relative nav-dropdown group py-2">
                             <button class="flex items-center gap-1 hover:text-asi_blue">PRODUCT SEARCH <i class="fa-solid fa-chevron-down text-[8px]"></i></button>
                             <div class="absolute top-full left-0 w-80 bg-white border border-asi_border rounded-lg shadow-2xl invisible group-hover:visible p-6 z-50 mt-2">
                                 <h5 class="text-[9px] font-black text-slate-300 uppercase tracking-[0.3em] mb-4 border-b pb-2">TOP SEARCHES</h5>
                                 <div id="top-searches" class="grid grid-cols-2 gap-2 mb-6"></div>
                                 <h5 class="text-[9px] font-black text-slate-300 uppercase tracking-[0.3em] mb-4 border-b pb-2">TOP CATEGORIES</h5>
-                                <div id="top-categories-list" class="grid grid-cols-1 gap-2"></div>
-                            </div>
-                        </div>
-                        <div class="relative nav-dropdown group py-2">
-                            <button class="flex items-center gap-1 hover:text-asi_blue">MORE <i class="fa-solid fa-chevron-down text-[8px]"></i></button>
-                            <div class="absolute top-full left-0 w-56 bg-white border border-asi_border rounded-lg shadow-2xl invisible group-hover:visible py-3 z-50 mt-2">
-                                <a href="javascript:void(0)" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="block px-6 py-3 hover:bg-slate-50 hover:text-asi_blue text-slate-500">WHO WE ARE</a>
-                                <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="block px-6 py-3 hover:bg-slate-50 hover:text-asi_blue text-slate-500">HELP CENTER</a>
+                                <div id="top-categories-list" class="grid grid-cols-1 gap-2 text-left"></div>
                             </div>
                         </div>
                     </div>
@@ -139,15 +132,15 @@
             <!-- Category Nav - ASI Blue Background, Uppercase -->
             <nav class="bg-asi_blue">
                 <div class="container mx-auto px-4 flex gap-6 lg:gap-10 py-4 text-[10px] lg:text-[12px] font-black text-white/70 uppercase tracking-[0.2em] overflow-x-auto hide-scrollbar whitespace-nowrap" id="fixed-nav">
-                    <button onclick="filterByCategory('All')" class="text-white shrink-0">ALL PRODUCTS</button>
-                    <button onclick="filterByTopCategory('Apparel')" class="hover:text-white transition-colors shrink-0">APPAREL</button>
-                    <button onclick="filterByTopCategory('Bags')" class="hover:text-white transition-colors shrink-0">BAGS</button>
-                    <button onclick="filterByTopCategory('Writing')" class="hover:text-white transition-colors shrink-0">WRITING INSTRUMENTS</button>
-                    <button onclick="filterByTopCategory('Tech')" class="hover:text-white transition-colors shrink-0">TECH ITEMS</button>
-                    <button onclick="filterByTopCategory('Drinkware')" class="hover:text-white transition-colors shrink-0">DRINKWARE</button>
-                    <button onclick="filterByCategory('Outdoor & Leisure')" class="hover:text-white transition-colors shrink-0">OUTDOOR & LEISURE</button>
-                    <button onclick="filterByCategory('Trade Show & Events')" class="hover:text-white transition-colors shrink-0">TRADE SHOW & EVENTS</button>
-                    <button onclick="filterByCategory('Eco-friendly')" class="hover:text-white transition-colors shrink-0">ECO-FRIENDLY</button>
+                    <button onclick="closeProductModal();filterByCategory('All')" class="text-white shrink-0">ALL PRODUCTS</button>
+                    <button onclick="closeProductModal();filterByTopCategory('Apparel')" class="hover:text-white transition-colors shrink-0">APPAREL</button>
+                    <button onclick="closeProductModal();filterByTopCategory('Bags')" class="hover:text-white transition-colors shrink-0">BAGS</button>
+                    <button onclick="closeProductModal();filterByTopCategory('Writing')" class="hover:text-white transition-colors shrink-0">WRITING INSTRUMENTS</button>
+                    <button onclick="closeProductModal();filterByTopCategory('Tech')" class="hover:text-white transition-colors shrink-0">TECH ITEMS</button>
+                    <button onclick="closeProductModal();filterByTopCategory('Drinkware')" class="hover:text-white transition-colors shrink-0">DRINKWARE</button>
+                    <button onclick="closeProductModal();filterByCategory('Outdoor & Leisure')" class="hover:text-white transition-colors shrink-0">OUTDOOR & LEISURE</button>
+                    <button onclick="closeProductModal();filterByCategory('Trade Show & Events')" class="hover:text-white transition-colors shrink-0">TRADE SHOW & EVENTS</button>
+                    <button onclick="closeProductModal();filterByCategory('Eco-friendly')" class="hover:text-white transition-colors shrink-0">ECO-FRIENDLY</button>
                     <button onclick="sidebarExpanded=!sidebarExpanded;renderSidebar(sidebarExpanded)" class="hover:text-white transition-colors shrink-0 opacity-100 flex items-center gap-1 border-l border-white/20 pl-6 ml-auto">MORE <i class="fa-solid fa-plus text-[8px]"></i></button>
                 </div>
             </nav>
@@ -160,7 +153,7 @@
         <section id="latest-section" class="py-12 bg-white">
             <div class="container mx-auto px-4">
                 <div class="flex items-center justify-between mb-8">
-                    <h3 class="text-2xl font-bold text-slate-800">Latest Collections</h3>
+                    <h3 class="text-2xl font-bold text-slate-800 uppercase tracking-tighter">Latest Collections</h3>
                     <div class="flex gap-2">
                         <button onclick="scrollCarousel(-1)" class="w-10 h-10 border border-asi_border rounded-xl flex items-center justify-center hover:bg-slate-50 text-slate-400 hover:text-asi_blue transition-all"><i class="fa-solid fa-chevron-left"></i></button>
                         <button onclick="scrollCarousel(1)" class="w-10 h-10 border border-asi_border rounded-xl flex items-center justify-center hover:bg-slate-50 text-slate-400 hover:text-asi_blue transition-all"><i class="fa-solid fa-chevron-right"></i></button>
@@ -242,7 +235,7 @@
         </section>
     </div>
 
-    <!-- Full Page Product Detail (Task 5: No Sub-window, Full Page) -->
+    <!-- Full Page Product Detail -->
     <div id="product-detail-view" class="full-page-detail">
         <div class="bg-white min-h-screen">
             <!-- Breadcrumb / Back Button -->
@@ -914,8 +907,6 @@
             try {
                 const settingsRes = await fetch('content/settings/general.json');
                 const settings = settingsRes.ok ? await settingsRes.json() : {};
-                const homeRes = await fetch('content/pages/home.json');
-                const homeData = homeRes.ok ? await homeRes.json() : null;
                 const aboutRes = await fetch('content/pages/about.json');
                 const aboutData = aboutRes.ok ? await aboutRes.json() : null;
                 
@@ -979,8 +970,8 @@
 
                 renderSidebar(false);
                 const cats = [...new Set(allProducts.map(p => p.category))].sort();
-                document.getElementById('footer-categories').innerHTML = cats.slice(0, 6).map(c => `<li><a href="javascript:void(0)" onclick="filterByCategory('${c}')" class="hover:text-asi_blue transition-colors uppercase">${c}</a></li>`).join('');
-                document.getElementById('top-categories-list').innerHTML = cats.slice(0, 6).map(c => `<button onclick="filterByCategory('${c}')" class="block text-slate-500 hover:text-asi_blue text-[10px] font-black py-1 uppercase tracking-widest text-left">${c}</button>`).join('');
+                document.getElementById('footer-categories').innerHTML = cats.slice(0, 6).map(c => `<li><a href="javascript:void(0)" onclick="closeProductModal();filterByCategory('${c}')" class="hover:text-asi_blue transition-colors uppercase">${c}</a></li>`).join('');
+                document.getElementById('top-categories-list').innerHTML = cats.slice(0, 8).map(c => `<button onclick="closeProductModal();filterByCategory('${c}')" class="block text-slate-500 hover:text-asi_blue text-[10px] font-black py-1 uppercase tracking-widest text-left">${c}</button>`).join('');
 
                 renderProducts();
 

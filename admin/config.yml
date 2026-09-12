@@ -33,6 +33,13 @@ collections:
             fields:
               - {label: "Copyright Name", name: "copyright", widget: "string"}
               - {label: "Footer Description", name: "about_text", widget: "text"}
+          - label: "ASI Compliance (Sidebar Info)"
+            name: "compliance"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "title", widget: "string", default: "ASI Supplier"}
+              - {label: "Subtitle", name: "subtitle", widget: "string", default: "Committed to North American safety & compliance standards."}
+              - {label: "Badges (e.g. PROP 65, CPSIA)", name: "badges", widget: "list", field: {label: "Badge Text", name: "text", widget: "string"}}
 
   - name: "content"
     label: "2. Page Content"
@@ -53,7 +60,13 @@ collections:
             widget: "object"
             fields:
               - {label: "Title", name: "title", widget: "string"}
-              - {label: "Detailed Description", name: "desc", widget: "text"}
+              - {label: "Detailed Description", name: "desc", widget: "markdown"}
+          - label: "Global Support Section"
+            name: "global"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
       - name: "about"
         label: "About Us Page"
         file: "content/pages/about.json"

@@ -34,122 +34,123 @@
         .goog-te-banner-frame.skiptranslate { display: none !important; }
         body { top: 0px !important; font-family: 'Roboto', sans-serif; }
         .goog-te-gadget-icon { display: none !important; }
-        .goog-te-gadget-simple { background-color: white !important; border: 1px solid #d1d9e0 !important; border-radius: 4px; padding: 4px 8px !important; }
-        .product-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        .sticky-header { position: sticky; top: 0; z-index: 100; }
+        .goog-te-gadget-simple { background-color: white !important; border: 1px solid #asi_border !important; border-radius: 4px; padding: 4px 8px !important; }
+        .product-card:hover { box-shadow: 0 10px 30px rgba(0,85,150,0.1); transform: translateY(-4px); transition: all 0.3s ease; }
+        .sticky-wrapper { position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .modal-open { overflow: hidden; }
         .hide-scrollbar::-webkit-scrollbar { display: none; }
         .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-        .carousel-container { scroll-snap-type: x mandatory; }
-        .carousel-item { scroll-snap-align: start; }
-        .nav-dropdown:hover .nav-dropdown-content { display: block; }
-        .nav-dropdown-content { display: none; }
         .cart-drawer { position: fixed; top: 0; right: -400px; width: 400px; height: 100vh; background: white; z-index: 200; transition: right 0.3s ease-in-out; box-shadow: -10px 0 30px rgba(0,0,0,0.1); }
         .cart-drawer.open { right: 0; }
         .cart-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 190; }
         .asi-badge { background: linear-gradient(135deg, #ff9d00, #ff5e00); color: white; padding: 2px 10px; border-radius: 20px; font-weight: 800; box-shadow: 0 2px 5px rgba(255, 94, 0, 0.3); }
+        .nav-link-active { color: #005596 !important; border-bottom: 2px solid #005596; }
     </style>
 </head>
 <body class="bg-asi_light text-slate-800">
 
     <div id="google_translate_element" style="position: absolute; top: -100px;"></div>
 
-    <!-- Top Utility Bar -->
-    <div class="bg-slate-900 text-white text-[11px] py-2 px-4 lg:px-6 flex justify-between items-center border-b border-white/5">
-        <div class="flex items-center gap-2 lg:gap-4">
-            <span class="opacity-70 font-medium tracking-wide hidden sm:inline">OFFICIAL MEMBERSHIP</span>
-            <span class="asi-badge uppercase tracking-tighter text-[9px] lg:text-[11px]">ASI #<span id="top-asi-num">55452</span></span>
+    <div class="sticky-wrapper">
+        <!-- Top Utility Bar -->
+        <div class="bg-slate-900 text-white text-[11px] py-2 px-4 lg:px-6 flex justify-between items-center border-b border-white/5">
+            <div class="flex items-center gap-2 lg:gap-4">
+                <span class="opacity-70 font-medium tracking-wide hidden sm:inline">OFFICIAL MEMBERSHIP</span>
+                <span class="asi-badge uppercase tracking-tighter text-[9px] lg:text-[11px]">ASI #<span id="top-asi-num">55452</span></span>
+            </div>
+            <div class="flex items-center gap-2 lg:gap-6">
+                <select id="custom_lang_select" onchange="doCustomTranslate(this.value)" class="bg-transparent border border-white/20 rounded px-2 py-1 text-[10px] text-white focus:outline-none focus:ring-1 focus:ring-white/50 cursor-pointer">
+                    <option value="" class="text-slate-800">🌐 Language</option>
+                    <option value="en" class="text-slate-800">English</option>
+                    <option value="fr" class="text-slate-800">Français</option>
+                    <option value="zh-CN" class="text-slate-800">中文</option>
+                    <option value="es" class="text-slate-800">Español</option>
+                    <option value="de" class="text-slate-800">Deutsch</option>
+                    <option value="nl" class="text-slate-800">Nederlands</option>
+                    <option value="it" class="text-slate-800">Italiano</option>
+                    <option value="pt" class="text-slate-800">Português</option>
+                    <option value="ru" class="text-slate-800">Русский</option>
+                    <option value="ar" class="text-slate-800">العربية</option>
+                </select>
+                <div id="google_translate_hidden" class="hidden"></div>
+            </div>
         </div>
-        <div class="flex items-center gap-2 lg:gap-6">
-            <!-- Custom Language Dropdown -->
-            <select id="custom_lang_select" onchange="doCustomTranslate(this.value)" class="bg-transparent border border-white/20 rounded px-2 py-1 text-[10px] text-white focus:outline-none focus:ring-1 focus:ring-white/50 cursor-pointer">
-                <option value="" class="text-slate-800">🌐 Language</option>
-                <option value="en" class="text-slate-800">English</option>
-                <option value="fr" class="text-slate-800">Français</option>
-                <option value="zh-CN" class="text-slate-800">中文 (简体)</option>
-                <option value="es" class="text-slate-800">Español</option>
-                <option value="de" class="text-slate-800">Deutsch</option>
-                <option value="nl" class="text-slate-800">Nederlands</option>
-                <option value="it" class="text-slate-800">Italiano</option>
-                <option value="pt" class="text-slate-800">Português</option>
-                <option value="ru" class="text-slate-800">Русский</option>
-                <option value="ar" class="text-slate-800">العربية</option>
-            </select>
-            <div id="google_translate_hidden" class="hidden"></div>
-        </div>
-    </div>
 
-    <!-- Main Header -->
-    <header class="bg-white border-b border-asi_border sticky-header shadow-sm">
-        <div class="container mx-auto px-4 py-4">
-            <div class="flex flex-wrap items-center justify-between gap-y-4 gap-x-2 lg:gap-6">
-                <!-- Logo Image -->
-                <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="window.scrollTo({top:0,behavior:'smooth'})">
-                    <img id="site-logo-img" src="" class="h-16 lg:h-24 w-auto object-contain hidden">
-                    <div id="site-logo-fallback" class="flex items-center gap-2">
-                        <div class="w-10 h-10 lg:w-14 lg:h-14 bg-asi_blue flex items-center justify-center rounded-xl lg:rounded-2xl shadow-xl shadow-asi_blue/20">
-                            <i class="fa-solid fa-gift text-white text-xl lg:text-3xl"></i>
+        <!-- Main Header -->
+        <header class="bg-white border-b border-asi_border">
+            <div class="container mx-auto px-4 py-3 lg:py-4">
+                <div class="flex items-center justify-between gap-4">
+                    <!-- Logo -->
+                    <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+                        <img id="site-logo-img" src="" class="h-10 lg:h-16 w-auto object-contain hidden">
+                        <div id="site-logo-fallback" class="flex items-center gap-2">
+                            <div class="w-8 h-8 lg:w-10 lg:h-10 bg-asi_blue flex items-center justify-center rounded-lg shadow-lg shadow-asi_blue/20">
+                                <i class="fa-solid fa-gift text-white text-sm lg:text-xl"></i>
+                            </div>
+                            <span class="text-lg lg:text-2xl font-bold text-asi_blue tracking-tight uppercase" id="site-logo-text">FreeZone</span>
                         </div>
-                        <span class="text-xl lg:text-3xl font-bold text-asi_blue tracking-tight leading-none uppercase" id="site-logo-text">FreeZone</span>
                     </div>
-                </div>
 
-                <!-- Search Bar (Mobile Order 3, Desktop Order 2) -->
-                <div class="w-full lg:flex-1 lg:w-auto order-3 lg:order-2 relative lg:ml-auto">
-                    <div class="flex">
-                        <input type="text" id="search-input" onkeydown="if(event.key==='Enter')handleSearch()" placeholder="Search products or item #..." class="w-full border border-asi_border border-r-0 rounded-l px-4 py-2 lg:py-3 text-sm focus:outline-none focus:ring-1 focus:ring-asi_blue">
-                        <button onclick="handleSearch()" class="bg-asi_blue text-white px-5 lg:px-6 py-2 lg:py-3 rounded-r hover:bg-blue-800 transition-colors">
-                            <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                    <!-- Main Nav Dropdowns (Desktop) -->
+                    <div class="hidden lg:flex items-center gap-8 text-xs font-bold text-slate-500 uppercase tracking-widest">
+                        <a href="javascript:window.scrollTo({top:0,behavior:'smooth'})" class="hover:text-asi_blue">Home</a>
+                        <a href="javascript:void(0)" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">About Us</a>
+                        <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">Contact Us</a>
+                        <div class="relative nav-dropdown group py-2">
+                            <button class="flex items-center gap-1 hover:text-asi_blue">Product Search <i class="fa-solid fa-chevron-down text-[8px]"></i></button>
+                            <div class="absolute top-full left-0 w-64 bg-white border border-asi_border rounded-lg shadow-2xl invisible group-hover:visible p-5 z-50 mt-2">
+                                <h5 class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-4">Top Searches</h5>
+                                <div id="top-searches" class="flex flex-wrap gap-2 mb-6"></div>
+                                <h5 class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-4">Popular Categories</h5>
+                                <div id="top-categories-list" class="space-y-2"></div>
+                            </div>
+                        </div>
+                        <div class="relative nav-dropdown group py-2">
+                            <button class="flex items-center gap-1 hover:text-asi_blue text-asi_blue">More <i class="fa-solid fa-chevron-down text-[8px]"></i></button>
+                            <div class="absolute top-full left-0 w-56 bg-white border border-asi_border rounded-lg shadow-2xl invisible group-hover:visible py-3 z-50 mt-2">
+                                <a href="javascript:void(0)" onclick="document.getElementById('ethical-section').scrollIntoView({behavior:'smooth'})" class="block px-6 py-3 hover:bg-slate-50 hover:text-asi_blue">Ethical Commitment</a>
+                                <a href="javascript:void(0)" onclick="document.getElementById('global-section').scrollIntoView({behavior:'smooth'})" class="block px-6 py-3 hover:bg-slate-50 hover:text-asi_blue text-accent">Global Support</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="flex items-center gap-4">
+                        <button onclick="toggleCart()" class="relative text-slate-600 hover:text-asi_blue">
+                            <i class="fa-solid fa-shopping-cart text-xl lg:text-2xl"></i>
+                            <span id="cart-count" class="absolute -top-2 -right-2 bg-accent text-white text-[9px] w-5 h-5 rounded-full flex items-center justify-center font-bold">0</span>
                         </button>
                     </div>
                 </div>
 
-                <!-- Main Nav Dropdowns (Desktop Only) -->
-                <div class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-600 order-3">
-                    <a href="javascript:window.scrollTo({top:0,behavior:'smooth'})" class="hover:text-asi_blue">Home</a>
-                    <a href="javascript:void(0)" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">About Us</a>
-                    <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">Contact Us</a>
-                    <div class="relative nav-dropdown py-4">
-                        <button class="flex items-center gap-1 hover:text-asi_blue uppercase tracking-widest text-[11px] font-bold">Product Search <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
-                        <div class="absolute top-full left-0 w-64 bg-white border border-asi_border rounded shadow-xl nav-dropdown-content p-4 z-50">
-                            <h5 class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">Top Searches</h5>
-                            <div id="top-searches" class="space-y-2 mb-4"></div>
-                            <h5 class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">Top Categories</h5>
-                            <div id="top-categories-list" class="space-y-2"></div>
-                        </div>
-                    </div>
-                    <div class="relative nav-dropdown py-4">
-                        <button class="flex items-center gap-1 hover:text-asi_blue uppercase tracking-widest text-[11px] font-bold">More <i class="fa-solid fa-chevron-down text-[10px]"></i></button>
-                        <div class="absolute top-full left-0 w-48 bg-white border border-asi_border rounded shadow-xl nav-dropdown-content py-2 z-50">
-                            <a href="#ethical" class="block px-4 py-2 hover:bg-slate-50 hover:text-asi_blue">Ethical Commitment</a>
-                            <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="block px-4 py-2 hover:bg-slate-50 hover:text-asi_blue">Global Support</a>
-                        </div>
+                <!-- Search Bar Row (Dedicated Row) -->
+                <div class="mt-4 relative max-w-4xl mx-auto">
+                    <div class="flex shadow-lg shadow-asi_blue/5">
+                        <input type="text" id="search-input" onkeydown="if(event.key==='Enter')handleSearch()" placeholder="Search from 1,000+ custom products..." class="w-full border-2 border-asi_border border-r-0 rounded-l-xl px-6 py-3 lg:py-4 text-sm focus:outline-none focus:border-asi_blue transition-colors">
+                        <button onclick="handleSearch()" class="bg-asi_blue text-white px-8 lg:px-10 py-3 lg:py-4 rounded-r-xl hover:bg-blue-800 transition-all font-bold uppercase tracking-widest text-xs">
+                            Search
+                        </button>
                     </div>
                 </div>
-
-                <!-- Cart Icons (Mobile Order 2, Desktop Order 4) -->
-                <div class="flex items-center gap-6 shrink-0 order-2 lg:order-4">
-                    <button onclick="toggleCart()" class="relative text-slate-600 hover:text-asi_blue">
-                        <i class="fa-solid fa-shopping-cart text-xl lg:text-2xl"></i>
-                        <span id="cart-count" class="absolute -top-2 -right-2 bg-accent text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold shadow">0</span>
-                    </button>
+            </div>
+            
+            <!-- Category Nav -->
+            <nav class="bg-slate-50 border-t border-asi_border">
+                <div class="container mx-auto px-4 flex gap-6 lg:gap-10 py-4 text-[10px] lg:text-[12px] font-black text-slate-400 uppercase tracking-[0.2em] overflow-x-auto hide-scrollbar whitespace-nowrap" id="fixed-nav">
+                    <button onclick="filterByCategory('All')" class="text-asi_blue border-b-2 border-asi_blue pb-1 shrink-0">All Products</button>
+                    <button onclick="filterByTopCategory('Apparel')" class="hover:text-asi_blue transition-colors shrink-0">Apparel</button>
+                    <button onclick="filterByTopCategory('Bags')" class="hover:text-asi_blue transition-colors shrink-0">Bags</button>
+                    <button onclick="filterByTopCategory('Writing')" class="hover:text-asi_blue transition-colors shrink-0">Writing Instruments</button>
+                    <button onclick="filterByTopCategory('Tech')" class="hover:text-asi_blue transition-colors shrink-0">Tech Items</button>
+                    <button onclick="filterByTopCategory('Drinkware')" class="hover:text-asi_blue transition-colors shrink-0">Drinkware</button>
+                    <button onclick="filterByCategory('Outdoor & Leisure')" class="hover:text-asi_blue transition-colors shrink-0">Outdoor & Leisure</button>
+                    <button onclick="filterByCategory('Trade Show & Events')" class="hover:text-asi_blue transition-colors shrink-0">Trade Show & Events</button>
+                    <button onclick="filterByCategory('Eco-friendly')" class="hover:text-asi_blue transition-colors shrink-0">Eco-friendly</button>
                 </div>
-            </div>
-        </div>
-        
-        <!-- Key Category Nav -->
-        <nav class="bg-slate-50 border-t border-asi_border">
-            <div class="container mx-auto px-4 flex gap-6 lg:gap-10 py-3 text-[10px] lg:text-[11px] font-bold text-slate-600 uppercase tracking-[0.15em] overflow-x-auto hide-scrollbar whitespace-nowrap" id="fixed-nav">
-                <button onclick="filterByTopCategory('Apparel')" class="hover:text-asi_blue transition-colors shrink-0">Apparel</button>
-                <button onclick="filterByTopCategory('Bags')" class="hover:text-asi_blue transition-colors shrink-0">Bags</button>
-                <button onclick="filterByTopCategory('Writing')" class="hover:text-asi_blue transition-colors shrink-0">Writing Instruments</button>
-                <button onclick="filterByTopCategory('Tech')" class="hover:text-asi_blue transition-colors shrink-0">Tech Items</button>
-                <button onclick="filterByTopCategory('Drinkware')" class="hover:text-asi_blue transition-colors shrink-0">Drinkware</button>
-                <button onclick="filterByCategory('All')" class="ml-auto text-asi_blue shrink-0">All Products</button>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
 
     <!-- Latest Products Carousel Section -->
     <section id="latest-section" class="py-12 bg-white">
@@ -178,24 +179,24 @@
 
         <!-- Sidebar Filters -->
         <aside class="hidden lg:block w-72 shrink-0">
-            <div class="bg-white border border-asi_border rounded p-6 shadow-sm">
-                <h4 class="font-bold border-b pb-3 mb-5 text-sm uppercase tracking-widest text-slate-500">Categories</h4>
-                <ul class="space-y-3 text-sm" id="sidebar-categories">
+            <div class="bg-white border border-asi_border rounded-xl p-6 shadow-sm">
+                <h4 class="font-black border-b pb-4 mb-6 text-[10px] uppercase tracking-[0.25em] text-slate-300">Browse Categories</h4>
+                <ul class="space-y-4 text-[13px] font-bold text-slate-600" id="sidebar-categories">
                     <!-- Dynamically populated -->
                 </ul>
                 <div id="see-more-container" class="mt-4 pt-4 border-t border-slate-50"></div>
             </div>
             
-            <div class="mt-8 bg-asi_blue rounded-xl p-6 text-white overflow-hidden relative group">
+            <div id="compliance-card" class="mt-8 bg-asi_blue rounded-2xl p-8 text-white overflow-hidden relative group shadow-2xl shadow-asi_blue/20">
                 <div class="relative z-10">
-                    <h5 class="font-bold text-lg mb-2">ASI Supplier</h5>
-                    <p class="text-white/70 text-xs mb-4">Committed to North American safety & compliance standards.</p>
-                    <div class="flex gap-2">
-                        <span class="bg-white/10 px-2 py-1 rounded text-[9px] font-bold">PROP 65</span>
-                        <span class="bg-white/10 px-2 py-1 rounded text-[9px] font-bold">CPSIA</span>
+                    <h5 class="font-black text-lg mb-2 uppercase tracking-tighter" id="compliance-title">ASI Supplier</h5>
+                    <p class="text-white/60 text-[11px] mb-6 leading-relaxed" id="compliance-subtitle">Committed to North American safety & compliance standards.</p>
+                    <div class="flex flex-wrap gap-2" id="compliance-badges">
+                        <span class="bg-white/10 px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border border-white/5">PROP 65</span>
+                        <span class="bg-white/10 px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border border-white/5">CPSIA</span>
                     </div>
                 </div>
-                <div class="absolute -right-8 -bottom-8 text-white/10 text-8xl transition-transform group-hover:scale-110 duration-500"><i class="fa-solid fa-shield-check"></i></div>
+                <div class="absolute -right-8 -bottom-8 text-white/10 text-9xl transition-transform group-hover:scale-110 duration-700 pointer-events-none"><i class="fa-solid fa-shield-check"></i></div>
             </div>
         </aside>
 
@@ -203,12 +204,12 @@
         <section class="flex-1">
             <div id="pagination-controls-top" class="mb-8 flex flex-col items-center gap-6"></div>
             
-            <div class="flex flex-col sm:flex-row justify-between items-center mb-6 lg:mb-8 bg-white border border-asi_border rounded-lg px-4 lg:px-6 py-4 shadow-sm gap-4">
-                <h2 class="text-base lg:text-lg font-bold w-full sm:w-auto text-center sm:text-left" id="results-count">Search Results</h2>
-                <div class="flex items-center gap-2 lg:gap-4 text-xs lg:text-sm w-full sm:w-auto justify-center">
+            <div class="flex flex-col sm:flex-row justify-between items-center mb-6 lg:mb-8 bg-white border border-asi_border rounded-2xl px-6 py-5 shadow-sm gap-4">
+                <h2 class="text-base lg:text-lg font-black w-full sm:w-auto text-center sm:text-left text-slate-800 uppercase tracking-tight" id="results-count">Search Results</h2>
+                <div class="flex items-center gap-4 text-xs lg:text-sm w-full sm:w-auto justify-center">
                     <div class="flex items-center gap-2">
-                        <span class="text-slate-400">Sort:</span>
-                        <select id="sort-select" onchange="handleSort()" class="border-none bg-transparent font-bold focus:ring-0 cursor-pointer text-asi_blue">
+                        <span class="text-slate-400 font-bold uppercase text-[10px] tracking-widest">Sort By:</span>
+                        <select id="sort-select" onchange="handleSort()" class="border-none bg-transparent font-black focus:ring-0 cursor-pointer text-asi_blue uppercase text-[11px] tracking-widest">
                             <option value="featured">Recommended</option>
                             <option value="price-asc">Price: Low to High</option>
                             <option value="price-desc">Price: High to Low</option>
@@ -218,7 +219,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-6" id="product-list">
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-6" id="product-list">
                 <div class="col-span-full text-center py-20"><i class="fa-solid fa-circle-notch animate-spin text-3xl text-asi_blue"></i></div>
             </div>
             <!-- Pagination -->
@@ -226,12 +227,46 @@
         </section>
     </main>
 
+    <!-- Ethical Section -->
+    <section id="ethical-section" class="bg-slate-900 py-32 text-white overflow-hidden relative">
+        <div class="container mx-auto px-4 relative z-10 max-w-4xl">
+            <div class="text-center">
+                <span class="text-accent font-black uppercase tracking-[0.4em] text-[10px] mb-6 block">Our Values</span>
+                <h2 class="text-4xl lg:text-5xl font-black mb-12 tracking-tighter" id="ethical-title">Ethical Commitment</h2>
+                <div class="prose prose-invert mx-auto text-white/70 leading-relaxed text-lg" id="ethical-desc">
+                    <p>At FreeZone Concept, we believe in procurement that respects both people and planet. We audit our supply chain to ensure North American ethical standards are met at every step.</p>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-asi_blue/5 -skew-x-12"></div>
+    </section>
+
+    <!-- Global Support Section -->
+    <section id="global-section" class="bg-white py-32 relative">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="flex flex-col lg:flex-row items-center gap-20">
+                <div class="flex-1">
+                    <span class="text-asi_blue font-black uppercase tracking-[0.4em] text-[10px] mb-6 block">Supply Chain</span>
+                    <h2 class="text-4xl font-black mb-8 tracking-tighter" id="global-title">Global Support</h2>
+                    <div class="prose prose-slate text-slate-500 leading-relaxed" id="global-content">
+                        <p>With offices and partners across North America and global markets, we provide 24/7 support for your complex procurement needs.</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-80 bg-asi_light rounded-3xl p-10 border border-asi_border/50 text-center">
+                    <i class="fa-solid fa-earth-americas text-6xl text-asi_blue/20 mb-6"></i>
+                    <h4 class="font-bold text-xl mb-2">North America</h4>
+                    <p class="text-xs text-slate-400">Primary Focus Market</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
-    <section id="about-section" class="bg-white py-24 border-t border-asi_border">
-        <div class="container mx-auto px-4 max-w-4xl text-center">
-            <h2 class="text-3xl font-black text-asi_blue mb-8 uppercase tracking-widest" id="about-title">About FreeZone Concept</h2>
-            <div class="prose prose-slate mx-auto text-slate-600 leading-loose" id="about-content">
-                <p>Welcome to FreeZone Concept, your premier ASI supplier dedicated to delivering high-quality promotional products across North America. With a focus on sustainable procurement and ethical manufacturing, we provide branding solutions that help businesses grow while respecting global standards.</p>
+    <section id="about-section" class="bg-asi_light py-32 border-t border-asi_border">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white rounded-[3rem] p-12 lg:p-20 shadow-2xl shadow-asi_blue/5 text-center">
+                <h2 class="text-3xl font-black text-slate-900 mb-10 uppercase tracking-widest" id="about-title">About FreeZone Concept</h2>
+                <div class="prose prose-slate mx-auto text-slate-500 leading-relaxed" id="about-content"></div>
             </div>
         </div>
     </section>
@@ -460,13 +495,18 @@
 
         function openProductModal(index) {
             const p = allProducts[index];
+            if (!p) return;
+            
+            // Task 14: Unique URL for Sharing
+            if (p.product_number) window.location.hash = 'item-' + p.product_number;
+            
             document.body.classList.add('modal-open');
             document.getElementById('modal-image').src = p.image;
             document.getElementById('modal-category').innerText = p.category;
             document.getElementById('modal-name').innerText = p.name;
             document.getElementById('modal-item-num').innerText = p.product_number ? `ITEM #: ${p.product_number}` : '';
             document.getElementById('modal-summary').innerText = p.summary || '';
-            document.getElementById('modal-desc').innerHTML = p.description.replace(/\n/g, '<br>');
+            document.getElementById('modal-desc').innerHTML = (p.description || '').replace(/\n/g, '<br>');
             document.getElementById('modal-colors').innerText = cleanASIValue(p.details.colors);
             document.getElementById('modal-materials').innerText = cleanASIValue(p.details.materials);
             document.getElementById('modal-size').innerText = formatASISize(p.details.size);
@@ -476,32 +516,42 @@
 
             // Multi-thumbnails
             const thumbs = document.getElementById('modal-thumbnails');
-            thumbs.innerHTML = (p.images || [p.image]).map(img => `<img src="${img}" onclick="document.getElementById('modal-image').src='${img}'" class="w-16 h-16 border rounded-lg cursor-pointer hover:border-asi_blue object-contain bg-slate-50 p-2">`).join('');
+            const gallery = p.images || [p.image];
+            thumbs.innerHTML = gallery.map(img => `<img src="${img}" onclick="document.getElementById('modal-image').src='${img}'" class="w-16 h-16 border rounded-lg cursor-pointer hover:border-asi_blue object-contain bg-slate-50 p-2">`).join('');
 
-            // Pricing Grid (3 decimals)
+            // Pricing Grid
             const header = document.getElementById('modal-price-header');
             const rows = document.getElementById('modal-price-rows');
-            header.innerHTML = '<th class="px-6 py-3 border-r">Quantity</th>' + p.pricing_grid.map(pg => `<th class="px-6 py-3">${pg.qty}</th>`).join('');
-            let priceRow = `<tr class="border-b font-bold"><td class="px-6 py-4 border-r bg-slate-50">Price</td>` + p.pricing_grid.map(pg => `<td class="px-6 py-4">$${pg.price.toFixed(3)}</td>`).join('') + '</tr>';
-            let codeRow = `<tr class="text-slate-400 text-[10px]"><td class="px-6 py-2 border-r bg-slate-50 uppercase tracking-widest">Code</td>` + p.pricing_grid.map(pg => `<td class="px-6 py-2">${pg.code}</td>`).join('') + '</tr>';
-            rows.innerHTML = priceRow + codeRow;
+            if (p.pricing_grid && p.pricing_grid.length > 0) {
+                header.innerHTML = '<th class="px-6 py-3 border-r">Quantity</th>' + p.pricing_grid.map(pg => `<th class="px-6 py-3">${pg.qty}</th>`).join('');
+                let priceRow = `<tr class="border-b font-bold"><td class="px-6 py-4 border-r bg-slate-50">Price</td>` + p.pricing_grid.map(pg => `<td class="px-6 py-4">$${parseFloat(pg.price).toFixed(3)}</td>`).join('') + '</tr>';
+                let codeRow = `<tr class="text-slate-400 text-[10px]"><td class="px-6 py-2 border-r bg-slate-50 uppercase tracking-widest">Code</td>` + p.pricing_grid.map(pg => `<td class="px-6 py-2">${pg.code || 'R'}</td>`).join('') + '</tr>';
+                rows.innerHTML = priceRow + codeRow;
+                document.getElementById('modal-qty').value = p.pricing_grid[0].qty;
+            } else {
+                header.innerHTML = ''; rows.innerHTML = '<tr><td colspan="5" class="py-4 text-slate-400 italic">Call for pricing</td></tr>';
+            }
 
             const minPrice = getMinPrice(p);
-            document.getElementById('modal-qty').value = p.pricing_grid[0].qty;
             document.getElementById('modal-add-btn').onclick = () => { addToCart(p.name, minPrice, p.image, parseInt(document.getElementById('modal-qty').value)); closeProductModal(); toggleCart(); };
             document.getElementById('product-modal').classList.remove('invisible');
         }
 
-        function closeProductModal() { document.body.classList.remove('modal-open'); document.getElementById('product-modal').classList.add('invisible'); }
+        function closeProductModal() { 
+            document.body.classList.remove('modal-open'); 
+            document.getElementById('product-modal').classList.add('invisible');
+            // Clear hash without jump
+            history.pushState("", document.title, window.location.pathname + window.location.search);
+        }
         function updateModalQty(change) { const input = document.getElementById('modal-qty'); let v = parseInt(input.value) + change; input.value = v < 1 ? 1 : v; }
 
         function handleSearch() {
             const query = document.getElementById('search-input').value.toLowerCase().trim();
             trackSearch(query);
-            filteredProducts = query ? allProducts.filter(p => p.name.toLowerCase().includes(query) || (p.product_number && p.product_number.toLowerCase().includes(query))) : allProducts;
-            activeCategory = 'Search Results';
+            filteredProducts = query ? allProducts.filter(p => p.name.toLowerCase().includes(query) || (p.product_number && p.product_number.toLowerCase().includes(query)) || (p.category && p.category.toLowerCase().includes(query))) : allProducts;
+            activeCategory = query ? `Search: ${query}` : 'All Products';
+            currentPage = 1;
             handleSort();
-            renderProducts();
         }
 
         function trackSearch(query) {
@@ -514,16 +564,22 @@
 
         function renderTopSearches() {
             const searches = JSON.parse(localStorage.getItem('topSearches')) || {};
-            const sorted = Object.entries(searches).sort((a,b) => b[1] - a[1]).slice(0, 5);
-            document.getElementById('top-searches').innerHTML = sorted.length ? sorted.map(([s]) => `<button onclick="document.getElementById('search-input').value='${s}';handleSearch()" class="block text-slate-500 hover:text-asi_blue text-xs">${s}</button>`).join('') : '<p class="text-xs text-slate-300 italic">No search data yet</p>';
+            const sorted = Object.entries(searches).sort((a,b) => b[1] - a[1]).slice(0, 6);
+            document.getElementById('top-searches').innerHTML = sorted.length ? sorted.map(([s]) => `<button onclick="document.getElementById('search-input').value='${s}';handleSearch()" class="bg-slate-50 text-slate-500 hover:bg-asi_blue hover:text-white px-3 py-1 rounded-full text-[10px] font-bold transition-all border border-asi_border">${s}</button>`).join('') : '<p class="text-xs text-slate-300 italic">No search data yet</p>';
         }
 
         function filterByTopCategory(key) {
-            const list = CATEGORY_MAP[key];
+            const list = CATEGORY_MAP[key] || [key];
             filteredProducts = allProducts.filter(p => list.includes(p.category));
             activeCategory = key;
             currentPage = 1;
             renderProducts();
+            
+            // Update active state in nav
+            document.querySelectorAll('#fixed-nav button').forEach(btn => {
+                btn.classList.remove('text-asi_blue', 'border-b-2', 'border-asi_blue');
+                if (btn.innerText.includes(key)) btn.classList.add('text-asi_blue', 'border-b-2', 'border-asi_blue');
+            });
         }
 
         function filterByCategory(cat) {
@@ -531,26 +587,32 @@
             filteredProducts = cat === 'All' ? allProducts : allProducts.filter(p => p.category === cat);
             currentPage = 1;
             renderProducts();
+            
+            document.querySelectorAll('#fixed-nav button').forEach(btn => {
+                btn.classList.remove('text-asi_blue', 'border-b-2', 'border-asi_blue');
+                if (btn.innerText.includes(cat)) btn.classList.add('text-asi_blue', 'border-b-2', 'border-asi_blue');
+            });
         }
 
         function handleSort() {
             const val = document.getElementById('sort-select').value;
-            if (val === 'price-asc') filteredProducts.sort((a,b) => a.price - b.price);
-            else if (val === 'price-desc') filteredProducts.sort((a,b) => b.price - a.price);
+            if (val === 'price-asc') filteredProducts.sort((a,b) => getMinPrice(a) - getMinPrice(b));
+            else if (val === 'price-desc') filteredProducts.sort((a,b) => getMinPrice(b) - getMinPrice(a));
             else if (val === 'name') filteredProducts.sort((a,b) => a.name.localeCompare(b.name));
             else filteredProducts.sort((a,b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
-            currentPage = 1;
             renderProducts();
         }
 
         function renderProducts() {
             const list = document.getElementById('product-list');
-            const pagination = document.getElementById('pagination-controls');
+            const paginationTop = document.getElementById('pagination-controls-top');
+            const paginationBottom = document.getElementById('pagination-controls');
             document.getElementById('results-count').innerText = `${activeCategory} (${filteredProducts.length})`;
             
             if (!filteredProducts.length) { 
-                list.innerHTML = '<div class="col-span-full py-20 text-center text-slate-400">No products match your search.</div>'; 
-                pagination.innerHTML = '';
+                list.innerHTML = '<div class="col-span-full py-32 text-center text-slate-300"><i class="fa-solid fa-box-open text-6xl mb-6 block opacity-20"></i>No products found in this category.</div>'; 
+                paginationTop.innerHTML = '';
+                paginationBottom.innerHTML = '';
                 return; 
             }
 
@@ -560,34 +622,41 @@
             const pageItems = filteredProducts.slice(start, end);
 
             list.innerHTML = pageItems.map(p => {
-                const globalIdx = allProducts.findIndex(ap => ap.name === p.name);
+                const globalIdx = allProducts.indexOf(p);
                 const minPrice = getMinPrice(p);
-                return `<div class="product-card bg-white border border-asi_border rounded-xl overflow-hidden flex flex-col cursor-pointer group" onclick="openProductModal(${globalIdx})">
-                    <div class="aspect-square p-3 sm:p-5 flex items-center justify-center border-b border-asi_border/30 bg-white"><img src="${p.image}" class="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-700"></div>
-                    <div class="p-3 sm:p-5 flex-1 flex flex-col"><span class="text-[8px] sm:text-[9px] font-bold text-asi_blue uppercase tracking-widest mb-1 truncate">${p.category}</span><h4 class="font-bold text-slate-800 line-clamp-2 mb-2 group-hover:text-asi_blue transition-colors text-xs sm:text-sm h-8 sm:h-10 leading-snug">${p.name}</h4><div class="mt-auto pt-2 sm:pt-4 flex justify-between items-end"><div><p class="text-[8px] sm:text-[9px] text-slate-400 uppercase font-bold mb-0.5">As low as</p><p class="text-sm sm:text-base font-black text-asi_blue leading-none">$${minPrice.toFixed(3)}</p></div><div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border border-slate-100 flex items-center justify-center text-slate-300 group-hover:bg-asi_blue group-hover:text-white group-hover:border-asi_blue transition-all"><i class="fa-solid fa-arrow-right text-[8px] sm:text-[10px]"></i></div></div></div>
+                return `<div class="product-card bg-white border border-asi_border rounded-2xl overflow-hidden flex flex-col cursor-pointer group" onclick="openProductModal(${globalIdx})">
+                    <div class="aspect-square p-5 flex items-center justify-center border-b border-asi_border/30 bg-white"><img src="${p.image}" class="max-w-full max-h-full object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-700"></div>
+                    <div class="p-5 flex-1 flex flex-col"><span class="text-[9px] font-black text-asi_blue uppercase tracking-widest mb-2 truncate">${p.category}</span><h4 class="font-bold text-slate-800 line-clamp-2 mb-3 group-hover:text-asi_blue transition-colors text-sm leading-snug h-10">${p.name}</h4><div class="mt-auto pt-4 flex justify-between items-end border-t border-slate-50"><div><p class="text-[9px] text-slate-400 uppercase font-black mb-1">As low as</p><p class="text-base font-black text-asi_blue leading-none tracking-tighter">$${minPrice.toFixed(3)}</p></div><div class="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-300 group-hover:bg-asi_blue group-hover:text-white group-hover:rotate-45 transition-all duration-500"><i class="fa-solid fa-arrow-right text-[10px]"></i></div></div></div>
                 </div>`;
             }).join('');
 
-            // Pagination Controls
-            let pagHTML = `<div class="flex items-center gap-2">`;
-            pagHTML += `<button onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} class="w-10 h-10 rounded-lg border flex items-center justify-center hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed"><i class="fa-solid fa-chevron-left"></i></button>`;
+            // Task 11: Top & Bottom Pagination
+            const pagHTML = generatePagination(totalPages);
+            paginationTop.innerHTML = pagHTML;
+            paginationBottom.innerHTML = pagHTML;
+        }
+
+        function generatePagination(totalPages) {
+            if (totalPages <= 1) return '';
+            let html = `<div class="flex items-center gap-2">`;
+            html += `<button onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} class="w-10 h-10 rounded-xl border flex items-center justify-center hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed shadow-sm transition-all"><i class="fa-solid fa-chevron-left text-xs"></i></button>`;
             
             const startPage = Math.max(1, currentPage - 2);
             const endPage = Math.min(totalPages, startPage + 4);
             const displayStart = Math.max(1, endPage - 4);
             
             for (let i = displayStart; i <= endPage; i++) {
-                pagHTML += `<button onclick="changePage(${i})" class="w-10 h-10 rounded-lg border flex items-center justify-center ${i === currentPage ? 'bg-asi_blue text-white border-asi_blue' : 'hover:bg-white'} font-bold text-xs">${i}</button>`;
+                html += `<button onclick="changePage(${i})" class="w-10 h-10 rounded-xl border flex items-center justify-center ${i === currentPage ? 'bg-asi_blue text-white border-asi_blue shadow-xl shadow-asi_blue/30' : 'hover:bg-white text-slate-400'} font-bold text-xs transition-all">${i}</button>`;
             }
 
-            pagHTML += `<button onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''} class="w-10 h-10 rounded-lg border flex items-center justify-center hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed"><i class="fa-solid fa-chevron-right"></i></button>`;
-            pagHTML += `</div><p class="text-xs text-slate-400 font-medium">Page ${currentPage} of ${totalPages}</p>`;
-            pagination.innerHTML = pagHTML;
+            html += `<button onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''} class="w-10 h-10 rounded-xl border flex items-center justify-center hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed shadow-sm transition-all"><i class="fa-solid fa-chevron-right text-xs"></i></button>`;
+            html += `</div>`;
+            return html;
         }
 
         function changePage(p) {
             currentPage = p;
-            window.scrollTo({ top: document.getElementById('product-list').offsetTop - 100, behavior: 'smooth' });
+            window.scrollTo({ top: document.getElementById('product-list').offsetTop - 250, behavior: 'smooth' });
             renderProducts();
         }
 
@@ -598,21 +667,41 @@
             const cats = [...new Set(allProducts.map(p => p.category))].sort();
             
             const list = full ? cats : cats.slice(0, 10);
-            sidebar.innerHTML = list.map(c => `<li><button onclick="filterByCategory('${c}')" class="hover:text-asi_blue w-full flex justify-between text-left"><span>${c}</span> <span class="text-slate-300 font-normal">(${allProducts.filter(p=>p.category===c).length})</span></button></li>`).join('');
+            sidebar.innerHTML = list.map(c => `<li><button onclick="filterByCategory('${c}')" class="hover:text-asi_blue w-full flex justify-between text-left transition-colors"><span>${c}</span> <span class="text-slate-300 font-medium">(${allProducts.filter(p=>p.category===c).length})</span></button></li>`).join('');
             
             if (cats.length > 10) {
-                container.innerHTML = `<button onclick="sidebarExpanded=!sidebarExpanded;renderSidebar(sidebarExpanded)" class="text-xs font-bold text-asi_blue py-2 flex items-center gap-2">${sidebarExpanded ? '<i class="fa-solid fa-minus"></i> See Less' : '<i class="fa-solid fa-plus"></i> See More'}</button>`;
+                container.innerHTML = `<button onclick="sidebarExpanded=!sidebarExpanded;renderSidebar(sidebarExpanded)" class="text-[10px] font-black text-asi_blue py-3 px-4 bg-asi_light rounded-xl flex items-center gap-2 uppercase tracking-widest hover:bg-asi_blue hover:text-white transition-all w-full justify-center">${sidebarExpanded ? '<i class="fa-solid fa-minus"></i> See Less' : '<i class="fa-solid fa-plus"></i> See More'}</button>`;
             }
 
-            // Populate mobile select
-            mobileSelect.innerHTML = `<option value="All">All Categories (${allProducts.length})</option>` + 
-                cats.map(c => `<option value="${c}">${c} (${allProducts.filter(p=>p.category===c).length})</option>`).join('');
-            mobileSelect.value = activeCategory;
+            if (mobileSelect) {
+                mobileSelect.innerHTML = `<option value="All">All Categories (${allProducts.length})</option>` + 
+                    cats.map(c => `<option value="${c}">${c} (${allProducts.filter(p=>p.category===c).length})</option>`).join('');
+                mobileSelect.value = activeCategory;
+            }
         }
 
-        function scrollCarousel(dir) { document.getElementById('latest-carousel').scrollLeft += dir * 400; }
+        function scrollCarousel(dir) { 
+            const c = document.getElementById('latest-carousel');
+            c.scrollBy({ left: dir * 400, behavior: 'smooth' }); 
+        }
+        
+        // Task 10: Auto-scroll carousel
+        setInterval(() => {
+            const c = document.getElementById('latest-carousel');
+            if (!c) return;
+            if (c.scrollLeft + c.offsetWidth >= c.scrollWidth - 10) {
+                c.scrollTo({ left: 0, behavior: 'smooth' });
+            } else {
+                c.scrollBy({ left: 400, behavior: 'smooth' });
+            }
+        }, 6000);
 
         async function init() {
+            // Task 2: Analytics Tracking
+            const visitorCount = parseInt(localStorage.getItem('freezone_visits') || '0') + 1;
+            localStorage.setItem('freezone_visits', visitorCount);
+            console.log(`[Analytics] Total site visits from this browser: ${visitorCount}`);
+
             updateCartCount();
             renderTopSearches();
             try {
@@ -620,12 +709,16 @@
                 const settingsRes = await fetch('content/settings/general.json');
                 const settings = settingsRes.ok ? await settingsRes.json() : {};
                 
-                // Fetch About Data (Optional)
+                // Fetch Home Data
+                const homeRes = await fetch('content/pages/home.json');
+                const homeData = homeRes.ok ? await homeRes.json() : null;
+                
+                // Fetch About Data
                 const aboutRes = await fetch('content/pages/about.json');
                 const aboutData = aboutRes.ok ? await aboutRes.json() : null;
                 
                 if (settings.site_name) {
-                    document.title = settings.site_name;
+                    document.title = settings.site_name + " | B2B ASI Supplier";
                     document.getElementById('copyright-name').innerText = settings.site_name;
                 }
                 
@@ -637,6 +730,32 @@
                 if (settings.email) document.getElementById('footer-email').innerText = settings.email;
                 if (settings.phone) document.getElementById('footer-phone').innerText = settings.phone;
                 if (settings.address) document.getElementById('footer-address').innerText = settings.address;
+
+                // Task 6: Footer Sync
+                if (settings.footer && settings.footer.about_text) {
+                    document.getElementById('footer-about-text').innerText = settings.footer.about_text;
+                }
+                
+                // Task 9: Compliance Sidebar Sync
+                if (settings.compliance) {
+                    if (settings.compliance.title) document.getElementById('compliance-title').innerText = settings.compliance.title;
+                    if (settings.compliance.subtitle) document.getElementById('compliance-subtitle').innerText = settings.compliance.subtitle;
+                    if (settings.compliance.badges) {
+                        document.getElementById('compliance-badges').innerHTML = settings.compliance.badges.map(b => `<span class="bg-white/10 px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border border-white/5">${b.text}</span>`).join('');
+                    }
+                }
+
+                // Task 13: Home Content Sync
+                if (homeData) {
+                    if (homeData.ethical) {
+                        document.getElementById('ethical-title').innerText = homeData.ethical.title || 'Ethical Commitment';
+                        document.getElementById('ethical-desc').innerHTML = homeData.ethical.desc || '';
+                    }
+                    if (homeData.global) {
+                        document.getElementById('global-title').innerText = homeData.global.title || 'Global Support';
+                        document.getElementById('global-content').innerHTML = homeData.global.content || '';
+                    }
+                }
 
                 if (aboutData) {
                     document.getElementById('about-title').innerText = aboutData.title || `About ${settings.site_name || ''}`;
@@ -653,39 +772,50 @@
                     document.getElementById('footer-logo-text').innerText = settings.logo_text;
                 }
 
-                // Fetch Products (Critical)
+                // Fetch Products
                 const productRes = await fetch('products.json');
                 if (!productRes.ok) throw new Error('Could not load products.json');
                 const productData = await productRes.json();
                 
-                allProducts = productData.products || [];
+                // Task 7: Filter products without images
+                allProducts = (productData.products || []).filter(p => p.image && p.image !== "" && !p.image.includes('placeholder'));
                 filteredProducts = [...allProducts];
 
-                // Carousel
-                const featured = allProducts.filter(p => p.featured).slice(0, 10);
+                // Featured Carousel
+                const featured = allProducts.filter(p => p.featured);
                 const carousel = document.getElementById('latest-carousel');
                 if (featured.length) {
                     carousel.innerHTML = featured.map(p => `
-                        <div class="carousel-item flex-shrink-0 w-80 product-card bg-asi_light border border-asi_border rounded-2xl overflow-hidden p-6 cursor-pointer" onclick="openProductModal(${allProducts.indexOf(p)})">
-                            <img src="${p.image}" class="w-full h-48 object-contain mb-4">
+                        <div class="carousel-item flex-shrink-0 w-80 product-card bg-white border border-asi_border rounded-[2rem] overflow-hidden p-8 cursor-pointer" onclick="openProductModal(${allProducts.indexOf(p)})">
+                            <div class="aspect-square mb-6 flex items-center justify-center"><img src="${p.image}" class="max-w-full max-h-full object-contain mix-blend-multiply"></div>
                             <h4 class="font-bold text-sm line-clamp-1 mb-2">${p.name}</h4>
-                            <p class="text-xs text-slate-500 line-clamp-2 mb-4 h-8">${p.description}</p>
-                            <div class="flex justify-between items-center"><span class="text-xs font-bold text-asi_blue">From $${getMinPrice(p).toFixed(3)}</span><i class="fa-solid fa-plus text-slate-300"></i></div>
+                            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-4">${p.category}</p>
+                            <div class="flex justify-between items-center"><span class="text-sm font-black text-asi_blue">From $${getMinPrice(p).toFixed(3)}</span><div class="w-8 h-8 rounded-full bg-asi_light flex items-center justify-center text-asi_blue"><i class="fa-solid fa-plus text-[10px]"></i></div></div>
                         </div>`).join('');
                 } else {
-                    carousel.innerHTML = '<div class="w-full text-center py-10 text-slate-300 uppercase tracking-widest text-[10px]">No featured products at the moment.</div>';
+                    carousel.innerHTML = '<div class="w-full text-center py-20 text-slate-300 uppercase tracking-widest text-[10px] font-bold">New arrivals coming soon.</div>';
                 }
 
-                // Sidebar & Footer Categories
                 renderSidebar(false);
                 const cats = [...new Set(allProducts.map(p => p.category))].sort();
-                document.getElementById('footer-categories').innerHTML = cats.slice(0, 6).map(c => `<li><a href="javascript:void(0)" onclick="filterByCategory('${c}')" class="hover:text-asi_blue">${c}</a></li>`).join('');
-                document.getElementById('top-categories-list').innerHTML = cats.slice(0, 5).map(c => `<button onclick="filterByCategory('${c}')" class="block text-slate-500 hover:text-asi_blue text-xs">${c}</button>`).join('');
+                document.getElementById('footer-categories').innerHTML = cats.slice(0, 6).map(c => `<li><a href="javascript:void(0)" onclick="filterByCategory('${c}')" class="hover:text-asi_blue transition-colors">${c}</a></li>`).join('');
+                
+                // Task 3: Top Categories from actual data
+                document.getElementById('top-categories-list').innerHTML = cats.slice(0, 6).map(c => `<button onclick="filterByCategory('${c}')" class="block text-slate-500 hover:text-asi_blue text-xs font-bold py-1">${c}</button>`).join('');
 
                 renderProducts();
+
+                // Task 14: Check hash for deep link
+                const hash = window.location.hash;
+                if (hash.startsWith('#item-')) {
+                    const itemNum = hash.replace('#item-', '');
+                    const productIdx = allProducts.findIndex(p => p.product_number === itemNum);
+                    if (productIdx !== -1) setTimeout(() => openProductModal(productIdx), 500);
+                }
+
             } catch (e) { 
                 console.error("Initialization error:", e);
-                document.getElementById('product-list').innerHTML = `<div class="col-span-full py-20 text-center text-red-400">Error loading website data. Please try again later.</div>`;
+                document.getElementById('product-list').innerHTML = `<div class="col-span-full py-32 text-center text-red-400 font-bold uppercase tracking-widest">System offline. Please reload.</div>`;
             }
         }
         init();

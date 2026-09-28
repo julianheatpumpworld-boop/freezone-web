@@ -316,217 +316,6 @@
             </div>
         </div>
     </div>
-            <div class="flex items-center gap-2 lg:gap-6">
-                <select id="custom_lang_select" onchange="doCustomTranslate(this.value)" class="bg-transparent border border-white/20 rounded px-2 py-1 text-[10px] text-white focus:outline-none focus:ring-1 focus:ring-white/50 cursor-pointer">
-                    <option value="" class="text-slate-800">🌐 Language</option>
-                    <option value="en" class="text-slate-800">English</option>
-                    <option value="fr" class="text-slate-800">Français</option>
-                    <option value="zh-CN" class="text-slate-800">中文</option>
-                    <option value="es" class="text-slate-800">Español</option>
-                    <option value="de" class="text-slate-800">Deutsch</option>
-                    <option value="nl" class="text-slate-800">Nederlands</option>
-                    <option value="it" class="text-slate-800">Italiano</option>
-                    <option value="pt" class="text-slate-800">Português</option>
-                    <option value="ru" class="text-slate-800">Русский</option>
-                    <option value="ar" class="text-slate-800">العربية</option>
-                </select>
-                <div id="google_translate_hidden" class="hidden"></div>
-            </div>
-        </div>
-
-        <!-- Main Header -->
-        <header class="bg-white border-b border-asi_border">
-            <div class="container mx-auto px-4 py-3 lg:py-4">
-                <div class="flex items-center justify-between gap-4">
-                    <!-- Logo -->
-                    <div class="flex items-center gap-2 shrink-0 cursor-pointer" onclick="window.scrollTo({top:0,behavior:'smooth'})">
-                        <img id="site-logo-img" src="" class="h-10 lg:h-16 w-auto object-contain hidden">
-                        <div id="site-logo-fallback" class="flex items-center gap-2">
-                            <div class="w-8 h-8 lg:w-10 lg:h-10 bg-asi_blue flex items-center justify-center rounded-lg shadow-lg shadow-asi_blue/20">
-                                <i class="fa-solid fa-gift text-white text-sm lg:text-xl"></i>
-                            </div>
-                            <span class="text-lg lg:text-2xl font-bold text-asi_blue tracking-tight uppercase" id="site-logo-text">FreeZone</span>
-                        </div>
-                    </div>
-
-                    <!-- Main Nav Dropdowns (Desktop) -->
-                    <div class="hidden lg:flex items-center gap-8 text-xs font-bold text-slate-500 uppercase tracking-widest">
-                        <a href="javascript:window.scrollTo({top:0,behavior:'smooth'})" class="hover:text-asi_blue">Home</a>
-                        <a href="javascript:void(0)" onclick="document.getElementById('about-section').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">About Us</a>
-                        <a href="javascript:void(0)" onclick="document.getElementById('footer-contact').scrollIntoView({behavior:'smooth'})" class="hover:text-asi_blue">Contact Us</a>
-                        <div class="relative nav-dropdown group py-2">
-                            <button class="flex items-center gap-1 hover:text-asi_blue">Product Search <i class="fa-solid fa-chevron-down text-[8px]"></i></button>
-                            <div class="absolute top-full left-0 w-64 bg-white border border-asi_border rounded-lg shadow-2xl invisible group-hover:visible p-5 z-50 mt-2">
-                                <h5 class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-4">Top Searches</h5>
-                                <div id="top-searches" class="flex flex-wrap gap-2 mb-6"></div>
-                                <h5 class="text-[9px] font-black text-slate-300 uppercase tracking-widest mb-4">Popular Categories</h5>
-                                <div id="top-categories-list" class="space-y-2"></div>
-                            </div>
-                        </div>
-                        <div class="relative nav-dropdown group py-2">
-                            <button class="flex items-center gap-1 hover:text-asi_blue text-asi_blue">More <i class="fa-solid fa-chevron-down text-[8px]"></i></button>
-                            <div class="absolute top-full left-0 w-56 bg-white border border-asi_border rounded-lg shadow-2xl invisible group-hover:visible py-3 z-50 mt-2">
-                                <a href="javascript:void(0)" onclick="document.getElementById('ethical-section').scrollIntoView({behavior:'smooth'})" class="block px-6 py-3 hover:bg-slate-50 hover:text-asi_blue">Ethical Commitment</a>
-                                <a href="javascript:void(0)" onclick="document.getElementById('global-section').scrollIntoView({behavior:'smooth'})" class="block px-6 py-3 hover:bg-slate-50 hover:text-asi_blue text-accent">Global Support</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Cart -->
-                    <div class="flex items-center gap-4">
-                        <button onclick="toggleCart()" class="relative text-slate-600 hover:text-asi_blue">
-                            <i class="fa-solid fa-shopping-cart text-xl lg:text-2xl"></i>
-                            <span id="cart-count" class="absolute -top-2 -right-2 bg-accent text-white text-[9px] w-5 h-5 rounded-full flex items-center justify-center font-bold">0</span>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Search Bar Row (Dedicated Row) -->
-                <div class="mt-4 relative max-w-4xl mx-auto">
-                    <div class="flex shadow-lg shadow-asi_blue/5">
-                        <input type="text" id="search-input" onkeydown="if(event.key==='Enter')handleSearch()" placeholder="Search from 1,000+ custom products..." class="w-full border-2 border-asi_border border-r-0 rounded-l-xl px-6 py-3 lg:py-4 text-sm focus:outline-none focus:border-asi_blue transition-colors">
-                        <button onclick="handleSearch()" class="bg-asi_blue text-white px-8 lg:px-10 py-3 lg:py-4 rounded-r-xl hover:bg-blue-800 transition-all font-bold uppercase tracking-widest text-xs">
-                            Search
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Category Nav -->
-            <nav class="bg-slate-50 border-t border-asi_border">
-                <div class="container mx-auto px-4 flex gap-6 lg:gap-10 py-4 text-[10px] lg:text-[12px] font-black text-slate-400 uppercase tracking-[0.2em] overflow-x-auto hide-scrollbar whitespace-nowrap" id="fixed-nav">
-                    <button onclick="filterByCategory('All')" class="text-asi_blue border-b-2 border-asi_blue pb-1 shrink-0">All Products</button>
-                    <button onclick="filterByTopCategory('Apparel')" class="hover:text-asi_blue transition-colors shrink-0">Apparel</button>
-                    <button onclick="filterByTopCategory('Bags')" class="hover:text-asi_blue transition-colors shrink-0">Bags</button>
-                    <button onclick="filterByTopCategory('Writing')" class="hover:text-asi_blue transition-colors shrink-0">Writing Instruments</button>
-                    <button onclick="filterByTopCategory('Tech')" class="hover:text-asi_blue transition-colors shrink-0">Tech Items</button>
-                    <button onclick="filterByTopCategory('Drinkware')" class="hover:text-asi_blue transition-colors shrink-0">Drinkware</button>
-                    <button onclick="filterByCategory('Outdoor & Leisure')" class="hover:text-asi_blue transition-colors shrink-0">Outdoor & Leisure</button>
-                    <button onclick="filterByCategory('Trade Show & Events')" class="hover:text-asi_blue transition-colors shrink-0">Trade Show & Events</button>
-                    <button onclick="filterByCategory('Eco-friendly')" class="hover:text-asi_blue transition-colors shrink-0">Eco-friendly</button>
-                </div>
-            </nav>
-        </header>
-    </div>
-
-    <!-- Latest Products Carousel Section -->
-    <section id="latest-section" class="py-12 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="flex items-center justify-between mb-8">
-                <h3 class="text-2xl font-bold text-slate-800">Latest Collections</h3>
-                <div class="flex gap-2">
-                    <button onclick="scrollCarousel(-1)" class="w-10 h-10 border border-asi_border rounded flex items-center justify-center hover:bg-slate-50 text-slate-400 hover:text-asi_blue transition-all"><i class="fa-solid fa-chevron-left"></i></button>
-                    <button onclick="scrollCarousel(1)" class="w-10 h-10 border border-asi_border rounded flex items-center justify-center hover:bg-slate-50 text-slate-400 hover:text-asi_blue transition-all"><i class="fa-solid fa-chevron-right"></i></button>
-                </div>
-            </div>
-            <div id="latest-carousel" class="flex gap-6 overflow-x-auto hide-scrollbar carousel-container scroll-smooth pb-4">
-                <!-- Populated by JS -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Content Area -->
-    <main class="container mx-auto px-4 py-6 lg:py-12 flex flex-col lg:flex-row gap-6 lg:gap-10">
-        <!-- Mobile Category Filter -->
-        <div class="block lg:hidden mb-2">
-            <select onchange="filterByCategory(this.value)" class="w-full bg-white border border-asi_border rounded-lg px-4 py-3 text-sm font-bold text-slate-700 focus:outline-none focus:ring-1 focus:ring-asi_blue" id="mobile-category-select">
-                <option value="All">All Categories</option>
-            </select>
-        </div>
-
-        <!-- Sidebar Filters -->
-        <aside class="hidden lg:block w-72 shrink-0">
-            <div class="bg-white border border-asi_border rounded-xl p-6 shadow-sm">
-                <h4 class="font-black border-b pb-4 mb-6 text-[10px] uppercase tracking-[0.25em] text-slate-300">Browse Categories</h4>
-                <ul class="space-y-4 text-[13px] font-bold text-slate-600" id="sidebar-categories">
-                    <!-- Dynamically populated -->
-                </ul>
-                <div id="see-more-container" class="mt-4 pt-4 border-t border-slate-50"></div>
-            </div>
-            
-            <div id="compliance-card" class="mt-8 bg-asi_blue rounded-2xl p-8 text-white overflow-hidden relative group shadow-2xl shadow-asi_blue/20">
-                <div class="relative z-10">
-                    <h5 class="font-black text-lg mb-2 uppercase tracking-tighter" id="compliance-title">ASI Supplier</h5>
-                    <p class="text-white/60 text-[11px] mb-6 leading-relaxed" id="compliance-subtitle">Committed to North American safety & compliance standards.</p>
-                    <div class="flex flex-wrap gap-2" id="compliance-badges">
-                        <span class="bg-white/10 px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border border-white/5">PROP 65</span>
-                        <span class="bg-white/10 px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest border border-white/5">CPSIA</span>
-                    </div>
-                </div>
-                <div class="absolute -right-8 -bottom-8 text-white/10 text-9xl transition-transform group-hover:scale-110 duration-700 pointer-events-none"><i class="fa-solid fa-shield-check"></i></div>
-            </div>
-        </aside>
-
-        <!-- Product List -->
-        <section class="flex-1">
-            <div id="pagination-controls-top" class="mb-8 flex flex-col items-center gap-6"></div>
-            
-            <div class="flex flex-col sm:flex-row justify-between items-center mb-6 lg:mb-8 bg-white border border-asi_border rounded-2xl px-6 py-5 shadow-sm gap-4">
-                <h2 class="text-base lg:text-lg font-black w-full sm:w-auto text-center sm:text-left text-slate-800 uppercase tracking-tight" id="results-count">Search Results</h2>
-                <div class="flex items-center gap-4 text-xs lg:text-sm w-full sm:w-auto justify-center">
-                    <div class="flex items-center gap-2">
-                        <span class="text-slate-400 font-bold uppercase text-[10px] tracking-widest">Sort By:</span>
-                        <select id="sort-select" onchange="handleSort()" class="border-none bg-transparent font-black focus:ring-0 cursor-pointer text-asi_blue uppercase text-[11px] tracking-widest">
-                            <option value="featured">Recommended</option>
-                            <option value="price-asc">Price: Low to High</option>
-                            <option value="price-desc">Price: High to Low</option>
-                            <option value="name">Product Name</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-6" id="product-list">
-                <div class="col-span-full text-center py-20"><i class="fa-solid fa-circle-notch animate-spin text-3xl text-asi_blue"></i></div>
-            </div>
-            <!-- Pagination -->
-            <div id="pagination-controls" class="mt-16 flex flex-col items-center gap-6"></div>
-        </section>
-    </main>
-
-    <!-- Ethical Section -->
-    <section id="ethical-section" class="bg-slate-900 py-32 text-white overflow-hidden relative">
-        <div class="container mx-auto px-4 relative z-10 max-w-4xl">
-            <div class="text-center">
-                <span class="text-accent font-black uppercase tracking-[0.4em] text-[10px] mb-6 block">Our Values</span>
-                <h2 class="text-4xl lg:text-5xl font-black mb-12 tracking-tighter" id="ethical-title">Ethical Commitment</h2>
-                <div class="prose prose-invert mx-auto text-white/70 leading-relaxed text-lg" id="ethical-desc">
-                    <p>At FreeZone Concept, we believe in procurement that respects both people and planet. We audit our supply chain to ensure North American ethical standards are met at every step.</p>
-                </div>
-            </div>
-        </div>
-        <div class="absolute top-0 right-0 w-1/3 h-full bg-asi_blue/5 -skew-x-12"></div>
-    </section>
-
-    <!-- Global Support Section -->
-    <section id="global-section" class="bg-white py-32 relative">
-        <div class="container mx-auto px-4 max-w-4xl">
-            <div class="flex flex-col lg:flex-row items-center gap-20">
-                <div class="flex-1">
-                    <span class="text-asi_blue font-black uppercase tracking-[0.4em] text-[10px] mb-6 block">Supply Chain</span>
-                    <h2 class="text-4xl font-black mb-8 tracking-tighter" id="global-title">Global Support</h2>
-                    <div class="prose prose-slate text-slate-500 leading-relaxed" id="global-content">
-                        <p>With offices and partners across North America and global markets, we provide 24/7 support for your complex procurement needs.</p>
-                    </div>
-                </div>
-                <div class="w-full lg:w-80 bg-asi_light rounded-3xl p-10 border border-asi_border/50 text-center">
-                    <i class="fa-solid fa-earth-americas text-6xl text-asi_blue/20 mb-6"></i>
-                    <h4 class="font-bold text-xl mb-2">North America</h4>
-                    <p class="text-xs text-slate-400">Primary Focus Market</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about-section" class="bg-asi_light py-32 border-t border-asi_border">
-        <div class="container mx-auto px-4 max-w-4xl">
-            <div class="bg-white rounded-[3rem] p-12 lg:p-20 shadow-2xl shadow-asi_blue/5 text-center">
-                <h2 class="text-3xl font-black text-slate-900 mb-10 uppercase tracking-widest" id="about-title">About FreeZone Concept</h2>
-                <div class="prose prose-slate mx-auto text-slate-500 leading-relaxed" id="about-content"></div>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="bg-white border-t border-asi_border mt-20 pt-20 pb-10">
@@ -802,11 +591,65 @@
 
         function updateModalQty(change) { const input = document.getElementById('detail-qty'); let v = parseInt(input.value) + change; input.value = v < 1 ? 1 : v; }
 
+        function trackSearch(query) {
+            if (!query) return;
+            const searches = JSON.parse(localStorage.getItem('topSearches') || '{}');
+            searches[query] = (searches[query] || 0) + 1;
+            localStorage.setItem('topSearches', JSON.stringify(searches));
+            renderTopSearches();
+        }
+
+        function handleSort() {
+            const sort = document.getElementById('sort-select')?.value || 'featured';
+            filteredProducts.sort((a, b) => {
+                if (sort === 'name') return String(a.name || '').localeCompare(String(b.name || ''));
+                if (sort === 'price-asc') return getMinPrice(a) - getMinPrice(b);
+                if (sort === 'price-desc') return getMinPrice(b) - getMinPrice(a);
+                return Number(Boolean(b.featured)) - Number(Boolean(a.featured));
+            });
+            renderProducts();
+            document.getElementById('product-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function generatePagination(totalPages) {
+            if (totalPages <= 1) return '';
+            let html = '<div class="flex items-center gap-2">';
+            for (let page = 1; page <= totalPages; page += 1) {
+                html += `<button onclick="currentPage=${page};renderProducts()" class="w-9 h-9 rounded-lg border ${page === currentPage ? 'bg-asi_blue text-white border-asi_blue' : 'bg-white text-slate-500 border-asi_border'} text-xs font-bold">${page}</button>`;
+            }
+            return html + '</div>';
+        }
+
+        function scrollCarousel(direction) {
+            const carousel = document.getElementById('latest-carousel');
+            if (carousel) carousel.scrollBy({ left: direction * 360, behavior: 'smooth' });
+        }
+
+        function startCarouselAutoScroll() {
+            const carousel = document.getElementById('latest-carousel');
+            if (!carousel || carousel.children.length < 2) return;
+            if (window.latestCarouselTimer) clearInterval(window.latestCarouselTimer);
+            window.latestCarouselTimer = setInterval(() => {
+                const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+                if (maxScroll <= 0) return;
+                if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 8) {
+                    carousel.scrollTo({ left: 0, behavior: 'smooth' });
+                } else {
+                    carousel.scrollBy({ left: 360, behavior: 'smooth' });
+                }
+            }, 5000);
+        }
+
         function handleSearch() {
-            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            const input = document.getElementById('search-input');
+            const query = input.value.toLowerCase().trim();
             trackSearch(query);
-            filteredProducts = query ? allProducts.filter(p => p.name.toLowerCase().includes(query) || (p.product_number && p.product_number.toLowerCase().includes(query)) || (p.category && p.category.toLowerCase().includes(query))) : allProducts;
-            activeCategory = query ? `SEARCH: ${query}` : 'ALL PRODUCTS';
+            filteredProducts = query ? allProducts.filter(p => {
+                const haystack = [p.name, p.product_number, p.category, p.summary, p.description]
+                    .filter(Boolean).join(' ').toLowerCase();
+                return haystack.includes(query);
+            }) : [...allProducts];
+            activeCategory = query ? `SEARCH: ${query.toUpperCase()}` : 'ALL PRODUCTS';
             currentPage = 1;
             handleSort();
         }
@@ -966,6 +809,7 @@
                             <p class="text-[9px] text-slate-400 font-black uppercase tracking-widest mb-4">${p.category}</p>
                             <div class="flex justify-between items-center"><span class="text-sm font-black text-asi_blue">FROM $${getMinPrice(p).toFixed(3)}</span><div class="w-8 h-8 rounded-full bg-asi_light flex items-center justify-center text-asi_blue"><i class="fa-solid fa-plus text-[10px]"></i></div></div>
                         </div>`).join('');
+                    startCarouselAutoScroll();
                 }
 
                 renderSidebar(false);

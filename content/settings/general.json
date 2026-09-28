@@ -1,17 +1,18 @@
 {
-  "site_name": "FreeZone Concept",
   "logo_text": "FreeZone",
-  "asi_number": "55452",
-  "email": "info@freezoneconcept.com",
+  "site_name": "FreeZone Concept",
+  "logo_image": "/assets/img/unnamed.jpg",
   "phone": "(209) 204-0569",
+  "asi_number": "55452",
   "address": "222 Cochrane Plz #2001 Morgan Hill, CA 95037",
-  "footer": {
-    "copyright": "FreeZone",
-    "about_text": "Dedicated to professional branding and sustainable procurement across North America and global markets."
-  },
   "compliance": {
     "badges": [],
     "title": "ASI SUPPLIER  (ASI#55452)  ",
     "subtitle": "Committed to North American safety & compliance standards."
-  }
+  },
+  "footer": {
+    "copyright": "FreeZone",
+    "about_text": "Dedicated to professional branding and sustainable procurement across North America and global markets."
+  },
+  "email": "info@freezoneconcept.com"
 }
